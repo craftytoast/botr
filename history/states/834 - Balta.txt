@@ -1,0 +1,25 @@
+
+state = {
+	id = 834
+	name = "STATE_834"
+	manpower = 183748
+	
+	state_category = rural
+
+	history = {
+		owner = RUS
+		buildings = {
+		
+			infrastructure = 2
+			
+		}
+		add_core_of = RUS
+		add_core_of = UKR
+	}
+
+	provinces = {
+		741 754 3757 9576
+	}
+
+	local_supplies = 6.0 
+}

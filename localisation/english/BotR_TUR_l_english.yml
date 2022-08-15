@@ -1,0 +1,18 @@
+﻿l_english:
+ 
+ ##### FOCUSES #####
+
+ ##### EVENTS #####
+
+ ##### IDEAS/D.M's #####
+ TUR_idea_crippling_debt_crisis:0 "Crippling Debt Crisis"
+ TUR_akp_influence_dynamic_modifier:0 "§YAKP Influence:§![GetAKPInfluenceLevel]"
+
+ ##### SCRIPTED LOC #####
+ TUR_AKP_LOW_NAME:0 "§YLow§!"
+ TUR_AKP_MID_NAME:0 "§8Moderate§!"
+ TUR_AKP_HIGH_NAME:0 "§RHigh§!"
+ TUR_AKP_BANNED_NAME:0 "§GBanned§!"
+ 
+ 
+

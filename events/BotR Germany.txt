@@ -1,0 +1,178 @@
+﻿###########################
+# German Events
+###########################
+
+add_namespace = botr_germany_political
+
+# Freikorps Movements Detected
+country_event = {
+	id = botr_germany_political.1
+	title = botr_germany_political.1.t
+	desc = botr_germany_political.1.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = botr_germany_political.1.a
+		complete_national_focus = GER_focus_updates_on_freikorps_movements
+		add_stability = -0.01
+		hidden_effect = {
+			GER = {
+				country_event = { id = botr_germany_political.2 days = 9 }
+			}
+		}
+	}
+}
+# Freikorps Occupies Silesia
+country_event = {
+	id = botr_germany_political.2
+	title = botr_germany_political.2.t
+	desc = botr_germany_political.2.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = botr_germany_political.2.a
+		complete_national_focus = GER_focus_ehrhardt_occupies_silesia
+		add_stability = -0.05
+		add_political_power = -20
+		66 = {
+			set_demilitarized_zone = yes
+		}
+		67 = {
+			set_demilitarized_zone = yes
+		}
+		762 = {
+			set_demilitarized_zone = yes
+		}
+		hidden_effect = {
+			GER = {
+				country_event = { id = botr_germany_political.3 days = 7 }
+			}
+		}
+	}
+}
+# Freikorps Seize East Prussia
+country_event = {
+	id = botr_germany_political.3
+	title = botr_germany_political.3.t
+	desc = botr_germany_political.3.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = botr_germany_political.3.a
+		complete_national_focus = GER_focus_mackensen_seizes_east_prussia
+		add_stability = -0.04
+		add_political_power = -20
+		5 = {
+			set_demilitarized_zone = yes
+		}
+		188 = {
+			set_demilitarized_zone = yes
+		}
+		763 = {
+			set_demilitarized_zone = yes
+		}
+		hidden_effect = {
+			GER = {
+				country_event = { id = botr_germany_political.4 days = 7 }
+			}
+		}
+	}
+}
+# Der Stahlhelm Uprising
+country_event = {
+	id = botr_germany_political.4
+	title = botr_germany_political.4.t
+	desc = botr_germany_political.4.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = botr_germany_political.4.a
+		complete_national_focus = GER_focus_stahlhelm_uprising_in_holstein
+		add_stability = -0.03
+		add_political_power = -20
+		58 = {
+			set_demilitarized_zone = yes
+		}
+		hidden_effect = {
+			GER = {
+				country_event = { id = botr_germany_political.5 days = 10 }
+			}
+		}
+	}
+}
+
+# Der Stahlhelm Uprising
+country_event = {
+	id = botr_germany_political.5
+	title = botr_germany_political.5.t
+	desc = botr_germany_political.5.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			complete_national_focus = GER_focus_von_epp_coup
+		}
+	}
+
+	option = {
+		name = botr_germany_political.5.a # Freikorp Victory
+		#complete_national_focus = GER_focus_stahlhelm_uprising_in_holstein
+		add_stability = 0.05
+		set_politics = {
+			ruling_party = pa
+			elections_allowed = no
+		}
+		set_popularities = {
+			ul = 8
+			pa = 70
+			cd = 0
+			ld = 0
+			sd = 12
+			sc = 2
+			ml = 8
+		}
+		complete_national_focus = GER_focus_von_epp_coup_success
+		dismantle_faction = yes
+		custom_effect_tooltip = ger_freikorps_demilitarize_tt 
+		hidden_effect = {
+			66 = {
+				set_demilitarized_zone = no
+			}
+			67 = {
+				set_demilitarized_zone = no
+			}
+			762 = {
+				set_demilitarized_zone = no
+			}
+			5 = {
+				set_demilitarized_zone = no
+			}
+			188 = {
+				set_demilitarized_zone = no
+			}
+			763 = {
+				set_demilitarized_zone = no
+			}
+			58 = {
+				set_demilitarized_zone = no
+			}
+			set_cosmetic_tag = GER_FREIKORPS
+			set_country_flag = ger_epp_coup_success_flag
+		}
+	}
+	option = {
+		name = botr_germany_political.5.b # People's Army Victory
+		#complete_national_focus = GER_focus_stahlhelm_uprising_in_holstein
+		add_stability = 0.05
+
+	}
+}

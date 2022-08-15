@@ -1,0 +1,23 @@
+ideas = {
+
+	country = {
+
+		FRA_eight_decades_of_bonaparte = {
+
+			#picture = idea_chi_hyper_inflation5
+
+			allowed = { 
+				original_tag = FRA 
+				has_government = pa
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = 0.1
+			}
+		}
+
+	}
+}

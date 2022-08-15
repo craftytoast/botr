@@ -1,0 +1,47 @@
+﻿capital = 542
+
+#oob = "BOT_1934"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_cosmetic_tag = BOT_BRITISH
+set_politics = {
+	ruling_party = pa
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	ul = 0
+	pa = 91
+	cd = 0
+	ld = 0
+	sd = 9
+	sc = 0
+	ml = 0
+}
+
+create_country_leader = {
+	name = "Charles Arden-Clarke"
+	desc = "arden_clarke_DESC"
+	picture = "gfx/leaders/ENG/Portrait_ENG_Charles_Arden_Clarke.dds"
+	expire = "1965.1.1"
+	ideology = pa_type_1
+	traits = {
+		
+	}
+}
+
+#create_country_leader = {
+#	
+#	name = "Tshekedi Khama"
+#	picture = GFX_portrait_Tshekedi_Khama
+#	expire = "1965.1.1"
+#	ideology = socialism
+#	traits = {
+#		#
+#	}
+#}

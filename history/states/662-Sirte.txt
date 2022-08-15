@@ -1,0 +1,24 @@
+
+state={
+	id=662
+	name="STATE_662"
+
+	history={
+		owner = SNI
+		add_core_of = SNI
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = LBA
+
+	}
+
+	provinces={
+		1127 1198 4200 7076 
+	}
+	manpower=13213
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

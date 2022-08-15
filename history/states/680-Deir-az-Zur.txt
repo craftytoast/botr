@@ -1,0 +1,25 @@
+
+state={
+	id=680
+	name="STATE_680"
+
+	history={
+		owner = FLV
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SYR
+		add_core_of = FLV
+		add_claim_by = TUR
+
+	}
+
+	provinces={
+		1578 1606 1634 2013 3942 6883 7513 10383 12316 12442 
+	}
+	manpower=324110
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=4.000
+}

@@ -1,0 +1,26 @@
+state={
+	id=852
+	name="STATE_852"
+	provinces={
+		1984 2072 5041 7944 
+	}
+	history={
+		owner = IEA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		victory_points = {
+			1984 2
+		}
+		add_core_of = IEA
+		add_core_of = ETH
+
+	}
+	manpower=769000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

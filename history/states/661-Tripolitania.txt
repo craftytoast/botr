@@ -1,0 +1,24 @@
+
+state={
+	id=661
+	name="STATE_661"
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = LBA
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		4117 4962 5004 7154 7985 10037 10884 11940 12022 12082 12866 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

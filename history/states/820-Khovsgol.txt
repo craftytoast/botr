@@ -1,0 +1,23 @@
+
+state={
+	id=820
+	name="STATE_820"
+
+	history={
+		owner = CHI
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = CHI
+		add_core_of = AHI
+	}
+
+	provinces={
+		7167 10434 10446 10462 12426 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

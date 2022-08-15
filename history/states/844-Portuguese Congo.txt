@@ -1,0 +1,20 @@
+state={
+	id=844
+	name="STATE_844"
+	provinces={
+		1516 1817 1929 1968 4515 9986 12795 12907 
+	}
+	history={
+		owner = POR
+		add_core_of = POR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = COG
+
+	}
+	manpower=780000
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

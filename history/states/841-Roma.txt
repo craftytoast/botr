@@ -1,0 +1,30 @@
+state={
+	id=841
+	name="STATE_841"
+	provinces={
+		9904 
+	}
+	history={
+		owner = PAP
+		victory_points = {
+			9904 40 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 2
+			9904 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = ITA
+		add_core_of = PAP
+	}
+	manpower=1000000
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

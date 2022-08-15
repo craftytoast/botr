@@ -1,0 +1,23 @@
+state={
+	id=840
+	name="STATE_840"
+	provinces={
+		317 332 3231 11251 11366 
+	}
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+
+		}
+		add_core_of = GER
+		add_core_of = DEN
+	}
+	manpower=908900
+	state_category = large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,20 @@
+ideas = {
+
+	country = {
+
+		TUR_idea_crippling_debt_crisis = {
+
+			picture = idea_chi_hyper_inflation5
+
+			allowed = { original_tag = TUR }
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.30
+				production_speed_buildings_factor = -0.2
+			}
+		}
+
+	}
+}

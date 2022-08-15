@@ -1,0 +1,70 @@
+﻿capital = 307
+
+oob = "VEN_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+recruit_character = VEN_isaias_medina_angarita
+recruit_character = VEN_humberto_santabria_villa
+recruit_character = VEN_carlos_molina_talavayo
+recruit_character = VEN_roberto_de_luca_varesano
+recruit_character = VEN_carlos_garcia_mendoza
+recruit_character = VEN_miguel_diaz_fraile
+recruit_character = VEN_victor_sanchez_croes
+recruit_character = VEN_antonio_casas_gonzalez
+recruit_character = VEN_carlos_ramos_diaz
+recruit_character = VEN_david_lopez_henriques
+recruit_character = VEN_jose_polares_pavon
+recruit_character = VEN_tomas_contreras_villalobos
+recruit_character = VEN_carlos_delgado_chalbaud
+recruit_character = VEN_manuel_diaz_rodriguez
+recruit_character = VEN_romulo_gallegos_freire
+recruit_character = VEN_isidoro_ruiz_tuerro
+
+
+set_country_flag = monroe_doctrine
+
+set_convoys = 9
+set_politics = {
+	ruling_party = pa
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	ul = 10
+	pa = 49
+	cd = 0
+	ld = 0
+	sd = 2
+	sc = 12
+	ml = 27
+}
+create_country_leader = {
+	name = "Juan Vicente Gómez"
+	desc = "vicente_gomez_DESC"
+	picture = "gfx/leaders/VEN/Portrait_VEN_Juan_Vicente_Gomez.dds"
+	expire = "1965.1.1"
+	ideology = pa_type_1
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Gustavo Machado Morales"
+	desc = "venezuelan_communist_DESC"
+	picture = "gfx/leaders/VEN/Portrait_VEN_Gustavo_Machado_Morales.dds"
+	expire = "1965.1.1"
+	ideology = ml_type_1
+	traits = {
+		
+	}
+}
+

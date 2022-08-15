@@ -1,0 +1,29 @@
+
+state={
+	id=350
+	name="STATE_350"
+
+	history={
+		owner = FLV
+		victory_points = {
+			4512 3
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+
+		}
+		add_claim_by = TUR
+		add_core_of = KUR
+		add_core_of = FLV
+
+	}
+
+	provinces={
+		4512 9823 11759 11871 12416 
+	}
+	manpower=571935
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

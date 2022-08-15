@@ -1,0 +1,14 @@
+rus_prepare_for_civil_war_category = {
+
+	icon = GFX_decision_category_generic_industry
+	
+	allowed = {
+		original_tag = RUS
+		#has_country_flag = ger_epp_coup_success_flag
+	}
+
+	visible = {
+		original_tag = RUS
+		#has_country_flag = ger_epp_coup_success_flag
+	}
+}

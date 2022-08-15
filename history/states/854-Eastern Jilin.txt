@@ -1,0 +1,18 @@
+state={
+	id=854
+	name="STATE_854"
+	provinces={
+		783 973 3791 3944 6806 6811 6964 9766 9897 10376 10503 11893 11906 12355 12482 
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1209300
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

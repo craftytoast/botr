@@ -1,0 +1,37 @@
+state=
+{
+	id=69
+	name="STATE_69"
+	manpower = 2830000
+	
+	state_category = rural
+	
+	resources={
+		steel=4 # was: 8
+	}
+	
+	history={
+		victory_points = {
+			3585 2
+		}
+		#victory_points = {
+		#	11432 1
+		#}
+		victory_points = {
+			11401 2
+		}
+		owner = AUS
+		buildings = {
+			infrastructure = 3
+			
+
+		}
+		add_core_of = CZE
+		add_core_of = AUS
+	}
+	provinces=
+	{
+424 469 543 557 3418 3585 5283 6470 7857 9555 11401 11414 11432 11525 	}
+
+	local_supplies=0.0 
+}

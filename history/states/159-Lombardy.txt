@@ -1,0 +1,26 @@
+
+state={
+	id=159
+	name="STATE_159"
+
+	history={
+		owner = ITA 
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = ITA
+		add_extra_state_shared_building_slots = -2
+	}
+
+	provinces={
+		3776 6661 11568 11587 
+	}
+	manpower=2109000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

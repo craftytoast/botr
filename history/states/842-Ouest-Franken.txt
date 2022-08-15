@@ -1,0 +1,21 @@
+state={
+	id=842
+	name="STATE_842"
+	provinces={
+		6594 9557 11417 
+	}
+	history={
+		owner = WST
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+		}
+		add_core_of = BAY
+		add_core_of = WST
+		add_extra_state_shared_building_slots = -3
+	}
+	manpower=720000
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

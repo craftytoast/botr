@@ -1,0 +1,44 @@
+﻿###########################
+# German Events
+###########################
+
+add_namespace = botr_germany_expansion 
+
+# Borderlands Remilitarized
+country_event = {
+	id = botr_germany_expansion.1
+	title = botr_germany_expansion.1.t
+	desc = botr_germany_expansion.1.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = botr_germany_expansion.1.a
+		56 = { set_demilitarized_zone = no }
+		add_political_power = 20
+		add_war_support = 0.02
+
+		FRA = {
+			country_event = botr_germany_expansion.2
+		}
+		#hidden_effect = {
+		#	news_event = { hours = 6 id = news.36 }
+		#}
+	}
+}
+
+# Borderlands Remilitarized (France)
+country_event = {
+	id = botr_germany_expansion.2
+	title = botr_germany_expansion.2.t
+	desc = botr_germany_expansion.2.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = botr_germany_expansion.2.a
+		add_political_power = -5
+	}
+}
