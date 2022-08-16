@@ -25,9 +25,9 @@ set_popularities = {
 	ml = 5
 }
 create_country_leader = {
-	name = "Emperor Napoleon VI"
-	desc = "napoleon_vi_DESC"
-	picture = "gfx/leaders/FRA/Portrait_FRA_Napoleon_VI.dds"
+	name = "King Louis-Napoléon IV"
+	desc = "napoleon_iv_DESC"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Napoleon_IV.dds"
 	expire = "1965.1.1"
 	ideology = pa_type_1
 	traits = {

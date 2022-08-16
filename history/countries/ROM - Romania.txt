@@ -95,30 +95,20 @@ if = {
 set_convoys = 9
 
 set_politics = {
-	ruling_party = cd
+	ruling_party = p
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	ul = 9
-	pa = 0
-	cd = 39
-	ld = 27
-	sd = 12
-	sc = 3
-	ml = 10
+	ul = 6
+	pa = 80
+	cd = 5
+	ld = 0
+	sd = 0
+	sc = 0
+	ml = 9
 } 
-create_country_leader = {
-	name = "Parliament"
-	desc = "rom_parliament_DESC"
-	picture = "gfx/leaders/ROM/Portrait_ROM_Parliament.dds"
-	expire = "1965.1.1"
-	ideology = cd_type_1
-	traits = {
-		
-	}
-}
 
 ### VARIANTS ###
 # 1936 Start #

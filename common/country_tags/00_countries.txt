@@ -1,30 +1,6 @@
-# Russian Sphere
-RUS = "countries/Russia.txt"
-# French Sphere + Colonies
-FRA	= "countries/France.txt"
-FWA	= "countries/French West Africa.txt"
-FCA	= "countries/French Central Africa.txt"
-FLV	= "countries/French Levant.txt"
-WST	= "countries/Westphalia.txt"
-BAD	= "countries/Baden.txt"
-WUR	= "countries/Wurtemberg.txt"
-SNI	= "countries/Senussi.txt"
 
-KMT	= "countries/KMT.txt"
-
-PDM = "countries/Piedmont.txt"
-
-RHN = "countries/Confed Rhine.txt"
-
-ENG = "countries/United Kingdom.txt"
-BEA = "countries/British East Africa.txt"
-
-GER	= "countries/Germany.txt"
-SOV = "countries/Soviet Union.txt"
 SWE	= "countries/Sweden.txt"
 
-JAB	= "countries/Jabal Shammar.txt"
-HEJ	= "countries/Hejaz.txt"
 
 LUX	= "countries/Luxemburg.txt"
 BEL	= "countries/Belgium.txt"
@@ -254,15 +230,34 @@ UDM = "countries/Udmurtia.txt"
 CHU = "countries/Chuvashia.txt"
 MEL = "countries/Mariel.txt"
 
-#### EUROPE ####
+
+# French Sphere + Colonies
+
+
+
+
+#### WEST EUROPE ####
+FRA	= "countries/WestEur.txt"
+GER	= "countries/WestEur.txt"
+ENG = "countries/WestEur.txt"
+
+WST	= "countries/WestEur.txt"
+BAD	= "countries/WestEur.txt"
+WUR	= "countries/WestEur.txt"
 
 PAP = "countries/WestEur.txt"
+#### EAST EUROPE ####
+RUS = "countries/EastEur.txt"
+SOV = "countries/EastEur.txt"
 #### AFRICA ####
 ETH = "countries/Africa.txt"
 SOM = "countries/Africa.txt"
 IEA = "countries/WestEur.txt"
 SWA = "countries/WestEur.txt"
 SAF = "countries/WestEur.txt"
+FWA	= "countries/WestEur.txt"
+FCA	= "countries/WestEur.txt"
+BEA = "countries/WestEur.txt"
 #### ASIA ####
 CHI = "countries/Asian.txt"
 GXC = "countries/Asian.txt"
@@ -274,3 +269,11 @@ NAN	= "countries/Asian.txt"
 AHI	= "countries/Asian.txt"
 SCH	= "countries/Asian.txt"
 IND = "countries/Asian.txt"
+KMT	= "countries/Asian.txt"
+#### MIDDLE EAST ####
+
+
+JAB	= "countries/MidEast.txt"
+HEJ	= "countries/MidEast.txt"
+FLV	= "countries/WestEur.txt"
+SNI	= "countries/MidEast.txt" 

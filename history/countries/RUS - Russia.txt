@@ -43,6 +43,14 @@ if = {
 
 country_event = { id = botr_russia_pcw.1 days = 11 }
 
+set_autonomy = {
+	target = TAN
+	autonomous_state = autonomy_puppet
+}
+TAN = {
+	set_cosmetic_tag = TAN_RUSSIAN
+}
+
 set_convoys = 45
 set_politics = {
 	ruling_party = pa

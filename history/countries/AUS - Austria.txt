@@ -51,5 +51,15 @@ set_popularities = {
 	sc = 6
 	ml = 1
 }
+create_country_leader = {
+	name = "Karl I"
+	desc = "karl_i_DESC"
+	picture = "gfx/leaders/AUS/Portrait_AUS_Karl_I.dds"
+	expire = "1965.1.1"
+	ideology = pa_type_1
+	traits = {
+		
+	}
+}
 
 set_stability = 0.50

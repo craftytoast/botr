@@ -58,10 +58,6 @@ BAY = {
 	color = rgb { 0 102 204 }
 	color_ui = rgb { 0 102 204 }
 }
-RHN = {
-	color = rgb { 26 65 150 }
-	color_ui = rgb { 26 65 150 }
-}
 
 # Med. Nations and Puppets Of Them #
 ITA = {
@@ -172,10 +168,6 @@ SOV = {
 SWE = {
 	color = rgb { 36 132 247 }
 	color_ui = rgb { 47 172 255 }
-}
-PDM = {
-	color = rgb { 60 120 57 }
-	color_ui = rgb { 60 120 57 }
 }
 LUX = {
 	color = rgb { 65 175 179 }

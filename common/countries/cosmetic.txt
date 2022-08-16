@@ -39,6 +39,11 @@ GER_FREIKORPS = {
 	color_ui = rgb { 100 100 100 }
 }
 
+TAN_RUSSIAN = {
+    color = rgb { 0 78 0 }
+	color_ui = rgb { 0 78 0 }
+}
+
 
 
 MAL_UK = {
