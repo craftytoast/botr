@@ -1,0 +1,17 @@
+﻿l_english:
+ # Cabinet
+ cabinet:0 "Cabinet"
+
+ # HoG
+ head_of_gov:0 "Head of Government"
+ hog_aging_prime_minister:0 "Aging Prime Minister"
+
+ # Foreign Min.
+ foreign_min:0 "Foreign Minister"
+
+ # Min. Of Security
+ min_of_security:0 "Minister of Security"
+
+ # Min. Of Economics
+ min_of_economy:0 "Minister of Economics"
+ moe_economic_genius:0 "Economic Genius"

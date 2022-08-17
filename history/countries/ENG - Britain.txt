@@ -229,9 +229,9 @@ set_popularities = {
 	ml = 0
 }
 create_country_leader = {
-	name = "J. R. Clynes"
-	desc = "j_r_clynes_DESC"
-	picture = "gfx/leaders/ENG/Portrait_ENG_J_R_Clynes.dds"
+	name = "George Lansbury"
+	desc = "george_lansbury_DESC"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_Lansbury.dds"
 	expire = "1965.1.1"
 	ideology = sd_type_1
 	traits = {
@@ -249,6 +249,7 @@ add_to_faction = AST
 add_to_faction = NZL
 add_to_faction = SAF
 add_to_faction = EGY
+add_to_faction = OMA
 
 give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet

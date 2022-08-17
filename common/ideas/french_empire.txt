@@ -20,4 +20,88 @@ ideas = {
 		}
 
 	}
+
+	head_of_gov = {
+ 
+		HoG_paul_doumer = { # Starting HoG of France
+	
+			
+			allowed = {
+				original_tag = FRA
+			}
+			available = {
+				always = yes
+			}
+			
+			traits = { hog_aging_prime_minister }
+	
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+	
+	}
+
+	foreign_min = {
+ 
+		FM_joseph_paul_boncour = { # Starting HoG of France
+	
+			
+			allowed = {
+				original_tag = FRA
+			}
+			available = {
+				always = yes
+			}
+			
+			traits = { fm_popular_diplomat }
+	
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+	
+	}
+
+	min_of_security = {
+ 
+		MoS_eugene_penancier = { # Starting HoG of France
+	
+			
+			allowed = {
+				original_tag = FRA
+			}
+			available = {
+				always = yes
+			}
+			
+			traits = { mos_unfit_for_position }
+	
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+	
+	}
+
+	min_of_economy = {
+ 
+		MoE_georges_bonnet = { # Starting HoG of France
+	
+			
+			allowed = {
+				original_tag = FRA
+			}
+			available = {
+				always = yes
+			}
+			
+			traits = { moe_economic_genius }
+	
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+	
+	}
 }

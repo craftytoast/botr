@@ -327,6 +327,12 @@ add_dynamic_modifier = {
 }
 add_ideas = FRA_eight_decades_of_bonaparte
 
+add_ideas = { # Starting Cabinet
+	HoG_paul_doumer
+	FM_joseph_paul_boncour
+	MoS_eugene_penancier
+	MoE_georges_bonnet
+}
 
 set_politics = {
 	ruling_party = pa

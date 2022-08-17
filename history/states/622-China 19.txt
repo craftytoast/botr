@@ -8,27 +8,15 @@ state={
 	}
 
 	history={
-		owner = XSM
-		add_core_of = XSM
+		owner = SHX
+		add_core_of = SHX
 		add_core_of = CHI
 		victory_points = {
-			8049 3 
+			8049 2 
 		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
-			10733 = {
-				bunker = 2
-
-			}
-			12156 = {
-				bunker = 2
-
-			}
-			5007 = {
-				bunker = 2
-
-			}
 
 		}
 
