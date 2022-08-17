@@ -65,7 +65,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 50 50 50 }
+		color = { 76 16 34 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -429,7 +429,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 100 0 0 }
+		color = { 225 40 72 }
 		
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
