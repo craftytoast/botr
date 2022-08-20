@@ -169,6 +169,7 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+	GER_the_sparatcist_threat
 }
 
 recruit_character = GER_wilhelm_pieck
