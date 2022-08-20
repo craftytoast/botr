@@ -54,6 +54,11 @@
  botr_germany_political.5.d:0 ""
  botr_germany_political.5.a:0 "The Freikorps Militants Succeed!"
  botr_germany_political.5.b:0 "The Peoples Army Saves The Central Government!"
+ 
+ ##### IDEAS #####
+ GER_the_sparatcist_threat:0 "The Spartacist Threat"
+ GER_the_spartacist_threat_desc:0 "When the revolution against the imperialist Germany began it was not led by Thallman, but by the people. And those people waved the flag of the Spartacist League, a revolutionary movement spearheaded by Rosa Luxembourg and Karl Liebknecht. But as all things do the KPD began to fracture as the revolution carried on, and as it fractured the so called 'Hardliners' began gaining prominence. These hardliners thought that the Spartacist way of council communism was weak and wouldn't win the war at hand, and with ever day the revolution carried on unwon the hardliners gained more power until eventually when the red flag waved over the Reichstag it the hardliners in power. Quickly the hardliners began creating their own Free Socialist Republic, but as time went on the Spartacists began growing weary of as they called it a false revolutionary faction. Now although the Spartacist flag is still waved, and they still have a wing of the KPD they pose a signifigant and growing threat to the hardliners."
+
 
  ##### DECISIONS #####
  ger_post_coup_power_struggle_category:0 "The German Power Struggle"
