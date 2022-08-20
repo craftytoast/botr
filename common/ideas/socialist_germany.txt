@@ -1,0 +1,20 @@
+ideas = {
+
+	country = {
+
+		GER_the_sparatcist_threat = {
+
+			picture = 
+
+			allowed = { original_tag = GER }
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.15
+				industrial_capacity_factory = -0.05
+			}
+		}
+
+	}
+}
