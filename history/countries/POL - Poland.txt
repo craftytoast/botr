@@ -74,11 +74,12 @@ set_popularities = {
 	sc = 7
 	ml = 4
 }
+set_country_flag = dual_leader_pol_chief_minister
 
 create_country_leader = {
-	name = "Józef Piłsudski"
-	desc = "pilsudski_DESC"
-	picture = "gfx/leaders/POL/Portrait_POL_Jozef_Pilsudski.dds"
+	name = "Roman Dmowski"
+	desc = "dmowski_DESC"
+	picture = "gfx/leaders/POL/Portrait_POL_Roman_Dmowski.dds"
 	expire = "1965.1.1"
 	ideology = pa_type_1
 	traits = {

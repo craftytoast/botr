@@ -21,3 +21,14 @@ set_popularities = {
 	sc = 1
 	ml = 8
 }
+set_country_flag = dual_leader_levant_high_commisioner
+create_country_leader = {
+	name = "Henri Gourand"
+	desc = "gourand_DESC"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Henri_Gourand.dds"
+	expire = "1965.1.1"
+	ideology = pa_type_1
+	traits = {
+		
+	}
+}

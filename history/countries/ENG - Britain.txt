@@ -228,6 +228,8 @@ set_popularities = {
 	sc = 0
 	ml = 0
 }
+set_country_flag = dual_leader_eng_prime_minister_first
+set_country_flag = dual_leader_king_of_uk
 create_country_leader = {
 	name = "George Lansbury"
 	desc = "george_lansbury_DESC"
@@ -238,6 +240,7 @@ create_country_leader = {
 		
 	}
 }
+set_global_flag = dual_leader_british_george_v
 
 
 

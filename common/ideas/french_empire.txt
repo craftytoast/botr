@@ -4,11 +4,10 @@ ideas = {
 
 		FRA_eight_decades_of_bonaparte = {
 
-			#picture = idea_chi_hyper_inflation5
+			picture = GFX_idea_FRA_eight_decades_of_bonaparte_icon
 
 			allowed = { 
 				original_tag = FRA 
-				has_government = pa
 			}
 
 			removal_cost = -1
@@ -16,6 +15,58 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.1
 				stability_factor = 0.1
+			}
+		}
+
+		FRA_lost_generation = {
+
+			picture = GFX_idea_FRA_lost_generation_icon
+
+			allowed = { 
+				original_tag = FRA 
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = -0.35
+				army_org_factor = -0.15
+				conscription_factor = -0.5
+				army_attack_factor = -0.12
+			}
+		}
+
+		FRA_constitution_of_1910 = {
+
+			picture = GFX_idea_FRA_constitution_of_1910_icon
+
+			allowed = { 
+				original_tag = FRA 
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				drift_defence_factor = 0.5
+				cd_drift = -0.03
+				sd_drift = -0.03
+			}
+		}
+		FRA_imperial_overextension = {
+
+			picture = GFX_idea_FRA_imperial_overextension_icon
+
+			allowed = { 
+				original_tag = FRA 
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.07
+				political_power_gain = -0.25
+				consumer_goods_factor = 0.04
 			}
 		}
 

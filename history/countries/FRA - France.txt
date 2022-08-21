@@ -165,21 +165,6 @@ set_autonomy = {
 }
 ISR = {
 	set_cosmetic_tag = ISR_FRENCH
-	set_politics = {
-		ruling_party = pa
-		last_election = "1932.5.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		ul = 0
-		pa = 89
-		cd = 2
-		ld = 2
-		sd = 0
-		sc = 4
-		ml = 3
-	}
 }
 # Jordan Setup
 set_autonomy = {
@@ -325,8 +310,12 @@ clamp_variable = { var = FRA_great_depression_consumer_goods_modifier min = 0.0 
 add_dynamic_modifier = {
 	modifier = FRA_great_depression_dynamic_modifier
 }
-add_ideas = FRA_eight_decades_of_bonaparte
-
+add_ideas = {
+	FRA_eight_decades_of_bonaparte
+	FRA_lost_generation
+	FRA_constitution_of_1910
+	FRA_imperial_overextension
+}
 add_ideas = { # Starting Cabinet
 	HoG_paul_doumer
 	FM_joseph_paul_boncour
@@ -359,6 +348,7 @@ create_country_leader = {
 		
 	}
 }
+set_country_flag = dual_leader_fra_paul_doumer
 
 add_ideas = {
 	limited_conscription

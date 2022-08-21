@@ -47,6 +47,13 @@ set_autonomy = {
 	target = TAN
 	autonomous_state = autonomy_puppet
 }
+set_autonomy = {
+	target = POL
+	autonomous_state = autonomy_puppet
+}
+POL = {
+	set_cosmetic_tag = POL_CONGRESS
+}
 TAN = {
 	set_cosmetic_tag = TAN_RUSSIAN
 }
@@ -78,3 +85,4 @@ create_country_leader = {
 		
 	}
 }
+set_global_flag = dual_leader_russian_nicholas_ii

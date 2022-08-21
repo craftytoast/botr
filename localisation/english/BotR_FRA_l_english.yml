@@ -7,6 +7,13 @@
  ##### IDEAS/D.M's #####
  FRA_great_depression_dynamic_modifier:0 "The Great Depression"
  FRA_eight_decades_of_bonaparte:0 "Eight Decades Of Bonapartism"
+ FRA_eight_decades_of_bonaparte_desc:0 "The House Of Bonaparte. What to say about the rulers of France from 1799 to 1815 and since 1852? While the first Napoleon remains controversial for his antics on the European scale, but is celebrated for his skillfull tactics that still influence the world at large and his overtly liberal reforms. Napoleon III is greatly remembered for his victory against the Prussians in 1870-72 and for his ambitious economic investments and military revitalization schemes. His son, Louis-Napoleon IV, still in power as of now, was hailed as liberal reformer in his early reign, which morphed into a regime of semi-authoritarianism akin to his father's empire, and as an expansionist who led France to gain her colonial empire and as through the Great War. Popular opinion with the Bonapartes have dwindled as of recent with the ongoing economic disaster, however.\n\n§RShould the Emperor crumble in the face of adversity, they will be at the mercy of the people...§!"
+ FRA_lost_generation:0 "The Lost Generation"
+ FRA_lost_generation_desc:0 "'Gone but not forgotten.'\n\nThe idea of a lost generation in the great war finds its roots in the very battlefields of the once-rampant bloodshed. Entire towns would be conscripted into the Imperial Army, only to perish in a single day in the cobbled-together, cramped trenches that ran the entire western front. A movement blossomed in every aspect of French society, that resented the thought of another massive war. The pressure espoused by the mass-movement has pushed the army to demobilize significantly, but despite this, the French have still gotten involved in more conflicts, much to the dismay of the public at large.\n\n§YIn order for France to yet again be at its finest militarily, the people of France must warm up to the idea of another war!§!"
+ FRA_constitution_of_1910:0 "Constitution Of 1910"
+ FRA_imperial_overextension:0 "Imperial Overextension"
+
+ FRA_protectorate_dynamic_modifier:0 "Protectorate"
 
  HoG_paul_doumer:0 "Paul Doumer"
 
@@ -17,19 +24,19 @@
  MoE_georges_bonnet:0 "Georges Bonnet"
 
  ##### LEADER DESCRIPTIONS #####
- napoleon_iv_DESC:0 "Louis-Napoleon IV, Emperor Of The French, King Of Westphalia, has lived an intricate life of royalty, luxury, war, and adventure.\n\nBorn on March 16th, 1856, to Napoleon III and Eugenie de Montijo, he was immediately designated the heir to the French throne. After his father’s passing in early 1873, he was proclaimed Emperor Napoleon IV when he was only sixteen. Much of his early reign was characterised by him and his political advisors exploiting France’s powerbase to expand the French imperial sphere. He organised the annexation of Belgium in 1879, and kicked the Italians out of Rome in the name of the Pope the next year. He focused heavily on expanding the French colonial empire in the 1880s and 90s. He personally organised the Paris Conference in 1884 to set the boundaries for the colonisation of Africa, granting him yet more diplomatic power over the world.\n\nHowever, his nation’s hegemony came into question with the beginning of the Great War in 1914, which pitted the North German Confederation, Austria-Hungary, various independent German States, and the Ottoman Empire against the French, Russians, and Dutch. The war was just barely flipped in Louis-Napoleon’s favour when a major breakthrough by Marshal Philippe Petain’s pushed French forces far into the centre of Germany, threatening to cut off German troops in Holland. After five years of nonstop war, the Germans surrendered, and out of the occupied territory Napoleon IV formed new puppet governments, all hailing in the end to him.\n\nNow, at the age of 77, the once lively Louis-Napoleon has been worn down after 60 years of rule and his old age finally catching up to him. But however, the Empire’s best doctors say he’s still got several more years in him. He vows that in these last years of life he will lead sweeping reforms to the economy, to repair the damage done by the Great Depression, and reassert the French Empire’s hegemony, once and for all."
+ napoleon_iv_DESC:0 "Born on March 16th, 1856, to Napoleon III and Eugenie de Montijo, Louis-Napoleon was immediately designated the heir to the French throne. After his father’s passing in early 1873, he was proclaimed Emperor Napoleon IV when he was only the wee age of 16. Much of his early reign was characterised by him and his ministers exploiting France’s powerbase to expand the French imperial sphere, and increasing the liberal's power to tide them over on his plans. He kicked the Italians out of Rome in the name of the Pope the year after his accension to the throne, and organised the annexation of Belgium in 1879. He focused heavily on expanding the French colonial empire in the 1880s and 90s. He personally organised the Paris Conference in 1884 to set the boundaries for the colonisation of Africa, granting him yet more diplomatic power over the world.\n\nHowever, his own safety came into question when, in 1909, a group of German nationalists nearly cut his life short with the crack of a bullet. The Emperor slipped into a coma and awoke, much to the doctor's suprise, ten days later. After his near death, he cut back on many liberal privilages via the Constituion of 1910, much to their horror. The Great War began four years later, with the death of the last of his three sons and heir to the throne, Jerome-Napoleon Bonaparte, to the hands of the same German nationalists that threatened to cut his own life short. The War pitted the great nations of Europe against each other in a bloody clash, which at several points threatened the integrity of the French lines, but they weathered the storm. After nearly five years of endless conflict, the deadly fighting ended in a pyrrhic victory for France and her allies in the Treaty of Cologne.\n\nNow, at the age of 77, the once lively Louis-Napoleon IV, Emperor of the French and King of Westphalia has been worn down after 60 years of rule and his old age finally catching up to him. But however, the Empire’s best doctors say he’s still got several more years in him. He vows that in these last years of life he will lead sweeping reforms to the economy, to repair the damage done by the Great Depression, and reassert the French Empire’s hegemony, once and for all."
 
  ##### PARTIES #####
  FRA_ul_party:0 "-"
  FRA_ul_party_long:0 "-"
- FRA_pa_party:0 "PRRRS (Incumbent)"
- FRA_pa_party_long:0 "Chamber Of Deputies (Parti Républicain, Radical et Radical-Socialiste (Republican, Radical and Radical-Socialist Party) Incumbent)"
+ FRA_pa_party:0 "House Of Bonaparte"
+ FRA_pa_party_long:0 "House Of Bonaparte"
  FRA_cd_party:0 "AD-RI-PDP"
  FRA_cd_party_long:0 "Democratic Alliance (Alliance Démocratique), Independent Radicals (Radicaux Indépendents), Popular Democrats (Démocrates Populaires) Coalition"
  FRA_ld_party:0 "PRRRS"
  FRA_ld_party_long:0 "Parti Républicain, Radical et Radical-Socialiste (Republican, Radical and Radical-Socialist Party)"
- FRA_sd_party:0 "PRS"
- FRA_sd_party_long:0 "Parti Républicain-Socialiste (Republican-Socialist Party)"
+ FRA_sd_party:0 "PRRRS"
+ FRA_sd_party_long:0 "Parti Républicain, Radical et Radical-Socialiste (Republican, Radical and Radical-Socialist Party)"
  FRA_sc_party:0 "SFIO"
  FRA_sc_party_long:0 "Section Française de l'Internationale Ouvrière (French Section of the Workers' International)"
  FRA_ml_party:0 "PCF"

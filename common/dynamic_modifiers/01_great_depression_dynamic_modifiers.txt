@@ -39,7 +39,7 @@ great_depression_dynamic_modifier = { #Used as National Spirit
 FRA_great_depression_dynamic_modifier = { #Used as National Spirit
 	enable = { always = yes }
 
-	icon = GFX_idea_man_five_year_plan_industry
+	icon = GFX_idea_FRA_great_depression_icon
 
 	political_power_gain = FRA_great_depression_pp_modifier
 	production_speed_buildings_factor = FRA_great_depression_construction_speed_modifier
