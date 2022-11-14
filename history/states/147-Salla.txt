@@ -7,14 +7,12 @@ state=
 	state_category = enclave
 	
 	history = {	
-		owner = RUS
+		owner = FIN
 		buildings = {
 			infrastructure = 2
 		}
 		add_core_of = FIN
-		add_core_of = RUS
-
-		set_state_flag = RUS_CIVIL_WAR_FIN_STATE_FLAG
+		add_core_of = KAR
 		
 		victory_points = {
 			197 1

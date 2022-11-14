@@ -3,14 +3,12 @@ state={
 	name="STATE_741"
 	history = {
 		add_core_of = CAM
-		add_core_of = IND
-		owner = IND
+		owner = FRA
 		victory_points = {
-			7376 3
+			7376 1
 		}
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 			7432 = {
 				naval_base = 1
 			}

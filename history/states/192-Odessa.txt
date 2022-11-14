@@ -4,7 +4,7 @@ state = {
 	name = "STATE_192"
 	manpower = 1286238 #1 8th removed due to Balta-Tiraspol
 	
-	state_category = town
+	state_category = city
 
 	history = {
 		owner = RUS
@@ -14,15 +14,19 @@ state = {
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
-			dockyard = 1
 			air_base = 6
 			11670 ={
-				naval_base = 4
+				naval_base = 3
 				coastal_bunker = 1
 			}
 		}
 		add_core_of = RUS
 		add_core_of = UKR
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
 	}
 
 	provinces = {

@@ -1,4 +1,4 @@
-﻿capital = 55
+﻿capital = 57 # Munster Imperial Court, de facto Capital (de jure Frankfurt)
 
 # Starting tech
 set_technology = {
@@ -10,27 +10,24 @@ set_technology = {
 
 set_cosmetic_tag = WST_NAPOLEON
 set_politics = {
-	ruling_party = pa
+	ruling_party = ds
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	ul = 1
-	pa = 80
-	cd = 8
-	ld = 1
-	sd = 2
-	sc = 3
-	ml = 5
+	ul = 4
+	ds = 56
+	cd = 20
+	ld = 10
+	sd = 10
+	sc = 0
+	ml = 0
 }
 create_country_leader = {
-	name = "King Louis-Napoléon IV"
+	name = "Louis-Napoleon I"
 	desc = "napoleon_iv_DESC"
 	picture = "gfx/leaders/FRA/Portrait_FRA_Napoleon_IV.dds"
 	expire = "1965.1.1"
-	ideology = pa_type_1
-	traits = {
-		
-	}
+	ideology = ds_type_1
 }

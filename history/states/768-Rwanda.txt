@@ -3,10 +3,12 @@ state={
 	name="STATE_768" # Rwanda
 	
 	state_category = pastoral
+	resources = {
+		tungsten = 3
+	}
 
 	history={
-		owner = BEA
-		add_core_of = BEA
+		owner = ENG
 		add_core_of = RWA
 		victory_points = {
 			9962 1

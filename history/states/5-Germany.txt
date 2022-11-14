@@ -12,17 +12,19 @@ state={
 		#victory_points = {
 		#	11386 1
 		#}
-		owner = GER
-		controller = GER
+		owner = PRS
+		controller = PRS
 		
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 1
 		}
+		add_core_of = PRS
 		add_core_of = GER
 	}
 
 	provinces={
-		266 3351 3380 6375 6402 9327 9346 9372 9398 11245 11386 
+		266 3295 3351 3380 6347 6375 6402 9327 9346 9372 9398 11245 11386 
 	}
 
 	local_supplies=12.0 

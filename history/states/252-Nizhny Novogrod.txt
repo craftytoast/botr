@@ -9,7 +9,7 @@ state={
 	history={
 		owner = RUS
 		victory_points = {
-			11375 15
+			11375 10
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -17,6 +17,11 @@ state={
 			air_base = 1
 		}
 		add_core_of = RUS
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 3
+			}
+		}
 	}
 
 	provinces={

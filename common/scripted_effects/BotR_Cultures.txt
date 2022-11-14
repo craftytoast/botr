@@ -1,0 +1,133 @@
+
+PB_Setup_Cultures = {
+	#### FRANCE ####
+	### ---- Metropolitan French Culture ---- ###
+	set_variable = { 16.culture_id = 1 }
+	set_variable = { 15.culture_id = 1 }
+	set_variable = { 785.culture_id = 1 }
+	set_variable = { 29.culture_id = 1 }
+	set_variable = { 18.culture_id = 1 }
+	set_variable = { 17.culture_id = 1 }
+	set_variable = { 28.culture_id = 1 }
+	set_variable = { 27.culture_id = 1 }
+	set_variable = { 24.culture_id = 1 }
+	set_variable = { 30.culture_id = 1 }
+	set_variable = { 23.culture_id = 1 }
+	set_variable = { 33.culture_id = 1 }
+	### ---- Breton Culture ---- ###
+	set_variable = { 14.culture_id = 2 }
+	### ---- Occitan Culture ---- ###
+	set_variable = { 25.culture_id = 3 }
+	set_variable = { 26.culture_id = 3 }
+	set_variable = { 20.culture_id = 3 }
+	set_variable = { 22.culture_id = 3 }
+	set_variable = { 31.culture_id = 3 }
+	set_variable = { 19.culture_id = 3 }
+	set_variable = { 806.culture_id = 3 }
+	set_variable = { 21.culture_id = 3 }
+	set_variable = { 32.culture_id = 3 }
+	set_variable = { 851.culture_id = 3 }
+
+	#### GERMANY ####
+	### ---- East Prussian Culture ---- ###
+	set_variable = { 763.culture_id = 5 }
+	set_variable = { 188.culture_id = 5 }
+	set_variable = { 5.culture_id = 5 }
+	set_variable = { 85.culture_id = 5 }
+	### ---- West Prussian Culture ---- ###
+	set_variable = { 64.culture_id = 6 }
+	set_variable = { 68.culture_id = 6 }
+	set_variable = { 63.culture_id = 6 }
+	set_variable = { 62.culture_id = 6 }
+	set_variable = { 61.culture_id = 6 }
+	set_variable = { 58.culture_id = 6 }
+	### ---- Saxon Culture ---- ###
+	set_variable = { 60.culture_id = 7 }
+	set_variable = { 65.culture_id = 7 }
+	### ---- Silesian Culture ---- ###
+	set_variable = { 66.culture_id = 8 }
+	set_variable = { 67.culture_id = 8 }
+	### ---- Silesian Culture ---- ###
+	set_variable = { 59.culture_id = 9 }
+	set_variable = { 56.culture_id = 9 }
+	set_variable = { 910.culture_id = 9 }
+	### ---- South German Culture ---- ###
+	set_variable = { 50.culture_id = 10 }
+	set_variable = { 52.culture_id = 10 }
+	set_variable = { 53.culture_id = 10 }
+	set_variable = { 54.culture_id = 10 }
+	set_variable = { 915.culture_id = 10 }
+	### ---- Rhenish ---- ###
+	set_variable = { 42.culture_id = 11 }
+	set_variable = { 914.culture_id = 11 }
+	set_variable = { 51.culture_id = 11 }
+	set_variable = { 55.culture_id = 11 }
+	set_variable = { 57.culture_id = 11 }
+	### ---- Austrian ---- ###
+	set_variable = { 4.culture_id = 12 }
+	set_variable = { 152.culture_id = 12 }
+	set_variable = { 153.culture_id = 12 }
+	set_variable = { 848.culture_id = 12 }
+	### ---- Swiss ---- ###
+	set_variable = { 3.culture_id = 13 }
+	set_variable = { 151.culture_id = 13 }
+	set_variable = { 845.culture_id = 13 }
+	set_variable = { 847.culture_id = 13 }
+	set_variable = { 846.culture_id = 13 }
+
+	#### EAST SLAVS ####
+	### ---- Polish ---- ###
+	set_variable = { 10.culture_id = 14 }
+	set_variable = { 98.culture_id = 14 }
+	set_variable = { 87.culture_id = 14 }
+	set_variable = { 97.culture_id = 14 }
+	set_variable = { 86.culture_id = 14 }
+	set_variable = { 807.culture_id = 14 }
+	set_variable = { 92.culture_id = 14 }
+	set_variable = { 90.culture_id = 14 }
+	set_variable = { 762.culture_id = 14 }
+	set_variable = { 72.culture_id = 14 }
+	set_variable = { 88.culture_id = 14 }
+
+	#### LOWLANDS ####
+	### ---- Dutch ---- ###
+	set_variable = { 7.culture_id = 20 }
+	set_variable = { 35.culture_id = 20 }
+	set_variable = { 36.culture_id = 20 }
+	set_variable = { 695.culture_id = 20 }
+	### ---- Dutch ---- ###
+	set_variable = { 6.culture_id = 21 }
+
+}
+
+## Changes the culture of the state scope into the culture specified in `temp_culture`
+# SCOPE: State
+PB_Cultures_change_culture_of_state = {
+	set_variable = { culture_id = temp_culture }
+	custom_effect_tooltip = PB_Cultures_change_culture_of_state_tt
+}
+
+## Adds the culture specified in `temp_culture` into the scoped country's list of accepted cultures
+# SCOPE: Country
+PB_Cultures_add_accepted_culture = {
+	add_to_array = { PB_accepted_cultures = temp_culture }
+	custom_effect_tooltip = PB_Cultures_add_accepted_culture_tt
+}
+
+## Removes the culture specified in `temp_culture` from the scoped country's list of accepted cultures
+# SCOPE: Country
+PB_Cultures_remove_accepted_culture = {
+	remove_from_array = { array = PB_accepted_cultures value = temp_culture }
+	custom_effect_tooltip = PB_Cultures_remove_accepted_culture_tt
+}
+
+PB_Cultures_debug_print_marked_states = {
+	hidden_effect = {
+		every_state = {
+			limit = {
+				check_variable = { Culture_debug_mark = 2 }
+			}
+			ROOT = { log = "[PREV.GetID]" }
+		}
+	}
+}

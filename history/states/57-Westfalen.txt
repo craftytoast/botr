@@ -2,27 +2,59 @@
 state={
 	id=57
 	name="STATE_57"
+	manpower = 4203900
+	state_category = large_city
 
 	history={
 		owner = WST
 		victory_points = {
-			495 5 
+			495 7
 		}
+		victory_points = {
+			11388 8
+		}
+		#victory_points = {
+		#	9509 1
+		#}
 		buildings = {
 			infrastructure = 4
+			arms_factory = 1
 			industrial_complex = 2
 			air_base = 3
 
 		}
 		add_core_of = WST
-
 	}
 
 	provinces={
-		495 3398 6535 6622 9443 11346 
+		495 3398 6535 6622 9281 9443 9509 11233 11346 11388 11431 
 	}
-	manpower=5109333
-	buildings_max_level_factor=1.000
-	state_category=city
-	local_supplies=0.000
+
+	local_supplies=0.0 
+}
+state={
+	id=910
+	name="STATE_910"
+	manpower = 850000
+	state_category = city
+
+	history={
+		owner = GER
+		victory_points = {
+			564 3
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			air_base = 3
+
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		405 564 3355 9524
+	}
+
+	local_supplies=0.0 
 }

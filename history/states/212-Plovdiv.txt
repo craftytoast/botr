@@ -4,29 +4,23 @@ state={
 	name="STATE_212"
 	manpower = 1814936
 	
-	state_category = large_town
+	state_category = town
 
 	resources={
 		chromium = 1
 	}
 
 	history={
-		owner = BUL
+		owner = YUG
 		victory_points = { #Plovdiv
-			6923 10
-		}
-		victory_points = { #Stara Zagora
-			6814 3
-		}
-		victory_points = { #Haskovo
-			9862 1
+			6923 3
 		}
 		buildings = {
 			infrastructure = 2
-			arms_factory = 3
-			industrial_complex =2
+			industrial_complex =1
 			air_base = 2
 		}
+		add_core_of = YUG
 		add_core_of = BUL
 	}
 

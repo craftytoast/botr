@@ -7,21 +7,22 @@ state={
 	state_category = large_town
 
 	history={
-		owner = AUS
+		owner = ILY
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
 			arms_factory = 1
+			industrial_complex = 3
 		}
 		victory_points = {
 			11581 10 
 		}
-		add_core_of = AUS
-		add_core_of = CRO
+		add_core_of = ILY
+		add_claim_by = YUG
+		#add_core_of = CRO
 	}
 
 	provinces={
-		624 3592 3596 3627 6647 9595 9611 11577 11580 11581 11594
+		624 3592 3596 3601 3627 6647 9595 9611 11577 11580 11581 11594
 	}
 
 	local_supplies=0.0 

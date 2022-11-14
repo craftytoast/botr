@@ -12,7 +12,7 @@ state={
 
 		}
 		add_core_of = RUS
-		set_state_flag = RUS_CIVIL_WAR_FIN_STATE_FLAG
+		add_core_of = KAR
 	}
 
 	provinces={

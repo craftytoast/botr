@@ -4,24 +4,24 @@ state={
 	name="STATE_813"
 
 	history={
-		owner = PRC
+		owner = RUS
+		add_core_of = RUS
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
+			infrastructure = 2 #was: 5
+			4640 = {
+				naval_base = 1
+
+			}
+
 		}
-		add_core_of = CHI
-		add_core_of = PRC
-		victory_points = {
-			4619 7 
-		}
+		add_core_of = EST
+
 	}
 
 	provinces={
-		1036 4619 4631 
+		4640 6099 9079 11057 11127 11443 13127 
 	}
-	manpower=1892000
+	manpower=150560
 	buildings_max_level_factor=1.000
 	state_category=rural
-	local_supplies=0.000
 }

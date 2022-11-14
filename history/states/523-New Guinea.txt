@@ -4,7 +4,6 @@ state={
 
 	history={
 		add_core_of = PNG
-		add_core_of = AST
 		owner = AST
 		buildings = {
 			infrastructure = 1

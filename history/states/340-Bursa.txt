@@ -2,32 +2,57 @@
 state={
 	id=340
 	name="STATE_340"
+	manpower = 977853
 	resources={
-		chromium=39.000
+		chromium=34 # was: 54
 	}
+
+	state_category = town
 
 	history={
 		owner = TUR
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-
+			dockyard = 1
+		}
+		
+		victory_points = {
+			947 3
 		}
 		victory_points = {
-			947 10 
-		}
-		victory_points = {
-			9799 5 
+			9799 1
 		}
 		add_core_of = TUR
-
 	}
 
 	provinces={
 		785 947 3786 3851 6912 9799 11778 11867 
 	}
-	manpower=1077853
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	local_supplies=0.0 
+}
+state={
+	id=911
+	name="STATE_911"
+	manpower = 102900
+	resources={
+		chromium=2 # was: 54
+	}
+
+	state_category = pastoral
+
+	history={
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		6864 9887
+	}
+
+	local_supplies=0.0 
 }

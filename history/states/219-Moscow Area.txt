@@ -4,7 +4,7 @@ state={
 	name="STATE_219"
 	manpower = 8335992
 	
-	state_category = metropolis
+	state_category = megalopolis
 	resources={
 		steel=16 # was: 28
 	}
@@ -12,12 +12,12 @@ state={
 	history={
 		owner = RUS
 		victory_points = {
-			6380 40
+			6380 50 
 		}
 		buildings = {
 			infrastructure = 4 #was: 8
-			arms_factory = 3
-			industrial_complex = 3
+			arms_factory = 4
+			industrial_complex = 5
 			air_base = 10
 		}
 		add_core_of = RUS

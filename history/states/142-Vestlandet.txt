@@ -12,10 +12,11 @@ state={
 	}
 
 	history={
-		owner = NOR
+		owner = SWE
+		add_core_of = SWE
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 1
 			9296 = {
 				naval_base = 3

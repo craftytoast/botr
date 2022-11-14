@@ -2,8 +2,7 @@ state={
 	id=796
 	name="STATE_796"
 	history={
-		owner = FCA
-		add_core_of = FCA
+		owner = POR
 		buildings = {
 			infrastructure = 1
 			2115 = {
@@ -20,7 +19,7 @@ state={
 	}
 	manpower=25000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 
 	local_supplies=0.0 
 }

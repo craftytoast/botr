@@ -9,7 +9,7 @@ state={
 		steel=19 # was: 60
 		aluminium=7 # was: 20
 	}
-	state_category = town
+	state_category = city
 	history={
 		victory_points = {
 			6464 5
@@ -19,8 +19,8 @@ state={
 			infrastructure = 3 #was: 6
 			industrial_complex = 1
 		}
-		add_core_of = GER
 		add_core_of = POL
+		add_core_of = SIL
 	}
 
 	local_supplies=0.0 

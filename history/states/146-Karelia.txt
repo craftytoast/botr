@@ -6,17 +6,27 @@ state={
 
 	history={
 		owner = RUS
-		add_core_of = FIN
 		add_core_of = RUS
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
+
+			#Mannerheim Line
+			9100 = {
+				bunker = 2
+			}
+			9105 = {
+				bunker = 2
+			}
+			9206 = {
+				coastal_bunker = 1
+			}
 		}
 		victory_points = {
-			9206 2 
+			9206 3 
 		}
 		
-		set_state_flag = RUS_CIVIL_WAR_FIN_STATE_FLAG
+
 	}
 
 	provinces={

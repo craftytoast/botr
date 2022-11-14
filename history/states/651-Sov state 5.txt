@@ -4,7 +4,7 @@ state = {
 	name = "STATE_651" # Ufa
 	manpower = 2552075
 
-	state_category = town
+	state_category = city
 
 	history = {
 		owner = RUS
@@ -14,12 +14,13 @@ state = {
 
 		}
 		victory_points = {
-			1278 10
+			1278 5
 		}
 		victory_points = {
 			4354 1 
 		}
 		add_core_of = RUS
+		add_core_of = BSK
 	}
 
 	provinces = {

@@ -8,18 +8,17 @@ state={
 
 	manpower = 3197719
 	
-	state_category = town
+	state_category = rural
 	
 	history={
-		owner = MOR
+		owner = FRA
 		add_core_of = MOR
 		victory_points = {
-			7069 15 
+			7069 10 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			arms_factory = 1
 			air_base = 4
 			7069 = {
 				naval_base = 4

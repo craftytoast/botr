@@ -1,25 +1,30 @@
-state=
-{
-	id=163
-	name="STATE_163"
+state = {
+	id = 163
+	name = "STATE_163"
 	manpower = 18000
 	
 	state_category = enclave
 	
-	history={
-		owner = AUS
+	history = {
+		owner = ITA
+		victory_points = { #Zara/Zadar
+			3943 2
+		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 2 #was: 5
 			3943 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = AUS
-		add_core_of = CRO
-	} 
-	provinces={	
-		3943 
+		add_claim_by = YUG
+		add_claim_by = ILY
+		add_core_of = ITA
+		#add_core_of = CRO
+		add_core_of = DAL
+	}
+	provinces = {	
+		3943 11901
 	}
 
-	local_supplies=0.0 
+	local_supplies = 0.0 
 }

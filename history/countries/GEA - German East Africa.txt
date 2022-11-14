@@ -1,0 +1,41 @@
+﻿capital = 547
+
+#oob = "TAG_1934"
+
+set_stability = 0.5
+set_war_support = 0.5
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 34
+
+set_politics = {
+	ruling_party = ds
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	en = 0
+	jc = 6
+	sc = 0
+	sd = 0
+	ld = 0
+	cd = 10
+	ad = 0
+	ds = 80
+	ul = 10
+}
+create_country_leader = {
+	name = "Adolf von Hitler"
+	desc = "tbd_DESC"
+	picture = "gfx/leaders/UKG/Portrait_UKG_Adolf_Hitler.dds"
+	expire = "1965.1.1"
+	ideology = ds_type_1
+	traits = {
+		
+	}
+}
+##--## DIPLOMACY ##--##

@@ -1,0 +1,33 @@
+###############################
+### NEW OR REORGANIZED TAGS ###
+###############################
+
+### EUROPE ##
+## Continental Alliance
+FRA	= "countries/WestEur.txt"
+## British Commonwealth
+ENG = "countries/WestEur.txt"
+
+SAF = "countries/WestEur.txt"
+## German States
+GER	= "countries/WestEur.txt"
+WST	= "countries/WestEur.txt"
+PRS	= "countries/WestEur.txt"
+BAY = "countries/WestEur.txt"
+WUR = "countries/WestEur.txt"
+## Triple Monarchy
+AUS	= "countries/WestEur.txt"
+HUN = "countries/EastEur.txt"
+ILY	= "countries/EastEur.txt"
+## Mediterranean
+ITA = "countries/WestEur.txt"
+PAP = "countries/WestEur.txt"
+DAL	= "countries/EastEur.txt"
+## Eastern Europe
+RUS	= "countries/EastEur.txt"
+POL	= "countries/EastEur.txt"
+## Nordics
+SWE	= "countries/WestEur.txt"
+
+
+KOS	= "countries/Kosovo.txt"

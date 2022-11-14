@@ -9,12 +9,11 @@ state={
 		victory_points = {
 			3548 1 
 		}
-		owner = AUS
+		owner = HUN
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = SLO
-		add_core_of = AUS
+		add_core_of = HUN
 	}
 
 	provinces={

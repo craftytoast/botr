@@ -5,12 +5,12 @@ state={
 
 	history={
 		owner = RUS
+		add_core_of = RUS
 		victory_points = {
 			3152 5 
 		}
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
+			infrastructure = 3 #was: 5
 			industrial_complex = 1
 			3152 = {
 				naval_base = 3
@@ -20,15 +20,13 @@ state={
 
 		}
 		add_core_of = EST
-		add_core_of = RUS
 
 	}
 
 	provinces={
-		496 567 3152 6201 11426 
+		496 567 3152 11426 
 	}
 	manpower=275220
 	buildings_max_level_factor=1.000
 	state_category=city
-	local_supplies=0.000
 }

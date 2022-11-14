@@ -9,15 +9,14 @@ state=
 
 	history= {
 		owner = ENG
+		add_core_of = ENG
 		victory_points = {
-			9303 3 #Galway
+			9303 1 #Galway
 		}
 		buildings = {
 			infrastructure = 3 #was: 6
-			industrial_complex = 1
 		}
 		add_core_of = IRE
-		add_core_of = ENG
 	}
 
 	provinces=

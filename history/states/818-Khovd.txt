@@ -1,27 +1,22 @@
-
 state={
 	id=818
 	name="STATE_818"
+	provinces={
+		1774 4751 4777 7773 7808 7843 7870 10539 10563 10669 12520 12695 
+	}
 
 	history={
-		owner = SCH
-		victory_points = {
-			4925 7 
-		}
+		owner = MON
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			arms_factory = 1
+			infrastructure = 1
 		}
-		add_core_of = KMT
-		add_core_of = SCH
+		victory_points = {
+			7843 1 #Ulaangom
+		}
+		add_core_of = MON
 	}
-
-	provinces={
-		1367 2045 4925 8026 10132 12767 
-	}
-	manpower=12039000
+	manpower=149000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pastoral
 	local_supplies=0.000
 }

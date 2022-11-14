@@ -4,14 +4,15 @@ state={
 	name="STATE_542"
 	manpower = 234000
 	
-	state_category = rural
+	state_category = pastoral
 	
 	resources={
 		chromium=90 # was: 168
 	}
 
 	history={
-		owner = BOT
+		owner = SAF
+		add_core_of = SAF
 		buildings = {
 			infrastructure = 1
 		}

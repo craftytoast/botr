@@ -6,11 +6,23 @@ oob = "VEN_1936"
 set_technology = {
 	infantry_weapons = 1
 	gw_artillery = 1
-	early_fighter = 1
 	fuel_silos = 1
 	fuel_refining = 1
 }
 
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+	}
+}
+
+recruit_character = VEN_eleazar_lópez_contreras
+recruit_character = VEN_juan_bautista_fuenmayor
+recruit_character = VEN_luis_figueroa
+recruit_character = VEN_patricio_franco
 recruit_character = VEN_isaias_medina_angarita
 recruit_character = VEN_humberto_santabria_villa
 recruit_character = VEN_carlos_molina_talavayo
@@ -31,40 +43,71 @@ recruit_character = VEN_isidoro_ruiz_tuerro
 
 set_country_flag = monroe_doctrine
 
-set_convoys = 9
+1939.1.1 = {
+
+	add_political_power = 1198
+	add_command_power = 100
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = flexible_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	oob = "VEN_1939"
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "VEN_1939_air_bba"
+		else = {
+			set_air_oob = "VEN_1939_air_legacy"
+		}
+	}
+	set_technology = {
+		interwar_artillery = 1
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_refining2 = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_convoys = 10
 set_politics = {
-	ruling_party = pa
-	last_election = "1932.5.1"
+	ruling_party = fascism
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	ul = 10
-	pa = 49
-	cd = 0
-	ld = 0
-	sd = 2
-	sc = 12
-	ml = 27
+	democratic = 5
+	fascism = 80
+	communism = 15
 }
-create_country_leader = {
-	name = "Juan Vicente Gómez"
-	desc = "vicente_gomez_DESC"
-	picture = "gfx/leaders/VEN/Portrait_VEN_Juan_Vicente_Gomez.dds"
-	expire = "1965.1.1"
-	ideology = pa_type_1
-	traits = {
-		
-	}
-}
-create_country_leader = {
-	name = "Gustavo Machado Morales"
-	desc = "venezuelan_communist_DESC"
-	picture = "gfx/leaders/VEN/Portrait_VEN_Gustavo_Machado_Morales.dds"
-	expire = "1965.1.1"
-	ideology = ml_type_1
-	traits = {
-		
-	}
-}
-

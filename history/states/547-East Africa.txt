@@ -2,38 +2,28 @@
 state={
 	id=547
 	name="STATE_547"
+	manpower = 1085440
+	state_category=rural
 
 	history={
-		owner = BEA
+		owner = ENG
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
-			5210 = {
-				naval_base = 2
-
-			}
-			12941 = {
-				naval_base = 2
-
-			}
-
+			industrial_complex = 1
+			
 		}
 		victory_points = {
-			1939 5 
+			1939 2 
 		}
-		victory_points = {
-			5210 2 
-		}
+		
 		add_core_of = KEN
-		add_core_of = BEA
 
 	}
 
 	provinces={
-		1939 2066 5079 5160 5196 5210 6020 8133 10761 10860 10962 10976 11014 11145 12927 12941 13135 
+		1939 2066 5079 10962 13135 
 	}
-	manpower=3392000
 	buildings_max_level_factor=1.000
-	state_category=town
+	
 	local_supplies=6.000
 }

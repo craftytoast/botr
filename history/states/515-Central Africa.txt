@@ -3,10 +3,10 @@ state={
 	name="STATE_515"
 	
 	state_category = pastoral
+	impassable = yes
 
 	history={
-		owner = FWA
-		add_core_of = FWA
+		owner = FRA
 		add_core_of = NGR
 		buildings = {
 			infrastructure = 1

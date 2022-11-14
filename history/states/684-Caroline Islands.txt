@@ -6,8 +6,7 @@ state={
 	state_category = small_island
 
 	history={
-		owner = AST
-		add_core_of = AST
+		owner = JAP
 		add_core_of = FSM
 		buildings = {
 			infrastructure = 2
@@ -39,7 +38,7 @@ state={
 			}
 		}
 		victory_points = {
-			2489 1
+			2489 5 
 		}
 		victory_points = {
 			13028 1 

@@ -4,30 +4,19 @@ state={
 	name="STATE_809"
 
 	history={
-		owner = GRE
-		victory_points = {
-			4112 15 
-		}
+		owner = RUS
+		add_core_of = RUS
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
-			air_base = 2
-			4112 = {
-				naval_base = 5
-
-			}
-
+			infrastructure = 2
 		}
-		add_core_of = GRE
-		add_core_of = TUR
+		add_core_of = LAT
 
 	}
 
 	provinces={
-		4112 
+		265 3255 3525 6222 6342 11358 
 	}
-	manpower=409000
+	manpower=215500
 	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	state_category=rural
 }

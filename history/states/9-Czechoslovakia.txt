@@ -10,19 +10,19 @@ state={
 	
 	history={
 		owner = AUS
-		victory_points = { 11542 25 }
+		add_core_of = AUS
+		victory_points = { 11542 30 }
 		victory_points = { 6418 5 }
 		victory_points = { 9569 5 }
 		#victory_points = { 9541 3 }
 		buildings = {
 			infrastructure = 4
-			arms_factory = 3
+			arms_factory = 2
 			industrial_complex = 3
-			anti_air_building = 1
+			anti_air_building = 2
 			air_base = 5
 		}
 		add_core_of = CZE
-		add_core_of = AUS
 	}
 
 	provinces={

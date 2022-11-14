@@ -6,18 +6,12 @@ state={
 	state_category=rural
 
 	history={
-		owner = BUL
-		victory_points = { #Ruse
-			9612 3
-		}
-		victory_points = { #Pleven
-			3796 3
-		}
+		owner = YUG
 		buildings = {
 			infrastructure = 2
-			industrial_complex =1
 
 		}
+		add_core_of = YUG
 		add_core_of = BUL
 
 	}

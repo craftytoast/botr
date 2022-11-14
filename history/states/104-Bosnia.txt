@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = YUG
+		owner = ILY
 		victory_points = {
 			11899 5 
 		}
@@ -24,12 +24,37 @@ state={
 			industrial_complex = 2
 			air_base = 2
 		}
-		add_core_of = YUG
+		add_core_of = ILY
+		add_claim_by = YUG
 		add_core_of = BOS
 	}
 
 	provinces={
-		606 982 3985 6614 6619 6799 6957 6983 9586 9588 9591 9922 11572 11574 11741 11872 11899 
+		606 3985 6614 6619 6799 6957 6983 9586 9588 9591 9922 11572 11574 11872 11899 
+	}
+
+	local_supplies=7.0 
+}
+state={
+	id=913
+	name="STATE_913"
+	manpower =100000
+	
+	
+	state_category = pastoral
+
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = YUG
+		add_claim_by = ILY
+		add_core_of = BOS
+	}
+
+	provinces={
+		982 11741
 	}
 
 	local_supplies=7.0 
