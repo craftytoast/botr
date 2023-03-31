@@ -4,22 +4,18 @@ state={
 	name="STATE_813"
 
 	history={
-		owner = RUS
-		add_core_of = RUS
+		owner = AST
+		add_core_of = AST
 		buildings = {
 			infrastructure = 2 #was: 5
-			4640 = {
-				naval_base = 1
-
-			}
 
 		}
-		add_core_of = EST
+		add_core_of = PNG
 
 	}
 
 	provinces={
-		4640 6099 9079 11057 11127 11443 13127 
+		7269 4593 1629 1602 1617 7627 10505 12457 4635 1283 1310 12107 12123 12484 10147
 	}
 	manpower=150560
 	buildings_max_level_factor=1.000

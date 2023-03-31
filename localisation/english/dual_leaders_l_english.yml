@@ -1,0 +1,27 @@
+﻿l_english:
+    # GUI Localisation, do not edit!
+ first_leader_title:0 "[ROOT.GetFirstTitle]"
+ second_leader_title:0 "[ROOT.GetSecondTitle]"
+ dual_leader_name:0 "[ROOT.GetDualLeaderName]"
+ DEFAULT_TITLE:0 "Vacant"
+ DEFAULT_FIRST_TITLE:0 "Leader"
+ DESCRIPTION_TEST:0 "His Majesty"
+ second_leader_tt:0 "§Y[ROOT.GetDualLeaderName]§!"
+ first_leader_diplo_tt:0 "§Y[From.GetLeader]§!\n[From.GetFirstTitle] of [From.GetNameDef]"
+ second_leader_diplo_tt:0 "§Y[From.GetDualLeaderName]§!\n[From.GetSecondTitle] of [From.GetNameDef]"
+ dual_leader_desc_tt:0 "§g[From.GetDualLeaderDesc]§!"
+ first_leader_desc_tt:0 "§g[From.GetFirstLeaderDesc]§!"
+    # Nation Specific Localisation
+ FRA_EMPEROR_TITLE:0 "Emperor Of The French"
+ CABINET_CHIEF_TITLE:0 "Cabinet Chief"
+ FRA_PAUL_DOUMER:0 "Paul Doumer"
+ 
+ KING_TITLE:0 "King"
+ MINISTER_PRESIDENT_GERMAN_TITLE:0 "Minister-Präsident"
+
+ EMPEROR_TITLE:0 "Emperor"
+ CHANCELLOR_TITLE:0 "Chancellor"
+ 
+ # Names 
+ # Austria
+ AUS_OTTO_ENDER:0 "Otto Ender"

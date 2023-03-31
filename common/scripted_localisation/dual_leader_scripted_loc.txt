@@ -1,0 +1,110 @@
+# For the Dual Leader Title, Leader Names, and custom portrait!
+
+defined_text = {
+	name = GetFirstTitle
+	# France
+	text = {
+		trigger = {
+			tag = FRA
+			has_country_flag = leader_title_emperor_fra
+		}
+		localization_key = FRA_EMPEROR_TITLE
+	}
+	# Generic
+	text = {
+		trigger = {
+			tag = BAY
+			tag = WUR
+			tag = BAD
+			tag = DEN
+			#has_country_flag = leader_title_king
+		}
+		localization_key = KING_TITLE
+	}
+	text = {
+		trigger = {
+			tag = AUS
+			#has_country_flag = leader_title_emperor
+		}
+		localization_key = EMPEROR_TITLE
+	}
+	text = {
+		localization_key = DEFAULT_FIRST_TITLE
+	}
+}
+
+defined_text = {
+	name = GetSecondTitle
+	text = {
+		trigger = {
+			tag = FRA
+			has_country_flag = dual_leader_title_cabinet_chief
+		}
+		localization_key = CABINET_CHIEF_TITLE
+	}
+	text = {
+		trigger = {
+			tag = BAY
+			has_country_flag = dual_leader_title_minister_president_german
+		}
+		localization_key = MINISTER_PRESIDENT_GERMAN_TITLE
+	}
+	text = {
+		trigger = {
+			tag = AUS
+			#has_country_flag = dual_leader_title_minister_president_german
+		}
+		localization_key = CHANCELLOR_TITLE
+	}
+}
+defined_text = {
+	name = GetDualLeaderName
+	text = {
+		trigger = {
+			tag = FRA
+			has_country_flag = dual_leader_fra_paul_doumer
+		}
+		localization_key = FRA_PAUL_DOUMER
+	}
+	# Austria
+	text = { trigger = { tag = AUS has_country_flag = dual_leader_aus_otto_ender } localization_key = AUS_OTTO_ENDER }
+	text = {
+		localization_key = DEFAULT_TITLE
+	}
+}
+defined_text = {
+    name = GetDualLeaderPortrait
+	text = {
+		trigger = {
+			tag = FRA
+			has_country_flag = dual_leader_fra_paul_doumer
+		}
+		localization_key = "GFX_FRA_Paul_Doumer"
+	}
+	text = {
+		localization_key = "GFX_portrait_bg_blank"
+	}
+}
+defined_text = {
+    name = GetDualLeaderDesc
+    
+    #text = {
+    #    trigger = {
+	#		original_tag = FRA
+	#		has_government = pa
+    #    }
+    #    localization_key = "DESCRIPTION_TEST"
+	#}
+}
+
+defined_text = {
+    name = GetFirstLeaderDesc
+    
+    #text = {
+    #    trigger = {
+	#		original_tag = FRA
+	#		has_government = pa
+    #    }
+    #    localization_key = "FIRST_LEADER_DESC_TEST"
+	#}
+}

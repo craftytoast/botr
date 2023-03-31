@@ -1,7 +1,7 @@
 state={
 	id=676
 	name="STATE_676"
-	manpower = 1182741
+	manpower = 682741
 	
 	state_category = town
 	
@@ -14,12 +14,39 @@ state={
 		owner = IRQ
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 		}
 		victory_points = {
 			10106 5 
 		}
+		add_core_of = IRQ
+	}
+	
+	provinces={
+		1600 1938 10106 10804 12372 
+	}
+
+	local_supplies=0.0 
+}
+state={
+	id=918
+	name="STATE_918"
+	manpower = 450390
+	
+	state_category = pastoral
+	
+	resources={
+		oil=8 # was: 10
+	}
+
+
+	history={
+		owner = KUR
+		buildings = {
+			infrastructure = 2
+		}
 		victory_points = {
-			3916 3 
+			3916 2 
 		}
 		victory_points = {
 			6826 1
@@ -29,7 +56,7 @@ state={
 	}
 	
 	provinces={
-		1600 1938 3916 5014 6826 8123 10106 10793 10804 10811 12372 
+		10793 3916 5014 6826 8123 10811
 	}
 
 	local_supplies=0.0 

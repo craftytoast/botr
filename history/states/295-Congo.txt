@@ -3,13 +3,14 @@ state={
 	id=295
 	name="STATE_295"
 	manpower = 1947522
-	state_category = rural
+	state_category = town
 
 	history={
-		owner = BEL
+		owner = FCA
+		add_core_of = FCA
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			industrial_complex = 2
 			10968 = {
 				naval_base = 1
 
@@ -20,14 +21,14 @@ state={
 			191 1 
 		}
 		victory_points = {
-			5117 3 
+			5117 10 
 		}
 		add_core_of = COG
 
 	}
 
 	provinces={
-		5117 10025 10968 12775 12896 12925 12945 
+		5117 10968 12925 
 	}
 	
 	buildings_max_level_factor=1.000

@@ -9,10 +9,11 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = ARB
+		add_core_of = ARB
 		add_core_of = TUN
 		victory_points = {
-			11969 10 
+			11969 15
 		}
 		victory_points = {
 			9994 1 
@@ -22,7 +23,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			industrial_complex = 2
 			air_base = 8
 			9994 = {
 				naval_base = 8

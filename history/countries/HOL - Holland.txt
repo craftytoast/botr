@@ -29,8 +29,8 @@ if = {
 }
 
 set_research_slots = 3
-set_stability = 0.75
-set_war_support = 0
+set_stability = 0.4
+set_war_support = 0.2
 add_command_power = 10
 
 set_technology = {
@@ -96,8 +96,13 @@ if = {
 		target = INS
 		autonomous_state = autonomy_integrated_puppet
 	}
+	set_autonomy = {
+		target = GOL
+		autonomous_state = autonomy_integrated_puppet
+	}
 	else = {
 		puppet = INS
+		puppet = GOL
 	}
 }
 
@@ -105,18 +110,7 @@ set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
 
 add_ideas = {
 	HOL_wilhelmina
-}
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = {
-		HOL_aloof_neutrality
-		HOL_shell_shocked_spectator_5
-		HOL_de_crisisjaren_5
-		HOL_weak_government
-	}
+	HOL_national_devastation
 }
 
 recruit_character = HOL_hendrikus_colijn

@@ -13,17 +13,11 @@ state={
 		owner = SAF
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 1
-			1468 = {
-				naval_base = 2
-			}
 			4696 = {
 				naval_base = 2
 			}
-		}
-		victory_points = {
-			1468 3 
 		}
 		victory_points = {
 			4696 1 
@@ -32,7 +26,7 @@ state={
 	}
 
 	provinces={
-		1468 1494 1833 4556 4584 4696 7576 7900 8178 
+		4822 12547 10697 5231 1833 4584 4696 7576 12064 12648
 	}
 
 	local_supplies=0.0 

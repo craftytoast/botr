@@ -6,10 +6,10 @@ state={
 		rubber=5.000
 	}
 	state_category = pastoral
-	manpower = 1693974
+	manpower = 1993974
 
 	history={
-		owner = BEL
+		owner = FCA
 		buildings = {
 			infrastructure = 1
 
@@ -19,7 +19,7 @@ state={
 	}
 
 	provinces={
-		988 7219 7931 8048 10071 10883 10951 12741 12824 
+		2024 4128 7716 9986 12896 12945 988 1731 7219 7931 8016 8048 10071 10883 10858 10951 12741 12775 12824 
 	}
 	
 	buildings_max_level_factor=1.000

@@ -57,6 +57,10 @@ set_war_support = 0.30
 ################
 ### POLITICS ###
 ################
+add_ideas = {
+	AUS_the_heimwehr_threat
+	AUS_power_of_the_reichsrat
+}
 set_politics = {
 	ruling_party = cd
 	last_election = "1930.11.9"
@@ -81,7 +85,7 @@ create_country_leader = {
 }
 #################
 ### DIPLOMACY ###
-#################
+################# 
 set_autonomy = {
 	target = HUN
 	autonomy_state = autonomy_puppet

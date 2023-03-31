@@ -156,8 +156,14 @@ set_popularities = {
 	sc = 25
 	ml = 55
 }
-
-create_faction = "Spartakusbund"
+create_country_leader = {
+	name = "Ernst Thälmann"
+	#desc = "thalmann_DESC"
+	picture = "gfx/leaders/GER/Portrait_GER_Ernst_Thalmann.dds"
+	expire = "1965.1.1"
+	ideology = ml_type_1
+}
+create_faction = "Internationale Volksfront"
 add_to_faction = GER
 
 

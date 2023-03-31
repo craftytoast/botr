@@ -11,8 +11,7 @@ state={
 	}
 
 	history={
-		owner = SAF
-		add_core_of = SAF
+		owner = BOT
 		buildings = {
 			infrastructure = 1
 		}
@@ -24,7 +23,7 @@ state={
 	}
 
 	provinces={
-		1580 8214 10525 12940 12963 
+		10668 5203 1509 1580 8214 10525 12940 12963 
 	}
 
 	local_supplies=2.0 

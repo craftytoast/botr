@@ -31,13 +31,15 @@ set_popularities = {
 create_country_leader = {
 	name = "Nicholas II"
 	desc = "tbd_DESC"
-	picture = "gfx/leaders/General/TBD.dds"
+	picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds"
 	expire = "1965.1.1"
 	ideology = ds_type_1
 	traits = {
-		
+		ailing_health
 	}
 }
+
+country_event = { id = BotR_Russian_Pre_CW_Main.1 days = 2 }
 #################
 ### DIPLOMACY ###
 #################
@@ -57,5 +59,8 @@ POL = {
 
 give_guarantee = PRS
 PRS = {
+	give_military_access = RUS
+}
+YUG = {
 	give_military_access = RUS
 }

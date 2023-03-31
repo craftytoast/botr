@@ -12,20 +12,11 @@ state={
 			9517 10
 		}
 		victory_points = {
-			11499 4 #10
+			11499 2 #10
 		}
-		#victory_points = {
-		#	3530 10
-		#}
-		#victory_points = {
-		#	11640 1
-		#}
-		#victory_points = {
-		#	6712 3
-		#}
 		buildings = {
 			infrastructure = 4
-			arms_factory = 2
+			arms_factory = 1
 			industrial_complex = 2
 			air_base = 3
 
@@ -35,10 +26,46 @@ state={
 	}
 
 	provinces={
-		519 694 3530 3679 3690 3692 6542 6555 6568 6581 6712 6934 9517 9545 9655 11486 11499 11640 13126 
+		519 694 3690 6555 6934 9517 9545 9655 11486 11499 13126 
 	}
-	manpower=5086854
+	manpower=3086854
 	buildings_max_level_factor=1.000
 
 	local_supplies=0.0 
 }
+state={
+	id=917
+	name="STATE_917"
+	resources={
+		aluminium=6 # was: 10.000
+	}
+
+	state_category = large_town
+	history={
+		owner = BAD
+		victory_points = {
+			3530 7
+		}
+		victory_points = {
+			11640 1
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = BAD
+
+	}
+
+	provinces={
+		3692 6581 6712 3530 6568 6542 11640 3679
+	}
+	manpower=2029000
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}
+

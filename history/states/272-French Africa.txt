@@ -2,30 +2,26 @@
 state={
 	id=272
 	name="STATE_272"
-	manpower = 1638000
+	manpower = 1038000
 	resources={
 		steel=3 # was: 4
 	}
 	
-	state_category = pastoral
+	state_category = town
 
 	history={
-		owner = FRA
+		owner = FWA
+		add_core_of = FWA
 		add_core_of = SEN
-		victory_points = {
-			4948 5 
-		}
 		buildings = {
 			infrastructure = 2
-			air_base = 4
-			4948 = {
-				naval_base = 3
-			}
+			industrial_complex = 1
+			air_base = 2
 		}
 	}
 
 	provinces={
-		2100 4948 7972 8015 12710 12834 
+		2100 7972 8015 12710 12834 
 	}
 
 	local_supplies=1.0 

@@ -24,18 +24,17 @@ PB_Culture_Corsican_tt:0 "Corsican"
 PB_Culture_Pied_Noir_tt:0 "Pied-Noir"
 
 # GERMANY #
-PB_Culture_East_Prussian_tt:0 "East Prussian"
-PB_Culture_West_Prussian_tt:0 "West Prussian"
-PB_Culture_Saxon_tt:0 "Saxon"
-PB_Culture_Silesian_tt:0 "Silesian"
-PB_Culture_Hanoverian_tt:0 "Hanoverian"
+PB_Culture_East_Prussian_tt:0 "Prussian"
+PB_Culture_North_German_tt:0 "North German"
 PB_Culture_South_German_tt:0 "South German"
 PB_Culture_Rhenish_tt:0 "Rhenish"
 PB_Culture_Austrian_tt:0 "Austrian"
 PB_Culture_Swiss_tt:0 "Swiss"
+PB_Culture_Bohemian_tt:0 "Bohemian"
 
 # EAST SLAVS #
-PB_Culture_Polish_tt:0 "Swiss"
+PB_Culture_Polish_tt:0 "Polish"
+PB_Culture_Ukrainian_tt:0 "Ukrainian"
 
 # LOWLANDS #
 PB_Culture_Dutch_tt:0 "Dutch"

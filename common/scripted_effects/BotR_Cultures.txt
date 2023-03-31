@@ -34,23 +34,20 @@ PB_Setup_Cultures = {
 	set_variable = { 188.culture_id = 5 }
 	set_variable = { 5.culture_id = 5 }
 	set_variable = { 85.culture_id = 5 }
-	### ---- West Prussian Culture ---- ###
+	### ---- North German Culture ---- ###
 	set_variable = { 64.culture_id = 6 }
 	set_variable = { 68.culture_id = 6 }
 	set_variable = { 63.culture_id = 6 }
 	set_variable = { 62.culture_id = 6 }
 	set_variable = { 61.culture_id = 6 }
 	set_variable = { 58.culture_id = 6 }
-	### ---- Saxon Culture ---- ###
-	set_variable = { 60.culture_id = 7 }
-	set_variable = { 65.culture_id = 7 }
-	### ---- Silesian Culture ---- ###
-	set_variable = { 66.culture_id = 8 }
-	set_variable = { 67.culture_id = 8 }
-	### ---- Silesian Culture ---- ###
-	set_variable = { 59.culture_id = 9 }
-	set_variable = { 56.culture_id = 9 }
-	set_variable = { 910.culture_id = 9 }
+	set_variable = { 60.culture_id = 6 }
+	set_variable = { 65.culture_id = 6 }
+	set_variable = { 66.culture_id = 6 }
+	set_variable = { 67.culture_id = 6 }
+	set_variable = { 59.culture_id = 6 }
+	set_variable = { 56.culture_id = 6 }
+	set_variable = { 910.culture_id = 6 }
 	### ---- South German Culture ---- ###
 	set_variable = { 50.culture_id = 10 }
 	set_variable = { 52.culture_id = 10 }
@@ -68,6 +65,11 @@ PB_Setup_Cultures = {
 	set_variable = { 152.culture_id = 12 }
 	set_variable = { 153.culture_id = 12 }
 	set_variable = { 848.culture_id = 12 }
+	### ---- Bohemian Culture ---- ###
+	set_variable = { 69.culture_id = 7 }
+	set_variable = { 9.culture_id = 7 }
+	set_variable = { 74.culture_id = 7 }
+	set_variable = { 75.culture_id = 7 }
 	### ---- Swiss ---- ###
 	set_variable = { 3.culture_id = 13 }
 	set_variable = { 151.culture_id = 13 }
@@ -88,6 +90,31 @@ PB_Setup_Cultures = {
 	set_variable = { 762.culture_id = 14 }
 	set_variable = { 72.culture_id = 14 }
 	set_variable = { 88.culture_id = 14 }
+	### ---- Ukrainian ---- ###
+	set_variable = { 93.culture_id = 15 }
+	set_variable = { 199.culture_id = 15 }
+	set_variable = { 198.culture_id = 15 }
+	set_variable = { 201.culture_id = 15 }
+	set_variable = { 202.culture_id = 15 }
+	set_variable = { 203.culture_id = 15 }
+	set_variable = { 197.culture_id = 15 }
+	set_variable = { 192.culture_id = 15 }
+	set_variable = { 834.culture_id = 15 }
+	set_variable = { 196.culture_id = 15 }
+	set_variable = { 200.culture_id = 15 }
+	set_variable = { 226.culture_id = 15 }
+	set_variable = { 256.culture_id = 15 }
+	set_variable = { 193.culture_id = 15 }
+	set_variable = { 225.culture_id = 15 }
+	set_variable = { 221.culture_id = 15 }
+	set_variable = { 228.culture_id = 15 }
+	set_variable = { 227.culture_id = 15 }
+	set_variable = { 218.culture_id = 15 }
+	set_variable = { 234.culture_id = 15 }
+	set_variable = { 240.culture_id = 15 }
+	set_variable = { 260.culture_id = 15 }
+	set_variable = { 91.culture_id = 15 }
+	set_variable = { 89.culture_id = 15 }
 
 	#### LOWLANDS ####
 	### ---- Dutch ---- ###

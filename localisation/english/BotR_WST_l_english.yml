@@ -2,8 +2,8 @@
  ##### PARTY NAMES #####
  WST_ul_party:0 "Freikorps"
  WST_ul_party_long:0 "Freikorps-Bewegung (Freikorps/Free Corps Movement)"
- WST_pa_party:0 "KP (Conservatives)"
- WST_pa_party_long:0 "Kollaborationistische Partei - Konservative (Collaborationist Party - Conservatives)"
+ WST_ds_party:0 "KP (Conservatives)"
+ WST_ds_party_long:0 "Kollaborationistische Partei - Konservative (Collaborationist Party - Conservatives)"
  WST_cd_party:0 "KP (Conservatives)"
  WST_cd_party_long:0 "Kollaborationistische Partei - Konservative (Collaborationist Party - Conservatives)"
  WST_ld_party:0 "KP (Liberals)"

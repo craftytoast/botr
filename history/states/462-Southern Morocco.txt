@@ -4,10 +4,10 @@ state={
 	name="STATE_462"
 	manpower = 1865552
 	
-	state_category = wasteland
+	state_category = pastoral
 
 	history={
-		owner = FRA
+		owner = MOR
 		add_core_of = MOR
 		victory_points = {
 			4108 1 

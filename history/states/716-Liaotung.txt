@@ -9,11 +9,10 @@ state={
 		owner = MAN
 		add_core_of = CHI
 		add_core_of = MAN
-		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
-			arms_factory = 2
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 2
 			air_base = 5
 			964 = {
 				naval_base = 3
@@ -22,7 +21,7 @@ state={
 
 		}
 		victory_points = {
-			11771 3 
+			11771 15 
 		}
 
 	}

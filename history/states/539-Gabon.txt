@@ -3,7 +3,8 @@ state={
 	name="STATE_539"
 
 	history={
-		owner = FRA
+		owner = FCA
+		add_core_of = FCA
 		add_core_of = GAB
 		buildings = {
 			infrastructure = 2
@@ -13,7 +14,7 @@ state={
 	}
 
 	provinces={
-		8207 10948 13210 
+		8207 13210 
 	}
 	manpower=230290
 	buildings_max_level_factor=1.000

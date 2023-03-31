@@ -1,46 +1,32 @@
 state = {
 	id = 840 # Gojjam (including Gammu Gofa)
 	name = "STATE_840"
-	manpower = 900000
+	manpower = 1900000
 	resources = {
+		steel = 12
 	}
 	
-	state_category = pastoral
+	state_category = large_town
 
 	history = {
-		set_variable = { ETH_state_development_production_speed = -0.3 }
-		set_variable = { ETH_state_development_local_building_slots_factor = -0.3 }
-		#set_variable = { ETH_state_decentralization_defence = 0.2 }
-		#set_variable = { ETH_state_decentralization_infrastructure = -0.3 }
-		#set_variable = { ETH_state_decentralization_resources = -0.3 }
-		add_dynamic_modifier = {
-			modifier = ETH_state_development_dynamic_modifier
-		}
-		add_dynamic_modifier = {
-			modifier = ETH_state_decentralization_dynamic_modifier
-			scope = ETH
-		}
-		
 		buildings = {
-			# infrastructure = 1
+			infrastructure = 4
+			air_base = 4
+			industrial_complex = 1
+			11751 = {
+				naval_base = 5
+			}
+			11846 = {
+				naval_base = 2
+			}
 		}
-		
-		victory_points = { 
-			13242 2 
-		}
-		
-		owner = ETH
-		add_core_of = ETH
-		add_core_of = BEG
-
-		1936.6.1 = {
-			owner = ITA
-			controller = ITA
-		}
+		victory_points = { 11846 1 } #Anzio (was 5)
+		owner = ITA
+		add_core_of = ITA
 	}
 
 	provinces = {
- 		4954 13242
+		923 6862 9794 11751 11846 11882
  	}
 
 	local_supplies = 0.0 

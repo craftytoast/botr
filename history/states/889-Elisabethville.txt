@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = BEL
+		owner = POR
 		buildings = {
 			infrastructure = 1
 
@@ -19,7 +19,7 @@ state = {
 	}
 	
 	provinces = {
-		191 1516 1817 1968 4515 12795 12907 
+		191 1516 1817 1929 1968 4515 12795 12907 10930 10594 13173 1846
 	}
 
 	buildings_max_level_factor = 1.000

@@ -6,10 +6,11 @@ state={
 	
 	state_category = pastoral
 	history={
-		owner = FRA
+		owner = FWA
+		add_core_of = FWA
 		add_core_of = IVO
 		victory_points = {
-			10803 1
+			10803 5
 		}
 		buildings = {
 			infrastructure = 2

@@ -3,7 +3,10 @@ FIN_RUSSIAN = {
 	color_ui = rgb { 0 90 0 }
 }
 
-
+POL_RUSSIAN = {
+	color = rgb { 0 80 0 }
+	color_ui = rgb { 0 90 0 }
+}
 
 
 
@@ -20,8 +23,8 @@ MAL_UK = {
 }
 
 RAJ_UK = {
-	color = rgb { 170  10  10 }
-	color_ui = rgb { 200  10  10 }
+	color = rgb { 170 35 35 }
+	color_ui = rgb { 204 0 0 }
 }
 
 RAJ_FREE = {

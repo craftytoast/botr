@@ -4,51 +4,28 @@ state={
 	name="STATE_842"
 
 	history={
-		set_variable = {
-			ETH_state_development_production_speed = -0.3
-
-		}
-		set_variable = {
-			ETH_state_development_local_building_slots_factor = -0.3
-
-		}
-		add_dynamic_modifier = {
-			modifier = ETH_state_development_dynamic_modifier
-
-		}
-		add_dynamic_modifier = {
-			modifier = ETH_state_decentralization_dynamic_modifier
-			scope = ETH
-
-		}
 		buildings = {
-
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+			4948 = {
+				naval_base = 3
+				bunker = 1
+			}
 		}
+		owner = FRA
+		add_core_of = FRA
+		add_core_of = SEN
+		add_claim_by = FWA
 		victory_points = {
-			2072 2 
+			4948 10 
 		}
-		victory_points = {
-			13237 1 
-		}
-		victory_points = {
-			13238 1 
-		}
-		owner = ETH
-		add_core_of = ETH
-		add_core_of = TIG
-		add_claim_by = ERI
-		1936.6.1 = {
-			owner = ITA
-			controller = ITA
-
-		}
-
 	}
 
 	provinces={
-		2072 13237 13238 
+		4948
 	}
-	manpower=1000000
+	manpower=503000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

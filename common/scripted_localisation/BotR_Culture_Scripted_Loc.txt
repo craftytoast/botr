@@ -32,25 +32,13 @@ defined_text = {
         trigger = {
             check_variable = { culture_id = 6 }
         }
-        localization_key = "PB_Culture_West_Prussian_tt"
+        localization_key = "PB_Culture_North_German_tt"
     }
     text = { 
         trigger = {
             check_variable = { culture_id = 7 }
         }
-        localization_key = "PB_Culture_Saxon_tt"
-    }
-    text = { 
-        trigger = {
-            check_variable = { culture_id = 8 }
-        }
-        localization_key = "PB_Culture_Silesian_tt"
-    }
-    text = { 
-        trigger = {
-            check_variable = { culture_id = 9 }
-        }
-        localization_key = "PB_Culture_Hanoverian_tt"
+        localization_key = "PB_Culture_Bohemian_tt"
     }
     text = { 
         trigger = {
@@ -82,6 +70,12 @@ defined_text = {
             check_variable = { culture_id = 14 }
         }
         localization_key = "PB_Culture_Polish_tt"
+    }
+    text = { 
+        trigger = {
+            check_variable = { culture_id = 15 }
+        }
+        localization_key = "PB_Culture_Ukrainian_tt"
     }
 
     text = { 

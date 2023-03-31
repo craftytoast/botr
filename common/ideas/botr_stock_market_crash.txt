@@ -1,0 +1,29 @@
+ideas = {
+	### NAT: SPIRITS
+	country = {
+		FRA_paris_stock_market_crash = { # Will likely be turned into a dynamic modifier later
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_volunteer_expedition_bonus
+
+			modifier = {
+				stability_factor = -0.4
+				production_speed_buildings_factor = -0.5 
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard  = -0.3
+				political_power_gain = -0.25
+			}
+		}
+		
+	}
+}

@@ -21,6 +21,7 @@ state=
 			6706 1 
 		}
 		add_core_of = ROM
+		#set_demilitarized_zone = yes
 	}
 	provinces=
 	{

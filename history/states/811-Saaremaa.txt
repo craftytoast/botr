@@ -4,18 +4,26 @@ state={
 	name="STATE_811"
 
 	history={
-		owner = RUS
-		add_core_of = RUS
-		buildings = {
-			infrastructure = 1
+		owner = GOL
+		add_core_of = GOL
+		victory_points = {
+			10862 2 
 		}
-		add_core_of = EST
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10862 = {
+				naval_base = 2
+
+			}
+		}
+		add_core_of = GHA
 	}
 
 	provinces={
-		185 6201 
+		10862 12742
 	}
-	manpower=32370
+	manpower=1402000
 	buildings_max_level_factor=1.000
-	state_category=small_island
+	state_category=rural
 }

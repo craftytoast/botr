@@ -31,7 +31,7 @@ state=
 	}
 	provinces=
 	{
-1903 5139 8244 	}
+1903 5139 8244 10948	}
 
 	local_supplies=0.0 
 }

@@ -1,0 +1,12 @@
+leader_traits = {
+
+	ailing_health = {
+		random = no
+		political_power_factor = -0.1
+		stability_weekly = -0.0025
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

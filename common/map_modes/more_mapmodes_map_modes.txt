@@ -42,35 +42,19 @@ scripted_map_modes = {
 					}
 					else_if = {
 						limit = {
-							check_variable = { culture_id = 6 } # West Prussian
+							check_variable = { culture_id = 6 } # North German
 						}
-						set_temp_variable = { red = 0.282 }
-						set_temp_variable = { green = 0.282 }
-						set_temp_variable = { blue = 0.282 }
+						set_temp_variable = { red = 0.285 }
+						set_temp_variable = { green = 0.285 }
+						set_temp_variable = { blue = 0.285 }
 					}
 					else_if = {
 						limit = {
-							check_variable = { culture_id = 7 } # Saxon
+							check_variable = { culture_id = 7 } # Bohemian
 						}
-						set_temp_variable = { red = 0.325 }
-						set_temp_variable = { green = 0.325 }
-						set_temp_variable = { blue = 0.325 }
-					}
-					else_if = {
-						limit = {
-							check_variable = { culture_id = 8 } # Silesian
-						}
-						set_temp_variable = { red = 0.417 }
-						set_temp_variable = { green = 0.417 }
-						set_temp_variable = { blue = 0.417 }
-					}
-					else_if = {
-						limit = {
-							check_variable = { culture_id = 9 } # Hanoverian
-						}
-						set_temp_variable = { red = 0.385 }
-						set_temp_variable = { green = 0.385 }
-						set_temp_variable = { blue = 0.385 }
+						set_temp_variable = { red = 0.623 }
+						set_temp_variable = { green = 0.623 }
+						set_temp_variable = { blue = 0.250 }
 					}
 					else_if = {
 						limit = {
@@ -84,17 +68,17 @@ scripted_map_modes = {
 						limit = {
 							check_variable = { culture_id = 11 } # Rhenish
 						}
-						set_temp_variable = { red = 0.455 }
-						set_temp_variable = { green = 0.455 }
-						set_temp_variable = { blue = 0.455 }
+						set_temp_variable = { red = 0.410 }
+						set_temp_variable = { green = 0.410 }
+						set_temp_variable = { blue = 0.410 }
 					}
 					else_if = {
 						limit = {
 							check_variable = { culture_id = 12 } # Austrian
 						}
-						set_temp_variable = { red = 0.780 }
-						set_temp_variable = { green = 0.780 }
-						set_temp_variable = { blue = 0.780 }
+						set_temp_variable = { red = 0.760 }
+						set_temp_variable = { green = 0.760 }
+						set_temp_variable = { blue = 0.760 }
 					}
 					else_if = {
 						limit = {
@@ -112,6 +96,14 @@ scripted_map_modes = {
 						set_temp_variable = { red = 0.784 }
 						set_temp_variable = { green = 0.0 }
 						set_temp_variable = { blue = 0.0 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { culture_id = 15 } # Ukrainian
+						}
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 0.298 }
+						set_temp_variable = { blue = 0.6 }
 					}
 
 					else_if = {
