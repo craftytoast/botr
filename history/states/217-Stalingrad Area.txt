@@ -14,9 +14,10 @@ state={
 		buildings = {
 			infrastructure = 4 #was: 7
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 2
 			air_base = 1
 		}
+		set_state_flag = RCW_SOV_STATE
 		add_core_of = RUS
 		1939.1.1 = {
 			buildings = {

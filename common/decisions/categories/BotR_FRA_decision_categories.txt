@@ -1,0 +1,10 @@
+FRA_foreign_policy = {
+	icon = generic_independence
+	visible_when_empty = yes
+	allowed = {
+		always = yes
+	}
+	visible = {
+		always = yes
+	}
+}

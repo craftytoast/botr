@@ -255,6 +255,7 @@ add_to_faction = AST
 add_to_faction = NZL
 add_to_faction = SAF
 add_to_faction = OMA
+add_to_faction = EGY
 
 give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet

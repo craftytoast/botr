@@ -16,6 +16,7 @@ state={
 			industrial_complex = 1
 			air_base = 5
 		}
+		set_state_flag = RCW_RUS_STATE
 		add_core_of = RUS
 		1939.1.1 = {
 			buildings = {

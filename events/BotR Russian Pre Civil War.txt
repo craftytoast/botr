@@ -2,61 +2,213 @@
 # Russian Pre-Civil War Events
 ###########################
 
-add_namespace = BotR_Russian_Pre_CW_Main
-
-
-# Nicholas II's health fails
-country_event = {
-	id = BotR_Russian_Pre_CW_Main.1
-	title = BotR_Russian_Pre_CW_Main.1.t
-	desc = BotR_Russian_Pre_CW_Main.1.d
-	picture = GFX_report_event_yugoslavian_king_peter
-	
-	fire_only_once = yes
-	
-	immediate = {
-		country_event = { id = BotR_Russian_Pre_CW_Main.2 days = 6 }
-	}
-	
-	option = { # uh oh
-		name = BotR_Russian_Pre_CW_Main.1.a
-		ai_chance = {
-			factor = 100
-		}
-		add_stability = -0.01
-	}
-}
-# Nicky Dead
-country_event = {
-	id = BotR_Russian_Pre_CW_Main.2
-	title = BotR_Russian_Pre_CW_Main.2.t
-	desc = BotR_Russian_Pre_CW_Main.2.d
-	picture = GFX_report_event_yugoslavian_king_peter
-	
-	fire_only_once = yes
-	
-	immediate = {
-		#country_event = { id = BotR_Russian_Pre_CW_Main.2 days = 10 }
-	}
-	
-	option = { # uh oh
-		name = BotR_Russian_Pre_CW_Main.2.a
-		ai_chance = {
-			factor = 100
-		}
-		add_stability = -0.1
-		RUS = {
-			kill_ideology_leader = ds
-		}
-		create_country_leader = {
-			name = "Mikhail II"
-			desc = "tbd_DESC"
-			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_II.dds"
-			expire = "1965.1.1"
-			ideology = ds_type_1
-			traits = {
-				inexperienced_monarch
-			}
-		}
-	}
-}
+#add_namespace = BotR_Russian_Pre_CW_Main
+#add_namespace = BotR_Russian_Pre_CW_Collapse
+#
+#
+## Nicholas II's health fails
+#country_event = {
+#	id = BotR_Russian_Pre_CW_Main.1
+#	title = BotR_Russian_Pre_CW_Main.1.t
+#	desc = BotR_Russian_Pre_CW_Main.1.d
+#	picture = GFX_report_event_yugoslavian_king_peter
+#	
+#	fire_only_once = yes
+#	
+#	immediate = {
+#		country_event = { id = BotR_Russian_Pre_CW_Main.2 days = 6 }
+#	}
+#	
+#	option = { # uh oh
+#		name = BotR_Russian_Pre_CW_Main.1.a
+#		ai_chance = {
+#			factor = 100
+#		}
+#		add_stability = -0.01
+#	}
+#}
+## Nicky Dead
+#country_event = {
+#	id = BotR_Russian_Pre_CW_Main.2
+#	title = BotR_Russian_Pre_CW_Main.2.t
+#	desc = BotR_Russian_Pre_CW_Main.2.d
+#	picture = GFX_report_event_yugoslavian_king_peter
+#	
+#	fire_only_once = yes
+#	
+#	immediate = {
+#		country_event = { id = BotR_Russian_Pre_CW_Main.3 days = 9 }
+#	}
+#	
+#	option = { # uh oh
+#		name = BotR_Russian_Pre_CW_Main.2.a
+#		ai_chance = {
+#			factor = 100
+#		}
+#		add_stability = -0.1
+#		RUS = {
+#			kill_ideology_leader = ds
+#		}
+#		create_country_leader = {
+#			name = "Mikhail II"
+#			desc = "tbd_DESC"
+#			picture = "gfx/leaders/RUS/Portrait_RUS_Mikhail_II.dds"
+#			expire = "1965.1.1"
+#			ideology = ds_type_1
+#			traits = {
+#				inexperienced_monarch
+#			}
+#		}
+#	}
+#}
+## Official Coronation of Mikhail II
+#country_event = {
+#	id = BotR_Russian_Pre_CW_Main.3
+#	title = BotR_Russian_Pre_CW_Main.3.t
+#	desc = BotR_Russian_Pre_CW_Main.3.d
+#	picture = GFX_report_event_yugoslavian_king_peter
+#	
+#	fire_only_once = yes
+#	
+#	immediate = {
+#		country_event = { id = BotR_Russian_Pre_CW_Main.50 days = 214 }
+#	}
+#	
+#	option = { # hail
+#		name = BotR_Russian_Pre_CW_Main.3.a
+#		ai_chance = {
+#			factor = 100
+#		}
+#	}
+#}
+#
+## Shit hits the fan, Mikhail is assassinated
+#country_event = {
+#	id = BotR_Russian_Pre_CW_Main.50
+#	title = BotR_Russian_Pre_CW_Main.50.t
+#	desc = BotR_Russian_Pre_CW_Main.50.d
+#	picture = GFX_report_event_yugoslavian_king_peter
+#	
+#	fire_only_once = yes
+#	
+#	immediate = {
+#		country_event = { id = BotR_Russian_Pre_CW_Main.60 days = 14 }
+#	}
+#	
+#	option = { # uh oh
+#		name = BotR_Russian_Pre_CW_Main.50.a
+#		ai_chance = {
+#			factor = 100
+#		}
+#		add_stability = -0.15
+#		RUS = {
+#			kill_ideology_leader = ds
+#		}
+#		create_country_leader = {
+#			name = "Regency Council"
+#			desc = "tbd_DESC"
+#			picture = "gfx/leaders/RUS/Portrait_RUS_Regency_Council.dds"
+#			expire = "1965.1.1"
+#			ideology = ds_type_1
+#		}
+#	}
+#}
+## Decentralisation Momento
+#country_event = {
+#	id = BotR_Russian_Pre_CW_Main.60
+#	title = BotR_Russian_Pre_CW_Main.60.t
+#	desc = BotR_Russian_Pre_CW_Main.60.d
+#	picture = GFX_report_event_yugoslavian_king_peter
+#	
+#	fire_only_once = yes
+#	
+#	immediate = {
+#		country_event = { id = BotR_Russian_Pre_CW_Main.100 days = 18 }
+#	}
+#	
+#	option = { # uh oh
+#		name = BotR_Russian_Pre_CW_Main.50.a
+#		ai_chance = {
+#			factor = 100
+#		}
+#		hidden_effect = {
+#			RUS = {
+#				set_autonomy = {
+#					target = UKR
+#					autonomy_state = autonomy_dominion
+#				}
+#			}
+#			# Ukraine
+#			every_state = {
+#				limit = {
+#					has_state_flag = CONGRESS_UKRAINE_STATE
+#				}
+#				transfer_state_to = UKR
+#			}
+#			UKR = {
+#				set_cosmetic_tag = UKR_CONGRESS
+#
+#			}
+#		}
+#	}
+#}
+#
+## Russia fucking dies
+#country_event = {
+#	id = BotR_Russian_Pre_CW_Main.100
+#	title = BotR_Russian_Pre_CW_Main.100.t
+#	desc = BotR_Russian_Pre_CW_Main.100.d
+#	picture = GFX_report_event_yugoslavian_king_peter
+#	
+#	fire_only_once = yes
+#	
+#	immediate = { 
+#		
+#	}
+#	
+#	option = { # uh oh
+#		name = BotR_Russian_Pre_CW_Main.50.a
+#		ai_chance = {
+#			factor = 100
+#		}
+#		hidden_effect = {
+#			every_state = {
+#				limit = {
+#					is_owned_by = RUS
+#					has_state_flag = RCW_SOV_STATE
+#				}
+#				transfer_state_to = SOV
+#				add_core_of = SOV
+#			}
+#			every_state = {
+#				limit = {
+#					is_owned_by = RUS
+#					is_core_of = UKR
+#				}
+#				transfer_state_to = UKR
+#			}
+#			UKR = {
+#				drop_cosmetic_tag = yes
+#			}
+#			every_state = {
+#				limit = {
+#					has_state_flag = UCW_SOV_UKRAINE_STATE
+#				}
+#				set_demilitarized_zone = yes
+#			}
+#			78 = {
+#				transfer_state_to = ROM
+#			}
+#			766 = {
+#				transfer_state_to = ROM
+#			}
+#			797 = {
+#				transfer_state_to = TUR
+#			}
+#			137 = {
+#				transfer_state_to = CRI
+#				add_core_of = CRI
+#			}
+#		}
+#	}
+#}

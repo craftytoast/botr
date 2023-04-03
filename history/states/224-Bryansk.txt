@@ -2,7 +2,7 @@
 state={
 	id=224
 	name="STATE_224"
-	manpower = 1707567
+	manpower = 1207567
 	
 	state_category = town
 
@@ -13,13 +13,44 @@ state={
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
+			industrial_complex = 1
 			air_base = 2
 		}
+		set_state_flag = RCW_SOV_STATE
 		add_core_of = RUS
 	}
 
 	provinces={
-		288 315 343 371 398 3226 3306 3335 3364 3390 6305 6330 6386 6411 11229 11298 11325 
+		288 343 371 398 3226 3306 3335 3364 3390 6305 6330 6386 6411 
+	}
+
+	local_supplies=0.0 
+}
+state={
+	id=919
+	name="STATE_919"
+	manpower = 1029000
+	
+	state_category = town
+
+	history={
+		owner = RUS
+		victory_points = {
+			9288 10 
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 2
+		}
+		set_state_flag = UCW_SOV_UKRAINE_STATE
+		set_state_flag = CONGRESS_UKRAINE_STATE
+		add_core_of = RUS
+		add_core_of = UKR
+	}
+
+	provinces={
+		9288 9342 315 11229 11298 11325
 	}
 
 	local_supplies=0.0 

@@ -39,7 +39,7 @@ create_country_leader = {
 	}
 }
 
-country_event = { id = BotR_Russian_Pre_CW_Main.1 days = 2 }
+#country_event = { id = BotR_Russian_Pre_CW_Main.1 days = 2 }
 #################
 ### DIPLOMACY ###
 #################

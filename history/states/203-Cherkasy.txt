@@ -15,6 +15,7 @@ state={
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
 		}
+		set_state_flag = CONGRESS_UKRAINE_STATE
 		add_core_of = RUS
 		add_core_of = UKR
 	}

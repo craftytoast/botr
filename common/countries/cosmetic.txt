@@ -1,10 +1,15 @@
 FIN_RUSSIAN = {
-	color = rgb { 0 80 0 }
+	color = rgb { 0 90 0 }
 	color_ui = rgb { 0 90 0 }
 }
 
 POL_RUSSIAN = {
-	color = rgb { 0 80 0 }
+	color = rgb { 0 90 0 }
+	color_ui = rgb { 0 90 0 }
+}
+
+UKR_CONGRESS = {
+	color = rgb { 0 90 0 }
 	color_ui = rgb { 0 90 0 }
 }
 

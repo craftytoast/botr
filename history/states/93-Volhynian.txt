@@ -17,6 +17,7 @@ state={
 			infrastructure = 3
 
 		}
+		set_state_flag = CONGRESS_UKRAINE_STATE
 		add_core_of = RUS
 		add_core_of = UKR
 

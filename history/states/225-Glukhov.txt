@@ -14,6 +14,8 @@ state={
 			9566 1
 		}
 		owner = RUS
+		set_state_flag = UCW_SOV_UKRAINE_STATE
+		set_state_flag = CONGRESS_UKRAINE_STATE
 		buildings = {
 			infrastructure = 3 #was: 5
 		}

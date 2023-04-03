@@ -7,13 +7,14 @@ state={
 	state_category = rural
 
 	history={
-		owner = FRA
+		owner = FLV
+		add_core_of = FLV
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
 		victory_points = {
-			7151 1 
+			7151 2 
 		}
 		victory_points = {
 			11976 1 

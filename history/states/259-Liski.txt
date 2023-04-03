@@ -10,6 +10,8 @@ state={
 		victory_points = {
 			11504 3
 		}
+		set_state_flag = UCW_SOV_UKRAINE_STATE
+		set_state_flag = CONGRESS_UKRAINE_STATE
 		owner = RUS
 		buildings = {
 			infrastructure = 3 #was: 5

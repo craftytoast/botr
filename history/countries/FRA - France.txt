@@ -219,11 +219,19 @@ set_autonomy = {
 	autonomy_state = autonomy_colony
 }
 set_autonomy = {
+	target = FLV
+	autonomy_state = autonomy_colony
+}
+set_autonomy = {
 	target = ARB
 	autonomy_state = autonomy_dominion
 }
 set_autonomy = {
 	target = MOR
+	autonomy_state = autonomy_dominion
+}
+set_autonomy = {
+	target = ISR
 	autonomy_state = autonomy_dominion
 }
 

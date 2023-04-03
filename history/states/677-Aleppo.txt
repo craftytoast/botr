@@ -4,25 +4,27 @@ state={
 	name="STATE_677"
 
 	history={
-		owner = FRA
+		owner = FLV
+		add_core_of = FLV
 		victory_points = {
-			12473 3 
+			12473 5 
 		}
 		victory_points = {
-			1056 1 
+			12029 1
 		}
 		buildings = {
 			infrastructure = 2
-
+			arms_factory = 1
+			industrial_complex = 1
 		}
 		add_core_of = SYR
 
 	}
 
 	provinces={
-		1056 1072 1088 7140 7671 10087 12473 
+		1088 7140 7671 12473 12029 1549 1578 1606 1634 6883
 	}
-	manpower=1325594
+	manpower=1425594
 	buildings_max_level_factor=1.000
 	state_category=town
 

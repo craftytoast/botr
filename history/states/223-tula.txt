@@ -18,6 +18,8 @@ state={
 			synthetic_refinery = 1 #NSB
 		}
 		add_core_of = RUS
+
+		set_state_flag = RCW_SOV_STATE
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 3

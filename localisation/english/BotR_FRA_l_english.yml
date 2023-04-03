@@ -3,21 +3,40 @@
  
 
  ##### DECISIONS #####
+ FRA_foreign_policy:0 "Foreign Policy"
+ FRA_foreign_policy_desc:0 "French Foreign Policy cat description"
+
+ FRA_israel_independence_mission:0 "Upcoming Israeli Independence Referendum"
 
  ##### FOCUSES #####
- 
+ FRA_Focus_Vive_La_France_q:0 "Vive La France?"
+ FRA_Focus_Vive_La_France_q_desc:0 "WIP"
+ FRA_Focus_Lunch_With_Israel:0 "Lunch With The Israeli President"
 
  ##### EVENTS #####
- 
+ BotR_France_Main.1.t:0 "Vive la France?"
+ BotR_France_Main.1.d:0 "WIP"
+ BotR_France_Main.1.a:0 "It is yet to be seen..."
+
+ BotR_France_Foreign_Policy.1.t:0 "Talks With President Weizmann"
+ BotR_France_Foreign_Policy.1.d:0 "WIP"
+ BotR_France_Foreign_Policy.1.a:0 "We are true to our word:\ the referendum shall be scheduled"
+ BotR_France_Foreign_Policy.1.b:0 "Times have changed, and the promise of Israeli determination with it"
 
  ##### IDEAS/D.M's #####
  FRA_paris_stock_market_crash:0 "Aftermath of the Paris Stock Market Crash"
 
  ##### SCRIPTED LOC #####
-
+ fra_israel_gains_independence_tt:0 "Israel will become a free nation"
+ fra_israel_remains_dominion_tt:0 "Israel will remain with us as a dominion"
 
 
  FRA_focus_autocomplete_tt_1:0 "This focus will be completed by event"
+ isr_weizmann_elected_president_tt:0 "Israel has elected its next President"
+
+ #########################
+ #### FRENCH COLONIES ####
+ #########################
  
  
  

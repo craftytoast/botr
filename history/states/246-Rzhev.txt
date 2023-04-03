@@ -11,6 +11,7 @@ state={
 
 	history={
 		owner = RUS
+		set_state_flag = RCW_RUS_STATE
 		victory_points = {
 			11349 1
 		}

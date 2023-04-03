@@ -21,6 +21,15 @@ FCA = {
 	color = rgb { 31 72 160 }
 	color_ui = rgb { 26 65 150 }
 }
+FLV = {
+	color = rgb { 31 72 160 }
+	color_ui = rgb { 26 65 150 }
+}
+ISR = {
+	color = rgb { 195 195 195 }
+	color_ui = rgb { 195 195 195 }
+}
+
 
 HOL = {	
 	color = rgb { 203 138 74 }
@@ -573,10 +582,6 @@ KOR = {
 	color = rgb { 255  240  195 }
 	color_ui = rgb { 255 248 229 }	
 }
-ISR = {
-	color = rgb { 152  130  191 }
-	color_ui = rgb { 152  130  191 }
-}
 CSA = {
 	color = rgb { 145 163 176  }
 	color_ui = rgb { 186 205 219 }
@@ -814,8 +819,8 @@ KAR = {
 	color_ui = rgb { 0 128 43 }
 }
 CRI = {
-	color = rgb { 255 80 80 }
-	color_ui = rgb { 204 0 0 }
+	color = rgb { 0 90 0 }
+	color_ui = rgb { 0 90 0 }
 }
 TAT = {
 	color = rgb { 255 51 0 }

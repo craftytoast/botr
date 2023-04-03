@@ -2,9 +2,9 @@
 state={
 	id=542
 	name="STATE_542"
-	manpower = 234000
+	manpower = 264000
 	
-	state_category = pastoral
+	state_category = rural
 	
 	resources={
 		chromium=90 # was: 168
@@ -23,7 +23,7 @@ state={
 	}
 
 	provinces={
-		10668 5203 1509 1580 8214 10525 12940 12963 
+		13217 10668 5203 1509 1580 8214 10525 12940 12963 
 	}
 
 	local_supplies=2.0 

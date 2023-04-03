@@ -15,6 +15,7 @@ state={
 		victory_points = {
 			525 25
 		}
+		set_state_flag = CONGRESS_UKRAINE_STATE
 		buildings = {
 			infrastructure = 4 #was: 7
 			arms_factory = 2

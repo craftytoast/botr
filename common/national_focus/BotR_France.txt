@@ -1,0 +1,12 @@
+focus_tree = {
+	id = FRA_starting_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = FRA
+		}
+	}
+	initial_show_position = { focus = FRA_Focus_Vive_La_France_q }
+	shared_focus = FRA_Focus_Vive_La_France_q
+}

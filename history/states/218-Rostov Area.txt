@@ -11,6 +11,7 @@ state={
 		victory_points = {
 			9417 15 
 		}
+		set_state_flag = RCW_SOV_STATE
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1

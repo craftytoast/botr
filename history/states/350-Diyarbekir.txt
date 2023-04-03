@@ -4,7 +4,8 @@ state={
 	name="STATE_350"
 
 	history={
-		owner = FRA
+		owner = FLV
+		add_core_of = FLV
 		victory_points = {
 			4512 1 
 		}
@@ -14,7 +15,6 @@ state={
 
 		}
 		add_core_of = KUR
-		add_claim_by = FRA
 	}
 
 	provinces={

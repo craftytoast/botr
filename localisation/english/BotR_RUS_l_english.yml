@@ -27,6 +27,12 @@
  BotR_Russian_Pre_CW_Main.2.t:0 "The Coldest Day"
  BotR_Russian_Pre_CW_Main.2.d:0 ""
  BotR_Russian_Pre_CW_Main.2.a:0 "Goodbye, My Tsar"
+ BotR_Russian_Pre_CW_Main.3.t:0 "Coronation Of Mikhail II"
+ BotR_Russian_Pre_CW_Main.3.d:0 ""
+ BotR_Russian_Pre_CW_Main.3.a:0 "All Hail Mikhail II!"
+ BotR_Russian_Pre_CW_Main.50.t:0 "Assassination Of The Tsar!"
+ BotR_Russian_Pre_CW_Main.50.d:0 ""
+ BotR_Russian_Pre_CW_Main.50.a:0 "Blyat!"
 
  ##### IDEAS/D.M's #####
  
@@ -34,8 +40,8 @@
  ##### SCRIPTED LOC #####
 
 
-
- FRA_focus_autocomplete_tt_1:0 "This focus will be completed by event"
+ ##### OTHER #####
+ ailing_health:0 "Ailing Health"
  
  
  

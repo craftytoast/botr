@@ -1,0 +1,45 @@
+#############################
+#### STARTING FOCUS TREE ####
+#############################
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_Vive_La_France_q
+	icon = GFX_FRA_Focus_Vive_La_France_q
+	x = 8
+	y = 0
+	cost = 1
+	available = {
+		always = no
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_Lunch_With_Israel
+	icon = GFX_FRA_Focus_Lunch_With_Israel
+	x = 6
+	y = 1
+	cost = 3
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = isr_weizmann_elected_president_tt
+			ISR = {
+				has_country_flag = ISR_weizmann_elected_flag
+			}
+		}
+	}
+	prerequisite = {
+		focus = FRA_Focus_Vive_La_France_q
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		country_event = { hours = 2 id = BotR_France_Foreign_Policy.1 }
+	}
+}

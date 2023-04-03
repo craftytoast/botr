@@ -8,18 +8,19 @@ state={
 	resources={
 		steel=16 # was: 28
 	}
-
+	
 	history={
 		owner = RUS
 		victory_points = {
-			6380 50 
+			6380 30 
 		}
 		buildings = {
 			infrastructure = 4 #was: 8
 			arms_factory = 4
-			industrial_complex = 5
+			industrial_complex = 3
 			air_base = 10
 		}
+		set_state_flag = RCW_RUS_STATE
 		add_core_of = RUS
 	}
 

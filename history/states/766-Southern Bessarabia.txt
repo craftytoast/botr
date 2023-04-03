@@ -10,6 +10,7 @@ state=
 		victory_points = {
 			6727 1
 		}
+		set_state_flag = CONGRESS_UKRAINE_STATE
 		add_core_of = MOL
 		owner = RUS
 		add_core_of = RUS

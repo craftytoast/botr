@@ -11,6 +11,7 @@ state={
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
+		set_state_flag = RCW_SOV_STATE
 		add_core_of = RUS
 		victory_points = {
 			11476 1
