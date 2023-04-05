@@ -14,7 +14,8 @@
     # Nation Specific Localisation
  FRA_EMPEROR_TITLE:0 "Emperor Of The French"
  CABINET_CHIEF_TITLE:0 "Cabinet Chief"
- FRA_PAUL_DOUMER:0 "Paul Doumer"
+ FRA_LOUIS_MARIN:0 "Louis Marin"
+ FRA_VACANT_POSITION:0 "Vacant Position"
  
  KING_TITLE:0 "King"
  MINISTER_PRESIDENT_GERMAN_TITLE:0 "Minister-Präsident"

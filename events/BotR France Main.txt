@@ -2,50 +2,140 @@
 # 
 ###########################
 
-#add_namespace = BotR_France_Main
-#add_namespace = BotR_France_Foreign_Policy
-#
-#
-## Starting Event
-#country_event = {
-#	id = BotR_France_Main.1
-#	title = BotR_France_Main.1.t
-#	desc = BotR_France_Main.1.d
-#	picture = GFX_report_event_election_vote
-#	
-#	fire_only_once = yes
-#	
-#	#immediate = {
-#	#	
-#	#}
-#	
-#	option = { #ok
-#		name = BotR_France_Main.1.a
-#		ai_chance = {
-#			factor = 100
-#		}
-#		complete_national_focus = FRA_Focus_Vive_La_France_q
-#	}
-#}
-#
-## Talks for Israel independence
-#country_event = {
-#	id = BotR_France_Foreign_Policy.1
-#	title = BotR_France_Foreign_Policy.1.t
-#	desc = BotR_France_Foreign_Policy.1.d
-#	picture = GFX_report_event_election_vote
-#	
-#	fire_only_once = yes
-#	
-#	#immediate = {
-#	#	
-#	#}
-#	
-#	option = { # they can have a referendum
-#		name = BotR_France_Foreign_Policy.1.a
-#		ai_chance = {
-#			factor = 90
-#		}
-#		activate_mission = FRA_israel_independence_mission
-#	}
-#}
+add_namespace = BotR_France
+add_namespace = BotR_France_Foreign_Policy
+
+
+# Starting Event
+country_event = {
+	id = BotR_France.1
+	title = BotR_France.1.t
+	desc = BotR_France.1.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	#immediate = {
+	#	
+	#}
+	
+	option = { #ok
+		name = BotR_France.1.a
+		ai_chance = {
+			factor = 100
+		}
+		complete_national_focus = FRA_Focus_Vive_La_France_q
+	}
+}
+# Foreboding the economic crash
+country_event = {
+	id = BotR_France.19
+	title = BotR_France.19.t
+	desc = BotR_France.19.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	#immediate = {
+	#	
+	#}
+	
+	option = { # dang
+		name = BotR_France.19.a
+		ai_chance = {
+			factor = 100
+		}
+		if = {
+			limit = {
+				FRA = {
+					NOT = {
+						has_completed_focus = FRA_Focus_Calm_Before_The_Storm
+					}
+				}
+			}
+			unlock_national_focus = FRA_Focus_Calm_Before_The_Storm
+		}
+		add_stability = -0.01
+	}
+}
+# Uh oh the economy shit itself
+country_event = {
+	id = BotR_France.20
+	title = BotR_France.20.t
+	desc = BotR_France.20.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			set_global_flag = paris_stock_market_crashed_flag
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	
+	option = { # sacre bleu
+		name = BotR_France.20.a
+		ai_chance = {
+			factor = 100
+		}
+		complete_national_focus = FRA_Focus_The_Great_Recession
+		add_ideas = FRA_great_recession
+	}
+}
+# Louis Marin resigns cause everyone thinks hes a fucktard
+country_event = {
+	id = BotR_France.21
+	title = BotR_France.21.t
+	desc = BotR_France.21.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		
+	}
+	
+	option = { # fuck off
+		name = BotR_France.21.a
+		ai_chance = {
+			factor = 100
+		}
+		clr_country_flag = dual_leader_fra_louis_marin
+		set_country_flag = dual_leader_fra_vacant_position
+	}
+}
+
+
+# Talks for Israel independence
+country_event = {
+	id = BotR_France_Foreign_Policy.1
+	title = BotR_France_Foreign_Policy.1.t
+	desc = BotR_France_Foreign_Policy.1.d
+	is_triggered_only = yes
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+	
+	#immediate = {
+	#	
+	#}
+	
+	option = { # they can have a referendum
+		name = BotR_France_Foreign_Policy.1.a
+		ai_chance = {
+			factor = 90
+		}
+		activate_mission = FRA_israel_independence_mission
+	}
+	option = { # no independence for you
+		name = BotR_France_Foreign_Policy.1.b
+		ai_chance = {
+			factor = 20
+		}
+	}
+}

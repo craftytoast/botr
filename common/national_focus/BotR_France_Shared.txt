@@ -43,3 +43,117 @@ shared_focus = {
 		country_event = { hours = 2 id = BotR_France_Foreign_Policy.1 }
 	}
 }
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_Promote_Frenchification_Schemes_In_Rhine
+	icon = GFX_FRA_Focus_Promote_Frenchification_Schemes_In_Rhine
+	x = 8
+	y = 1
+	cost = 3
+	available = {
+		
+	}
+	prerequisite = {
+		focus = FRA_Focus_Vive_La_France_q
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		42 = { add_manpower = 10000 }
+		51 = { add_manpower = 10000 }
+		custom_effect_tooltip = fra_rhineland_bit_more_french
+		hidden_effect = { # to code flavour event
+			#if = {
+			#	limit = {
+			#		NOT = {
+			#			has_global_flag = flavour_events_disabled
+			#		}
+			#	}
+			#	country_event = { random_days = 5 id = BotR_France_Flavour.130 }
+			#}
+		}
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_Reinforce_The_Bavarian_Garrison
+	icon = GFX_FRA_Focus_Reinforce_The_Bavarian_Garrison
+	x = 10
+	y = 1
+	cost = 3
+	available = {
+		BAY = {
+			exists = yes
+		}
+	}
+	bypass = {
+		BAY = {
+			exists = no
+		}
+	}
+	prerequisite = {
+		focus = FRA_Focus_Vive_La_France_q
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		add_manpower = -2000
+		send_equipment = {
+			amount = 250
+			equipment = infantry_equipment
+			target = BAY
+		}
+		BAY = {
+			add_manpower = 2000
+		}
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_Calm_Before_The_Storm
+	icon = GFX_FRA_Focus_Promote_Frenchification_Schemes_In_Rhine
+	x = 8
+	y = 2
+	cost = 2
+	available = {
+		
+	}
+	prerequisite = {
+		focus = FRA_Focus_Lunch_With_Israel
+	}
+	prerequisite = {
+		focus = FRA_Focus_Reinforce_The_Bavarian_Garrison
+	}
+	prerequisite = {
+		focus = FRA_Focus_Promote_Frenchification_Schemes_In_Rhine
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_The_Great_Recession
+	icon = GFX_FRA_Focus_The_Great_Recession
+	x = 8
+	y = 3
+	cost = 1
+	allow_branch = { has_global_flag = paris_stock_market_crashed_flag }
+	available = {
+		always = no
+	}
+	prerequisite = {
+		focus = FRA_Focus_Calm_Before_The_Storm
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		
+	}
+}

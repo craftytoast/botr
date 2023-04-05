@@ -1,0 +1,59 @@
+﻿###########################
+# French Events
+###########################
+
+add_namespace = botr_france
+
+# Japan demands Indochina
+country_event = {
+	id = botr_france.1 
+	title = botr_france.1.t
+	desc = botr_france.1.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	
+	option = { # Accept demands
+		name = botr_france.1.a
+		ai_chance = {
+			factor = 25 
+		} 
+		
+	}
+	option = { # Refuse
+		name = france.1.b
+		ai_chance = { 
+			factor = 25 
+		}
+	}
+}
+# Japan demands Indochina
+country_event = {
+	id = botr_france.2 
+	title = botr_france.2.t
+	desc = botr_france.2.d
+	picture = GFX_report_event_japan_army_mountainside
+	
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			SOV = {
+				transfer_state = 219
+			}
+		}
+	}
+	
+	option = { # Accept demands
+		name = botr_france.2.a
+		ai_chance = {
+			factor = 25 
+		} 
+		
+	}
+	option = { # Refuse
+		name = france.2.b
+		ai_chance = { 
+			factor = 25 
+		}
+	}
+}

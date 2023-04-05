@@ -40,8 +40,12 @@ spriteTypes = {
 	# Country Specific Portraits
 	
 	spriteType = {
-		name = "GFX_FRA_Paul_Doumer"
-		texturefile = "gfx/leaders/FRA/Portrait_FRA_Paul_Doumer.dds"
+		name = "GFX_FRA_Louis_Marin"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Louis_Marin.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_Vacant_Position"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Vacant_Position.dds"
 	}
 
 }

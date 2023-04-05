@@ -140,8 +140,8 @@
  SWI_ADJ:0 "Swiss"
 
  ## Iberia
- SPR:0 "Second Spanish Republic"
- SPR_DEF:0 "The Second Spanish Republic"
+ SPR:0 "Kingdom Of Spain"
+ SPR_DEF:0 "The Kingdom Of Spain"
  SPR_ADJ:0 "Spanish"
  POR:0 "Kingdom Of Portugal"
  POR_DEF:0 "The Kingdom Of Portugal"

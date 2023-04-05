@@ -151,16 +151,17 @@ set_politics = {
 }
 set_popularities = {
 	ul = 10
-	ds = 23
-	cd = 43
-	ld = 6
-	sd = 15
+	ds = 20
+	cd = 40
+	ld = 10
+	sd = 10
 	sc = 5
-	ml = 3
+	ml = 5
 }
+country_event = { hours = 2 id = BotR_France.1 }
 set_country_flag = leader_title_emperor_fra
 set_country_flag = dual_leader_title_cabinet_chief
-set_country_flag = dual_leader_fra_paul_doumer
+set_country_flag = dual_leader_fra_louis_marin
 create_country_leader = {
 	name = "Louis-Napoléon IV"
 	desc = "napoleon_iv_DESC"
@@ -203,6 +204,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = sc_type_1
 }
+
 #################
 ### DIPLOMACY ###
 #################

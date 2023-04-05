@@ -59,13 +59,9 @@ defined_text = {
 }
 defined_text = {
 	name = GetDualLeaderName
-	text = {
-		trigger = {
-			tag = FRA
-			has_country_flag = dual_leader_fra_paul_doumer
-		}
-		localization_key = FRA_PAUL_DOUMER
-	}
+	# France
+	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_louis_marin } localization_key = FRA_LOUIS_MARIN }
+	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_vacant_position } localization_key = FRA_VACANT_POSITION }
 	# Austria
 	text = { trigger = { tag = AUS has_country_flag = dual_leader_aus_otto_ender } localization_key = AUS_OTTO_ENDER }
 	text = {
@@ -74,13 +70,9 @@ defined_text = {
 }
 defined_text = {
     name = GetDualLeaderPortrait
-	text = {
-		trigger = {
-			tag = FRA
-			has_country_flag = dual_leader_fra_paul_doumer
-		}
-		localization_key = "GFX_FRA_Paul_Doumer"
-	}
+	# France
+	text = {trigger = {	tag = FRA has_country_flag = dual_leader_fra_louis_marin } localization_key = "GFX_FRA_Louis_Marin" }
+	text = {trigger = {	tag = FRA has_country_flag = dual_leader_fra_vacant_position } localization_key = "GFX_FRA_Vacant_Position" }
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}

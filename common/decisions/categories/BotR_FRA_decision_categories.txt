@@ -7,4 +7,5 @@ FRA_foreign_policy = {
 	visible = {
 		always = yes
 	}
+	priority = 100
 }

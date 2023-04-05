@@ -1,7 +1,7 @@
 ideas = {
 	### NAT: SPIRITS
 	country = {
-		FRA_paris_stock_market_crash = { # Will likely be turned into a dynamic modifier later
+		FRA_great_recession = { # Will likely be turned into a dynamic modifier later
 
 			allowed = {
 				original_tag = FRA

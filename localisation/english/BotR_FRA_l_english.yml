@@ -12,11 +12,29 @@
  FRA_Focus_Vive_La_France_q:0 "Vive La France?"
  FRA_Focus_Vive_La_France_q_desc:0 "WIP"
  FRA_Focus_Lunch_With_Israel:0 "Lunch With The Israeli President"
+ FRA_Focus_Promote_Frenchification_Schemes_In_Rhine:0 "Promote Frenchification Schemes In The Rhine"
+ FRA_Focus_Promote_Frenchification_Schemes_In_Rhine_desc:0 ""
+ FRA_Focus_Reinforce_The_Bavarian_Garrison:0 "Reinforce The Bavarian Garrison"
+ FRA_Focus_Reinforce_The_Bavarian_Garrison_desc:0 "Since the German Civil War and the rise of the communist regime over huge swathes of Germany, we have maintained a garrison of 10,000 in Bavaria, to protect it from the claws of the revolution. After a recent incursion from the communists, the commandant is requesting reinforcments to bolster his forces."
+ FRA_Focus_Calm_Before_The_Storm:0 "Calm Before The Storm..."
+ FRA_Focus_Calm_Before_The_Storm_desc:0 ""
+ FRA_Focus_The_Great_Recession:0 "The Great Recession"
+ FRA_Focus_The_Great_Recession_desc:0 ""
 
  ##### EVENTS #####
- BotR_France_Main.1.t:0 "Vive la France?"
- BotR_France_Main.1.d:0 "WIP"
- BotR_France_Main.1.a:0 "It is yet to be seen..."
+ BotR_France.1.t:0 "Vive la France?"
+ BotR_France.1.d:0 "WIP"
+ BotR_France.1.a:0 "It is yet to be seen..."
+
+ BotR_France.19.t:0 "Stock Prices Fall"
+ BotR_France.19.d:0 "WIP"
+ BotR_France.19.a:0 "It's Happening"
+ BotR_France.20.t:0 "The Great Recession"
+ BotR_France.20.d:0 "WIP"
+ BotR_France.20.a:0 "Shit."
+ BotR_France.21.t:0 "Louis Marin Resigns"
+ BotR_France.21.d:0 "WIP"
+ BotR_France.21.a:0 "Good"
 
  BotR_France_Foreign_Policy.1.t:0 "Talks With President Weizmann"
  BotR_France_Foreign_Policy.1.d:0 "WIP"
@@ -24,12 +42,15 @@
  BotR_France_Foreign_Policy.1.b:0 "Times have changed, and the promise of Israeli determination with it"
 
  ##### IDEAS/D.M's #####
- FRA_paris_stock_market_crash:0 "Aftermath of the Paris Stock Market Crash"
+ FRA_great_recession:0 "The Great Recession"
 
  ##### SCRIPTED LOC #####
+
+ ##### TOOLTIPS #####
  fra_israel_gains_independence_tt:0 "Israel will become a free nation"
  fra_israel_remains_dominion_tt:0 "Israel will remain with us as a dominion"
 
+ fra_rhineland_bit_more_french:0 "The Rhineland will become a bit more §BFrench§!"
 
  FRA_focus_autocomplete_tt_1:0 "This focus will be completed by event"
  isr_weizmann_elected_president_tt:0 "Israel has elected its next President"
