@@ -223,8 +223,8 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 242 205 94 }
-	color_ui = rgb { 255 255 122 }
+	color = rgb { 237 122 0	 }
+	color_ui = rgb { 239 152 59 }
 }
 ROM = {
 	color = rgb { 215 196 72 }
