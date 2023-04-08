@@ -44,6 +44,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/FRA/Portrait_FRA_Louis_Marin.dds"
 	}
 	spriteType = {
+		name = "GFX_GER_Walter_Ulbricht"
+		texturefile = "gfx/leaders/FRA/Portrait_GER_Walter_Ulbricht.dds"
+	}
+	spriteType = {
 		name = "GFX_FRA_Vacant_Position"
 		texturefile = "gfx/leaders/FRA/Portrait_FRA_Vacant_Position.dds"
 	}

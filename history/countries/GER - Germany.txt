@@ -156,6 +156,10 @@ set_popularities = {
 	sc = 25
 	ml = 55
 }
+
+set_country_flag = leader_title_chairman_ger
+set_country_flag = dual_leader_title_vice_chairman_ger
+set_country_flag = dual_leader_ger_walter_ulbricht
 create_country_leader = {
 	name = "Ernst Thälmann"
 	#desc = "thalmann_DESC"
