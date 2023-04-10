@@ -7,6 +7,6 @@ focus_tree = {
 			tag = FRA
 		}
 	}
-	initial_show_position = { focus = FRA_Focus_Vive_La_France_q }
-	shared_focus = FRA_Focus_Vive_La_France_q
+	initial_show_position = { focus = FRA_Focus_Marin_Ministry }
+	shared_focus = FRA_Focus_Marin_Ministry
 }

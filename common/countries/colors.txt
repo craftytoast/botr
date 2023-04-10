@@ -362,10 +362,16 @@ PRU = {
 	color = rgb { 170  10  10 }
 	color_ui = rgb { 255 246 255 }
 }
+
 SAU = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 0 100 50 }
+	color_ui = rgb { 0 100 50 }
 }
+HEJ = {
+	color = rgb { 109 53 0 }
+	color_ui = rgb { 109 53 0 }
+}
+
 SIA = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }

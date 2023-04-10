@@ -1,6 +1,9 @@
 ﻿l_english:
  ##### PARTY NAMES #####
  
+ ##### LEADERS #####
+ FRA_napoleon_iv:0 "Louis-Napoléon IV"
+ napoleon_iv_desc:0 "Born:\ March 16th, 1856n-----nIf you were asked to explain the life of Louis-Napoleon IV, not one single person could properly explain all of the intrigues and experiences the ageing emperor has been through, not even himself. Born the only son of Napoleon III, from birth he was the heir to the French throne. When he was 16, his father died, and he was proclaimed the Emperor of France. Much of his early reign was characterised by the young emperor, aided by the cabinet and unilateral support from the political bodies, exploiting the nations around him and strengthening the empire. Some old souls might even recall when he brought Europe to the brink of war with the United Kingdom in the Wallonia Crisis, carving the nation of Belgium between themselves and the Dutch. He was not yet done, however, as he personally organised the Paris Conference in 1884 to set the stage for the colonisation of Africa between the colonial powers.nnIn 1913, well into his rule, tragedy struck when his firstborn son Jerome was assassinated in the Rhineland. Reeling from the personal devastation the loss had on him, the emperor blamed the Prussians and claimed they were behind the assassination. That was the match that lit the tense powderkeg of Europe and sent the continent spiralling into five years of bloody, hellish combat. The French-led ‘Continental Entente’ battered the storm better than the opposing forces, claiming victory at the end of 1918. With the Treaty of Koln coming into effect with the stroke of a pen, Napoleon IV finally achieved vengeance for his son.nnNowadays, the emperor is a spent man. His numbered days are spent at the Tuileries Palace in Paris, away from the public spotlight. It is no secret that the time he has left is finite. His two remaining sons take radically different positions on how to run the empire after their fathers death, providing the perfect storm for chaos to ensue after Napoleon’s death. The question is now, §Ycan the empire survive without him?§!"
 
  ##### DECISIONS #####
  FRA_foreign_policy:0 "Foreign Policy"
@@ -20,6 +23,20 @@
  FRA_Focus_Calm_Before_The_Storm_desc:0 ""
  FRA_Focus_The_Great_Recession:0 "The Great Recession"
  FRA_Focus_The_Great_Recession_desc:0 ""
+ FRA_Focus_The_Chaos_Subsides:0 "The Chaos Subsides"
+ FRA_Focus_The_Chaos_Subsides_desc:0 "At last, the near anarchy that surrounded the nation immediately following the economic crash has died down."
+ FRA_Focus_The_Road_To_Recovery:0 "Road To Recovery"
+ FRA_Focus_The_Road_To_Recovery_desc:0 ""
+ 
+ FRA_Focus_Petains_Plan:0 "Stability Above All"
+ FRA_Focus_Petains_Plan_desc:0 ""
+ FRA_Focus_Petain_Declaring_Marshal_Law:0 "Declaring Marshal Law?"
+ FRA_Focus_Petain_Declaring_Marshal_Law_desc:0 ""
+ FRA_Focus_Petain_Bust_The_Socialist_Brigades:0 "Bust The Socialist Brigades"
+ FRA_Focus_Petain_Economics_One_O_One:0 "Economics 101"
+ FRA_Focus_Petain_Economics_One_O_One_desc:0 ""
+ 
+ 
 
  ##### EVENTS #####
  BotR_France.1.t:0 "Vive la France?"
@@ -35,14 +52,40 @@
  BotR_France.21.t:0 "Louis Marin Resigns"
  BotR_France.21.d:0 "WIP"
  BotR_France.21.a:0 "Good"
+ BotR_France.22.t:0 "The Next Cabinet Chief"
+ BotR_France.22.d:0 "WIP"
+ BotR_France.22.a:0 "Philippe Petain, the 'Lion of Essen'"
+ BotR_France.22.b:0 "Pierre-Etienne Flandin, the conservative nominee"
+ BotR_France.22.c:0 "Camille Chautemps, the radical option"
+
+ BotR_France_Foreign_Policy.1.t:0 "Delcaring Marshal Law?"
+ BotR_France_Foreign_Policy.1.d:0 "WIP"
+ BotR_France_Foreign_Policy.1.a:0 "Now is not the time for such drastic measures"
+ BotR_France_Foreign_Policy.1.b:0 "Marshal Petain shall institue marshal law"
+ BotR_France_Foreign_Policy.2.t:0 "Arrest Of Paul Vaillant-Couturier"
+ BotR_France_Foreign_Policy.2.d:0 "This morning, authorities in Paris arrested Paul Vaillant-Couturier. Vaillant-Couturier has quite the history, being one of only three Communist deputies in the Chamber of Deputies between 1924 and 1932. More recently, he has been a key journalist and propaganda distributor for the Communist Party. After the crash of 1934, not only has Paul had a field day in tearing the government to shreds in a series of articles, but he has also become a key organiser and leader of the Socialist 'Unemployed Battalion' militias. Following the arrest, there have been many critizing the government for the supposed 'unlawful' arrest."
+ BotR_France_Foreign_Policy.2.a:0 "One Less Communist To Deal With"
 
  BotR_France_Foreign_Policy.1.t:0 "Talks With President Weizmann"
  BotR_France_Foreign_Policy.1.d:0 "WIP"
  BotR_France_Foreign_Policy.1.a:0 "We are true to our word:\ the referendum shall be scheduled"
  BotR_France_Foreign_Policy.1.b:0 "Times have changed, and the promise of Israeli determination with it"
+ BotR_France_Foreign_Policy.1.t:0 "Reevaluating Our Position In The Levant"
+ BotR_France_Foreign_Policy.1.d:0 "WIP"
+ BotR_France_Foreign_Policy.1.a:0 "We Will Do Everything In Our Power To Maintain Authority There"
+ BotR_France_Foreign_Policy.1.b:0 "It's High Time We Begining Handing Over Local Authority To The Inhabitants"
 
  ##### IDEAS/D.M's #####
+ FRA_the_lost_generation:0 "The Lost Generation"
+ FRA_the_lost_generation_desc:0 "The bitter anti-war mood that has infected the people of France finds its roots in the muddy trenches of the Great European War. When the nations of Europe went to war in 1913, the soldiers were told that it would be a quick venture to Berlin and back, surely only lasting a handful of months. What followed was not that, but over five years of fighting in disease-ridden trenches for measly stretches of land. In the wake of the war, 1.5 million French soldiers lay dead, and an untold amount more injured or maimed. French society deemed these men ‘The Lost Generation’, for even if they came back they were never truly the same. As such, the public is strongly opposed to even the thought of another war."
+ FRA_imperial_overextension:0 "Imperial Overextension"
+ FRA_imperial_overextension_desc:0 "When Napoleon IV led the empire on a colonisation spree throughout Africa and Asia, the reason was not driven entirely by the value these areas possess, but the prestige they brought the nation as a whole. Perhaps that’s why, year after year, the empire has to spend more that it generates from these colonies to even sustain them. Every policymaker in the empire, no matter their experience, knows that something has to change soon, lest the empire comes crumbling down not from outside aggressors, but their own failure to maintain these lands."
+ FRA_eight_decades_of_bonaparte:0 "Eight Decades Of Bonaparte"
+ FRA_eight_decades_of_bonaparte_desc:0 "For over eight decades, since the restoration of the Second Empire, a Bonaparte has been at the helm. No matter who you ask, unless it's a socialist or marxist, they have at least one good thing to say about the emperors. Some will clamor about Napoleon III's victory over the Prussians in the early 1870s, while others will commend the current emperor Napoleon IV for his endeavours in spreading French prestige around the globe."
+ FRA_conservative_monarchist_dominance:0 "Conservative-Bonapartist Political Dominance"
+ 
  FRA_great_recession:0 "The Great Recession"
+ FRA_marshal_law:0 "Marshal Law"
 
  ##### SCRIPTED LOC #####
 
@@ -51,6 +94,13 @@
  fra_israel_remains_dominion_tt:0 "Israel will remain with us as a dominion"
 
  fra_rhineland_bit_more_french:0 "The Rhineland will become a bit more §BFrench§!"
+
+ FRA_intial_chaos_after_great_recession_ended_tt:0 "The first days of the Great Recession have passed"
+ fra_recession_recovery_decisions_unlocked_tt:0 "§YDecisions helping you to recover from the recession will become available§!"
+ fra_petains_recovery_plan_tt:0 "With your current Cabinet Chief, you will be able to go down §gPhilippe Petains'§! recovery path"
+ fra_flandin_recovery_plan_tt:0 "With your current Cabinet Chief, you will be able to go down §2Pierre-Etienne Flandins'§! recovery path"
+ fra_chautemps_recovery_plan_tt:0 "With your current Cabinet Chief, you will be able to go down §0 Camille Chautemps'§! recovery path"
+ fra_we_can_do_this_path_tt:0 "§YWe can do this path!§!"
 
  FRA_focus_autocomplete_tt_1:0 "This focus will be completed by event"
  isr_weizmann_elected_president_tt:0 "Israel has elected its next President"

@@ -5,21 +5,22 @@ state={
 		1923 2090 5037 8073 10786 12883 
 	}
 	history = {
-		owner = SAU
-		add_core_of	= SAU
+		owner = HEJ
+		add_core_of	= HEJ
 		buildings = {
 			infrastructure = 1
 			12883 = {
 				naval_base = 5
 
 			}
+			arms_factory = 1
 		}
 		victory_points = {
 			12883 1 
 		}
 	}
 	manpower=500000
-	state_category=pastoral
+	state_category=rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 

@@ -1,0 +1,109 @@
+ideas = {
+	### NAT: SPIRITS
+	country = {
+		### STARTING NAT SPIRITS ###
+		FRA_the_lost_generation = {
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			#picture = GFX_FRA_idea_the_lost_generation
+
+			modifier = {
+				war_support_factor = -0.30
+				recruitable_population_factor = -0.25
+				forced_surrender_limit = 0.1
+				mobilization_laws_cost_factor = 1
+				army_morale_factor = -0.3
+			}
+		}
+		FRA_imperial_overextension = {
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			#picture = GFX_FRA_idea_imperial_overextension
+
+			modifier = {
+				consumer_goods_factor = 0.04
+				political_power_cost = 0.1
+			}
+		}
+		FRA_conservative_monarchist_dominance = {
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			#picture = GFX_FRA_idea_conservative_monarchists_dominance
+
+			modifier = {
+				cd_drift = 0.03
+				ds_drift = 0.03
+				drift_defence_factor = 0.5
+				stability_factor = 0.05
+			}
+		}
+		FRA_eight_decades_of_bonaparte = {
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			#picture = GFX_FRA_idea_eight_decades_of_bonaparte
+
+			modifier = {
+				stability_factor = 0.07
+				political_power_factor = 0.05
+			}
+		}
+
+
+		FRA_marshal_law = {
+
+			allowed = {
+				original_tag = FRA
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_oppression
+
+			modifier = {
+				stability_factor = -0.1
+				weekly_manpower = -50
+				stability_weekly = 0.02
+			}
+		}
+	}
+}

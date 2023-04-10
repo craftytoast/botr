@@ -3,10 +3,16 @@
 #############################
 shared_focus = {
 	cancelable = no
-	id = FRA_Focus_Vive_La_France_q
-	icon = GFX_FRA_Focus_Vive_La_France_q
+	id = FRA_Focus_Marin_Ministry
+	icon = GFX_FRA_Focus_Marin_Ministry
 	x = 8
 	y = 0
+	offset = {
+		x = 6
+		trigger = {
+			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
+		}
+	}
 	cost = 1
 	available = {
 		always = no
@@ -20,41 +26,48 @@ shared_focus = {
 }
 shared_focus = {
 	cancelable = no
-	id = FRA_Focus_Lunch_With_Israel
-	icon = GFX_FRA_Focus_Lunch_With_Israel
+	id = FRA_Focus_Funding_The_RCS
+	icon = GFX_FRA_Focus_Funding_The_RCS
 	x = 6
 	y = 1
 	cost = 3
 	available = {
-		custom_trigger_tooltip = {
-			tooltip = isr_weizmann_elected_president_tt
-			ISR = {
-				has_country_flag = ISR_weizmann_elected_flag
-			}
+		
+	}
+	offset = {
+		x = 6
+		trigger = {
+			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
 		}
 	}
 	prerequisite = {
-		focus = FRA_Focus_Vive_La_France_q
+		focus = FRA_Focus_Marin_Ministry
 	}
 	ai_will_do = {
 		base = 20
 	}
 	completion_reward = {
-		country_event = { hours = 2 id = BotR_France_Foreign_Policy.1 }
+		add_political_power = -10
 	}
 }
 shared_focus = {
 	cancelable = no
 	id = FRA_Focus_Promote_Frenchification_Schemes_In_Rhine
 	icon = GFX_FRA_Focus_Promote_Frenchification_Schemes_In_Rhine
-	x = 8
-	y = 1
-	cost = 3
+	x = 6
+	y = 2
+	cost = 2
 	available = {
 		
 	}
+	offset = {
+		x = 6
+		trigger = {
+			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
+		}
+	}
 	prerequisite = {
-		focus = FRA_Focus_Vive_La_France_q
+		focus = FRA_Focus_Funding_The_RCS
 	}
 	ai_will_do = {
 		base = 20
@@ -77,11 +90,115 @@ shared_focus = {
 }
 shared_focus = {
 	cancelable = no
-	id = FRA_Focus_Reinforce_The_Bavarian_Garrison
-	icon = GFX_FRA_Focus_Reinforce_The_Bavarian_Garrison
-	x = 10
+	id = FRA_Focus_Appeasing_The_Socialists
+	icon = GFX_FRA_Focus_Appeasing_The_Socialists
+	x = 8
 	y = 1
 	cost = 3
+	available = {
+		
+	}
+	offset = {
+		x = 6
+		trigger = {
+			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
+		}
+	}
+	prerequisite = {
+		focus = FRA_Focus_Marin_Ministry
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		add_political_power = -10
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_Approaching_The_Liberals
+	icon = GFX_FRA_Focus_Promote_Frenchification_Schemes_In_Rhine
+	x = 8
+	y = 2
+	cost = 2
+	available = {
+		
+	}
+	offset = {
+		x = 6
+		trigger = {
+			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
+		}
+	}
+	prerequisite = {
+		focus = FRA_Focus_Appeasing_The_Socialists
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_Marin_Foreign_Policy
+	icon = GFX_FRA_Focus_Marin_Foreign_Policy
+	x = 11
+	y = 1
+	cost = 0.5
+	available = {
+		
+	}
+	offset = {
+		x = 6
+		trigger = {
+			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
+		}
+	}
+	prerequisite = {
+		focus = FRA_Focus_Marin_Foreign_Policy
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		country_event = { hours = 2 id = BotR_France_Foreign_Policy.1 }
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_Lunch_With_Israel
+	icon = GFX_FRA_Focus_Lunch_With_Israel
+	x = 10
+	y = 2
+	cost = 2
+	available = {
+		
+	}
+	offset = {
+		x = 6
+		trigger = {
+			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
+		}
+	}
+	prerequisite = {
+		focus = FRA_Focus_Marin_Foreign_Policy
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		country_event = { hours = 2 id = BotR_France_Foreign_Policy.1 }
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_Reinforce_The_Bavarian_Garrison
+	icon = GFX_FRA_Focus_Reinforce_The_Bavarian_Garrison
+	x = 12
+	y = 2
+	cost = 1.5
 	available = {
 		BAY = {
 			exists = yes
@@ -92,8 +209,14 @@ shared_focus = {
 			exists = no
 		}
 	}
+	offset = {
+		x = 6
+		trigger = {
+			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
+		}
+	}
 	prerequisite = {
-		focus = FRA_Focus_Vive_La_France_q
+		focus = FRA_Focus_Marin_Foreign_Policy
 	}
 	ai_will_do = {
 		base = 20
@@ -115,8 +238,14 @@ shared_focus = {
 	id = FRA_Focus_Calm_Before_The_Storm
 	icon = GFX_FRA_Focus_Promote_Frenchification_Schemes_In_Rhine
 	x = 8
-	y = 2
+	y = 3
 	cost = 2
+	offset = {
+		x = 6
+		trigger = {
+			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
+		}
+	}
 	available = {
 		
 	}
@@ -124,7 +253,7 @@ shared_focus = {
 		focus = FRA_Focus_Lunch_With_Israel
 	}
 	prerequisite = {
-		focus = FRA_Focus_Reinforce_The_Bavarian_Garrison
+		focus = FRA_Focus_Approaching_The_Liberals
 	}
 	prerequisite = {
 		focus = FRA_Focus_Promote_Frenchification_Schemes_In_Rhine
@@ -141,7 +270,13 @@ shared_focus = {
 	id = FRA_Focus_The_Great_Recession
 	icon = GFX_FRA_Focus_The_Great_Recession
 	x = 8
-	y = 3
+	y = 4
+	offset = {
+		x = 6
+		trigger = {
+			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
+		}
+	}
 	cost = 1
 	allow_branch = { has_global_flag = paris_stock_market_crashed_flag }
 	available = {
@@ -149,6 +284,180 @@ shared_focus = {
 	}
 	prerequisite = {
 		focus = FRA_Focus_Calm_Before_The_Storm
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_The_Chaos_Subsides
+	icon = GFX_FRA_Focus_The_Chaos_Subsides
+	x = 14
+	y = 5
+	cost = 0.1
+	allow_branch = { has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag }
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = FRA_intial_chaos_after_great_recession_ended_tt
+			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
+		}
+	}
+	prerequisite = {
+		focus = FRA_Focus_The_Great_Recession
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_The_Road_To_Recovery
+	icon = GFX_FRA_Focus_The_Road_To_Recovery
+	x = 14
+	y = 6
+	cost = 1.5
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = FRA_intial_chaos_after_great_recession_ended_tt
+			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
+		}
+	}
+	prerequisite = {
+		focus = FRA_Focus_The_Chaos_Subsides
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		custom_effect_tooltip = fra_recession_recovery_decisions_unlocked_tt
+		if = {
+			limit = {
+				has_country_flag = dual_leader_fra_philippe_petain
+			}
+			custom_effect_tooltip = fra_petains_recovery_plan_tt
+		}
+		if = {
+			limit = {
+				has_country_flag = dual_leader_fra_pierre_etienne_flandin
+			}
+			custom_effect_tooltip = fra_flandin_recovery_plan_tt
+		}
+		if = {
+			limit = {
+				has_country_flag = dual_leader_fra_camille_chautemps
+			}
+			custom_effect_tooltip = fra_chautemps_recovery_plan_tt
+		}
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_Petains_Plan
+	icon = GFX_FRA_Focus_Petains_Plan
+	x = 8
+	y = 7
+	cost = 0.1
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = fra_we_can_do_this_path_tt
+			has_country_flag = dual_leader_fra_philippe_petain
+		}
+	}
+	prerequisite = {
+		focus = FRA_Focus_The_Road_To_Recovery
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_Petain_Declaring_Marshal_Law
+	icon = GFX_FRA_Focus_Petain_Declaring_Marshal_Law
+	x = 7
+	y = 8
+	cost = 2
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = fra_we_can_do_this_path_tt
+			has_country_flag = dual_leader_fra_philippe_petain
+		}
+	}
+	prerequisite = {
+		focus = FRA_Focus_Petains_Plan
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		country_event = BotR_France_Recovery.1
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_Petain_Bust_The_Socialist_Brigades
+	icon = GFX_FRA_Focus_Petain_Bust_The_Socialist_Brigades
+	x = 9
+	y = 8
+	cost = 2.7
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = fra_we_can_do_this_path_tt
+			has_country_flag = dual_leader_fra_philippe_petain
+		}
+	}
+	prerequisite = {
+		focus = FRA_Focus_Petains_Plan
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		add_popularity = {
+			ideology = sc
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = ml
+			popularity = -0.05
+		}
+		if = {
+			limit = {
+				has_completed_focus = FRA_Focus_Petain_Declaring_Marshal_Law
+			}
+			country_event = { random_days = 4 id = BotR_France_Recovery.2 }
+		}
+		add_political_power = -25
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = FRA_Focus_Petain_Economics_One_O_One
+	icon = GFX_FRA_Focus_Petain_Economics_One_O_One
+	x = 8
+	y = 9
+	cost = 2
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = fra_we_can_do_this_path_tt
+			has_country_flag = dual_leader_fra_philippe_petain
+		}
+	}
+	prerequisite = {
+		focus = FRA_Focus_Petain_Declaring_Marshal_Law
+	}
+	prerequisite = {
+		focus = FRA_Focus_Petain_Bust_The_Socialist_Brigades
 	}
 	ai_will_do = {
 		base = 20

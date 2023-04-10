@@ -51,5 +51,9 @@ spriteTypes = {
 		name = "GFX_FRA_Vacant_Position"
 		texturefile = "gfx/leaders/FRA/Portrait_FRA_Vacant_Position.dds"
 	}
+	spriteType = {
+		name = "GFX_FRA_Philippe_Petain"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Philippe_Petain.dds"
+	}
 
 }

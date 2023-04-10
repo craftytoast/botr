@@ -41,7 +41,7 @@ state={
 
 
 	history={
-		owner = KUR
+		owner = IRQ
 		buildings = {
 			infrastructure = 2
 		}

@@ -1,0 +1,19 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_FRA_idea_the_lost_generation"
+		texturefile = "gfx/interface/ideas/fra_idea_the_lost_generation.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_idea_imperial_overextension"
+		texturefile = "gfx/interface/ideas/fra_idea_imperial_overextension.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_idea_eight_decades_of_bonaparte"
+		texturefile = "gfx/interface/ideas/fra_idea_eight_decades_bonaparte.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_idea_conservative_monarchists_dominance"
+		texturefile = "gfx/interface/ideas/fra_idea_conservative_monarchist_dominance.dds"
+	}
+}

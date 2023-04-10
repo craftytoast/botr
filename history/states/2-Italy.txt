@@ -8,17 +8,24 @@ state = {
 	history = {
 		owner = PAP
 		victory_points = { 9904 30 } #Rome
+		victory_points = { 11846 1 } #Anzio (was 5)
 		buildings = {
 			infrastructure = 4
 			air_base = 2
 			arms_factory = 1
 			industrial_complex = 2
+			11751 = {
+				naval_base = 5
+			}
+			11846 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = ITA
 		add_core_of = PAP
 	}
 
-	provinces = { 9904
+	provinces = { 9904 6862 11751 11846
 		
  	}
 

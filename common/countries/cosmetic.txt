@@ -15,7 +15,14 @@ UKR_CONGRESS = {
 
 
 
-
+SYR_FRA_REPUBLIC = {
+	color = rgb { 31 72 160 }
+	color_ui = rgb { 26 65 150 }
+}
+JOR_FRA_KINGDOM = {
+	color = rgb { 31 72 160 }
+	color_ui = rgb { 26 65 150 }
+}
 
 
 

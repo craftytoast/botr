@@ -53,6 +53,9 @@ INS = "countries/Asian.txt"
 ## Anatolia
 TUR = "countries/MidEast.txt"
 KUR = "countries/MidEast.txt"
+## Arabian Peninsula
+SAU = "countries/MidEast.txt"
+HEJ = "countries/MidEast.txt"
 ### AFRICAN ###
 ETH = "countries/African.txt"
 RHO = "countries/WestEur.txt"
@@ -116,7 +119,6 @@ PAN = "countries/Panama.txt"
 PER = "countries/Persia.txt"
 PHI = "countries/Philippines.txt"
 PRU = "countries/SouthAmerica.txt"
-SAU = "countries/Saudi Arabia.txt"
 SIA = "countries/Siam.txt"
 SIK = "countries/Sinkiang.txt"
 URG = "countries/Uruguay.txt"

@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = BotR_France
+add_namespace = BotR_France_Recovery
 add_namespace = BotR_France_Foreign_Policy
 
 
@@ -25,7 +26,6 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		complete_national_focus = FRA_Focus_Vive_La_France_q
 	}
 }
 # Foreboding the economic crash
@@ -38,9 +38,11 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-	#immediate = {
-	#	
-	#}
+	immediate = {
+		hidden_effect = {
+			country_event = { days = 5 id = BotR_France.20 }
+		}
+	}
 	
 	option = { # dang
 		name = BotR_France.19.a
@@ -74,6 +76,7 @@ country_event = {
 		hidden_effect = {
 			set_global_flag = paris_stock_market_crashed_flag
 			mark_focus_tree_layout_dirty = yes
+			country_event = { days = 3 id = BotR_France.21 }
 		}
 	}
 	
@@ -105,10 +108,156 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
+		country_event = { days = 1 id = BotR_France.22 }
 		clr_country_flag = dual_leader_fra_louis_marin
 		set_country_flag = dual_leader_fra_vacant_position
 	}
 }
+# New Cabinet Chief appointment
+country_event = {
+	id = BotR_France.22
+	title = BotR_France.22.t
+	desc = BotR_France.22.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		
+	}
+	
+	option = { # petain, the 'lion of essen'
+		name = BotR_France.22.a
+		ai_chance = {
+			factor = 30
+		}
+		add_popularity = {
+			ideology = cd
+			popularity = 0.03
+		}
+		clr_country_flag = dual_leader_fra_vacant_position
+		set_country_flag = dual_leader_fra_philippe_petain
+	}
+	option = { # flandin, keeping the conservative establishment
+		name = BotR_France.22.b
+		ai_chance = {
+			factor = 30
+		}
+		add_popularity = {
+			ideology = cd
+			popularity = 0.03
+		}
+		clr_country_flag = dual_leader_fra_vacant_position
+		set_country_flag = dual_leader_fra_pierre_etienne_flandin
+	}
+	option = { # chautemps, the 'radical' option
+		name = BotR_France.22.c
+		ai_chance = {
+			factor = 30
+		}
+		set_politics = {
+			ruling_party = sd
+		}
+		add_popularity = {
+			ideology = sd
+			popularity = 0.1
+		}
+		clr_country_flag = dual_leader_fra_vacant_position
+		set_country_flag = dual_leader_fra_camille_chautemps
+	}
+}
+# The intial chaos ends
+country_event = {
+	id = BotR_France.30
+	title = BotR_France.30.t
+	desc = BotR_France.30.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		
+	}
+	
+	option = { # rebuild
+		name = BotR_France.30.a
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			set_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+}
+
+
+
+#### ECONOMIC RECOVERY EVENTS ####
+## PETAIN EVENTS 1 - 30
+## FLANDIN EVENTS 31 - 60
+## CHAUTEMPS EVENTS 61 - 90
+## GENERIC EVENTS 91+
+country_event = { # Declaring marshal law?
+	id = BotR_France_Recovery.1 # Petain Event
+	title = BotR_France_Recovery.1.t
+	desc = BotR_France_Recovery.1.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		
+	}
+	
+	option = { # no
+		name = BotR_France.1.a
+		ai_chance = {
+			factor = 50
+		}
+		add_political_power = 10
+	}
+	option = { # yes
+		name = BotR_France.1.b
+		ai_chance = {
+			factor = 35
+		}
+		add_political_power = -50
+		add_timed_idea = {
+			idea = FRA_marshal_law
+			days = 90
+		}
+	}
+}
+country_event = { # Arrest of Paul Vaillant-Couturier (Flavour-ish)
+	id = BotR_France_Recovery.2 # Petain Event
+	title = BotR_France_Recovery.2.t
+	desc = BotR_France_Recovery.2.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		
+	}
+	
+	option = { # bye bye
+		name = BotR_France.2.a
+		ai_chance = {
+			factor = 50
+		}
+		add_political_power = -5
+		add_popularity = {
+			ideology = ml
+			popularity = -0.01
+		}
+	}
+}
+
 
 
 # Talks for Israel independence
@@ -137,5 +286,34 @@ country_event = {
 		ai_chance = {
 			factor = 20
 		}
+	}
+}
+# Policy towards the Levant
+country_event = {
+	id = BotR_France_Foreign_Policy.100
+	title = BotR_France_Foreign_Policy.100.t
+	desc = BotR_France_Foreign_Policy.100.d
+	is_triggered_only = yes
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+	
+	#immediate = {
+	#	
+	#}
+	
+	option = { # push more resources for the stability of the levant
+		name = BotR_France_Foreign_Policy.100.a
+		ai_chance = {
+			factor = 50
+		}
+		
+	}
+	option = { # begin devolving the levant administration
+		name = BotR_France_Foreign_Policy.100.b
+		ai_chance = {
+			factor = 50
+		}
+		activate_mission = FRA_levant_devolvement_mission
 	}
 }

@@ -37,6 +37,9 @@
  FLV:0 "French Levant Administration"
  FLV_DEF:0 "The French Levant Administration"
  FLV_ADJ:0 "Franco-Levantine"
+ FLV_FRANO_OTTOMAN_ECONOMIC_ZONE:0 "Franco-Ottoman Economic Zone"
+ FLV_FRANO_OTTOMAN_ECONOMIC_ZONE_DEF:0 "the Franco-Ottoman Economic Zone"
+ FLV_FRANO_OTTOMAN_ECONOMIC_ZONE_ADJ:0 "Franco-Ottoman"
 
  ISR:0 "Republic Of Israel"
  ISR_DEF:0 "The Republic Of Israel"
@@ -222,6 +225,19 @@
  TUR:0 "Sublime Ottoman State"
  TUR_DEF:0 "The Sublime Ottoman State"
  TUR_ADJ:0 "Ottoman"
+
+ ## Levant
+ SYR_FRA_REPUBLIC:0 "Republic Of Syria"
+ SYR_FRA_REPUBLIC_DEF:0 "The Republic of Syria"
+ SYR_FRA_REPUBLIC_ADJ:0 "Syrian"
+
+ ## Arabian Peninsula
+ SAU:0 "Sultanate of Nejd"
+ SAU_DEF:0 "The Sultanate of Nejd"
+ SAU_ADJ:0 "Arab"
+ HEJ:0 "Kingdom Of Hejaz"
+ HEJ_DEF:0 "The Kingdom Of Hejaz"
+ HEJ_ADJ:0 "Arab"
 
  ### AFRICA ###
  ETH:0 "Abyssinia"
@@ -802,21 +818,6 @@
  PRU:0 "Peru"
  PRU_DEF:0 "Peru"
  PRU_ADJ:0 "Peruvian"
- SAU_fascism:0 "Arabic Empire"
- SAU_fascism_DEF:0 "the Arabic Empire"
- SAU_democratic:0 "Arabian Republic"
- SAU_democratic_DEF:0 "the Arabian Republic"
- SAU_neutrality:0 "Saudi Arabia"
- SAU_neutrality_DEF:0 "Saudi Arabia"
- SAU_communism:0 "Republic of the Arabian Assembly"
- SAU_communism_DEF:0 "the Republic of the Arabian Assembly"
- SAU_fascism_ADJ:0 "Arabian"
- SAU_neutrality_ADJ:0 "Saudi"
- SAU_democratic_ADJ:0 "Arabian"
- SAU_communism_ADJ:0 "Arabian"
- SAU:1 "Central Arabia"
- SAU_ADJ:1 "Arabian"
- SAU_DEF:1 "Central Arabia"
  SIA_fascism:0 "Siamese Empire"
  SIA_fascism_DEF:0 "the Siamese Empire"
  SIA_democratic:0 "Republic of Thailand"
