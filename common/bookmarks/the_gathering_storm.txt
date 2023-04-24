@@ -1,0 +1,49 @@
+bookmarks = {
+	bookmark = {
+		name = "Blood On The Rhine"
+		desc = "WIP DESC"
+		date = 1934.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "FRA"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_BOTR_DESC"
+			ideology = cd
+			ideas = {
+				FRA_the_lost_generation
+				FRA_imperial_overextension
+				FRA_conservative_monarchist_dominance
+			}
+			focuses = {
+				FRA_Focus_Marin_Ministry
+			}
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+		#"CAN"={
+		#	minor = yes
+		#	history = "CAN_GATHERING_STORM_DESC"
+		#	ideology = democratic
+		#	ideas = {
+		#		CAN_great_depression_1
+		#		CAN_conscription_crisis
+		#	}
+		#	focuses = {
+		#		CAN_skewer_the_eagle
+		#		CAN_north_american_alliance
+		#		CAN_join_comintern
+		#	}
+		#}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

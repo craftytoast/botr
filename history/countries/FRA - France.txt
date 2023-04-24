@@ -163,20 +163,20 @@ set_country_flag = leader_title_emperor_fra
 #recruit_character = FRA_napoleon_iv
 set_country_flag = dual_leader_title_cabinet_chief
 set_country_flag = dual_leader_fra_louis_marin
-#create_country_leader = {
-#	name = "Louis-Napoléon IV"
-#	desc = "napoleon_iv_DESC"
-#	picture = "gfx/leaders/FRA/Portrait_FRA_Napoleon_IV.dds"
-#	expire = "1965.1.1"
-#	ideology = ul_type_1
-#}
-#create_country_leader = {
-#	name = "Louis-Napoléon IV"
-#	desc = "napoleon_iv_DESC"
-#	picture = "gfx/leaders/FRA/Portrait_FRA_Napoleon_IV.dds"
-#	expire = "1965.1.1"
-#	ideology = ds_type_1
-#}
+create_country_leader = {
+	name = "Louis-Napoléon IV"
+	desc = "napoleon_iv_DESC"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Napoleon_IV.dds"
+	expire = "1965.1.1"
+	ideology = ul_type_1
+}
+create_country_leader = {
+	name = "Louis-Napoléon IV"
+	desc = "napoleon_iv_DESC"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Napoleon_IV.dds"
+	expire = "1965.1.1"
+	ideology = ds_type_1
+}
 create_country_leader = {
 	name = "Louis-Napoléon IV"
 	desc = "napoleon_iv_desc"
@@ -184,30 +184,36 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = cd_type_1
 }
-#create_country_leader = {
-#	name = "Louis-Napoléon IV"
-#	desc = "napoleon_iv_DESC"
-#	picture = "gfx/leaders/FRA/Portrait_FRA_Napoleon_IV.dds"
-#	expire = "1965.1.1"
-#	ideology = ld_type_1
-#}
-#create_country_leader = {
-#	name = "Louis-Napoléon IV"
-#	desc = "napoleon_iv_DESC"
-#	picture = "gfx/leaders/FRA/Portrait_FRA_Napoleon_IV.dds"
-#	expire = "1965.1.1"
-#	ideology = sd_type_1
-#}
-#create_country_leader = {
-#	name = "Louis-Napoléon IV"
-#	desc = "napoleon_iv_DESC"
-#	picture = "gfx/leaders/FRA/Portrait_FRA_Napoleon_IV.dds"
-#	expire = "1965.1.1"
-#	ideology = sc_type_1
-#}
+create_country_leader = {
+	name = "Louis-Napoléon IV"
+	desc = "napoleon_iv_DESC"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Napoleon_IV.dds"
+	expire = "1965.1.1"
+	ideology = ld_type_1
+}
+create_country_leader = {
+	name = "Louis-Napoléon IV"
+	desc = "napoleon_iv_DESC"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Napoleon_IV.dds"
+	expire = "1965.1.1"
+	ideology = sd_type_1
+}
+create_country_leader = {
+	name = "Louis-Napoléon IV"
+	desc = "napoleon_iv_DESC"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Napoleon_IV.dds"
+	expire = "1965.1.1"
+	ideology = sc_type_1
+}
 ################
 ### INTERNAL ###
 ################
+1933.1.1 = {
+	complete_national_focus = FRA_Focus_Marin_Ministry
+	complete_national_focus = FRA_Focus_Funding_The_RCS
+	complete_national_focus = FRA_Focus_Appeasing_The_Socialists
+}
+add_political_power = 18 # to offest effects in fra_focus_funding_the_rcs
 add_ideas = {
 	FRA_the_lost_generation
 	FRA_imperial_overextension
@@ -241,7 +247,7 @@ set_autonomy = {
 set_autonomy = {
 	target = MOR
 	autonomy_state = autonomy_dominion
-}
+} 
 set_autonomy = {
 	target = ISR
 	autonomy_state = autonomy_botr_fra_protectorate

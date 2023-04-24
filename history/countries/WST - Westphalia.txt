@@ -31,3 +31,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = ds_type_1
 }
+set_country_flag = leader_title_king
+set_country_flag = dual_leader_title_minister_president_german
+set_country_flag = dual_leader_wst_konrad_adenauer

@@ -13,9 +13,6 @@ state=
 		victory_points = {
 			1903 1 
 		}
-		victory_points = {
-			5139 2 
-		}
 		buildings = {
 			infrastructure = 2
 			1903 = {
@@ -24,14 +21,11 @@ state=
 			#8244 = {
 			#	naval_base = 1
 			#}
-			5139 = {
-				naval_base = 1
-			}
 		}
 	}
 	provinces=
 	{
-1903 5139 8244 10948	}
+1903 8244	}
 
 	local_supplies=0.0 
 }

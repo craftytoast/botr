@@ -39,7 +39,7 @@ create_country_leader = {
 	}
 }
 
-#country_event = { id = BotR_Russian_Pre_CW_Main.1 days = 2 }
+country_event = { id = BotR_Russian_Pre_CW_Main.1 days = 2 }
 #################
 ### DIPLOMACY ###
 #################
@@ -49,6 +49,10 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = POL
+	autonomy_state = autonomy_puppet
+}
+set_autonomy = {
+	target = TAN
 	autonomy_state = autonomy_integrated_puppet
 }
 POL = {
@@ -56,7 +60,11 @@ POL = {
 	set_politics = { ruling_party = ds elections_allowed = no }
 	set_popularities = { ul = 15 ds = 80 cd = 0 ld = 0 sd = 0 sc = 5 ml = 0 }
 }
-
+TAN = {
+	set_cosmetic_tag = TAN_RUSSIAN
+	set_politics = { ruling_party = ds elections_allowed = no }
+	set_popularities = { ul = 0 ds = 80 cd = 0 ld = 0 sd = 0 sc = 5 ml = 15 }
+}
 give_guarantee = PRS
 PRS = {
 	give_military_access = RUS

@@ -7,11 +7,11 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = MON
+		owner = CHI
 		add_core_of = MON
 		add_core_of = CHI
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
 		victory_points = {
 			11752 1
@@ -19,7 +19,7 @@ state={
 	}
 
 	provinces={
-		828 1489 1590 4612 6904 7545 7674 10397 11752 
+		952 9776 3955 828 1489 1590 4612 6904 7545 10397 11752 
 	}
 
 	local_supplies=0.0 

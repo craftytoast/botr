@@ -41,12 +41,23 @@ SPR = "countries/WestEur.txt"
 ### ASIA ###
 ## China
 CHI = "countries/Asian.txt"
-GXC = "countries/Asian.txt"
+SHX = "countries/Asian.txt"
 
 MAN = "countries/Asian.txt"
+HEI = "countries/Asian.txt"
+ANH = "countries/Asian.txt"
+
+KMT = "countries/Asian.txt"
+GXC = "countries/Asian.txt"
+HNA = "countries/Asian.txt"
+PRC = "countries/Asian.txt"
 
 TIB = "countries/Asian.txt"
 TAN = "countries/Asian.txt"
+
+AAA = "countries/Asian.txt"
+## Japan
+JAP = "countries/Asian.txt"
 ## Indonesia
 INS = "countries/Asian.txt"
 ### MID EAST ###
@@ -108,7 +119,6 @@ MOR = "countries/MidEast.txt"
 GUA = "countries/Guatemla.txt"
 HON = "countries/Honduras.txt"
 IRQ = "countries/Iraq.txt"
-JAP = "countries/Japan.txt"
 KOR = "countries/Korea.txt"
 LIB = "countries/Liberia.txt"
 MEX = "countries/Mexico.txt"
@@ -135,8 +145,6 @@ OMA = "countries/Oman.txt"
 SLO = "countries/Slovakia.txt"
 RAJ = "countries/British Raj.txt"
 CRO = "countries/Croatia.txt"
-PRC = "countries/ComChina.txt"
-SHX = "countries/Shanxi.txt"
 XSM = "countries/Xibei San Ma.txt"
 ICE = "countries/Iceland.txt"
 LEB = "countries/Lebanon.txt"

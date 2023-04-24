@@ -8,13 +8,17 @@ state={
 		add_core_of = GAB
 		buildings = {
 			infrastructure = 2
-
+			5139 = {
+				naval_base = 1
+			}
 		}
-
+		victory_points = {
+			5139 2 
+		}
 	}
 
 	provinces={
-		8207 13210 
+		8207 13210 5139 10948
 	}
 	manpower=230290
 	buildings_max_level_factor=1.000

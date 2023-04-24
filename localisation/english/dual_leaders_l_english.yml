@@ -12,10 +12,10 @@
  dual_leader_desc_tt:0 "§g[From.GetDualLeaderDesc]§!"
  first_leader_desc_tt:0 "§g[From.GetFirstLeaderDesc]§!"
     # Nation Specific Localisation
- FRA_EMPEROR_TITLE:0 "Emperor Of The French"
+ FRA_EMPEROR_TITLE:0 "Emperor"
  CABINET_CHIEF_TITLE:0 "Cabinet Chief"
  FRA_LOUIS_MARIN:0 "Louis Marin"
- FRA_LOUIS_MARIN_DESC:0 "Born:\ February 7th, 1871n-----nLouis Marin would not be anyone's first choice for being Cabinet Chief, perhaps the second-highest position of power in the empire. He himself didn’t even expect to be offered such a coveted position. A longtime deputy, he is a respected member of the Republican Federation, one of the conservative parties which form the larger Conservative Bloc that holds monopoly over every aspect of French politics. In July 1933, after the resignation of Auguste Issac, everyone was surprised when Marin was named the next Cabinet Chief. As a more moderate conservative, Napoleon IV entrusted him to strike an accord with the opposition, as they had nearly grown powerful enough in the most recent election to threaten conservative control over the parliament. All eyes are on Marin now, as the world enters a new year."
+ FRA_LOUIS_MARIN_DESC:0 "§WBorn:\ February 7th, 1871\n--------------\n§!Louis Marin would not be anyone's first choice for being Cabinet Chief, perhaps the second-highest position of power in the empire. He himself didn’t even expect to be apointed to such a coveted position. A longtime deputy, he is a respected member of the Republican Federation, one of the conservative parties which form the larger Conservative Bloc that holds monopoly over every aspect of French politics. In July 1933, after the resignation of Auguste Issac, everyone was surprised when Marin was named the next Cabinet Chief. As a more moderate conservative, Napoleon IV entrusted him to strike an accord with the opposition, as they had nearly grown powerful enough in the most recent election to threaten conservative control over the parliament."
  FRA_VACANT_POSITION:0 "Vacant Position"
  FRA_PHILIPPE_PETAIN:0 "Philippe Pétain"
  FRA_PIERRE_ETIENNE_FLANDIN:0 "Pierre-Étienne Flandin"
@@ -30,7 +30,15 @@
 
  EMPEROR_TITLE:0 "Emperor"
  CHANCELLOR_TITLE:0 "Chancellor"
+
+ PRESIDENT_TITLE:0 "President"
+ RESIDENT_GENERAL_TITLE:0 "Resident-General"
+ HIGH_COMMISSIONER_TITLE:0 "High Commissioner"
+ MILITARY_GOVERNOR_TITLE:0 "Military Governor"
  
  # Names 
  # Austria
  AUS_OTTO_ENDER:0 "Otto Ender"
+ CHI_WU_PEIFU:0 "Wu Peifu"
+ ISR_CHARLES_DE_GAULLE:0 "Charles de Gaulle"
+ FLV_HENRI_GOURAUD:0 "Henri Gouraud"

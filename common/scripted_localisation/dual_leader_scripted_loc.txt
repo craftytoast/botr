@@ -10,20 +10,35 @@ defined_text = {
 		}
 		localization_key = FRA_EMPEROR_TITLE
 	}
+	# Israel
+	text = {
+		trigger = {
+			tag = ISR
+			has_country_flag = leader_title_president
+		}
+		localization_key = PRESIDENT_TITLE
+	}
+	# French Levant
+	text = {
+		trigger = {
+			tag = FLV
+			has_country_flag = leader_title_high_commissioner
+		}
+		localization_key = HIGH_COMMISSIONER_TITLE
+	}
 	# Generic
 	text = {
 		trigger = {
-			tag = BAY
-			tag = WUR
-			tag = BAD
-			tag = DEN
-			#has_country_flag = leader_title_king
+			has_country_flag = leader_title_king
 		}
 		localization_key = KING_TITLE
 	}
 	text = {
 		trigger = {
-			tag = AUS
+			OR = {
+				tag = CHI
+				tag = AUS
+			}
 			#has_country_flag = leader_title_emperor
 		}
 		localization_key = EMPEROR_TITLE
@@ -51,10 +66,31 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			tag = ISR
+			has_country_flag = dual_leader_title_resident_general
+		}
+		localization_key = RESIDENT_GENERAL_TITLE
+	}
+	text = {
+		trigger = {
+			tag = FLV
+			has_country_flag = dual_leader_title_military_governor
+		}
+		localization_key = MILITARY_GOVERNOR_TITLE
+	}
+	text = {
+		trigger = {
 			tag = AUS
 			#has_country_flag = dual_leader_title_minister_president_german
 		}
 		localization_key = CHANCELLOR_TITLE
+	}
+	text = {
+		trigger = {
+			tag = CHI
+			has_country_flag = dual_leader_title_premier
+		}
+		localization_key = PREMIER_TITLE
 	}
 }
 defined_text = {
@@ -65,8 +101,16 @@ defined_text = {
 	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_philippe_petain } localization_key = FRA_PHILIPPE_PETAIN }
 	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_pierre_etienne_flandin } localization_key = FRA_PIERRE_ETIENNE_FLANDIN }
 	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_camille_chautemps } localization_key = FRA_CAMILLE_CHAUTEMPS }
+	# Westphalia
+	text = { trigger = { tag = WST has_country_flag = dual_leader_wst_konrad_adenauer } localization_key = WST_KONRAD_ADENAUER }
+	# Israel
+	text = { trigger = { tag = ISR has_country_flag = dual_leader_isr_charles_de_gaulle } localization_key = ISR_CHARLES_DE_GAULLE }
+	# FLV
+	text = { trigger = { tag = FLV has_country_flag = dual_leader_flv_henri_gouraud } localization_key = FLV_HENRI_GOURAUD }
 	# Austria
 	text = { trigger = { tag = AUS has_country_flag = dual_leader_aus_otto_ender } localization_key = AUS_OTTO_ENDER }
+	# China (Empire)
+	text = { trigger = { tag = CHI has_country_flag = dual_leader_chi_wu_peifu } localization_key = CHI_WU_PEIFU }
 	text = {
 		localization_key = DEFAULT_TITLE
 	}
@@ -74,9 +118,17 @@ defined_text = {
 defined_text = {
     name = GetDualLeaderPortrait
 	# France
-	text = {trigger = {	tag = FRA has_country_flag = dual_leader_fra_louis_marin } localization_key = "GFX_FRA_Louis_Marin" }
-	text = {trigger = {	tag = FRA has_country_flag = dual_leader_fra_vacant_position } localization_key = "GFX_FRA_Vacant_Position" }
-	text = {trigger = {	tag = FRA has_country_flag = dual_leader_fra_philippe_petain } localization_key = "GFX_FRA_Philippe_Petain" }
+	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_louis_marin } localization_key = "GFX_FRA_Louis_Marin" }
+	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_vacant_position } localization_key = "GFX_FRA_Vacant_Position" }
+	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_philippe_petain } localization_key = "GFX_FRA_Philippe_Petain" }
+	# Westphalia
+	text = { trigger = { tag = WST has_country_flag = dual_leader_wst_konrad_adenauer } localization_key = "GFX_WST_KONRAD_ADENAUER" }
+	# Israel
+	text = { trigger = { tag = ISR has_country_flag = dual_leader_isr_charles_de_gaulle } localization_key = "GFX_FRA_CHARLES_DE_GAULLE" }
+	# FLV
+	text = { trigger = { tag = FLV has_country_flag = dual_leader_flv_henri_gouraud } localization_key = "GFX_FLV_HENRI_GOURAUD" }
+	# China (Empire)
+	text = { trigger = { tag = CHI has_country_flag = dual_leader_chi_wu_peifu } localization_key = "GFX_CHI_WU_PEIFU" }
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}

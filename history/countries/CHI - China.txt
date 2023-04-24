@@ -1,6 +1,6 @@
-﻿capital = 613 # Nanjing
+﻿capital = 608 # Beijing
 
-oob = "CHI_1936"
+#oob = "CHI_1936"
 
 set_stability = 0.45
 set_war_support = 0.5
@@ -45,53 +45,6 @@ if = {
 	}
 }
 
-600 = { #Jiangxi
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-749 = { #Huangshan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-606 = { #Anhui
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-607 = { #Henan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-620 = { #Hubei
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-602 = { #Hunan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-750 = { #Changde
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-744 = { #Xian
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-605 = { #Sichuan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-748 = { #Zunyi
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-603 = { #Guizhu
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-615 = { #Shanxi
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-622 = { #Shaanxi
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-325 = { #Yunnan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-325 = { #Dali
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-
-
 ################
 ### POLITICS ###
 ################
@@ -110,31 +63,20 @@ set_popularities = {
 	sc = 8
 	ml = 0
 }
+create_country_leader = {
+	name = "Yuan Keding"
+	desc = "kdeing_DESC"
+	picture = "gfx/leaders/CHI/Portrait_CHI_Yuan_Keding.dds"
+	expire = "1965.1.1"
+	ideology = ds_type_1
+}
+set_country_flag = leader_title_president
+set_country_flag = dual_leader_title_premier
+set_country_flag = dual_leader_chi_wu_peifu
 #################
 ### DIPLOMACY ###
 #################
-set_autonomy = {
-	target = HEB
-	autonomy_state = autonomy_integrated_puppet
-}
-HEB = {
-	set_politics = {
-		ruling_party = ds
-		elections_allowed = no
-	}
-	set_popularities = { ul = 0 ds = 100 cd = 0 ld = 0 sd = 0 sc = 0 ml = 0 }
-}
-set_autonomy = {
-	target = GXC
-	autonomy_state = autonomy_dominion
-}
-GXC = {
-	set_politics = {
-		ruling_party = ds
-		elections_allowed = no
-	}
-	set_popularities = { ul = 0 ds = 90 cd = 0 ld = 0 sd = 0 sc = 9 ml = 1 }
-}
+
 
 ### VARIANTS ###
 # 1936 Start #

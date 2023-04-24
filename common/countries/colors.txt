@@ -139,21 +139,58 @@ POL = {
 
 ## China
 CHI = {
+	color = rgb { 187 147 64 }
+	color_ui = rgb { 0 85 170 }
+}
+SHX = {
+	color = rgb { 211 166 85 }
+	color_ui = rgb { 211 166 85 }
+}
+
+MAN = {
+	color = rgb { 140 70 0  }
+	color_ui = rgb { 105 52 0 }
+}
+HEI = {
+	color = rgb { 0 120 90 }
+	color_ui = rgb { 0 90 0 }
+}
+
+ANH = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 140 140 140 }
+}
+PRC = {
+	color = rgb { 175 0 0 }
+	color_ui = rgb { 150 0 0 } 
+}
+
+KMT = {
 	color = rgb { 0 85 170 }
-	color_ui = rgb { 0 80 160 }
+	color_ui = rgb { 0 85 170 }
 }
 GXC = {
-	color = rgb { 0 85 170 }
+	color = rgb { 0 120 170 }
 	color_ui = rgb { 0 80 160 }
 }
-MAN = {
-	color = rgb { 140 70 0 }
-	color_ui = rgb { 105 52 0 }
+HNA = {
+	color = rgb { 0 95 190 }
+	color_ui = rgb { 0 85 170 }
 }
 
 TIB = {
 	color = rgb { 166 166 166 }
 	color_ui = rgb { 200 200 200 }
+}
+
+AAA = {
+	color = rgb { 15 15 15 }
+	color_ui = rgb { 15 15 15 }
+}
+## Japan
+JAP = {
+	color = rgb { 202 202 202 }
+	color_ui = rgb { 222 222 222 }
 }
 
 ## Anatolia
@@ -322,10 +359,6 @@ IRQ = {
 	color = rgb { 178 114 99 }
 	color_ui = rgb { 231 148 129 }
 }
-JAP = {
-	color = hsv { 0.05 0.3 1 }
-	color_ui = hsv { 0.05 0.25 1.2 }
-}
 LIB = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
@@ -445,16 +478,6 @@ RAJ = {
 CRO = {
 	color = rgb { 230  70  180 }
 	color_ui = rgb { 230 255 122 }
-}
-
-PRC = {
-	color = rgb { 245 12 55 }
-	color_ui = rgb { 178 34 60 }
-}
-
-SHX = {
-	color = rgb { 82  2  15 }
-	color_ui = rgb { 101  30  41 }
 }
 
 XSM = {

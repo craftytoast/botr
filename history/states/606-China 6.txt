@@ -1,3 +1,4 @@
+
 state={
 	id=606
 	name="STATE_606"
@@ -6,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = CHI
+		owner = ANH
+		add_core_of = ANH
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 2
@@ -20,11 +22,10 @@ state={
 	}
 
 	provinces={
-		1083 1146 4079 4158 4203 7035 7094 9995 7085 4010 7222 9937 10008 10017 10040 10064 10079 11916 11994 12036 12061 
+		1146 1083 7035 12061 11994 4079 4158 4203 7085 7094 7222 9937 9995 10008 10017 10040 10064 10079 11916 12036 
 	}
 	manpower=18265400
 	buildings_max_level_factor=1.000
 	state_category=town
-
-	local_supplies=2.0 
+	local_supplies=2.000
 }

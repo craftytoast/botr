@@ -15,6 +15,9 @@
  WST_ml_party:0 "-"
  WST_ml_party_long:0 "Kommunistische Partei Deutschlands (Communist Party Of Germany) §R(BANNED)§!" 
 
+ ##### LEADERS #####
+ WST_KONRAD_ADENAUER:0 "Konrad Adenauer"
+
  ##### FOCUSES #####
 
  ##### EVENTS #####

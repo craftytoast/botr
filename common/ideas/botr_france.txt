@@ -14,7 +14,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = GFX_FRA_idea_the_lost_generation
+			picture = GFX_FRA_idea_the_lost_generation
 
 			modifier = {
 				war_support_factor = -0.30
@@ -36,7 +36,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = GFX_FRA_idea_imperial_overextension
+			picture = GFX_FRA_idea_imperial_overextension
 
 			modifier = {
 				consumer_goods_factor = 0.04
@@ -55,7 +55,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = GFX_FRA_idea_conservative_monarchists_dominance
+			picture = GFX_FRA_idea_conservative_monarchists_dominance
 
 			modifier = {
 				cd_drift = 0.03
@@ -76,7 +76,7 @@ ideas = {
 
 			removal_cost = -1
 
-			#picture = GFX_FRA_idea_eight_decades_of_bonaparte
+			picture = GFX_FRA_idea_eight_decades_of_bonaparte
 
 			modifier = {
 				stability_factor = 0.07

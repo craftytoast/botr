@@ -1,6 +1,8 @@
 #############################
 #### STARTING FOCUS TREE ####
 #############################
+
+#### STARTING BIT ####
 shared_focus = {
 	cancelable = no
 	id = FRA_Focus_Marin_Ministry
@@ -157,13 +159,13 @@ shared_focus = {
 		}
 	}
 	prerequisite = {
-		focus = FRA_Focus_Marin_Foreign_Policy
+		focus = FRA_Focus_Marin_Ministry
 	}
 	ai_will_do = {
 		base = 20
 	}
 	completion_reward = {
-		country_event = { hours = 2 id = BotR_France_Foreign_Policy.1 }
+		
 	}
 }
 shared_focus = {

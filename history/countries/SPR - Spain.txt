@@ -310,9 +310,9 @@ set_popularities = {
 	ml = 15
 }
 create_country_leader = {
-	name = "José Sanjurjo"
-	desc = "sanjurjo_DESC"
-	picture = "gfx/leaders/SPR/Portrait_SPR_Jose_Sanjurjo.dds"
+	name = "Alfonso XIII"
+	desc = "alfonso_xiii_DESC"
+	picture = "gfx/leaders/SPR/Portrait_SPR_Alfonso_XIII.dds"
 	expire = "1965.1.1"
 	ideology = ds_type_1
 }

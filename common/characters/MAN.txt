@@ -1,0 +1,27 @@
+characters={
+	MAN_zhang_zongchang={
+		name="Zhang Zongchang"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAN/Portrait_MAN_Zhang_Zongchang.dds"
+			}
+			army={
+				large="gfx/leaders/MAN/Portrait_MAN_Zhang_Zongchang.dds"
+				small="GFX_idea_MAN_zhang_haipeng"
+			}
+		}
+		country_leader={
+			ideology=ds_type_1
+			expire="1960.1.1.1"
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+}

@@ -3,7 +3,7 @@
  
  ##### LEADERS #####
  FRA_napoleon_iv:0 "Louis-Napoléon IV"
- napoleon_iv_desc:0 "Born:\ March 16th, 1856n-----nIf you were asked to explain the life of Louis-Napoleon IV, not one single person could properly explain all of the intrigues and experiences the ageing emperor has been through, not even himself. Born the only son of Napoleon III, from birth he was the heir to the French throne. When he was 16, his father died, and he was proclaimed the Emperor of France. Much of his early reign was characterised by the young emperor, aided by the cabinet and unilateral support from the political bodies, exploiting the nations around him and strengthening the empire. Some old souls might even recall when he brought Europe to the brink of war with the United Kingdom in the Wallonia Crisis, carving the nation of Belgium between themselves and the Dutch. He was not yet done, however, as he personally organised the Paris Conference in 1884 to set the stage for the colonisation of Africa between the colonial powers.nnIn 1913, well into his rule, tragedy struck when his firstborn son Jerome was assassinated in the Rhineland. Reeling from the personal devastation the loss had on him, the emperor blamed the Prussians and claimed they were behind the assassination. That was the match that lit the tense powderkeg of Europe and sent the continent spiralling into five years of bloody, hellish combat. The French-led ‘Continental Entente’ battered the storm better than the opposing forces, claiming victory at the end of 1918. With the Treaty of Koln coming into effect with the stroke of a pen, Napoleon IV finally achieved vengeance for his son.nnNowadays, the emperor is a spent man. His numbered days are spent at the Tuileries Palace in Paris, away from the public spotlight. It is no secret that the time he has left is finite. His two remaining sons take radically different positions on how to run the empire after their fathers death, providing the perfect storm for chaos to ensue after Napoleon’s death. The question is now, §Ycan the empire survive without him?§!"
+ napoleon_iv_desc:0 "§WBorn:\ March 16th, 1856\n--------------\n§!If you were asked to explain the life of Louis-Napoleon IV, not one single person could properly explain all of the intrigues and experiences the ageing emperor has been through, not even himself. Born the only son of Napoleon III, from birth he was the heir to the French throne. When he was 16, his father died, and he was proclaimed the Emperor of France. Much of his early reign was characterised by the young emperor, aided by the cabinet and unilateral support from the political bodies, exploiting the nations around him and strengthening the empire. Some may even recall when he brought Europe to the brink of war with the United Kingdom in the Wallonia Crisis, carving the nation of Belgium between themselves and the Dutch. He was not yet done, however, as he personally organised the Paris Conference in 1884 to set the stage for the colonisation of Africa between the colonial powers.\n\nIn 1913, well into his rule, tragedy struck when his firstborn son Jerome was assassinated in the Rhineland. Reeling from the personal devastation the loss had on him, the emperor blamed the Prussians and claimed they were behind the assassination. That was the match that lit the tense powderkeg of Europe and sent the continent spiralling into five years of bloody, hellish combat. The French-led ‘Continental Entente’ battered the storm better than the opposing forces, claiming victory at the end of 1918. With the Treaty of Koln coming into effect with the stroke of a pen, Napoleon IV finally achieved vengeance for his son.\n\nNowadays, the emperor is a spent man. His numbered days are spent at the Tuileries Palace in Paris, away from the public spotlight. It is no secret that the time he has left is finite. His two remaining sons take radically different positions on how to run the empire after their fathers death, providing the perfect storm for chaos to ensue after Napoleon’s death. The question is now, §Ycan the empire survive without him?§!"
 
  ##### DECISIONS #####
  FRA_foreign_policy:0 "Foreign Policy"
@@ -12,13 +12,16 @@
  FRA_israel_independence_mission:0 "Upcoming Israeli Independence Referendum"
 
  ##### FOCUSES #####
- FRA_Focus_Vive_La_France_q:0 "Vive La France?"
- FRA_Focus_Vive_La_France_q_desc:0 "WIP"
- FRA_Focus_Lunch_With_Israel:0 "Lunch With The Israeli President"
+ FRA_Focus_Marin_Ministry:0 "Marin's Ministry"
+ FRA_Focus_Funding_The_RCS:0 "Funding The RCS"
+ FRA_Focus_Funding_The_RCS_DESC:0 "The Rhineland Colonial Society (RCS) is a group that helps French settlers in the Rhine, mainly in regards of monthly support payments. With an ever growing amount of French people migrating to the Rhineland, these payments are getting expensive. While they have always had our support, they are in need of more funding, which Louis Marin has been hell bent on providing."
  FRA_Focus_Promote_Frenchification_Schemes_In_Rhine:0 "Promote Frenchification Schemes In The Rhine"
- FRA_Focus_Promote_Frenchification_Schemes_In_Rhine_desc:0 ""
+ FRA_Focus_Appeasing_The_Socialists:0 "Appeasing The Socialists"
+ FRA_Focus_Approaching_The_Liberals:0 "Approaching The Liberals"
+ FRA_Focus_Marin_Foreign_Policy:0 "Foreign Policy"
+ FRA_Focus_Lunch_With_Israel:0 "Lunch With The Israeli President"
  FRA_Focus_Reinforce_The_Bavarian_Garrison:0 "Reinforce The Bavarian Garrison"
- FRA_Focus_Reinforce_The_Bavarian_Garrison_desc:0 "Since the German Civil War and the rise of the communist regime over huge swathes of Germany, we have maintained a garrison of 10,000 in Bavaria, to protect it from the claws of the revolution. After a recent incursion from the communists, the commandant is requesting reinforcments to bolster his forces."
+ FRA_Focus_Reinforce_The_Bavarian_Garrison_DESC:0 "Since the German Civil War and the rise of the communist regime over huge swathes of Germany, we have maintained a garrison of 10,000 in Bavaria, to protect it from the claws of the revolution. After a recent incursion from the communists, the commandant is requesting reinforcments to bolster his forces."
  FRA_Focus_Calm_Before_The_Storm:0 "Calm Before The Storm..."
  FRA_Focus_Calm_Before_The_Storm_desc:0 ""
  FRA_Focus_The_Great_Recession:0 "The Great Recession"
@@ -58,22 +61,22 @@
  BotR_France.22.b:0 "Pierre-Etienne Flandin, the conservative nominee"
  BotR_France.22.c:0 "Camille Chautemps, the radical option"
 
- BotR_France_Foreign_Policy.1.t:0 "Delcaring Marshal Law?"
- BotR_France_Foreign_Policy.1.d:0 "WIP"
- BotR_France_Foreign_Policy.1.a:0 "Now is not the time for such drastic measures"
- BotR_France_Foreign_Policy.1.b:0 "Marshal Petain shall institue marshal law"
- BotR_France_Foreign_Policy.2.t:0 "Arrest Of Paul Vaillant-Couturier"
- BotR_France_Foreign_Policy.2.d:0 "This morning, authorities in Paris arrested Paul Vaillant-Couturier. Vaillant-Couturier has quite the history, being one of only three Communist deputies in the Chamber of Deputies between 1924 and 1932. More recently, he has been a key journalist and propaganda distributor for the Communist Party. After the crash of 1934, not only has Paul had a field day in tearing the government to shreds in a series of articles, but he has also become a key organiser and leader of the Socialist 'Unemployed Battalion' militias. Following the arrest, there have been many critizing the government for the supposed 'unlawful' arrest."
- BotR_France_Foreign_Policy.2.a:0 "One Less Communist To Deal With"
+ BotR_France_Recovery.1.t:0 "Delcaring Marshal Law?"
+ BotR_France_Recovery.1.d:0 "WIP"
+ BotR_France_Recovery.1.a:0 "Now is not the time for such drastic measures"
+ BotR_France_Recovery.1.b:0 "Marshal Petain shall institue marshal law"
+ BotR_France_Recovery.2.t:0 "Arrest Of Paul Vaillant-Couturier"
+ BotR_France_Recovery.2.d:0 "This morning, authorities in Paris arrested Paul Vaillant-Couturier. Vaillant-Couturier has quite the history, being one of only three Communist deputies in the Chamber of Deputies between 1924 and 1932. More recently, he has been a key journalist and propaganda distributor for the Communist Party. After the crash of 1934, not only has Paul had a field day in tearing the government to shreds in a series of articles, but he has also become a key organiser and leader of the Socialist 'Unemployed Battalion' militias. Following the arrest, there have been many critizing the government for the supposed 'unlawful' arrest."
+ BotR_France_Recovery.2.a:0 "One Less Communist To Deal With"
 
  BotR_France_Foreign_Policy.1.t:0 "Talks With President Weizmann"
  BotR_France_Foreign_Policy.1.d:0 "WIP"
  BotR_France_Foreign_Policy.1.a:0 "We are true to our word:\ the referendum shall be scheduled"
  BotR_France_Foreign_Policy.1.b:0 "Times have changed, and the promise of Israeli determination with it"
- BotR_France_Foreign_Policy.1.t:0 "Reevaluating Our Position In The Levant"
- BotR_France_Foreign_Policy.1.d:0 "WIP"
- BotR_France_Foreign_Policy.1.a:0 "We Will Do Everything In Our Power To Maintain Authority There"
- BotR_France_Foreign_Policy.1.b:0 "It's High Time We Begining Handing Over Local Authority To The Inhabitants"
+ BotR_France_Foreign_Policy.2.t:0 "Reevaluating Our Position In The Levant"
+ BotR_France_Foreign_Policy.2.d:0 "WIP"
+ BotR_France_Foreign_Policy.2.a:0 "We Will Do Everything In Our Power To Maintain Authority There"
+ BotR_France_Foreign_Policy.2.b:0 "It's High Time We Begining Handing Over Local Authority To The Inhabitants"
 
  ##### IDEAS/D.M's #####
  FRA_the_lost_generation:0 "The Lost Generation"
@@ -81,8 +84,9 @@
  FRA_imperial_overextension:0 "Imperial Overextension"
  FRA_imperial_overextension_desc:0 "When Napoleon IV led the empire on a colonisation spree throughout Africa and Asia, the reason was not driven entirely by the value these areas possess, but the prestige they brought the nation as a whole. Perhaps that’s why, year after year, the empire has to spend more that it generates from these colonies to even sustain them. Every policymaker in the empire, no matter their experience, knows that something has to change soon, lest the empire comes crumbling down not from outside aggressors, but their own failure to maintain these lands."
  FRA_eight_decades_of_bonaparte:0 "Eight Decades Of Bonaparte"
- FRA_eight_decades_of_bonaparte_desc:0 "For over eight decades, since the restoration of the Second Empire, a Bonaparte has been at the helm. No matter who you ask, unless it's a socialist or marxist, they have at least one good thing to say about the emperors. Some will clamor about Napoleon III's victory over the Prussians in the early 1870s, while others will commend the current emperor Napoleon IV for his endeavours in spreading French prestige around the globe."
+ FRA_eight_decades_of_bonaparte_desc:0 "For over eight decades, since the restoration of the Second Empire, a Bonaparte has been at the helm. No matter who you ask, unless it's a socialist or marxist, they have at least one good thing to say about the emperors. Some will applaud Napoleon III's victory over the Prussians in the early 1870s, while others will commend the current emperor Napoleon IV for his endeavours in spreading French prestige around the globe."
  FRA_conservative_monarchist_dominance:0 "Conservative-Bonapartist Political Dominance"
+ FRA_conservative_monarchist_dominance_desc:0 "While in the late 1860s and early 1870s the emperors granted concessions to liberals, which strenghened the democratic establishments in the nation, they never got to fully bask in them. Since 1877, conservative and monarchist parties, hailing all loyalty to the emperor, has gained an uninterupted majority in both chambers of the Parliament in every election. The emperor, if he so wishes, can pass legislation at will, with the eager and loyal backing in Parliament."
  
  FRA_great_recession:0 "The Great Recession"
  FRA_marshal_law:0 "Marshal Law"
