@@ -1,0 +1,23 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_GER_insecure_regime"
+		texturefile = "gfx/interface/ideas/ger_idea_insecure_regime.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_disbanded_militias"
+		texturefile = "gfx/interface/ideas/ger_idea_disbanded_militias.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_GER_legacy_of_the_red_revolt"
+		texturefile = "gfx/interface/ideas/ger_idea_legacy_of_the_red_revolt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_ruined_economy"
+		texturefile = "gfx/interface/ideas/ger_idea_ruined_economy.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_GER_founding_fathers_of_marxism"
+		texturefile = "gfx/interface/ideas/ger_idea_founding_fathers_of_marxism.dds"
+	}
+}

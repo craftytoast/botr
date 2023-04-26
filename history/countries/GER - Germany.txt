@@ -162,14 +162,26 @@ set_country_flag = dual_leader_title_vice_chairman_ger
 set_country_flag = dual_leader_ger_walter_ulbricht
 create_country_leader = {
 	name = "Ernst Thälmann"
-	#desc = "thalmann_DESC"
+	#desc = "ernst_thalmann_DESC"
 	picture = "gfx/leaders/GER/Portrait_GER_Ernst_Thalmann.dds"
 	expire = "1965.1.1"
 	ideology = ml_type_1
 }
+
 create_faction = "Internationale Volksfront"
 add_to_faction = GER
 
+################
+### INTERNAL ###
+################
+
+add_ideas = {
+	GER_insecure_regime
+	GER_legacy_of_the_red_revolt	
+	GER_disbanded_militias
+	GER_founding_fathers_of_marxism
+	GER_ruined_economy
+}
 
 #recruit_character = GER_wilhelm_pieck
 #recruit_character = GER_konrad_adenauer
@@ -224,10 +236,8 @@ add_to_faction = GER
 #recruit_character = GER_wilhelm_keitel
 #recruit_character = GER_wilhelm_list
 #recruit_character = GER_wilhelm_marschall
-#
 #recruit_character = GER_wilhelm_ritter_von_leeb
 #recruit_character = GER_wolfram_von_richthofen
-#
 #recruit_character = GER_heinrich_himmler
 #recruit_character = GER_walther_funk
 #recruit_character = GER_hjalmar_schacht

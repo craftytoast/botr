@@ -1,0 +1,118 @@
+ideas = {
+	### NAT: SPIRITS
+	country = {
+	
+		### STARTING NATIONAL SPIRITS ###
+		
+		GER_insecure_regime = {
+		
+			name = GER_insecure_regime
+
+			picture = GFX_idea_GER_insecure_regime
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			allowed = { original_tag = GER }
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.12	
+				political_power_gain = -0.25
+				resistance_activity = 0.15
+				political_advisor_cost_factor = 0.30
+				
+			}
+		}
+				GER_legacy_of_the_red_revolt = {
+		
+			name = GER_legacy_of_the_red_revolt
+
+			picture = GFX_idea_GER_legacy_of_the_red_revolt
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			allowed = { original_tag = GER }
+
+			removal_cost = -1
+
+			modifier = {	
+				ds_drift = -0.03
+				war_support_factor = 0.18
+				army_core_defence_factor = 0.1
+
+			
+			}
+		}
+				GER_disbanded_militias = {
+		
+			name = GER_disbanded_militias
+
+			picture = 
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			allowed = { original_tag = GER }
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = -0.005
+				training_time_army_factor = -0.15
+				army_org_factor = -0.08
+
+				
+			}
+		}		
+				GER_founding_fathers_of_marxism = {
+		
+			name = GER_founding_fathers_of_marxism
+
+			picture = GFX_idea_GER_founding_fathers_of_marxism
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			allowed = { original_tag = GER }
+
+			removal_cost = -1
+
+			modifier = {
+				ml_drift = 0.08
+				party_popularity_stability_factor = 0.15
+				drift_defence_factor = 0.4
+				
+			}
+		}		
+
+				GER_ruined_economy = {
+		
+			name = GER_ruined_economy
+
+			picture = GFX_idea_GER_ruined_economy
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			allowed = { original_tag = GER }
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.14
+				production_speed_buildings_factor = -0.07
+				industrial_capacity_factory = -0.1
+				production_factory_efficiency_gain_factor = -0.05 
+				
+			}
+		}
+	}
+}
