@@ -7,16 +7,14 @@ bookmarks = {
 		default_country = "FRA"
 		default = yes
 		
-		"FRA"={
-			history = "FRA_BOTR_DESC"
-			ideology = cd
+		"RUS"={
+			history = "RUS_BOTR_DESC"
+			ideology = ds
 			ideas = {
-				FRA_the_lost_generation
-				FRA_imperial_overextension
-				FRA_conservative_monarchist_dominance
+				# Placeholder
 			}
 			focuses = {
-				FRA_Focus_Marin_Ministry
+				# Placeholder
 			}
 		}
 		
@@ -31,28 +29,43 @@ bookmarks = {
 			focuses = {
 				# Placeholder
 			}
+		}
+		
+		"FRA"={
+			history = "FRA_BOTR_DESC"
+			ideology = cd
+			ideas = {
+				FRA_the_lost_generation
+				FRA_imperial_overextension
+				FRA_conservative_monarchist_dominance
+			}
+			focuses = {
+				FRA_Focus_Marin_Ministry
+			}
 		}		
-
-		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+		
+		"ENG"={
+			history = "ENG_BOTR_DESC"
+			ideology = sd
+			ideas = {
+				# Placeholder
+			}
+			focuses = {
+				# Placeholder
+			}
 		}
 
+		"USA"={
+			history = "USA_BOTR_DESC"
+			ideology = ld
+			ideas = {
+				# Placeholder
+			}
+			focuses = {
+				# Placeholder
+			}
+		}				
 
-		# minors from DLC ####
-		#"CAN"={
-		#	minor = yes
-		#	history = "CAN_GATHERING_STORM_DESC"
-		#	ideology = democratic
-		#	ideas = {
-		#		CAN_great_depression_1
-		#		CAN_conscription_crisis
-		#	}
-		#	focuses = {
-		#		CAN_skewer_the_eagle
-		#		CAN_north_american_alliance
-		#		CAN_join_comintern
-		#	}
-		#}
 		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
