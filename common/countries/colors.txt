@@ -187,6 +187,16 @@ AAA = {
 	color = rgb { 15 15 15 }
 	color_ui = rgb { 15 15 15 }
 }
+
+XIK = {
+	color = rgb { 149 168 188 }
+	color_ui = rgb { 149 168 188 }
+}
+
+GUI = {
+	color = rgb { 136 85 170 }
+	color_ui = rgb { 136 85 170 }
+}
 ## Japan
 JAP = {
 	color = rgb { 202 202 202 }

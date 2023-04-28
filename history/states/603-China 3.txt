@@ -3,9 +3,9 @@ state={
 	name="STATE_603"
 
 	history={
-		owner = AAA
+		owner = GUI
 		add_core_of = KMT
-		add_core_of = AAA
+		add_core_of = GUI
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
