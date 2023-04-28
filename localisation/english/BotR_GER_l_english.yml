@@ -1,8 +1,9 @@
 ﻿l_english:
  ##### PARTY NAMES #####
  
+ 
  ##### LEADERS #####
-
+ernst_thalmann_desc:0 "§WBorn:\ April 16th, 1886\n--------------\n§!Once a revolutionary in the German Revolts of 1919, now a committed Marxist, Ernst Thälmann is a man who has shown no fear in enforcing his ideals upon this new world. Through sheer power and masterminded abilities, from his rise to power by leading the People’s Republic of Hamburg to rise up against the failed monarchy of the North German Confederation which would eventually lead to the creation of the German Free Socialist Republic. After the 1924 assassination of the elected and loved Chairman, Rosa Luxemburg, by the terrorist organization, the Freikorps, Thälmann continued her legacy with an iron fist. Throughout his rule, the chairman enforced a strong regime based on Marxist ideals which sparked the German Revolution in his early years. From strengthening his power to becoming the one and only Chairman for Life, Thälmann demonstrated his power in such a way that would intimidate any of the current world's leaders.\n\nIn these current times, the chairman has to deal with the instability his oppressive regime has caused on his newborn government, with the rise of more relaxed socialist views upon the state as well as the ruined condition in which both the economy and the army were currently left in. However, with a strong position and never-ending aid from his supporters, Thälmann may finally be able to realize the dreams of a once-forgotten state and unite the German people once and for all under a strong and unified nation, showing to the world the powers of Marxism!"
  
  ##### DECISIONS #####
 
@@ -15,15 +16,15 @@
 
  ##### IDEAS/D.M's #####
 GER_insecure_regime:0 "Insecure Regime"
-GER_insecure_regime_desc:0 "WIP"
+GER_insecure_regime_desc:0 "Throughout the few years which separate the end of the German Revolution to this present day, the Marxist government has not been without flaws… With assassinations, plots to gain more power, and banned political parties, the Marxist regime has shown much instability in recent years. It is now up to the chairman to realize his ambition, with a unified government under his wing. Whether it is to fight the rising socialist menace or abolish the multi-party system, this administration has many issues to solve, and many problems to resolve in the upcoming years."
 GER_legacy_of_the_red_revolt:0 "Legacy of The Red Revolt"
-GER_legacy_of_the_red_revolt_desc:0 ""
+GER_legacy_of_the_red_revolt_desc:0 "As the final shots were fired deep within German territory as a result of the Great European War and with a monarchy in shambles, the people’s dreams of a Marxist-socialist state were ever closer to being realized. This eventually led to a full-scale revolution within the losing state, from Bavaria to East Prussia. While the Marxists managed to gain control of important strategic areas such as Westphalia and Bavaria at first, the French oppressors managed to force the ideals of Marxism in these south-western regions, leading to an even bloodier conflict between the German Free Socialist Republic and the remainder of the North German Confederation, which eventually saw the Marxist rise to power. It is still doubtful to this day if this revolution will eventually spread to the states which were excluded from this regime, which could spark tensions at any time with the neighboring superpower. "
 GER_founding_fathers_of_marxism:0 "Founding Fathers of Marxism"
-GER_founding_fathers_of_marxism_desc:0 ""
+GER_founding_fathers_of_marxism_desc:0 "The political movement which later shaped the vision of the German Free Socialist Republic, first originated from the capital of the proud nation itself, Berlin, from the one and only Karl Marx. It is with great pride and honor that these ideals originated within the nation’s own borders, solidifying control over the state and reinforcing Marxist views within both the government and its people. With goals to expand these standards across the globe, the world has much to learn from the founding nation which led to the first appearance of Marxism."
 GER_ruined_economy:0 "Ruined Economy"
-GER_ruined_economy_desc:0 ""
+GER_ruined_economy_desc:0 "Historically, the fordable and industrialized terrain of the German state showed promising and fulfilled economies within both the Kingdom of Prussia and the North German Confederation itself. However, this capable economy is all but reduced to rubble to this day, as a destroyed and shattered economy now reigns over the nation. The German Revolts, alongside much bloodshed, destroyed a majority of the state’s industrial capacity, it is now the responsibility of the government to rebuild what was once magnificent and to reconstruct the future of the once-proud economic standing of the country."
 GER_disbanded_militias:0 "Disbanded Militias"
-GER_disbanded_militias_desc:0 ""
+GER_disbanded_militias_desc:0 "During the German Civil War, which inflicted thousands of casualties on both, unorganized, sides of the conflict, battalions of fresh and reserve troops were sent to spread Marxist ideals throughout the German state, causing an almost military-controlled nation until the political situation had been partially solidified. This torrent of inexperienced soldiers left even more bodies on the battlefield, leading to a significant decrease in the population. To this day, the importance and impact of these militias still show effects on the nation’s army, from the lack of personnel to the unfulfilled doctrine that leads to younger and disordered troops being recruited in the armed forces."
 
  ##### SCRIPTED LOC #####
 

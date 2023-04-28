@@ -22,7 +22,7 @@ ideas = {
 				stability_factor = -0.12	
 				political_power_gain = -0.25
 				resistance_activity = 0.15
-				political_advisor_cost_factor = 0.30
+				political_advisor_cost_factor = -0.1
 				
 			}
 		}

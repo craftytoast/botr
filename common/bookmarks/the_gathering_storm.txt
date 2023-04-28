@@ -19,6 +19,19 @@ bookmarks = {
 				FRA_Focus_Marin_Ministry
 			}
 		}
+		
+		"GER"={
+			history = "GER_BOTR_DESC"
+			ideology = ml
+			ideas = {
+				GER_insecure_regime
+				GER_legacy_of_the_red_revolt
+				GER_founding_fathers_of_marxism
+			}
+			focuses = {
+				# Placeholder
+			}
+		}		
 
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
