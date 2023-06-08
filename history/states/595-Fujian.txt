@@ -10,6 +10,13 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+			dockyard = 1
+			4196 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+
+			}
 			7071 = {
 				naval_base = 1
 				coastal_bunker = 1
@@ -21,13 +28,15 @@ state={
 		victory_points = {
 			7071 1 
 		}
-
+		victory_points = {
+			4196 3 
+		}
 	}
 
 	provinces={
-		1006 1094 1138 1166 1193 4053 4070 4113 4169 7027 7071 7099 7131 10010 10012 10042 10054 10069 10084 10093 11986 12057 12084 
+		1006 4196 1094 1138 1166 1193 4053 4070 4113 4169 7027 7071 7099 7131 10010 10012 10042 10054 10069 10084 10093 11986 12057 12084 
 	}
-	manpower=8755600
+	manpower=11755600
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

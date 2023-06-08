@@ -70,7 +70,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = ds_type_1
 }
-set_country_flag = leader_title_president
+set_country_flag = leader_title_emperor
 set_country_flag = dual_leader_title_premier
 set_country_flag = dual_leader_chi_wu_peifu
 #################

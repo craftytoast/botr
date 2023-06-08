@@ -192,7 +192,22 @@ XIK = {
 	color = rgb { 149 168 188 }
 	color_ui = rgb { 149 168 188 }
 }
-
+SIC = {
+	color = rgb { 130 55 85 }
+	color_ui = rgb { 120 120 120 }
+}
+YSE = {
+	color = rgb { 87 73 25 }
+	color_ui = rgb { 87 73 25 }
+}
+XIH = {
+	color = rgb { 113 79 49 }
+	color_ui = rgb { 113 79 49 }
+}
+YAO = {
+	color = rgb { 178 92 49 }
+	color_ui = rgb { 178 92 49 }
+}
 GUI = {
 	color = rgb { 136 85 170 }
 	color_ui = rgb { 136 85 170 }
@@ -270,8 +285,10 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 237 122 0	 }
-	color_ui = rgb { 239 152 59 }
+	#color = rgb { 237 122 0	 }
+	#color_ui = rgb { 239 152 59 }
+	color = rgb { 130 114 162 }
+	color_ui = rgb { 198 169 248 }
 }
 ROM = {
 	color = rgb { 215 196 72 }

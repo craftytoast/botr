@@ -28,36 +28,10 @@ shared_focus = {
 }
 shared_focus = {
 	cancelable = no
-	id = FRA_Focus_Funding_The_RCS
-	icon = GFX_FRA_Focus_Funding_The_RCS
-	x = 6
-	y = 1
-	cost = 3
-	available = {
-		
-	}
-	offset = {
-		x = 6
-		trigger = {
-			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
-		}
-	}
-	prerequisite = {
-		focus = FRA_Focus_Marin_Ministry
-	}
-	ai_will_do = {
-		base = 20
-	}
-	completion_reward = {
-		add_political_power = -10
-	}
-}
-shared_focus = {
-	cancelable = no
 	id = FRA_Focus_Promote_Frenchification_Schemes_In_Rhine
 	icon = GFX_FRA_Focus_Promote_Frenchification_Schemes_In_Rhine
 	x = 6
-	y = 2
+	y = 1
 	cost = 2
 	available = {
 		
@@ -69,7 +43,7 @@ shared_focus = {
 		}
 	}
 	prerequisite = {
-		focus = FRA_Focus_Funding_The_RCS
+		focus = FRA_Focus_Marin_Ministry
 	}
 	ai_will_do = {
 		base = 20
@@ -92,63 +66,11 @@ shared_focus = {
 }
 shared_focus = {
 	cancelable = no
-	id = FRA_Focus_Appeasing_The_Socialists
-	icon = GFX_FRA_Focus_Appeasing_The_Socialists
-	x = 8
-	y = 1
-	cost = 3
-	available = {
-		
-	}
-	offset = {
-		x = 6
-		trigger = {
-			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
-		}
-	}
-	prerequisite = {
-		focus = FRA_Focus_Marin_Ministry
-	}
-	ai_will_do = {
-		base = 20
-	}
-	completion_reward = {
-		add_political_power = -10
-	}
-}
-shared_focus = {
-	cancelable = no
 	id = FRA_Focus_Approaching_The_Liberals
 	icon = GFX_FRA_Focus_Promote_Frenchification_Schemes_In_Rhine
 	x = 8
-	y = 2
-	cost = 2
-	available = {
-		
-	}
-	offset = {
-		x = 6
-		trigger = {
-			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
-		}
-	}
-	prerequisite = {
-		focus = FRA_Focus_Appeasing_The_Socialists
-	}
-	ai_will_do = {
-		base = 20
-	}
-	completion_reward = {
-		
-	}
-}
-shared_focus = {
-	cancelable = no
-	id = FRA_Focus_Marin_Foreign_Policy
-	icon = GFX_FRA_Focus_Marin_Foreign_Policy
-	x = 11
 	y = 1
-	cost = 0.5
+	cost = 2
 	available = {
 		
 	}
@@ -173,7 +95,7 @@ shared_focus = {
 	id = FRA_Focus_Lunch_With_Israel
 	icon = GFX_FRA_Focus_Lunch_With_Israel
 	x = 10
-	y = 2
+	y = 1
 	cost = 2
 	available = {
 		
@@ -185,7 +107,7 @@ shared_focus = {
 		}
 	}
 	prerequisite = {
-		focus = FRA_Focus_Marin_Foreign_Policy
+		focus = FRA_Focus_Marin_Ministry
 	}
 	ai_will_do = {
 		base = 20
@@ -198,7 +120,7 @@ shared_focus = {
 	cancelable = no
 	id = FRA_Focus_Reinforce_The_Bavarian_Garrison
 	icon = GFX_FRA_Focus_Reinforce_The_Bavarian_Garrison
-	x = 12
+	x = 10
 	y = 2
 	cost = 1.5
 	available = {
@@ -218,7 +140,7 @@ shared_focus = {
 		}
 	}
 	prerequisite = {
-		focus = FRA_Focus_Marin_Foreign_Policy
+		focus = FRA_Focus_Lunch_With_Israel
 	}
 	ai_will_do = {
 		base = 20
@@ -296,30 +218,6 @@ shared_focus = {
 }
 shared_focus = {
 	cancelable = no
-	id = FRA_Focus_The_Chaos_Subsides
-	icon = GFX_FRA_Focus_The_Chaos_Subsides
-	x = 14
-	y = 5
-	cost = 0.1
-	allow_branch = { has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag }
-	available = {
-		custom_trigger_tooltip = {
-			tooltip = FRA_intial_chaos_after_great_recession_ended_tt
-			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
-		}
-	}
-	prerequisite = {
-		focus = FRA_Focus_The_Great_Recession
-	}
-	ai_will_do = {
-		base = 20
-	}
-	completion_reward = {
-		
-	}
-}
-shared_focus = {
-	cancelable = no
 	id = FRA_Focus_The_Road_To_Recovery
 	icon = GFX_FRA_Focus_The_Road_To_Recovery
 	x = 14
@@ -332,7 +230,7 @@ shared_focus = {
 		}
 	}
 	prerequisite = {
-		focus = FRA_Focus_The_Chaos_Subsides
+		focus = FRA_Focus_The_Great_Recession
 	}
 	ai_will_do = {
 		base = 20

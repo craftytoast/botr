@@ -49,7 +49,7 @@ if = {
 ### POLITICS ###
 ################
 set_politics = {
-	ruling_party = cd
+	ruling_party = sd
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,12 +57,22 @@ set_politics = {
 set_popularities = {
 	ul = 0
 	ds = 9
-	cd = 60
+	cd = 40
 	ld = 0
-	sd = 20
+	sd = 40
 	sc = 2
 	ml = 9
 }
+create_country_leader = {
+	name = "Wang Jingwei"
+	desc = "jingwei_DESC"
+	picture = "gfx/leaders/KMT/Portrait_KMT_Wang_Jingwei.dds"
+	expire = "1965.1.1"
+	ideology = sd_type_1
+}
+set_country_flag = leader_title_president
+set_country_flag = dual_leader_title_commander_of_nra
+set_country_flag = dual_leader_kmt_li_zongren
 #################
 ### DIPLOMACY ###
 #################

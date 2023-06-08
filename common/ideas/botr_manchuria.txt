@@ -1,0 +1,26 @@
+ideas = {
+	### NAT: SPIRITS
+	country = {
+		### STARTING NAT SPIRITS ###
+		MAN_zheltorossiya = {
+
+			allowed = {
+				original_tag = MAN
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_MAN_idea_zheltorossiya
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				monthly_population = 0.5
+				
+			}
+		}
+	}
+}

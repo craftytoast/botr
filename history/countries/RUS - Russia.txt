@@ -59,6 +59,16 @@ POL = {
 	set_cosmetic_tag = POL_RUSSIAN
 	set_politics = { ruling_party = ds elections_allowed = no }
 	set_popularities = { ul = 15 ds = 80 cd = 0 ld = 0 sd = 0 sc = 5 ml = 0 }
+	create_country_leader = {
+		name = "Nicholas II"
+		desc = "tbd_DESC"
+		picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds"
+		expire = "1965.1.1"
+		ideology = ds_type_1
+		traits = {
+			ailing_health
+		}
+	}
 }
 TAN = {
 	set_cosmetic_tag = TAN_RUSSIAN

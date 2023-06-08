@@ -210,10 +210,7 @@ create_country_leader = {
 ################
 1933.1.1 = {
 	complete_national_focus = FRA_Focus_Marin_Ministry
-	complete_national_focus = FRA_Focus_Funding_The_RCS
-	complete_national_focus = FRA_Focus_Appeasing_The_Socialists
 }
-add_political_power = 18 # to offest effects in fra_focus_funding_the_rcs
 add_ideas = {
 	FRA_the_lost_generation
 	FRA_imperial_overextension

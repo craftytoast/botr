@@ -36,6 +36,8 @@
  RESIDENT_GENERAL_TITLE:0 "Resident-General"
  HIGH_COMMISSIONER_TITLE:0 "High Commissioner"
  MILITARY_GOVERNOR_TITLE:0 "Military Governor"
+ COMMANDER_NRA_TITLE:0 "Commander Of The N.R.A"
+ PREMIER_TITLE:0 "Premier"
  
  # Names 
  # Austria
@@ -43,3 +45,4 @@
  CHI_WU_PEIFU:0 "Wu Peifu"
  ISR_CHARLES_DE_GAULLE:0 "Charles de Gaulle"
  FLV_HENRI_GOURAUD:0 "Henri Gouraud"
+ KMT_LI_ZONGREN:0 "Li Zongren"

@@ -33,6 +33,12 @@ defined_text = {
 		}
 		localization_key = KING_TITLE
 	}
+	text = {
+		trigger = {
+			has_country_flag = leader_title_president
+		}
+		localization_key = PRESIDENT_TITLE
+	}
 	# Socialist Germany
 	text = {
 		trigger = {
@@ -47,7 +53,7 @@ defined_text = {
 				tag = CHI
 				tag = AUS
 			}
-			#has_country_flag = leader_title_emperor
+			has_country_flag = leader_title_emperor
 		}
 		localization_key = EMPEROR_TITLE
 	}
@@ -95,10 +101,16 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			tag = CHI
 			has_country_flag = dual_leader_title_premier
 		}
 		localization_key = PREMIER_TITLE
+	}
+	text = {
+		trigger = {
+			tag = KMT
+			has_country_flag = dual_leader_title_commander_of_nra
+		}
+		localization_key = COMMANDER_NRA_TITLE
 	}
 	text = {
 		trigger = {
@@ -126,6 +138,8 @@ defined_text = {
 	text = { trigger = { tag = AUS has_country_flag = dual_leader_aus_otto_ender } localization_key = AUS_OTTO_ENDER }
 	# China (Empire)
 	text = { trigger = { tag = CHI has_country_flag = dual_leader_chi_wu_peifu } localization_key = CHI_WU_PEIFU }
+	# China (Republic)
+	text = { trigger = { tag = KMT has_country_flag = dual_leader_kmt_li_zongren } localization_key = KMT_LI_ZONGREN }
 	# Socialist Germany
 	text = { trigger = { tag = GER has_country_flag = dual_leader_ger_walter_ulbricht } localization_key = GER_WALTER_ULBRICHT }
 	text = {
@@ -146,6 +160,8 @@ defined_text = {
 	text = { trigger = { tag = FLV has_country_flag = dual_leader_flv_henri_gouraud } localization_key = "GFX_FLV_HENRI_GOURAUD" }
 	# China (Empire)
 	text = { trigger = { tag = CHI has_country_flag = dual_leader_chi_wu_peifu } localization_key = "GFX_CHI_WU_PEIFU" }
+	# China (Republic)
+	text = { trigger = { tag = KMT has_country_flag = dual_leader_kmt_li_zongren } localization_key = "GFX_KMT_LI_ZONGREN" }
 	# Socialist Germany
 	text = { trigger = { tag = GER has_country_flag = dual_leader_ger_walter_ulbricht } localization_key = "GFX_GER_Walter_Ulbricht" }
 	text = {

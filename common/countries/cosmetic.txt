@@ -26,7 +26,10 @@ JOR_FRA_KINGDOM = {
 	color_ui = rgb { 26 65 150 }
 }
 
-
+EGY_BRITISH = {
+	color = rgb { 170 35 35 }
+	color_ui = rgb { 204 0 0 }
+}
 
 
 

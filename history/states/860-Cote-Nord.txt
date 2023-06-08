@@ -4,26 +4,18 @@ state={
 	name="STATE_860"
 
 	history={
-		owner = PRC
-		add_core_of = PRC
+		owner = YAO
+		add_core_of = YAO
 		add_core_of = KMT
-		victory_points = {
-			4196 3 
-		}
+		
 		buildings = {
-			infrastructure = 3
-			dockyard = 1
-			4196 = {
-				naval_base = 3
-				coastal_bunker = 1
-				bunker = 1
-
-			}
+			infrastructure = 2
+			
 		}
 	}
 
 	provinces={
-		4196 
+		8026 1367 12767 7256 12274
 	}
 	manpower=3000000
 	buildings_max_level_factor=1.000

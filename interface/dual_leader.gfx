@@ -78,5 +78,9 @@ spriteTypes = {
 		name = "GFX_CHI_WU_PEIFU"
 		texturefile = "gfx/leaders/CHI/Portrait_CHI_Wu_Peifu.dds"
 	}
+	spriteType = {
+		name = "GFX_KMT_LI_ZONGREN"
+		texturefile = "gfx/leaders/KMT/Portrait_KMT_Li_Zongren.dds"
+	}
 
 }
