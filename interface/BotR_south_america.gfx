@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_bolivia_vs_paraguay"
+		texturefile = "gfx/interface/ideas/bolivia_vs_paraguay.dds"
+	}
+	
+}
