@@ -57,8 +57,8 @@ RHO = {
 	color_ui = rgb { 204 0 0 }
 }
 TRN = {
-	color = rgb { 170 35 35 }
-	color_ui = rgb { 204 0 0 }
+	color = rgb { 188 125 69 }
+	color_ui = rgb { 188 125 69 }
 }
 BOT = {
 	color = rgb { 170 35 35 }
