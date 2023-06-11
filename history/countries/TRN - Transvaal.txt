@@ -36,10 +36,10 @@ set_politics = {
 }
 set_popularities = {
 	ul = 30
-	ds = 70
-	cd = 0
-	ld = 0
-	sd = 0
+	ds = 47
+	cd = 18
+	ld = 4
+	sd = 1
 	sc = 0
 	ml = 0
 }
