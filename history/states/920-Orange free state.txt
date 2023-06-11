@@ -1,0 +1,30 @@
+state={
+	id=920
+	name="STATE_920"
+	resources={
+		chromium=20.000
+	}
+	
+	history={
+		owner = TRN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = TRN
+
+	}
+	
+	
+	
+	provinces={
+		5231 12064 12648 
+	}
+	
+	
+	manpower=555174
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}
