@@ -76,6 +76,10 @@ set_country_flag = dual_leader_chi_wu_peifu
 #################
 ### DIPLOMACY ###
 #################
+# Sphere Stuff
+set_country_flag = SPHERE_CHI_LEADER_FLAG
+XSM = { set_country_flag = SPHERE_CHI_WARLORD_STATE_FLAG } 
+YAO = { set_country_flag = SPHERE_CHI_WARLORD_STATE_FLAG } 
 
 
 ### VARIANTS ###

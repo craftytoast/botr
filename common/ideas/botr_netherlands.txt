@@ -1,0 +1,38 @@
+ideas = {
+	### NAT: SPIRITS
+	country = {
+		### STARTING NAT SPIRITS ###
+		HOL_national_devastation = {
+			allowed = {
+				original_tag = HOL
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1 
+			picture = HOL_national_devastation
+			modifier = {
+				production_speed_buildings_factor = -0.3
+				conscription_factor = -0.5
+				monthly_population = -0.2
+				army_attack_factor = -0.15
+			}
+		}
+		HOL_ties_with_france = {
+			allowed = {
+				original_tag = HOL
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1 
+			picture = HOL_ties_with_france
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = FRA
+				extra_trade_to_target_factor = 0.5
+			}
+		}
+	}
+}

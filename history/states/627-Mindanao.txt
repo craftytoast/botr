@@ -18,6 +18,7 @@ state={
 			4241 3 
 		}
 		add_core_of = PHI
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

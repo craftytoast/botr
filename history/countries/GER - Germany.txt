@@ -1,4 +1,4 @@
-﻿capital = 64
+﻿capital = 921 # Berlin proper
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -168,9 +168,6 @@ create_country_leader = {
 	ideology = ml_type_1
 }
 
-create_faction = "Internationale Volksfront"
-add_to_faction = GER
-
 ################
 ### INTERNAL ###
 ################
@@ -182,6 +179,14 @@ add_ideas = {
 	GER_founding_fathers_of_marxism
 	GER_ruined_economy
 }
+
+#################
+### DIPLOMACY ###
+#################
+create_faction = "Internationale Volksfront"
+add_to_faction = GER
+# Sphere Stuff
+set_country_flag = SPHERE_GER_LEADER_FLAG
 
 #recruit_character = GER_wilhelm_pieck
 #recruit_character = GER_konrad_adenauer

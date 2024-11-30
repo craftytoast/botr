@@ -13,16 +13,22 @@ state = {
 		add_core_of = KAZ
 		buildings = {
 			infrastructure = 2
-
+			industrial_complex = 1
 		}
 		add_core_of = RUS
 		victory_points = {
 			12594 1
 		}
+		victory_points = {
+			1668 1
+		}
+		set_state_flag = STEPPEGOV_STATE
 	}
 
 	provinces = {
-		1287 1749 1818 1864 4661 4674 4867 7350 7890 10161 10218 10292 10584 10610 10653 12427 12564 12594 12635 13151 
+		1668 1287 1749 1818 1864 4661 4674 4867 7350 7890 10161 10218 10292 
+		10584 10610 10653 12427 12564 12594 12635 13151 1239 4764 7332 7405
+		10290
 	}
 	manpower = 429213
 	buildings_max_level_factor = 1.000

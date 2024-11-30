@@ -1,0 +1,18 @@
+characters={
+	VEN_juan_vicente_gomez={
+		name="Juan Vicente Gómez"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_VEN_Juan_Vicente_Gomez.dds"
+			}
+		}
+		country_leader={
+			ideology=ds_type_1
+			traits = {
+				dictator
+			}
+			expire="1965.1.1"
+			id=-1
+		}
+	}
+}

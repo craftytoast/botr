@@ -3,32 +3,22 @@ state= {
 	name="STATE_58"
 	manpower = 2348150 
 	state_category = city
-	
-	history=
-	{
+	history={
 		victory_points = {
 			6389 10 
-		}
-		victory_points = {
-			9347 20
 		}
 		owner = GER
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			dockyard = 3
+			dockyard = 1
 			air_base = 5
-			6389 ={
-				naval_base = 8
-			}
 		}
 		add_core_of = GER
 	}
-
 	provinces= {
-		3368 6257 6389 9320 9347 11331
+		3368 6257 6389 9320 11331
  	}
-
 	local_supplies=0.0 
 }
 state= { # Schleswig
@@ -36,9 +26,7 @@ state= { # Schleswig
 	name="STATE_909"
 	manpower = 1329389 
 	state_category = large_town
-	
-	history=
-	{
+	history={
 		owner = DEN
 		buildings = {
 			infrastructure = 3
@@ -47,10 +35,8 @@ state= { # Schleswig
 		}
 		add_core_of = DEN
 	}
-
 	provinces= {
 		317 332 3231 11251 11366
  	}
-
 	local_supplies=0.0 
 }

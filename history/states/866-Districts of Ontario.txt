@@ -2,13 +2,18 @@ state={
 	id=866
 	name="STATE_866"
 	provinces={
-		761 763 3736 4753 
+		1015 7176 11970 1 1086
 	}
 	history = {
-		owner = CAN
-		add_core_of = CAN
+		owner = FLV
+		add_core_of = FLV
+		add_core_of = PAL
+		add_claim_by = ISR
+		buildings = {
+			infrastructure = 1
+		}
 	}
-	manpower=10000
+	manpower=69103
 	state_category = pastoral
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

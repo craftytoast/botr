@@ -17,7 +17,9 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		country_event = { id = BotR_Russian_Pre_CW_Main.2 days = 6 }
+		hidden_effect = {
+			country_event = { id = BotR_Russian_Pre_CW_Main.2 days = 6 }
+		}
 	}
 	
 	option = { # uh oh
@@ -26,6 +28,7 @@ country_event = {
 			factor = 100
 		}
 		add_stability = -0.01
+		custom_effect_tooltip = RUS_nicholas_ii_death_imminent_tt
 	}
 }
 # Nicky Dead
@@ -136,23 +139,30 @@ country_event = {
 			factor = 100
 		}
 		hidden_effect = {
-			RUS = {
-				set_autonomy = {
-					target = UKR
-					autonomy_state = autonomy_dominion
-				}
-			}
 			# Ukraine
-			every_state = {
-				limit = {
-					has_state_flag = CONGRESS_UKRAINE_STATE
-				}
-				transfer_state_to = UKR
-			}
-			UKR = {
-				set_cosmetic_tag = UKR_CONGRESS
-
-			}
+			every_state = { limit = { has_state_flag = CONGRESS_UKRAINE_STATE} transfer_state_to = UKR }
+			UKR = { set_cosmetic_tag = UKR_VICEROY }
+			RUS = { set_autonomy = { target = UKR autonomy_state = autonomy_dominion } }
+			# Baltics
+			every_state = { limit = { has_state_flag = BALTICGOV_STATE } transfer_state_to = BAL add_core_of = BAL }
+			BAL = { set_cosmetic_tag = BAL_GENGOV }
+			RUS = { set_autonomy = { target = BAL autonomy_state = autonomy_dominion } }
+			# Siberia
+			#every_state = { limit = { has_state_flag = SIBERIAGOV_STATE } transfer_state_to = SIB add_core_of = SIB }
+			#SIB = { set_cosmetic_tag = SIB_GENGOV }
+			#RUS = { set_autonomy = { target = SIB autonomy_state = autonomy_dominion } }
+			# Far East
+			every_state = { limit = { has_state_flag = FAREASTGOV_STATE } transfer_state_to = FAR add_core_of = FAR }
+			FAR = { set_cosmetic_tag = FAR_GENGOV }
+			RUS = { set_autonomy = { target = FAR autonomy_state = autonomy_dominion } }
+			# Turkestan
+			every_state = { limit = { has_state_flag = TURKEGOV_STATE } transfer_state_to = TRK add_core_of = TRK }
+			TRK = { set_cosmetic_tag = TRK_GENGOV }
+			RUS = { set_autonomy = { target = TRK autonomy_state = autonomy_dominion } }
+			# Steppes / Kazakhs
+			#every_state = { limit = { has_state_flag = STEPPEGOV_STATE } transfer_state_to = KAZ add_core_of = KAZ }
+			#KAZ = { set_cosmetic_tag = KAZ_GENGOV set_capital = { state = 571 } }
+			#RUS = { set_autonomy = { target = KAZ autonomy_state = autonomy_dominion } }
 		}
 	}
 }
@@ -168,7 +178,11 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = { 
-		
+		hidden_effect = {
+			BAL = {
+				country_event = { id = BotR_Russian_Pre_CW_Collapse.1 days = 2 }
+			}
+		}
 	}
 	
 	option = { # uh oh
@@ -207,13 +221,95 @@ country_event = {
 			766 = {
 				transfer_state_to = ROM
 			}
-			797 = {
-				transfer_state_to = TUR
+			784 = {
+				transfer_state_to = BAL
+				set_demilitarized_zone = yes
 			}
 			137 = {
 				transfer_state_to = CRI
 				add_core_of = CRI
 			}
 		}
+	}
+}
+###########################
+####### RUSSPLOSION #######
+###########################
+##### Baltics - IDs 1-10
+# Freikorps storm Riga
+country_event = { 
+	id = BotR_Russian_Pre_CW_Collapse.1
+	title = BotR_Russian_Pre_CW_Collapse.1.t
+	desc = BotR_Russian_Pre_CW_Collapse.1.d
+	picture = GFX_report_event_german_troops
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = { 
+		hidden_effect = {
+			BAL = {
+				country_event = { id = BotR_Russian_Pre_CW_Collapse.2 days = 3 }
+			}
+		}
+	}
+	
+	option = { # uh oh
+		name = BotR_Russian_Pre_CW_Collapse.1.a
+		ai_chance = {
+			factor = 100
+		}
+		808 = {
+			set_demilitarized_zone = yes
+		}
+		custom_effect_tooltip = baltic_gengov_freikorps_disband_tt
+	}
+}
+# End of Baltic General-Governorate
+country_event = { 
+	id = BotR_Russian_Pre_CW_Collapse.2
+	title = BotR_Russian_Pre_CW_Collapse.2.t
+	desc = BotR_Russian_Pre_CW_Collapse.2.d
+	picture = GFX_report_event_gathering_protest
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = { 
+		hidden_effect = {
+			
+		}
+	}
+	
+	option = { # uh oh
+		name = BotR_Russian_Pre_CW_Collapse.2.a
+		ai_chance = {
+			factor = 100
+		}
+		custom_effect_tooltip = baltic_gengov_dissolve_tt
+		hidden_effect = {
+			# Livonia
+			LIV = {
+			}
+			808 = { set_demilitarized_zone = no transfer_state_to = LIV }
+			190 = { transfer_state_to = LIV }
+			12 = { transfer_state_to = LIV }
+			810 = { transfer_state_to = LIV }
+			# Lithuania
+			LIT = {
+				set_cosmetic_tag = LIT_KINGDOM
+			}
+			11 = { transfer_state_to = LIT }
+			784 = { transfer_state_to = LIT set_demilitarized_zone = yes }
+			815 = { transfer_state_to = LIT }
+			189 = { transfer_state_to = LIT }
+			# Estonia
+			EST = {
+				set_cosmetic_tag = EST_PROVGOV
+			}
+			13 = { transfer_state_to = EST }
+			191 = { transfer_state_to = EST }
+		}
+		
 	}
 }

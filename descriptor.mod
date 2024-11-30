@@ -3,4 +3,5 @@ tags={
 	"Alternative History"
 }
 name="Blood On The Rhine"
-supported_version="1.12.*"
+supported_version="1.14.*"
+replace_path="history/states"

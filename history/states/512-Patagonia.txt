@@ -11,18 +11,24 @@ state={
 	}
 
 	history={
-		owner = ARG
+		owner = ARU
+		add_core_of = ARU
 		buildings = {
 			infrastructure = 2
 			10953 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = ARG
+		add_claim_by = ARG
+		victory_points = {
+			10952 2
+		}
 	}
 
 	provinces={
-		2149 2169 2199 5173 8161 8176 8192 10935 10953 10981 11005 11009 12306 12321 12349 12494 12946 12952 12982 
+		2169 2199 5173 8161 8176 8192 
+		10953 10981 11005 11009 12306 12349 
+		12946 12952 12982 
 	}
 
 	local_supplies=0.0 

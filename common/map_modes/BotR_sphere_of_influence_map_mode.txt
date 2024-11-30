@@ -1,0 +1,365 @@
+### Credit to PB team
+scripted_map_modes = {
+	sphere_map_mode = {
+		top = {
+			type = country
+
+			color = {
+				FROM = {
+					set_temp_variable = { alpha_temp = 0.75 }
+					#set_temp_variable = { alpha = 0.1 }
+					#set_temp_variable = { thickness = 0.01 }
+					if = {
+						limit = {
+							has_country_flag = SPHERE_FRA_LEADER_FLAG
+						}
+						# 26 65 150
+						set_temp_variable = { red = 0.102 }
+						set_temp_variable = { green = 0.255 }
+						set_temp_variable = { blue = 0.588 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_FRA_WESTPHALIA_UNION_FLAG
+						}
+						# 28 71 165
+						set_temp_variable = { red = 0.110 }
+						set_temp_variable = { green = 0.278 }
+						set_temp_variable = { blue = 0.647 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_FRA_COLONY_FLAG
+						}
+						# 31 72 160
+						set_temp_variable = { red = 0.121 }
+						set_temp_variable = { green = 0.282 }
+						set_temp_variable = { blue = 0.627 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_FRA_CA_MEMBER_FLAG
+						}
+						# 39 81 184
+						set_temp_variable = { red = 0.156 }
+						set_temp_variable = { green = 0.372 }
+						set_temp_variable = { blue = 0.720 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					## Other
+					# Hejaz
+					if = {
+						limit = {
+							has_country_flag = SPHERE_FRA_HEJAZ_FLAG
+						}
+						# 42 87 195
+						set_temp_variable = { red = 0.164 }
+						set_temp_variable = { green = 0.384 }
+						set_temp_variable = { blue = 0.764 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					# Israel (prot)
+					if = {
+						limit = {
+							has_country_flag = SPHERE_FRA_ISRAEL_PROT_FLAG
+						}
+						# 39 81 184
+						set_temp_variable = { red = 0.156 }
+						set_temp_variable = { green = 0.372 }
+						set_temp_variable = { blue = 0.720 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					# Papal State
+					if = {
+						limit = {
+							has_country_flag = SPHERE_FRA_POPE_FLAG
+						}
+						# 42 87 195
+						set_temp_variable = { red = 0.164 }
+						set_temp_variable = { green = 0.384 }
+						set_temp_variable = { blue = 0.764 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					# Greece
+					if = {
+						limit = {
+							has_country_flag = SPHERE_FRA_GREECE_FLAG
+						}
+						# 42 87 195
+						set_temp_variable = { red = 0.164 }
+						set_temp_variable = { green = 0.384 }
+						set_temp_variable = { blue = 0.764 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					# Araucanía and Patagonia
+					if = {
+						limit = {
+							has_country_flag = SPHERE_FRA_ARAUCANIA_FLAG
+						}
+						# 42 87 195
+						set_temp_variable = { red = 0.164 }
+						set_temp_variable = { green = 0.384 }
+						set_temp_variable = { blue = 0.764 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					# Ecuador
+					if = {
+						limit = {
+							has_country_flag = SPHERE_FRA_ECUADOR_FLAG
+						}
+						# 42 87 195
+						set_temp_variable = { red = 0.164 }
+						set_temp_variable = { green = 0.384 }
+						set_temp_variable = { blue = 0.764 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+				
+					## GER
+					if = {
+						limit = {
+							has_country_flag = SPHERE_GER_LEADER_FLAG
+						}
+						# 142 12 12
+						set_temp_variable = { red = 0.556 }
+						set_temp_variable = { green = 0.047 }
+						set_temp_variable = { blue = 0.047 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+
+					## British
+					if = {
+						limit = {
+							has_country_flag = SPHERE_UK_LEADER_FLAG
+						}
+						# 168 58 78
+						set_temp_variable = { red = 0.658 }
+						set_temp_variable = { green = 0.227 }
+						set_temp_variable = { blue = 0.305 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_UK_CROWN_COLONY_FLAG
+						}
+						# 176 65 85 - Used for Crown Colonies and the Raj
+						set_temp_variable = { red = 0.690 }
+						set_temp_variable = { green = 0.255 }
+						set_temp_variable = { blue = 0.333 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_UK_RAJ_FLAG
+						}
+						# 176 65 85 - Used for Crown Colonies and the Raj
+						set_temp_variable = { red = 0.690 }
+						set_temp_variable = { green = 0.255 }
+						set_temp_variable = { blue = 0.333 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_UK_PROTECTORATE_FLAG
+						}
+						# 186 75 93
+						set_temp_variable = { red = 0.729 }
+						set_temp_variable = { green = 0.294 }
+						set_temp_variable = { blue = 0.364 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_UK_DOMINION_FLAG
+						}
+						# 209 105 122
+						set_temp_variable = { red = 0.819 }
+						set_temp_variable = { green = 0.411 }
+						set_temp_variable = { blue = 0.478 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_UK_SAUDI_FLAG
+						}
+						# 208 93 112
+						set_temp_variable = { red = 0.814 }
+						set_temp_variable = { green = 0.364 }
+						set_temp_variable = { blue = 0.439 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+
+					## Russian
+					if = {
+						limit = {
+							has_country_flag = SPHERE_RUS_LEADER_FLAG
+						}
+						# 0 100 0
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 0.392 }
+						set_temp_variable = { blue = 0.0 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_RUS_VISTULALAND_FLAG
+						}
+						# 0 115 0 - Used for Finland too
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 0.451 }
+						set_temp_variable = { blue = 0.0 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_RUS_FINLAND_UNION_FLAG
+						}
+						# 0 115 0 - Used for Finland too
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 0.451 }
+						set_temp_variable = { blue = 0.0 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_RUS_NORTHEAST_PROVINCES_FLAG
+						}
+						# 0 130 0
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 0.510 }
+						set_temp_variable = { blue = 0.0 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_RUS_PROTECTORATE_FLAG
+						}
+						# 0 145 0
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 0.569 }
+						set_temp_variable = { blue = 0.0 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_RUS_YUGOSLAVIA_ALLY_FLAG
+						}
+						# 0 158 0
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 0.620 }
+						set_temp_variable = { blue = 0.0 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_RUS_PERSIA_INFLUENCE_FLAG
+						}
+						# 0 154 0
+						set_temp_variable = { red = 0.0 }
+						set_temp_variable = { green = 0.600 }
+						set_temp_variable = { blue = 0.0 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+
+					## American
+					if = {
+						limit = {
+							has_country_flag = SPHERE_USA_LEADER_FLAG
+						}
+						# 66 123 193
+						set_temp_variable = { red = 0.250 }
+						set_temp_variable = { green = 0.480 }
+						set_temp_variable = { blue = 0.750 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_USA_MANDATE_FLAG
+						}
+						# 70 125 198
+						set_temp_variable = { red = 0.274 }
+						set_temp_variable = { green = 0.490 }
+						set_temp_variable = { blue = 0.778 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+
+					## China - Empire
+					if = {
+						limit = {
+							has_country_flag = SPHERE_CHI_LEADER_FLAG
+						}
+						# 198 152 62
+						set_temp_variable = { red = 0.776 }
+						set_temp_variable = { green = 0.596 }
+						set_temp_variable = { blue = 0.243 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_CHI_WARLORD_STATE_FLAG
+						}
+						# 206 156 56
+						set_temp_variable = { red = 0.808 }
+						set_temp_variable = { green = 0.611 }
+						set_temp_variable = { blue = 0.219 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+
+					## Japan
+					if = {
+						limit = {
+							has_country_flag = SPHERE_JAP_LEADER_FLAG 
+						}
+						# 186 99 99
+						set_temp_variable = { red = 0.729 }
+						set_temp_variable = { green = 0.388 }
+						set_temp_variable = { blue = 0.388 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_JAP_PROTECTORATE_FLAG
+						}
+						# 199 108 108
+						set_temp_variable = { red = 0.788 }
+						set_temp_variable = { green = 0.427 }
+						set_temp_variable = { blue = 0.427 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+					if = {
+						limit = {
+							has_country_flag = SPHERE_JAP_AFFILIATE_FLAG
+						}
+						# 216 120 120
+						set_temp_variable = { red = 0.856 }
+						set_temp_variable = { green = 0.482 }
+						set_temp_variable = { blue = 0.482 }
+						set_temp_variable = { alpha = alpha_temp }
+					}
+				}
+
+			}
+			thickness = no
+		}
+
+		bottom = {
+			type = none 
+
+			color = {
+				set_temp_variable = { alpha = 0.4 }
+				set_temp_variable = { thickness = 10.0 }
+			}
+
+			thickness = yes
+		}
+
+		far_text = none
+		near_text = none
+
+		update_daily = yes
+	}
+
+	
+}

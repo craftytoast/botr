@@ -19,6 +19,7 @@ state = {
 		victory_points = {
 			7708 1
 		}
+		set_state_flag = STEPPEGOV_STATE
 	}
 
 	provinces = {

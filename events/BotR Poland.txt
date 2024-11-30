@@ -1,0 +1,48 @@
+﻿###########################
+# Polish Skeleton Events
+###########################
+
+add_namespace = botr_poland_vistulaland
+add_namespace = botr_poland_republic
+add_namespace = botr_poland_news
+
+#### EVENTS ####
+country_event = {
+	id = botr_poland_republic.1 # August Coup: Republic Proclaimed
+	title = "The August Coup"
+	desc = botr_poland_republic.1.d
+	picture = GFX_report_event_latvian_soldiers
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	option = { # yippe
+		name = botr_poland_republic.1.a
+		ai_chance = {
+			factor = 100
+		}
+		POL_august_revolution_effects = yes
+		news_event = { id = botr_poland_news.1 hours = 1 }
+	}
+}
+#### NEWS ####
+news_event = {
+    id = botr_poland_news.1
+    title = "AUGUST COUP: POLAND FREE"
+    desc = botr_poland_news.1.d
+    
+    picture = GFX_news_event_generic_rally
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = "Cool"
+    }
+
+}

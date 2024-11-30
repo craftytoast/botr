@@ -11,6 +11,7 @@ state = {
 			4859 1
 		}
 		owner = RUS
+		set_state_flag = SIBERIAGOV_STATE
 		buildings = {
 			infrastructure = 1
 		}

@@ -1,0 +1,45 @@
+﻿l_english:
+ ##### PARTY NAMES #####
+ POL_ul_party:0 "SDN(E)"
+ POL_ul_party_long:0 "Stronnictwo Demokratyczno-Narodowe (National-Democratic Party (Extremists))"
+ POL_ds_party:0 "Namiestnik"
+ POL_ds_party_long:0 "Generał-gubernator Warszawski (Governor-General of Warsaw)"
+ POL_ds_front_polska:0 "Front Polska"
+ POL_ds_front_polska_long:0 "Narodowy Front Wszechpolski (National All-Poland Front)"
+ POL_au_party:0 "SDN(D)"
+ POL_au_party_long:0 "Stronnictwo Demokratyczno-Narodowe (National-Democratic Party (Dmowski))"
+ POL_cd_party:0 "SDN(C)"
+ POL_cd_party_long:0 "Stronnictwo Demokratyczno-Narodowe (National-Democratic Party (Center))"
+ POL_ld_party:0 "PSL'P'"
+ POL_ld_party_long:0 "Polskie Stronnictwo Ludowe "Piast" (Polish Peoples Party "Piast")"
+ POL_sd_party:0 "PSL'W'"
+ POL_sd_party_long:0 "Polskie Stronnictwo Ludowe "Wyzwolenie" (Polish Peoples Party "Wyzwolenie")"
+ POL_sc_party:0 "PPS"
+ POL_sc_party_long:0 "Polska Partia Socjalistyczna (Polish Socialist Party)"
+ POL_ml_party:0 "PPS(L)"
+ POL_ml_party_long:0 "Polska Partia Socjalistyczna (Polish Socialist Party – Left)" 
+ POL_ls_party:0 "-"
+ POL_ls_party_long:0 "§R(NO PARTY)§!" 
+
+ ##### DECISIONS #####
+
+ ##### FOCUSES #####
+
+ ##### EVENTS #####
+
+ ##### NEWS EVENTS #####
+
+ ##### IDEAS/D.M's #####
+
+
+ ##### LEADERS / CHARACTERS #####
+
+ POL_leonard_skierski:0 "Leonard Skierski"
+
+ ##### SCRIPTED LOC #####
+
+ 
+ 
+ 
+ 
+

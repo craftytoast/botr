@@ -13,7 +13,7 @@ state={
 
 		}
 		add_core_of = RUS
-
+		set_state_flag = TURKEGOV_STATE
 	}
 
 	provinces={

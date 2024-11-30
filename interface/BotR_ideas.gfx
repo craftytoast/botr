@@ -1,0 +1,33 @@
+spriteTypes = {	
+	#### FRANCE ####
+	spriteType = {
+		name = "GFX_idea_FRA_the_lost_generation"
+		texturefile = "gfx/interface/ideas/fra_idea_the_lost_generation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_imperial_overextension"
+		texturefile = "gfx/interface/ideas/fra_idea_imperial_overextension.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_eight_decades_of_bonaparte"
+		texturefile = "gfx/interface/ideas/fra_idea_eight_decades_bonaparte.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_conservative_monarchist_dominance"
+		texturefile = "gfx/interface/ideas/fra_idea_conservative_monarchist_dominance.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GLDFLU_Modifier_Icon"
+		texturefile = "gfx/interface/ideas/gldfluss_icon.dds"
+	}
+	#### NETHERLANDS ####
+	spriteType = {
+		name = "GFX_idea_HOL_national_devastation"
+		texturefile = "gfx/interface/ideas/HOL/hol_idea_devastation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HOL_ties_with_france"
+		texturefile = "gfx/interface/ideas/HOL/hol_idea_napolonic_netherlands.dds"
+	}
+}

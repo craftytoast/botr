@@ -11,6 +11,7 @@ state={
 		}
 		owner = RUS
 		add_core_of = RUS
+		set_state_flag = BALTICGOV_STATE
 		buildings = {
 			infrastructure = 3 #was: 5
 			9262 = {
@@ -21,11 +22,11 @@ state={
 	}
 
 	provinces={
-		3194 3296 3319 6322 9262 11246 
+		3194 3296 3319 6322 9262 11246 265 3255 3525 6222 6342 11358 
 	}
 
 	local_supplies=5.0 
-	manpower=315500
+	manpower=515500
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

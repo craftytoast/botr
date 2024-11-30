@@ -1,0 +1,83 @@
+defined_text = { #
+    name = botr_get_sphere_data
+    ## FRANCE ##
+    text = { trigger = { has_country_flag = SPHERE_FRA_LEADER_FLAG } localization_key = BotR_Sphere_FRA_Leader_tt }
+    text = { trigger = { has_country_flag = SPHERE_FRA_WESTPHALIA_UNION_FLAG } localization_key = BotR_Sphere_FRA_WST_Personal_Union_tt }
+    text = { trigger = { has_country_flag = SPHERE_FRA_COLONY_FLAG } localization_key = BotR_Sphere_FRA_Colony_tt }
+    text = { trigger = { has_country_flag = SPHERE_FRA_CA_MEMBER_FLAG } localization_key = BotR_Sphere_FRA_CA_Member_tt }
+    text = { trigger = { has_country_flag = SPHERE_FRA_HEJAZ_FLAG } localization_key = BotR_Sphere_FRA_Hejaz_tt }
+    text = { trigger = { has_country_flag = SPHERE_FRA_ISRAEL_PROT_FLAG } localization_key = BotR_Sphere_FRA_Israel_tt }
+    text = { trigger = { has_country_flag = SPHERE_FRA_POPE_FLAG } localization_key = BotR_Sphere_FRA_Papal_tt }
+    text = { trigger = { has_country_flag = SPHERE_FRA_GREECE_FLAG } localization_key = BotR_Sphere_FRA_Greece_tt }
+    text = { trigger = { has_country_flag = SPHERE_FRA_ARAUCANIA_FLAG } localization_key = BotR_Sphere_FRA_Araucania_tt }
+    text = { trigger = { has_country_flag = SPHERE_FRA_ECUADOR_FLAG } localization_key = BotR_Sphere_FRA_Ecuador_tt }
+    ## GERMANY ##
+    text = { trigger = { has_country_flag = SPHERE_GER_LEADER_FLAG } localization_key = BotR_Sphere_GER_Leader_tt }
+    ## BRITAIN ##
+    text = { trigger = { has_country_flag = SPHERE_UK_LEADER_FLAG } localization_key = BotR_Sphere_UK_Leader_tt }
+    text = { trigger = { has_country_flag = SPHERE_UK_CROWN_COLONY_FLAG } localization_key = BotR_Sphere_UK_Crown_Colony_tt }
+    text = { trigger = { has_country_flag = SPHERE_UK_RAJ_FLAG } localization_key = BotR_Sphere_UK_Raj_tt }
+    text = { trigger = { has_country_flag = SPHERE_UK_PROTECTORATE_FLAG } localization_key = BotR_Sphere_UK_Protectorate_tt }
+    text = { trigger = { has_country_flag = SPHERE_UK_DOMINION_FLAG } localization_key = BotR_Sphere_UK_Dominion_tt }
+    text = { trigger = { has_country_flag = SPHERE_UK_SAUDI_FLAG } localization_key = BotR_Sphere_UK_Saudi_tt }
+    ## RUSSIA ##
+    text = { trigger = { has_country_flag = SPHERE_RUS_LEADER_FLAG } localization_key = BotR_Sphere_RUS_Leader_tt }
+    text = { trigger = { has_country_flag = SPHERE_RUS_VISTULALAND_FLAG } localization_key = BotR_Sphere_RUS_Vistulaland_tt }
+    text = { trigger = { has_country_flag = SPHERE_RUS_FINLAND_UNION_FLAG } localization_key = BotR_Sphere_RUS_Finland_Union_tt }
+    text = { trigger = { has_country_flag = SPHERE_RUS_NORTHEAST_PROVINCES_FLAG } localization_key = BotR_Sphere_RUS_Northeastern_Provinces_tt }
+    text = { trigger = { has_country_flag = SPHERE_RUS_PROTECTORATE_FLAG } localization_key = BotR_Sphere_RUS_Protectorate_tt }
+    text = { trigger = { has_country_flag = SPHERE_RUS_YUGOSLAVIA_ALLY_FLAG } localization_key = BotR_Sphere_RUS_Yugoslavia_Ally_tt }
+    text = { trigger = { has_country_flag = SPHERE_RUS_PERSIA_INFLUENCE_FLAG } localization_key = BotR_Sphere_RUS_Persia_Influence_tt }
+    ## AMERICA ##
+    text = { trigger = { has_country_flag = SPHERE_USA_LEADER_FLAG } localization_key = BotR_Sphere_USA_Leader_tt }
+    text = { trigger = { has_country_flag = SPHERE_USA_MANDATE_FLAG } localization_key = BotR_Sphere_USA_Mandate_tt }
+    ## IMPERIAL CHINA ##
+    text = { trigger = { has_country_flag = SPHERE_CHI_LEADER_FLAG } localization_key = BotR_Sphere_CHI_Leader_tt }
+    text = { trigger = { has_country_flag = SPHERE_CHI_WARLORD_STATE_FLAG } localization_key = BotR_Sphere_CHI_Warlord_State_tt }
+    ## IMPERIAL JAPAN ##
+    text = { trigger = { has_country_flag = SPHERE_JAP_LEADER_FLAG } localization_key = BotR_Sphere_JAP_Leader_tt }
+    text = { trigger = { has_country_flag = SPHERE_JAP_PROTECTORATE_FLAG } localization_key = BotR_Sphere_JAP_Protectorate_tt }
+    text = { trigger = { has_country_flag = SPHERE_JAP_AFFILIATE_FLAG } localization_key = BotR_Sphere_JAP_Affiliate_tt }
+}
+
+defined_text = { #
+    name = botr_get_sphere_data_delayed 
+    ## FRANCE ##
+    text = { trigger = { has_country_flag = SPHERE_FRA_LEADER_FLAG } localization_key = BotR_Sphere_FRA_Leader_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_FRA_WESTPHALIA_UNION_FLAG } localization_key = BotR_Sphere_FRA_WST_Personal_Union_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_FRA_COLONY_FLAG } localization_key = BotR_Sphere_FRA_Colony_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_FRA_CA_MEMBER_FLAG } localization_key = BotR_Sphere_FRA_CA_Member_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_FRA_HEJAZ_FLAG } localization_key = BotR_Sphere_FRA_Hejaz_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_FRA_ISRAEL_PROT_FLAG } localization_key = BotR_Sphere_FRA_Israel_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_FRA_POPE_FLAG } localization_key = BotR_Sphere_FRA_Papal_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_FRA_GREECE_FLAG } localization_key = BotR_Sphere_FRA_Greece_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_FRA_ARAUCANIA_FLAG } localization_key = BotR_Sphere_FRA_Araucania_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_FRA_ECUADOR_FLAG } localization_key = BotR_Sphere_FRA_Ecuador_tt_delayed }
+    ## GERMANY ##
+    text = { trigger = { has_country_flag = SPHERE_GER_LEADER_FLAG } localization_key = BotR_Sphere_GER_Leader_tt_delayed }
+    ## BRITAIN ##
+    text = { trigger = { has_country_flag = SPHERE_UK_LEADER_FLAG } localization_key = BotR_Sphere_UK_Leader_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_UK_CROWN_COLONY_FLAG } localization_key = BotR_Sphere_UK_Crown_Colony_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_UK_RAJ_FLAG } localization_key = BotR_Sphere_UK_Raj_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_UK_PROTECTORATE_FLAG } localization_key = BotR_Sphere_UK_Protectorate_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_UK_DOMINION_FLAG } localization_key = BotR_Sphere_UK_Dominion_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_UK_SAUDI_FLAG } localization_key = BotR_Sphere_UK_Saudi_tt_delayed }
+    ## RUSSIA ##
+    text = { trigger = { has_country_flag = SPHERE_RUS_LEADER_FLAG } localization_key = BotR_Sphere_RUS_Leader_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_RUS_VISTULALAND_FLAG } localization_key = BotR_Sphere_RUS_Vistulaland_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_RUS_FINLAND_UNION_FLAG } localization_key = BotR_Sphere_RUS_Finland_Union_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_RUS_NORTHEAST_PROVINCES_FLAG } localization_key = BotR_Sphere_RUS_Northeastern_Provinces_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_RUS_PROTECTORATE_FLAG } localization_key = BotR_Sphere_RUS_Protectorate_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_RUS_YUGOSLAVIA_ALLY_FLAG } localization_key = BotR_Sphere_RUS_Yugoslavia_Ally_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_RUS_PERSIA_INFLUENCE_FLAG } localization_key = BotR_Sphere_RUS_Persia_Influence_tt_delayed }
+    ## AMERICA ##
+    text = { trigger = { has_country_flag = SPHERE_USA_LEADER_FLAG } localization_key = BotR_Sphere_USA_Leader_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_USA_MANDATE_FLAG } localization_key = BotR_Sphere_USA_Mandate_tt_delayed }
+    ## IMPERIAL CHINA ##
+    text = { trigger = { has_country_flag = SPHERE_CHI_LEADER_FLAG } localization_key = BotR_Sphere_CHI_Leader_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_CHI_WARLORD_STATE_FLAG } localization_key = BotR_Sphere_CHI_Warlord_State_tt_delayed }
+    ## IMPERIAL JAPAN ##
+    text = { trigger = { has_country_flag = SPHERE_JAP_LEADER_FLAG } localization_key = BotR_Sphere_JAP_Leader_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_JAP_PROTECTORATE_FLAG } localization_key = BotR_Sphere_JAP_Protectorate_tt_delayed }
+    text = { trigger = { has_country_flag = SPHERE_JAP_AFFILIATE_FLAG } localization_key = BotR_Sphere_JAP_Affiliate_tt_delayed }
+}

@@ -1,18 +1,48 @@
+#### REORGED ####
+## BRITAINIA RAHHHH ##
+IRE_HOMERULE = { # Irish Homerule - Pinkish Red
+	color = rgb { 192 74 74 }
+	color_ui = rgb { 192 74 74 }
+}
+
+
+
 FIN_RUSSIAN = {
-	color = rgb { 0 90 0 }
-	color_ui = rgb { 0 90 0 }
+	color = rgb { 0 94 0 }
+	color_ui = rgb { 0 94 0 }
 }
 POL_RUSSIAN = {
-	color = rgb { 0 90 0 }
-	color_ui = rgb { 0 90 0 }
+	color = rgb { 0 94 0 }
+	color_ui = rgb { 0 94 0 }
 }
 TAN_RUSSIAN = {
-	color = rgb { 0 90 0 }
-	color_ui = rgb { 0 90 0 }
+	color = rgb { 0 94 0 }
+	color_ui = rgb { 0 94 0 }
 }
-UKR_CONGRESS = {
-	color = rgb { 0 90 0 }
-	color_ui = rgb { 0 90 0 }
+
+UKR_VICEROY = {
+	color = rgb { 0 94 0 }
+	color_ui = rgb { 0 94 0 }
+}
+BAL_GENGOV = {
+	color = rgb { 0 94 0 }
+	color_ui = rgb { 0 94 0 }
+}
+TRK_GENGOV = {
+	color = rgb { 0 94 0 }
+	color_ui = rgb { 0 94 0 }
+}
+KAZ_GENGOV = {
+	color = rgb { 0 94 0 }
+	color_ui = rgb { 0 94 0 }
+}
+SIB_GENGOV = {
+	color = rgb { 0 94 0 }
+	color_ui = rgb { 0 94 0 }
+}
+FAR_GENGOV = {
+	color = rgb { 0 94 0 }
+	color_ui = rgb { 0 94 0 }
 }
 
 
@@ -30,8 +60,27 @@ EGY_BRITISH = {
 	color = rgb { 170 35 35 }
 	color_ui = rgb { 204 0 0 }
 }
-
-
+BRITISH_COLONY = {
+	color = rgb { 170 35 35 }
+	color_ui = rgb { 204 0 0 }
+}
+TRN_BRITISH_COLONY = {
+	color = rgb { 170 35 35 }
+	color_ui = rgb { 204 0 0 }
+}
+# Venezuelan Shit
+VEN_communist_venezuela = { # The 'Revolt' Tag
+	color = rgb { 130 20 20 }
+	color_ui = rgb { 130 20 20 }
+}
+VEN_communist_venezuela_ssr = { # Venezuelan Socialist Republic
+	color = rgb { 130 20 20 }
+	color_ui = rgb { 130 20 20 }
+}
+VEN_bolivar_commune = {
+	color = rgb { 50 50 50 }
+	color_ui = rgb { 50 50 50 }
+}
 
 
 MAL_UK = {

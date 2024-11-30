@@ -1,0 +1,50 @@
+ideas = {
+	country = {
+
+
+	    ROM_bucharest_general_strike = {
+           # picture = venezuelan_revolution
+            allowed = {
+			
+			}
+			available = {
+			}
+			cancel = {
+			} 
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				stability_weekly = -0.02
+				industrial_capacity_factory = -0.4
+				industrial_capacity_dockyard = -0.2
+				production_speed_buildings_factor = -0.4
+				political_power_cost = 0.3
+				ml_drift = 0.02
+				sc_drift = 0.02
+			}
+		}
+		ROM_bucharest_riots = {
+			# picture = venezuelan_revolution
+			allowed = {
+			
+			}
+			available = {
+			}
+			cancel = {
+			} 
+			allowed_civil_war = {
+			 	always = no
+			}
+			modifier = {
+			 	stability_weekly = -0.04
+			 	industrial_capacity_factory = -0.4
+			 	industrial_capacity_dockyard = -0.2
+			 	production_speed_buildings_factor = -0.4
+			 	political_power_cost = 0.5
+			 	ml_drift = 0.08
+			 	sc_drift = 0.08
+			}
+		 }
+	}
+}

@@ -9,6 +9,7 @@ state={
 	history={
 		owner = RUS
 		add_core_of = RUS
+		set_state_flag = BALTICGOV_STATE
 		victory_points = {
 			9340 10 
 		}

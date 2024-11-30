@@ -13,6 +13,7 @@ state={
 		}
 		add_core_of = RUS
 		add_core_of = ALT
+		set_state_flag = SIBERIAGOV_STATE
 		victory_points = {
 			4800 1 #Oyrot-Tura/Gorno-Altaysk
 		}

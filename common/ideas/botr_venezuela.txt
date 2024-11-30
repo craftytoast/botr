@@ -1,0 +1,33 @@
+ideas = {
+	country = {
+	    VEN_venezuelan_revolution = {
+            picture = venezuelan_revolution
+         
+            allowed = {
+			   
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			} 
+
+			allowed_civil_war = {
+				always = no
+			}
+
+
+			modifier = {
+				stability_factor = -0.2
+				industrial_capacity_factory = -0.3
+				political_power_cost = 0.3
+				ml_drift = 0.07
+			}
+			
+		
+
+		}
+	
+	}
+}

@@ -1,4 +1,4 @@
-﻿capital = 328
+﻿capital = 820 # Russian administration, based in Harbin
 
 oob = "MAN_1936"
 
@@ -7,15 +7,6 @@ set_technology = {
 	gw_artillery = 1
 	
 }
-
-if = {
-	limit = { has_dlc = "No Step Back" }
-	recruit_character = SOV_grigory_semyonov
-	SOV_grigory_semyonov = { 
-		set_character_flag = SOV_exiled_army_leader
-	}
-}
-
 set_convoys = 5
 
 328 = { #Kirin
@@ -38,7 +29,7 @@ set_convoys = 5
 ### POLITICS ###
 ################
 set_politics = {
-	ruling_party = ds
+	ruling_party = ds 
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -58,4 +49,21 @@ create_country_leader = {
 	picture = "gfx/leaders/MAN/Portrait_MAN_Zhang_Zongchang.dds"
 	expire = "1965.1.1"
 	ideology = ds_type_1
+}
+set_country_flag = dual_leader_title_custom
+set_country_flag = leader_title_inspector_general
+set_country_flag = dual_leader_title_man_military_gov_harbin
+set_country_flag = dual_leader_man_anatoly_pepelyayev
+################
+### INTERNAL ###
+################
+add_ideas = {
+	MAN_zheltorossiya
+	MAN_chinese_eastern_railway
+	MAN_scourge_of_fengtian_clique
+}
+716 = { # Fengtian Rebels
+	add_dynamic_modifier = {
+		modifier = MAN_fengtian_rebels
+	}
 }

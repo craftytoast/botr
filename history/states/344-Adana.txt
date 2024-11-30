@@ -7,8 +7,8 @@ state={
 	state_category = town
 
 	history={
-		owner = FLV
-		add_core_of = FLV
+		owner = TUR
+		add_core_of = TUR
 		victory_points = {
 			9893 3
 		}
@@ -19,7 +19,6 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = TUR
 	}
 
 	provinces={

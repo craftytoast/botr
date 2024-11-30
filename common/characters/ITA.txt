@@ -1,0 +1,25 @@
+characters={
+	ITA_gabriele_dannunzio={
+		name="Gabriele D'Annunzio"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Gabriele_DAnnunzio.dds"
+			}
+		}
+		country_leader={
+			ideology=ul_type_1
+			expire="1960.1.1.1"
+			traits = {
+				dictator
+			}
+		}
+	}
+	ITA_victor_emmanuel_iii={
+		name="Victor Emmanuel III"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.dds"
+			}
+		}
+	}
+}

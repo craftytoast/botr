@@ -1,21 +1,27 @@
 state={
 	id=699
 	name="STATE_699"
-	manpower = 21056
+	manpower = 21256
 	
-	state_category = wasteland
+	state_category = pastoral
 
 	history={
 		owner = FWA
 		add_core_of = WES
 		buildings = {
 			infrastructure = 1
-			8038 = {
+			5012 = {
 				naval_base = 1
 			}
 		}
 		victory_points = {
+			10875 2
+		}
+		victory_points = {
 			8038 1
+		}
+		victory_points = {
+			5012 1
 		}
 	}
 	

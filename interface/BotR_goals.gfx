@@ -1,0 +1,28 @@
+spriteTypes = {
+	# FRA
+	SpriteType = {
+		name = "GFX_FRA_Focus_Pernot_Ministry"
+		texturefile = "gfx/interface/goals/FRA_pernot_ministry.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Focus_Promote_Frenchification_Schemes_In_Rhine"
+		texturefile = "gfx/interface/goals/FRA_frenchify_rhine.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Focus_Approaching_The_Liberals"
+		texturefile = "gfx/interface/goals/FRA_approach_leftists.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Focus_Lunch_With_Israel"
+		texturefile = "gfx/interface/goals/FRA_israel_meeting.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Focus_Reinforce_The_Bavarian_Garrison"
+		texturefile = "gfx/interface/goals/FRA_bavarian_reinforcements.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Focus_Calm_Before_The_Storm"
+		texturefile = "gfx/interface/goals/FRA_calm_before_storm.dds"
+	}
+	
+}

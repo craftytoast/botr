@@ -1,0 +1,47 @@
+﻿l_english:
+ ##### PARTY NAMES #####
+
+ ##### DECISIONS #####
+
+ ##### FOCUSES #####
+
+ ##### EVENTS #####
+ # Romania
+ botr_romania.1.t:0 "Declaration of a General Strike"
+ botr_romania.1.d:0 ""
+ botr_romania.1.a:0 "Worrying..."
+ botr_romania.2.t:0 "General Strike Devolves Into Rioting"
+ botr_romania.2.d:0 ""
+ botr_romania.2.a:0 "Uh..."
+ botr_romania.3.t:0 "Protestors Storm The Royal Palace!"
+ botr_romania.3.d:0 ""
+ botr_romania.3.a:0 "...The Romanian Kingdom Is At Its End!"
+ botr_romania.3.b:0 "...The Military Halts The Revolutionaries!"
+
+ ##### NEWS EVENTS #####
+ # Romania
+ botr_romania_news.1.t:0 "REVOLUTION IN ROMANIA"
+ botr_romania_news.1.d:0 "Earlier today, the ongoing riots in the Romanian capital of Bucharest reached a climax. For some days now, the majority of Bucharest's population has taken to the streets to oppose the decline of the nation, and the worrying economic peril. Many even called for an end to the failing regency and the kingdom as a whole, and today those revolutionary elements stormed the royal palace, and declared the Romanian Kingdom to be at an end, and the establishment of a Romanian Republic. The whereabouts of Regent Constantin Prezan and other members of his government is unknown."
+ botr_romania_news.1.a:0 "Viva la Revolution!"
+ botr_romania_news.1.b:0 "An Interesting Development"
+
+ ##### IDEAS/D.M's #####
+ # Romania (ROM)
+ ROM_bucharest_general_strike:0 "Bucharest General Strike"
+ ROM_bucharest_general_strike_desc:0 "Hundreds of thousands have taken to the streets of Romania's capital not only to protest the declining economic state but also the authoritarian rule of Regent Constantin Prezan."
+ ROM_bucharest_riots:0 "Bucharest Riots"
+
+
+ ##### DUAL LEADER #####
+ # Romania (ROM)
+ ROM_NO_KING:0 "Vacant Throne"
+ ROM_REP_VACANT:0 "Vacant"
+
+
+ ##### SCRIPTED LOC #####
+
+ 
+ 
+ 
+ 
+

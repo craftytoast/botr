@@ -1,133 +1,101 @@
 # For the Dual Leader Title, Leader Names, and custom portrait!
 
 defined_text = {
+	name = GetFirstTitleType
+	text = { trigger = { has_country_flag = leader_title_custom } localization_key = first_leader_diplo_custom }
+	text = {
+		localization_key = first_leader_diplo_generic 
+	}
+}
+defined_text = {
+	name = GetSecondTitleType
+	text = { trigger = { has_country_flag = dual_leader_title_custom } localization_key = dual_leader_diplo_custom }
+	text = {
+		localization_key = dual_leader_diplo_generic 
+	}
+}
+
+defined_text = {
 	name = GetFirstTitle
+	# Austria
+	text = { trigger = { tag = AUS has_country_flag = leader_title_emperor_aus } localization_key = AUS_EMPEROR_TITLE }
 	# France
-	text = {
-		trigger = {
-			tag = FRA
-			has_country_flag = leader_title_emperor_fra
-		}
-		localization_key = FRA_EMPEROR_TITLE
-	}
-	# Israel
-	text = {
-		trigger = {
-			tag = ISR
-			has_country_flag = leader_title_president
-		}
-		localization_key = PRESIDENT_TITLE
-	}
+	text = { trigger = { tag = FRA has_country_flag = leader_title_emperor_fra } localization_key = FRA_EMPEROR_TITLE }
+	# Italy
+	text = { trigger = { tag = ITA has_country_flag = leader_title_il_duce } localization_key = ITA_DUCE_TITLE }
+	## Israel
+	#text = { trigger = { tag = ISR has_country_flag = leader_title_president } localization_key = PRESIDENT_TITLE }
 	# French Levant
-	text = {
-		trigger = {
-			tag = FLV
-			has_country_flag = leader_title_high_commissioner
-		}
-		localization_key = HIGH_COMMISSIONER_TITLE
-	}
-	# Generic
-	text = {
-		trigger = {
-			has_country_flag = leader_title_king
-		}
-		localization_key = KING_TITLE
-	}
-	text = {
-		trigger = {
-			has_country_flag = leader_title_president
-		}
-		localization_key = PRESIDENT_TITLE
-	}
+	text = { trigger = { tag = FLV has_country_flag = leader_title_high_commissioner } localization_key = HIGH_COMMISSIONER_TITLE }
 	# Socialist Germany
+	text = { trigger = { tag = GER has_country_flag = leader_title_chairman_ger } localization_key = GER_CHAIRMAN }	
+	# Romania
+	text = { trigger = { has_country_flag = leader_title_prov_government } localization_key = PROV_GOVERNMENT_TITLE }
+	# Generic
+	text = { trigger = { has_country_flag = leader_title_king } localization_key = KING_TITLE }
+	text = { trigger = { has_country_flag = leader_title_president } localization_key = PRESIDENT_TITLE }
+	text = { trigger = { has_country_flag = leader_title_regent } localization_key = REGENT_TITLE }
+	text = { trigger = { has_country_flag = leader_title_emperor } localization_key = EMPEROR_TITLE }
+	text = { trigger = { has_country_flag = leader_title_tsar } localization_key = TSAR_TITLE }
+	text = { trigger = { has_country_flag = leader_title_prime_minister } localization_key = PRIME_MINISTER_TITLE }
+	text = { trigger = { has_country_flag = leader_title_inspector_general } localization_key = INSPECTOR_GENERAL_TITLE }
+	text = { trigger = { has_country_flag = leader_title_governor } localization_key = GOVERNOR_TITLE }
+	text = { trigger = { has_country_flag = leader_title_governor_general } localization_key = GOVERNOR_GENERAL_TITLE }
+	text = { trigger = { tag = POL has_country_flag = leader_title_namiestnik  } localization_key = NAMIESTNIK_TITLE }
+	text = { trigger = { has_country_flag = leader_title_chief_of_state  } localization_key = CHIEF_OF_STATE_TITLE }
+
+	text = { trigger = { has_country_flag = leader_title_reichkanzler_prussia } localization_key = REICHSKANZLER_PRUSSIA_TITLE }
 	text = {
-		trigger = {
-			tag = GER
-			has_country_flag = leader_title_chairman_ger
-		}
-		localization_key = GER_CHAIRMAN
-	}	
-	text = {
-		trigger = {
-			OR = {
-				tag = CHI
-				tag = AUS
-			}
-			has_country_flag = leader_title_emperor
-		}
-		localization_key = EMPEROR_TITLE
-	}
-	text = {
-		localization_key = DEFAULT_FIRST_TITLE
+		localization_key = DEFAULT_FIRST_TITLE 
 	}
 }
 
 defined_text = {
 	name = GetSecondTitle
-	text = {
-		trigger = {
-			tag = FRA
-			has_country_flag = dual_leader_title_cabinet_chief
-		}
-		localization_key = CABINET_CHIEF_TITLE
-	}
-	text = {
-		trigger = {
-			tag = BAY
-			has_country_flag = dual_leader_title_minister_president_german
-		}
-		localization_key = MINISTER_PRESIDENT_GERMAN_TITLE
-	}
-	text = {
-		trigger = {
-			tag = ISR
-			has_country_flag = dual_leader_title_resident_general
-		}
-		localization_key = RESIDENT_GENERAL_TITLE
-	}
-	text = {
-		trigger = {
-			tag = FLV
-			has_country_flag = dual_leader_title_military_governor
-		}
-		localization_key = MILITARY_GOVERNOR_TITLE
-	}
-	text = {
-		trigger = {
-			tag = AUS
-			#has_country_flag = dual_leader_title_minister_president_german
-		}
-		localization_key = CHANCELLOR_TITLE
-	}
-	text = {
-		trigger = {
-			has_country_flag = dual_leader_title_premier
-		}
-		localization_key = PREMIER_TITLE
-	}
-	text = {
-		trigger = {
-			tag = KMT
-			has_country_flag = dual_leader_title_commander_of_nra
-		}
-		localization_key = COMMANDER_NRA_TITLE
-	}
-	text = {
-		trigger = {
-			tag = GER
-			has_country_flag = dual_leader_title_vice_chairman_ger
-		}
-		localization_key = GER_VICE_CHAIRMAN_TITLE
-	}	
+	text = { trigger = { has_country_flag = dual_leader_title_vice_president } localization_key = VICE_PRESIDENT_TITLE }
+	text = { trigger = { tag = FRA has_country_flag = dual_leader_title_cabinet_chief } localization_key = CABINET_CHIEF_TITLE }
+	text = { trigger = { has_country_flag = dual_leader_title_chief_minister } localization_key = CHIEF_MINISTER_TITLE }
+	text = { trigger = { tag = BAY has_country_flag = dual_leader_title_minister_president_german } localization_key = MINISTER_PRESIDENT_GERMAN_TITLE }
+	text = { trigger = { tag = ISR has_country_flag = dual_leader_title_resident_general } localization_key = RESIDENT_GENERAL_TITLE }
+	text = { trigger = { tag = FLV has_country_flag = dual_leader_title_military_governor } localization_key = MILITARY_GOVERNOR_TITLE }
+	text = { trigger = { has_country_flag = dual_leader_title_chancellor } localization_key = CHANCELLOR_TITLE }
+	text = { trigger = { has_country_flag = dual_leader_title_prime_minister } localization_key = PRIME_MINISTER_TITLE }
+	text = { trigger = { has_country_flag = dual_leader_title_premier } localization_key = PREMIER_TITLE }
+	text = { trigger = { has_country_flag = dual_leader_title_king } localization_key = KING_TITLE }
+	text = { trigger = { has_country_flag = dual_leader_title_monarch } localization_key = MONARCH_TITLE }
+	text = { trigger = { tag = KMT has_country_flag = dual_leader_title_commander_of_nra } localization_key = COMMANDER_NRA_TITLE }
+	text = { trigger = { tag = VEN has_country_flag = dual_leader_title_general_in_chief_armed_forces } localization_key = GENERAL_IN_CHIEF_TITLE }
+	text = { trigger = { tag = GER has_country_flag = dual_leader_title_vice_chairman_ger } localization_key = GER_VICE_CHAIRMAN_TITLE }	
+	# Custom
+	text = { trigger = { tag = MAN has_country_flag = dual_leader_title_man_military_gov_harbin } localization_key = MAN_MILITARY_GOV_HARBIN_TITLE }
+	text = { trigger = { tag = ECU has_country_flag = dual_leader_title_ecu_pres_national_congress } localization_key = PRES_NATIONAL_CONGRESS_TITLE }	
+	text = { trigger = { tag = PRS has_country_flag = dual_leader_title_prs_ministerpresident_freikorpskommandant } localization_key = PRS_SCHLEICHERS_TITLE }
+	text = { trigger = { tag = HOL has_country_flag = dual_leader_title_hol_queen_dietsland } localization_key = HOL_QUEEN_TITLE }
 }
 defined_text = {
 	name = GetDualLeaderName
+	### TEST ###
+	text = { 
+		trigger = { 
+			TAG.DUAL_LEADER = {
+				is_character = TAG.DUAL_LEADER.GetTokenKey
+			}
+		} 
+		localization_key = "[?DUAL_LEADER.GetTokenLocalizedKey]" 
+	}
+
 	# France
-	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_louis_marin } localization_key = FRA_LOUIS_MARIN }
+	text = { trigger = { tag = FRA FRA_george_pernot = { has_character_flag = is_dual_leader } } localization_key = FRA_GEORGE_PERNOT }
 	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_vacant_position } localization_key = FRA_VACANT_POSITION }
 	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_philippe_petain } localization_key = FRA_PHILIPPE_PETAIN }
 	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_pierre_etienne_flandin } localization_key = FRA_PIERRE_ETIENNE_FLANDIN }
 	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_camille_chautemps } localization_key = FRA_CAMILLE_CHAUTEMPS }
+	# Britain / Commonwealth
+	text = { trigger = { has_country_flag = dual_leader_british_commonwealth_george_v } localization_key = ENG_GEORGE_V }
+	# Russia
+	text = { trigger = { tag = RUS RUS_vasily_shulgin = { has_character_flag = is_dual_leader } } localization_key = RUS_VASILY_SHULGIN }
+	# Italy
+	text = { trigger = { tag = ITA ITA_victor_emmanuel_iii = { has_character_flag = is_dual_leader } } localization_key = "Victor Emmanuel III" } #
 	# Westphalia
 	text = { trigger = { tag = WST has_country_flag = dual_leader_wst_konrad_adenauer } localization_key = WST_KONRAD_ADENAUER }
 	# Israel
@@ -135,23 +103,57 @@ defined_text = {
 	# FLV
 	text = { trigger = { tag = FLV has_country_flag = dual_leader_flv_henri_gouraud } localization_key = FLV_HENRI_GOURAUD }
 	# Austria
-	text = { trigger = { tag = AUS has_country_flag = dual_leader_aus_otto_ender } localization_key = AUS_OTTO_ENDER }
+	text = { trigger = { tag = AUS AUS_richard_schmitz = { has_character_flag = is_dual_leader } } localization_key = AUS_RICHARD_SCHMITZ }
 	# China (Empire)
 	text = { trigger = { tag = CHI has_country_flag = dual_leader_chi_wu_peifu } localization_key = CHI_WU_PEIFU }
 	# China (Republic)
 	text = { trigger = { tag = KMT has_country_flag = dual_leader_kmt_li_zongren } localization_key = KMT_LI_ZONGREN }
 	# Socialist Germany
 	text = { trigger = { tag = GER has_country_flag = dual_leader_ger_walter_ulbricht } localization_key = GER_WALTER_ULBRICHT }
+	# Venezuela
+	text = { trigger = { tag = VEN has_country_flag = dual_leader_ven_eleazar_lopez_contreras } localization_key = VEN_ELEAZAR_LOPEZ_CONTRERAS }
+	# Romania
+	text = { trigger = { tag = ROM has_country_flag = dual_leader_rom_no_king } localization_key = ROM_NO_KING }
+	text = { trigger = { tag = ROM has_country_flag = dual_leader_rom_republic_vacant } localization_key = ROM_REP_VACANT }
+	# Manchuria
+	text = { trigger = { tag = MAN has_country_flag = dual_leader_man_anatoly_pepelyayev } localization_key = MAN_ANATOLY_PEPELAYEV }
+	# Cuba
+	text = { trigger = { tag = CUB CUB_gerardo_machado = { has_character_flag = is_dual_leader } } localization_key = "Gerardo Machado" } #
+	#### TESTING ####
+	
+	# Prussia
+	text = { trigger = { tag = PRS PRS_kurt_von_schleicher = { has_character_flag = is_dual_leader } } localization_key = PRS_KURT_VON_SCHLEICHER }
+	# Ecuador
+	text = { trigger = { tag = ECU ECU_luis_larrea_alba = { has_character_flag = is_dual_leader } } localization_key = ECU_LUIS_LARREA_ALBA }
 	text = {
 		localization_key = DEFAULT_TITLE
 	}
 }
 defined_text = {
     name = GetDualLeaderPortrait
+	### TEST ###
+	text = { 
+		trigger = { 
+			TAG.DUAL_LEADER = {
+				is_character = TAG.DUAL_LEADER.GetTokenKey
+			}
+		} 
+		localization_key = "GFX_Portrait_[?DUAL_LEADER.GetTokenKey]" 
+	}
+
+
 	# France
-	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_louis_marin } localization_key = "GFX_FRA_Louis_Marin" }
+	text = { trigger = { tag = FRA FRA_george_pernot = { has_character_flag = is_dual_leader } } localization_key = "GFX_FRA_George_Pernot" }
 	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_vacant_position } localization_key = "GFX_FRA_Vacant_Position" }
 	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_philippe_petain } localization_key = "GFX_FRA_Philippe_Petain" }
+	# Britain / Commonwealth
+	text = { trigger = { has_country_flag = dual_leader_british_commonwealth_george_v } localization_key = "GFX_ENG_George_V" }
+	# Russia
+	text = { trigger = { tag = RUS RUS_vasily_shulgin = { has_character_flag = is_dual_leader } } localization_key = "GFX_RUS_Vasily_Shulgin" }
+	# Austria
+	text = { trigger = { tag = AUS AUS_richard_schmitz = { has_character_flag = is_dual_leader } } localization_key = "GFX_AUS_Richard_Schmitz" }
+	# Italy
+	text = { trigger = { tag = ITA ITA_victor_emmanuel_iii = { has_character_flag = is_dual_leader } } localization_key = "GFX_ITA_VICTOR_EMMANUEL_III" }
 	# Westphalia
 	text = { trigger = { tag = WST has_country_flag = dual_leader_wst_konrad_adenauer } localization_key = "GFX_WST_KONRAD_ADENAUER" }
 	# Israel
@@ -164,6 +166,17 @@ defined_text = {
 	text = { trigger = { tag = KMT has_country_flag = dual_leader_kmt_li_zongren } localization_key = "GFX_KMT_LI_ZONGREN" }
 	# Socialist Germany
 	text = { trigger = { tag = GER has_country_flag = dual_leader_ger_walter_ulbricht } localization_key = "GFX_GER_Walter_Ulbricht" }
+	# Venezuela
+	text = { trigger = { tag = VEN has_country_flag = dual_leader_ven_eleazar_lopez_contreras } localization_key = "GFX_VEN_Eleazar_Lopez_Contreras" }
+	# Romania
+	text = { trigger = { tag = ROM has_country_flag = dual_leader_rom_no_king } localization_key = "GFX_ROM_Vacant_Throne" }
+	text = { trigger = { tag = ROM has_country_flag = dual_leader_rom_republic_vacant } localization_key = "GFX_ROM_REP_Vacant" }
+	# Manchuria
+	text = { trigger = { tag = MAN has_country_flag = dual_leader_man_anatoly_pepelyayev } localization_key = "GFX_RUS_Anatoly_Pepelyayev" }
+	# Ecuador
+	text = { trigger = { tag = ECU ECU_luis_larrea_alba = { has_character_flag = is_dual_leader } } localization_key = "GFX_ECU_Luis_Alba" }
+	# Cuba
+	text = { trigger = { tag = CUB CUB_gerardo_machado = { has_character_flag = is_dual_leader } } localization_key = "GFX_CUB_Gerardo_Machado" }
 	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}
@@ -171,7 +184,7 @@ defined_text = {
 defined_text = {
     name = GetDualLeaderDesc
     # France
-	text = { trigger = { tag = FRA has_country_flag = dual_leader_fra_louis_marin } localization_key = FRA_LOUIS_MARIN_DESC }
+
 	# Socialist Germany 
 	text = { trigger = { tag = GER has_country_flag = dual_leader_ger_walter_ulbricht } localization_key = GER_WALTER_ULBRICHT_DESC }
     #text = {
@@ -183,7 +196,7 @@ defined_text = {
 	#}
 }
 
-defined_text = {
+defined_text = { # Completely not needed
     name = GetFirstLeaderDesc
     
     #text = {

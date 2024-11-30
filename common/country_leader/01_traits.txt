@@ -9,4 +9,36 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+
+	#### AUSTRIA ####
+	emperor_in_chains = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	chancellor_schmitz_cd = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#### FRANCE ####
+	cabinet_chief_pernot_cd = {
+		random = no
+		political_power_gain = 0.03 # To represent his accord with the Centrists/Liberals
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	MoW_national_defense_au = {
+		random = no
+		industrial_capacity_factory = 0.04
+		army_defence_factor = 0.02
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

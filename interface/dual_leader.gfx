@@ -38,16 +38,53 @@ spriteTypes = {
 	}
 
 	# Country Specific Portraits
-	
+	### POLAND ###
 	spriteType = {
-		name = "GFX_FRA_Louis_Marin"
-		texturefile = "gfx/leaders/FRA/Portrait_FRA_Louis_Marin.dds"
+		name = "GFX_Portrait_POL_roman_dmowski"
+		texturefile = "gfx/leaders/POL/Portrait_POL_Roman_Dmowski.dds"
 	}
-	
-	# GER
 	spriteType = {
-		name = "GFX_GER_Walter_Ulbricht"
-		texturefile = "gfx/leaders/GER/Portrait_GER_Walter_Ulbricht.dds"
+		name = "GFX_Portrait_POL_leonard_skierski"
+		texturefile = "gfx/leaders/POL/Portrait_POL_Leonard_Skierski.dds"
+	}
+	### BRITAIN ###
+	spriteType = {
+		name = "GFX_Portrait_ENG_george_v"
+		texturefile = "gfx/leaders/ENG/Portrait_ENG_George_V.dds"
+	}
+	### HOLLAND ###
+	spriteType = {
+		name = "GFX_Portrait_HOL_wilhelmina"
+		texturefile = "gfx/leaders/HOL/Portrait_HOL_Wilhelmina.dds"
+	}
+	### JAPAN ###
+	spriteType = {
+		name = "GFX_Portrait_JAP_kazushige_ugaki"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Kazushige_Ugaki.dds"
+	}
+	### USA ###
+	spriteType = {
+		name = "GFX_Portrait_USA_joseph_robinson"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Joseph_T_Robinson.dds"
+	}
+	### test
+	
+	spriteType = {
+		name = "GFX_Portrait_RUS_vasily_shulgin"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Vasily_Shulgin.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_FRA_george_pernot"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_George_Pernot.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_AUS_richard_schmitz"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Richard_Schmitz.dds"
+	}
+	# FRA
+	spriteType = {
+		name = "GFX_FRA_George_Pernot"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_George_Pernot.dds"
 	}
 	spriteType = {
 		name = "GFX_FRA_Vacant_Position"
@@ -57,6 +94,31 @@ spriteTypes = {
 		name = "GFX_FRA_Philippe_Petain"
 		texturefile = "gfx/leaders/FRA/Portrait_FRA_Philippe_Petain.dds"
 	}
+	# RUS
+	spriteType = {
+		name = "GFX_RUS_Vasily_Shulgin"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Vasily_Shulgin.dds"
+	}
+	spriteType = {
+		name = "GFX_RUS_Anatoly_Pepelyayev"
+		texturefile = "gfx/leaders/RUS/Portrait_RUS_Anatoly_Pepelyayev.dds"
+	}
+	# AUS
+	spriteType = {
+		name = "GFX_AUS_Richard_Schmitz"
+		texturefile = "gfx/leaders/AUS/Portrait_AUS_Richard_Schmitz.dds"
+	}
+	# GER
+	spriteType = {
+		name = "GFX_GER_Walter_Ulbricht"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Walter_Ulbricht.dds"
+	}
+	# ITA
+	spriteType = {
+		name = "GFX_ITA_VICTOR_EMMANUEL_III"
+		texturefile = "gfx/leaders/ITA/Portrait_ITA_Victor_Emmanuel_III.dds"
+	}
+
 
 	# WST
 	spriteType = {
@@ -82,5 +144,28 @@ spriteTypes = {
 		name = "GFX_KMT_LI_ZONGREN"
 		texturefile = "gfx/leaders/KMT/Portrait_KMT_Li_Zongren.dds"
 	}
-
+	# Venezuela
+	spriteType = {
+		name = "GFX_VEN_Eleazar_Lopez_Contreras"
+		texturefile = "gfx/leaders/VEN/Portrait_VEN_Eleazar_Lopez_Contreras.dds"
+	}
+	# Romania
+	spriteType = {
+		name = "GFX_ROM_Vacant_Throne"
+		texturefile = "gfx/leaders/ROM/Portrait_ROM_No_King.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_REP_Vacant"
+		texturefile = "gfx/leaders/ROM/Portrait_ROM_Republican_Vacancy.dds"
+	}
+	# ECU
+	spriteType = {
+		name = "GFX_ECU_Luis_Alba"
+		texturefile = "gfx/leaders/ECU/Portrait_ECU_Luis_Alba.dds"
+	}
+	# CUB
+	spriteType = {
+		name = "GFX_CUB_Gerardo_Machado"
+		texturefile = "gfx/leaders/CUB/Portrait_CUB_Gerardo_Machado.dds"
+	}
 }

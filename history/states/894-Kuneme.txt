@@ -3,22 +3,17 @@ state={
 	name="STATE_894"
 	manpower = 69300
 	state_category = wasteland
-
 	history={
-		owner = SWA
+		owner = POR
 		buildings = {
 			infrastructure = 1
 
 		}
-		
-		add_core_of = SWA
-		add_core_of = NMB
-
+		add_core_of = ANG
 	}
 	provinces={
-		10957 10978 12921 
+		12921 8136
 	}
-	
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

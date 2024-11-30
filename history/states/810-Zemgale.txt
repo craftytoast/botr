@@ -6,24 +6,17 @@ state={
 	history={
 		owner = RUS
 		add_core_of = RUS
-		victory_points = {
-			310 2 #Daugavpils
-		}
+		set_state_flag = BALTICGOV_STATE
 		buildings = {
 			infrastructure = 2
-			air_base = 3
-			310 = {
-				bunker = 2
-
-			}
-
+			air_base = 2
 		}
 		add_core_of = LAT
 
 	}
 
 	provinces={
-		222 310 319 341 3298 6459 7482 9275 11222 
+		185 3174 11291 308 6381 592 6178 6408 9221 9485 6099
 	}
 	manpower=600250
 	buildings_max_level_factor=1.000

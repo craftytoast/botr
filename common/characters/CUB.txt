@@ -1,0 +1,27 @@
+characters={
+	CUB_alfredo_zayas={
+		name="Alfredo de Zayas y Alfonso"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUB/Portrait_CUB_Alfredo_Zayas.dds"
+			}
+		}
+		country_leader={
+			ideology=ld_type_1
+			expire="1960.1.1.1"
+		}
+	} 
+	CUB_gerardo_machado={ # VP, becomes President after Zaya's death
+		name="Gerardo Machado y Morales"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUB/Portrait_CUB_Gerardo_Machado.dds"
+			}
+		}
+		#country_leader={ 
+		#	ideology=ld_type_1
+		#	expire="1960.1.1.1"
+		#}
+	} 
+
+}

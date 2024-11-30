@@ -1,0 +1,13 @@
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_autonomy_botr_fra_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_botr_fra_protectorate_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_autonomy_botr_militarily_supported_regime_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_botr_militarily_supported_regime_icon.dds"
+	}
+
+}

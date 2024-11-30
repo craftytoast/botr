@@ -1,0 +1,133 @@
+﻿###########################
+# Romanian Events
+###########################
+
+add_namespace = botr_romania
+add_namespace = botr_romania_news
+
+# Bucharest General Strike
+country_event = {
+	id = botr_romania.1 
+	title = botr_romania.1.t
+	desc = botr_romania.1.d
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+	
+	option = { # Dang
+		name = botr_romania.1.a
+		ai_chance = {
+			factor = 100 
+		} 
+		add_stability = -0.03
+		add_ideas = ROM_bucharest_general_strike
+		hidden_effect = {
+			country_event = { id = botr_romania.2 days = 3 }
+		}
+	}
+}
+# Strike turns to Riots
+country_event = {
+	id = botr_romania.2 
+	title = botr_romania.2.t
+	desc = botr_romania.2.d
+	picture = GFX_report_event_generic_rally2
+	
+	is_triggered_only = yes
+	
+	option = { # Dang
+		name = botr_romania.2.a
+		ai_chance = {
+			factor = 100 
+		} 
+		add_stability = -0.06
+		swap_ideas = {
+			remove_idea = ROM_bucharest_general_strike
+			add_idea = ROM_bucharest_riots
+		}
+		hidden_effect = {
+			country_event = { id = botr_romania.3 days = 5 }
+		}
+	}
+}
+# Romanian Revolution
+country_event = {
+	id = botr_romania.3 
+	title = botr_romania.3.t
+	desc = botr_romania.3.d
+	picture = GFX_report_event_generic_rally2
+	
+	is_triggered_only = yes
+	
+	option = { # Republicans Win
+		name = botr_romania.3.a
+		ai_chance = {
+			factor = 100 
+		} 
+		remove_ideas = ROM_bucharest_riots
+		set_politics = {
+			ruling_party = cd
+			last_election = "1934.1.26"
+			elections_allowed = no
+		}
+		create_country_leader = {
+			name = "Provisional Government"
+			desc = "ROM_provisional_government_DESC"
+			picture = "gfx/leaders/ROM/Portrait_ROM_Provisional_Government.dds"
+			expire = "1965.1.1"
+			ideology = cd_type_1
+		}
+		add_popularity = {
+			ideology = ds
+			popularity = -0.2
+		}
+		add_popularity = {
+			ideology = cd
+			popularity = 0.1
+		}
+		set_cosmetic_tag = ROM_PROVISIONAL_REPUBLIC
+		hidden_effect = {
+			news_event = { id = botr_romania_news.1 hours = 3 }
+			clr_country_flag = leader_title_regent
+			clr_country_flag = dual_leader_title_monarch
+			clr_country_flag = dual_leader_rom_no_king
+			set_country_flag = leader_title_prov_government
+			set_country_flag = dual_leader_title_prime_minister
+			set_country_flag = dual_leader_rom_republic_vacant
+			#country_event = { id = botr_romania.2 days = 3 }
+		}
+	}
+	option = { # Republicans Win
+		name = botr_romania.3.b
+		ai_chance = {
+			factor = 0 # For now, republicans always win 
+		} 
+	}
+}
+### NEWS ###
+# Romanian Revolution (News)
+news_event = {
+    id = botr_romania_news.1
+    title = botr_romania_news.1.t
+    desc = botr_romania_news.1.d
+    
+    picture = GFX_news_event_romania_parliament
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = botr_romania_news.1.a # Viva la Revolution!
+        trigger = {
+            tag = ROM
+        }
+    }
+    
+    option = {
+        name = botr_romania_news.1.b # Interesting
+        trigger = {
+            NOT = { tag = ROM }
+        }
+    }
+
+}

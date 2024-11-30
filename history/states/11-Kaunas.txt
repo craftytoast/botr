@@ -6,6 +6,7 @@ state={
 	history={
 		owner = RUS
 		add_core_of = RUS
+		set_state_flag = BALTICGOV_STATE
 		victory_points = {
 			6296 5
 		}
@@ -20,7 +21,7 @@ state={
 	}
 
 	provinces={
-		327 6296 6360 9357 9404 
+		6296 6360 9357 9404 
 	}
 
 	local_supplies=10.0 

@@ -26,7 +26,7 @@ ideas = {
 				
 			}
 		}
-				GER_legacy_of_the_red_revolt = {
+		GER_legacy_of_the_red_revolt = {
 		
 			name = GER_legacy_of_the_red_revolt
 
@@ -48,11 +48,11 @@ ideas = {
 			
 			}
 		}
-				GER_disbanded_militias = {
+		GER_disbanded_militias = {
 		
 			name = GER_disbanded_militias
 
-			picture = 
+			picture = GFX_idea_GER_legacy_of_the_red_revolt
 			
 			allowed_civil_war = {
 				always = no
@@ -70,7 +70,7 @@ ideas = {
 				
 			}
 		}		
-				GER_founding_fathers_of_marxism = {
+		GER_founding_fathers_of_marxism = {
 		
 			name = GER_founding_fathers_of_marxism
 
@@ -92,7 +92,7 @@ ideas = {
 			}
 		}		
 
-				GER_ruined_economy = {
+		GER_ruined_economy = {
 		
 			name = GER_ruined_economy
 

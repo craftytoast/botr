@@ -1,0 +1,23 @@
+characters={
+	# Starting Leaders
+	HOL_dirk_jan_de_geer={ # PM
+		name="Dirk Jan de Geer"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/Portrait_HOL_Dirk_Jan_de_Geer.dds"
+			}
+		}
+		country_leader={
+			ideology=cd_type_1
+			expire="1960.1.1.1"
+		}
+	}
+	HOL_wilhelmina={ # Queen
+		name="Wilhelmina"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/Portrait_HOL_Wilhelmina.dds"
+			}
+		}
+	}
+}

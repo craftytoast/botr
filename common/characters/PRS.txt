@@ -1,0 +1,23 @@
+characters={
+	PRS_kurt_von_schleicher={
+		name="Kurt von Schleicher"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRS/Portrait_PRS_Kurt_von_Schleicher.dds"
+			}
+			army={
+				large="gfx/leaders/PRS/Portrait_PRS_Kurt_von_Schleicher.dds"
+			}
+		}
+		field_marshal={
+			traits={ militias_officer politically_connected }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=1
+		}
+	}
+
+}

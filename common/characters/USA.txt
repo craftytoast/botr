@@ -1,0 +1,48 @@
+characters={
+	# Starting Leaders
+	USA_al_smith={ # President
+		name="Alfred E. Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Al_Smith.dds"
+			}
+		}
+		country_leader={
+			ideology=ld_type_1
+			expire="1960.1.1.1"
+		}
+	}
+	USA_joseph_robinson={ # Smiths VP, Democrat candidate 1936
+		name="Joseph T. Robinson"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Joseph_T_Robinson.dds"
+			}
+		}
+	}
+	# Starting Party Leaders / 1936 Candidates
+	USA_franklin_roosevelt={ # FDR baby (SD/PP)
+		name="Franklin Delano Roosevelt"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Franklin_D_Roosevelt.dds"
+			}
+		}
+		country_leader={
+			ideology=sd_type_1
+			expire="1960.1.1.1"
+		}
+	}
+	USA_huey_long={ # Huey Long schlong (AU/AUP)
+		name="Huey Long"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Huey_Long.dds"
+			}
+		}
+		country_leader={
+			ideology=au_type_1
+			expire="1960.1.1.1"
+		}
+	}
+}

@@ -4,9 +4,9 @@ state={
 	name="STATE_807"
 	manpower = 713370
 	
-	state_category = city
+	state_category = large_town
 	history={
-		owner = PRS
+		owner = GER
 		victory_points = {
 			9263 3
 		}

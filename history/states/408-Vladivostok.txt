@@ -11,8 +11,9 @@ state = {
 
 	history={
 		owner = RUS
+		set_state_flag = FAREASTGOV_STATE
 		victory_points = {
-			957 15
+			957 20
 		}
 		buildings = {
 			infrastructure = 2

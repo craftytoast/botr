@@ -7,15 +7,25 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = CHL
+		owner = ARU
+		add_core_of = ARU
 		buildings = {
 			infrastructure = 1
+			12920 = {
+				bunker = 1
+			}
+			5121 = {
+				naval_base = 1
+			}
 		}
-		add_core_of = CHL
+		add_claim_by = CHL
+		victory_points = {
+			12920 2
+		}
 	}
 
 	provinces={
-		2161 5118 5159 5201 5209 5215 8198 8218 8913 10961 
+		5121 5169 12920 12954 2161 5118 5159 5201 5209 5215 8198 8218 8913 10961 
 	}
 
 	local_supplies=0.0 

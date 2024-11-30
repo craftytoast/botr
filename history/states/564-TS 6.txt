@@ -10,9 +10,9 @@ state={
 		tungsten=10 # was: 28
 		aluminium=4 # was: 8
 	}
-
 	history={
 		owner = RUS
+		set_state_flag = FAREASTGOV_STATE
 		victory_points = {
 			7835 2 
 		}
@@ -26,10 +26,9 @@ state={
 		add_core_of = RUS
 		add_core_of = BYA
 	}
-
 	provinces={
-		1696 1762 1810 4716 4766 4835 4837 7736 7816 7835 10524 10528 10543 10658 12506 12575 12644 13152
+		1696 1762 1810 4716 4766 4835 4837 7736 7816 7835 10524 10528 10543 10658 12506 12575 12644 
+		# 13152
 	}
-
 	local_supplies=0.0 
 }

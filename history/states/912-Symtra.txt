@@ -1,0 +1,30 @@
+state={
+	id=912
+	name="STATE_912"
+	manpower = 904900
+	resources={
+		chromium=21 # was: 86
+	}
+	state_category = large_town
+	history={
+		owner = GRE
+		add_core_of = GRE
+		victory_points = {
+			4112 15
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 3
+			4112 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = TUR
+	}
+	provinces={
+		4112 7130 10038 11848 9929 6992
+	}
+	local_supplies=8.0 
+}

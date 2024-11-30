@@ -2,14 +2,17 @@ state={
 	id=865
 	name="STATE_865"
 	provinces={
-		1671 3800 4695 6779 12682 13168 13183 13185 13187
+		337 385 11257 11303
 	}
 	history = {
-		owner = CAN
-		add_core_of = CAN
+		owner = IRE
+		add_core_of = IRE
+		buildings = {
+			infrastructure = 3
+		}
 	}
-	manpower=65605
-	state_category = pastoral
+	manpower=330291
+	state_category = town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

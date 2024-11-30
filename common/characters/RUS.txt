@@ -1,0 +1,31 @@
+characters={
+	RUS_nicholas_ii={
+		name="Nicholas II"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds"
+			}
+			army={
+				large="gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds"
+				#small="GFX_idea_MAN_zhang_haipeng"
+			}
+		}
+		country_leader={
+			ideology=ds_type_1
+			expire="1960.1.1.1"
+			traits = {
+				ailing_health
+			}
+		}
+	}
+	# exclusively dual leader stuff
+	RUS_vasily_shulgin={
+		name="Vasily Shulgin"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Vasily_Shulgin.dds"
+			}
+		}
+	}
+
+}

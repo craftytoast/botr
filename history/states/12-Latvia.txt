@@ -2,7 +2,7 @@
 state={
 	id=12
 	name="STATE_12"
-	manpower = 408500
+	manpower = 828500
 	resources={
 		steel=1 # was: 2
 	}
@@ -12,6 +12,10 @@ state={
 	history={
 		owner = RUS
 		add_core_of = RUS
+		set_state_flag = BALTICGOV_STATE
+		victory_points = {
+			310 2 #Daugavpils
+		}
 		buildings = {
 			infrastructure = 2
 			air_base = 3
@@ -20,7 +24,7 @@ state={
 	}
 
 	provinces={
-		3388 9317 9501 10493 11302
+		3388 9317 9501 10493 11302 222 310 319 341 3298 6459 7482 9275 11222
 	}
 
 	local_supplies=0.0 

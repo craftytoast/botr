@@ -6,15 +6,34 @@
  ##### FOCUSES #####
 
  ##### EVENTS #####
+ botr_venezuela.10.t:0 "Venezuelan Civil War"
+ botr_venezuela.10.d:0 "Communists attempts to seize Caracas fail, the country falls in civil way"
+ botr_venezuela.10.a:0 "ay curamba"
+ botr_venezuela_news.1.t:0 "VENEZUELAN CIVIL WAR"
+ botr_venezuela_news.1.d:0 "Intriguing news comes from Caracas today. For many months, the north-west provinces of the country have been plagued with strikes relating to poor labour quality and other grievances, spearheaded in leadership by the Venezuelan Revolutionary Party. Recently, these strikes have spiraled to a full-on revolution, with local labour councils taking control over many important towns and strongpoints. This all came to a head when revolutionary paramilitaries attempted to seize Caracas, which led to nothing but bloodshed. The Maracaibo Workers Council declared a general uprising to the nation, and now Venezuela sees itself in a brutal civil war."
+ botr_venezuela_news.1.a:0 "Interesting"
 
  ##### IDEAS/D.M's #####
  
- PAR_BOL_Chaco_war:0 "The chaco war"
+ PAR_BOL_Chaco_war:0 "The Chaco War"
  PAR_BOL_Chaco_war_desc:0 ""
+
+ VEN_venezuelan_revolution:0 "Venezuelan Revolution"
+ VEN_venezuelan_revolution_desc:0 ""
+ VEN_rebelling_state:0 "Rebelling State"
+
+ ##### DUAL LEADER #####
+ # Venezuela (VEN)
+ GENERAL_IN_CHIEF_TITLE:0 "General-in-Chief of the Armed Forces"
+ VEN_ELEAZAR_LOPEZ_CONTRERAS:0 "Eleazar López Contreras"
+ # Ecuador (ECU)
+ PRES_NATIONAL_CONGRESS_TITLE:0 "Chairman of the National Congress"
+ ECU_LUIS_LARREA_ALBA:0 "Luis Larrea Alba"
+
 
  ##### SCRIPTED LOC #####
  
- WAR_NAME_BOL_PAR:0 "The Chaco war"
+ WAR_NAME_BOL_PAR:0 "The Chaco War"
  
  
  

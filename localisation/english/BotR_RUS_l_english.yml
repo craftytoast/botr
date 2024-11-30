@@ -15,7 +15,7 @@
  RUS_ml_party:0 "RSDLP - Bolsheviks"
  RUS_ml_party_long:0 "Rossiyskaya Sotsial-Demokraticheskaya Rabochaya Partiya (Russian Social Democratic Labour Party - Bolsheviks)" 
 
- ##### DECISIONS #####
+ ##### DECISIONS ##### 
 
  ##### FOCUSES #####
  
@@ -23,7 +23,8 @@
  ##### EVENTS #####
  BotR_Russian_Pre_CW_Main.1.t:0 "Nicholas II's Health Fails"
  BotR_Russian_Pre_CW_Main.1.d:0 ""
- BotR_Russian_Pre_CW_Main.1.a:0 "It Is Only A Matter Of Time..."
+ BotR_Russian_Pre_CW_Main.1.a:0 "There's Nothing More We Can Do"
+ RUS_nicholas_ii_death_imminent_tt:0 "§YIt Is Only A Matter Of Time...§Y"
  BotR_Russian_Pre_CW_Main.2.t:0 "The Coldest Day"
  BotR_Russian_Pre_CW_Main.2.d:0 ""
  BotR_Russian_Pre_CW_Main.2.a:0 "Goodbye, My Tsar"
@@ -33,11 +34,39 @@
  BotR_Russian_Pre_CW_Main.50.t:0 "Assassination Of The Tsar!"
  BotR_Russian_Pre_CW_Main.50.d:0 ""
  BotR_Russian_Pre_CW_Main.50.a:0 "Blyat!"
+ ### BALTIC GENGOV ###
+ BotR_Russian_Pre_CW_Collapse.1.t:0 "Freikorp Units Betray Boldyrev!"
+ BotR_Russian_Pre_CW_Collapse.1.d:0 "With all hell breaking loose in the motherland, it was only a matter of time until chaos washed over the unruly Baltic principalities. That has been kicked off by an unexpected source - the Russo-German Legion and their leader, Franz Albert Seyn.\n\nThis morning, two divisions of the Legion occupied the city of Riga, declaring the independence of Livonia as a German state. Our government has ordered all units to surpress the uprising, but the other Freikorps units have ignored orders and have begun an active rebellion against the Governor Boldyrev. This success of the German Legion has only emboldened the calls for uprising in the Baltic states."
+ BotR_Russian_Pre_CW_Collapse.1.a:0 "It Is Only A Matter Of Time..."
+ baltic_gengov_freikorps_disband_tt:0 "§YAll Freikorps units will be disbanded§!"
+ BotR_Russian_Pre_CW_Collapse.2.t:0 "Collapse of the General-Governorate"
+ BotR_Russian_Pre_CW_Collapse.2.d:0 "The General-Governorate is no more.\n\nIn the days since the Russian Civil War broke out, things have only gone downhill for Governor Boldyrev. The Freikorps betrayal was the final straw, so it seems. Spontanious uprisings in Kaunas and Revel spiraled into declarations of independence by the Lithuanians and Estonians, and the Livonian situation has only worsened. Boldyrev has finally recognized the fall of his authority, and with all of his remaining units and supporters, has fled to Petrograd to support the Tsarist government in their fight. Russian dominations of the Baltics is over."
+ BotR_Russian_Pre_CW_Collapse.2.a:0 "..."
+ baltic_gengov_dissolve_tt:0 "§YThe Baltics are free at last!§!"
 
  ##### IDEAS/D.M's #####
+ ## Russia Proper
+ ## Manchuria
+ MAN_zheltorossiya:0 "The Zheltorossiya Initiative"
+ MAN_chinese_eastern_railway:0 "The Chinese Eastern Railways"
+ MAN_scourge_of_fengtian_clique:0 "Scourge of the Fengtian Clique"
+ MAN_scourge_of_fengtian_clique_desc:0 "For many years, the Fengtian province has been plagued by rebels, the so-called 'Fengtian Clique', resisting the rule of the protectorate's government. While badly organised with little resources, they often strategically raid the Chinese Eastern Railway's connection to Port Arthur, wrecking havoc on local supply chains. Their tactics have only gotten more daring in recent years; whispers on the streets of Mukden claim of an impending assault on the city."
+ # Fengtian Rebels
+ MAN_fengtian_rebels:0 "Fengtian Bandits"
+ MAN_fengtian_rebels_desc:0 "\n\n\n\n£FENGTIAN_flag_icon\n\n\n\n\n\n\n§WRebel Leader:§! §HZhang Zuolin§!\n\n\n\n\n\n\n\n£portrait_Zhang_Zuolin\n\n\n\n\n\n\n\n\nFor many years, the Fengtian province has been plagued by rebels, the so-called 'Fengtian Clique', resisting the rule of the protectorate's government. While badly organised with little resources, they often strategically raid the Chinese Eastern Railway's connection to Port Arthur, wrecking havoc on local supply chains. Their tactics have only gotten more daring in recent years; whispers on the streets of Mukden claim of an impending assault on the city."
  
 
  ##### SCRIPTED LOC #####
+
+ ##### DUAL LEADER #####
+ ## Russia Proper
+ TSAR_TITLE:0 "Tsar"
+ RUS_VASILY_SHULGIN:0 "Vasily Shulgin"
+ RUS_vasily_shulgin:0 "Vasily Shulgin"
+ ## Manchuria
+ INSPECTOR_GENERAL_TITLE:0 "Inspector-General"
+ MAN_MILITARY_GOV_HARBIN_TITLE:0 "Russian Military Governor in Harbin"
+ MAN_ANATOLY_PEPELAYEV:0 "Anatoly Pepelyayev"
 
 
  ##### OTHER #####

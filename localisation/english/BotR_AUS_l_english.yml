@@ -4,28 +4,45 @@
  AUS_ul_party_long:0 "Nationalvitalistische Österreichische Arbeiterpartei (National Vitalist Austrian Workers Party)"
  AUS_ds_party:0 "Heimwehr"
  AUS_ds_party_long:0 "Heimatschutz (Home Guard)"
+ AUS_au_party:0 "DVP"
+ AUS_au_party_long:0 "Deutscher Volkspartei (German People's Party)"
  AUS_cd_party:0 "CSP"
  AUS_cd_party_long:0 "Christlichsoziale Partei (Christian Social Party)"
- AUS_ld_party:0 "-"
- AUS_ld_party_long:0 "§R(NO ORGANIZED PARTY)§!"
+ AUS_ld_party:0 "Landbund"
+ AUS_ld_party_long:0 "Landbund (Rural Federation)"
  AUS_sd_party:0 "SDAPÖ"
  AUS_sd_party_long:0 "Sozialdemokratische Arbeiterpartei Österreichs (Social Democratic Workers' Party of Austria)"
  AUS_sc_party:0 "KPÖ"
  AUS_sc_party_long:0 "Kommunistische Partei Österreichs (Communist Party Of Austria) §R(BANNED)§!"
  AUS_ml_party:0 "KPÖ"
- AUS_ml_party_long:0 "Kommunistische Partei Österreichs (Communist Party Of Austria) §R(BANNED)§!" 
+ AUS_ml_party_long:0 "Kommunistische Partei Österreichs (Communist Party Of Austria) §R(BANNED)§!"  
 
  ##### DECISIONS #####
 
  ##### FOCUSES #####
 
  ##### EVENTS #####
+ 
+ ##### LEADERS #####
+ AUS_EMPEROR_TITLE:0 "Kaiser von Österreich"
+ AUS_RICHARD_SCHMITZ:0 "Richard Schmitz"
+ ##### TRAITS #####
+ emperor_in_chains:0 "An Emperor in Chains"
+ chancellor_schmitz_cd:0 "§cConservative§!\nChancellor"
 
  ##### IDEAS/D.M's #####
+ AUS_reconstituted_habsburg_monarchy:0 "A Reconstituted Habsburg Monarchy"
+ AUS_reconstituted_habsburg_monarchy_desc:0 ""
+ aus_habsburg_monarchy_idea_tt:0 "The §Y[AUS.GetFlag] Cisleithanian§! portion of the Habsburg Empire is §Gstable§!\nThe §Y[HUN.GetFlag] Transleithanian§! portion of the Habsburg Empire is §Gstable§!\nThe §Y[ILY.GetFlag] Triune§! portion of the Habsburg Empire is §Gstable§!"
+ AUS_red_vienna:0 "Rotes Wien"
+ AUS_shaky_center:0 "The Shaky Center"
+ AUS_rise_far_right:0 "Emergence of the Far-Right"
  AUS_the_heimwehr_threat:0 "The Heimwehr's Watchful Eye"
  AUS_the_heimwehr_threat_desc:0 ""
- AUS_power_of_the_reichsrat:0 "Increasing Power Of The Reichsrat"
- AUS_power_of_the_reichsrat_desc:0 ""
+ aus_heimwehr_idea_tt:0 "If a §Rfar-left§! government takes power, the Heimwehr is sure to coup the government..."
+ AUS_czech_content:0 "Czech Content"
+ AUS_czech_content_desc:0 "With the reorganization of the Habsburg realm into the Austrian, Hungarian, and Southern Slavic politities, one key ethnicity was left out: the Czechs. Remaining in the Austrian portion, it seems they were the only ones properly shafted by this agreement. While top Czech politicians have voiced their content for this arrangement, it is unclear how long it is until the common Czech awakens."
+ aus_cezch_idea_might_worsen_tt:0 "This idea may §Rworsen§! as the game goes on..."
 
  ##### SCRIPTED LOC #####
  

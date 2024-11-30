@@ -2,14 +2,20 @@ state={
 	id=854
 	name="STATE_854"
 	provinces={
-		1544 2057 4440 4974 8101 10815 10901 5027
+		8073
 	}
 	history = {
-		owner = SAU
-		add_core_of = SAU
+		owner = ASR
+		add_core_of = ASR
+		buildings = {
+			infrastructure = 1
+			8073 = {
+				naval_base = 1
+			}
+		}
 	}
-	manpower=5000
-	state_category=pastoral
+	manpower=240293
+	state_category=rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

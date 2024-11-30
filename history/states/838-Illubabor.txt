@@ -23,7 +23,7 @@ state={
 			7014 20 
 		}
 		owner = JAP
-		add_core_of = JAP
+		#add_core_of = JAP
 		add_core_of = CHI
 
 	}

@@ -17,17 +17,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-set_popularities = {
-	en = 0
-	jc = 0
-	sc = 0
-	sd = 0
-	ld = 0
-	cd = 0
-	ad = 0
-	ds = 100
-	ul = 0
-}
+
 create_country_leader = {
 	name = "Ali bin Hussein"
 	desc = "tbd_DESC"

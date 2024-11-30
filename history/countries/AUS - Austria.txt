@@ -58,8 +58,12 @@ set_war_support = 0.30
 ### POLITICS ###
 ################
 add_ideas = {
+	AUS_reconstituted_habsburg_monarchy
+	AUS_red_vienna
+	AUS_shaky_center
+	AUS_rise_far_right
 	AUS_the_heimwehr_threat
-	AUS_power_of_the_reichsrat
+	AUS_czech_content
 }
 set_politics = {
 	ruling_party = cd
@@ -68,21 +72,31 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	ul = 28
-	ds = 10
-	cd = 40
-	ld = 0
-	sd = 17
-	sc = 1
-	ml = 4
+	ul = 21
+	ds = 14
+	au = 14
+	cd = 36
+	ld = 2
+	sd = 20
+	sc = 3
+	ml = 0
 }
-create_country_leader = {
-	name = "Franz Ferdinand II"
-	desc = "franz_ferdinand_DESC"
-	picture = "gfx/leaders/AUS/Portrait_AUS_Franz_Ferdinand.dds"
-	expire = "1965.1.1"
-	ideology = cd_type_1
-}
+#create_country_leader = {
+#	name = "Franz Ferdinand II"
+#	desc = "franz_ferdinand_DESC"
+#	picture = "gfx/leaders/AUS/Portrait_AUS_Franz_Ferdinand.dds"
+#	expire = "1965.1.1"
+#	ideology = cd_type_1
+#}
+set_country_flag = leader_title_custom
+set_country_flag = leader_title_emperor_aus # Kaiser von Österreich
+recruit_character = AUS_ferdinand_ii
+set_country_flag = dual_leader_title_chancellor
+recruit_character = AUS_richard_schmitz
+set_variable = { AUS.DUAL_LEADER = token:AUS_richard_schmitz }
+#AUS_richard_schmitz = { set_character_flag = is_dual_leader }
+# Starting Cabinet
+activate_advisor = AUS_richard_schmitz
 #################
 ### DIPLOMACY ###
 ################# 

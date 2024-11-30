@@ -1,0 +1,59 @@
+characters={
+	FRA_louis_napoleon_iv={
+		name="Louis-Napoléon IV"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_FRA_Napoleon_IV_Uniformed.dds"
+			}
+			army={
+				large="gfx/leaders/FRA/Portrait_FRA_Napoleon_IV_Uniformed.dds"
+				#small="GFX_idea_MAN_zhang_haipeng"
+			}
+		}
+		country_leader={
+			ideology=cd_type_1
+			expire="1960.1.1.1"
+		}
+	} 
+
+	FRA_george_pernot={
+		name="George Pernot"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_FRA_George_Pernot.dds"
+				small="gfx/interface/ministers/FRA_george_pernot.dds"
+			}
+		}
+		advisor = {
+			slot = head_of_government # Cabinet Chief of the Council of Ministers
+			idea_token = FRA_george_pernot
+			allowed = {
+				original_tag = FRA
+			}
+			cost = 200
+			traits = {
+				cabinet_chief_pernot_cd
+			}
+		}
+	}
+	FRA_jean_fabry={
+		name="Jean Fabry"
+		portraits={
+			civilian={
+				small="gfx/interface/ministers/FRA_jean_fabry.dds"
+			}
+		}
+		advisor = {
+			slot = minister_of_war # Minister of National Defense
+			idea_token = FRA_jean_fabry
+			allowed = {
+				original_tag = FRA
+			}
+			cost = 200
+			traits = {
+				MoW_national_defense_au
+			}
+		}
+	}
+
+}

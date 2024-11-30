@@ -5,7 +5,7 @@
  ##### LEADERS #####
 ernst_thalmann_desc:0 "§WBorn:\ April 16th, 1886\n--------------\n§!Once a revolutionary in the German Revolts of 1919, now a committed Marxist, Ernst Thälmann is a man who has shown no fear in enforcing his ideals upon this new world. Through sheer power and masterminded abilities, from his rise to power by leading the People’s Republic of Hamburg to rise up against the failed monarchy of the North German Confederation which would eventually lead to the creation of the German Free Socialist Republic. After the 1924 assassination of the elected and loved Chairman, Rosa Luxemburg, by the terrorist organization, the Freikorps, Thälmann continued her legacy with an iron fist. Throughout his rule, the chairman enforced a strong regime based on Marxist ideals which sparked the German Revolution in his early years. From strengthening his power to becoming the one and only Chairman for Life, Thälmann demonstrated his power in such a way that would intimidate any of the current world's leaders.\n\nIn these current times, the chairman has to deal with the instability his oppressive regime has caused on his newborn government, with the rise of more relaxed socialist views upon the state as well as the ruined condition in which both the economy and the army were currently left in. However, with a strong position and never-ending aid from his supporters, Thälmann may finally be able to realize the dreams of a once-forgotten state and unite the German people once and for all under a strong and unified nation, showing to the world the powers of Marxism!"
  
- ##### DECISIONS #####
+ ##### DECISIONS ##### 
 
 
  ##### FOCUSES #####
@@ -30,6 +30,12 @@ GER_disbanded_militias_desc:0 "During the German Civil War, which inflicted thou
 
 
  ##### TOOLTIPS #####
+
+ ##### DUAL LEADER #####
+ ## Prussia
+ REICHSKANZLER_PRUSSIA_TITLE:0 "Reichskanzler von Preußen"
+ PRS_SCHLEICHERS_TITLE:0 "Ministerpräsident von Preußen und Freikorpsleiter"
+ PRS_KURT_VON_SCHLEICHER:0 "Kurt von Schleicher"
  
 
  

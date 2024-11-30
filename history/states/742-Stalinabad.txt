@@ -15,7 +15,7 @@ state = {
 		add_core_of = RUS
 		add_core_of = TAJ
 		add_core_of = BUK
-
+		set_state_flag = TURKEGOV_STATE
 	}
 
 	provinces = {

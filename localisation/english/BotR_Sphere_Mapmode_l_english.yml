@@ -1,0 +1,113 @@
+﻿l_english:
+ 
+ sphere_map_mode_tooltip:0 "[From.Controller.botr_get_sphere_data]"
+ sphere_map_mode_tooltip_delayed:0 "[From.Controller.botr_get_sphere_data_delayed]"
+ ### FRENCH SPHERE ###
+ # French Eagle / Leader
+ BotR_Sphere_FRA_Leader_tt:0 "§2The French Eagle§!"
+ BotR_Sphere_FRA_Leader_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is the leader of the §2French Sphere of Influence§!"
+ # Personal Union (Rhineland)
+ BotR_Sphere_FRA_WST_Personal_Union_tt:0 "§2The Westphalian Domain§!"
+ BotR_Sphere_FRA_WST_Personal_Union_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is under a personal union with §2[FRA.GetNameWithFlag]§!, with the Emperor of France also being the King of Westphalia. As such, they are well and truely in the §2French Sphere of Influence§!"
+ # Colony
+ BotR_Sphere_FRA_Colony_tt:0 "§2French Colony§!"
+ BotR_Sphere_FRA_Colony_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is a colony of §2[FRA.GetNameWithFlag]§!, with the mainland holding overall authority over the colonial administration. They are a core part of the §2French Sphere of Influence§!"
+ # Protectorate
+ BotR_Sphere_FRA_Protectorate_tt:0 "§2French Protectorate§!"
+ BotR_Sphere_FRA_Protectorate_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is a protectorate of §2[FRA.GetNameWithFlag]§!, with the French holding solid control over the local government. They are a core part of the §2French Sphere of Influence§!"
+ # Member of the Continental Alliance
+ BotR_Sphere_FRA_CA_Member_tt:0 "§2Member of the Continental Alliance§!"
+ BotR_Sphere_FRA_CA_Member_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is a member of the §2Continental Alliance§!, an alliance of nations forged out of the Great War to oppose the aggression of Germany. They are aligned with the §2French Sphere of Influence§!"
+ ## Others
+ # Hejaz
+ BotR_Sphere_FRA_Hejaz_tt:0 "§2Under the French Eagle§!"
+ BotR_Sphere_FRA_Hejaz_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§!, while having a complex relationship with §2[FRA.GetNameWithFlag]§! due to their occupation of Syria, is supported by them in their conflict with the §tBritish-supported§! Saudis. They are aligned with the §2French Sphere of Influence§!"
+ # Israel
+ BotR_Sphere_FRA_Israel_tt:0 "§2Under the French Eagle§!"
+ BotR_Sphere_FRA_Israel_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§!, a new state in the Middle East, was set up on the orders of §2France§! from the defeated §YOttoman Empire§!. They are aligned with the §2French Sphere of Influence§!"
+ # Papal State
+ BotR_Sphere_FRA_Papal_tt:0 "§2Under the French Eagle§!"
+ BotR_Sphere_FRA_Papal_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is protected by §2France§! against repeated calls for annexation by the §7Kingdom of Italy§!. They are aligned with the §2French Sphere of Influence§!"
+ # Kingdom of Greece 
+ BotR_Sphere_FRA_Greece_tt:0 "§2Under the French Eagle§!"
+ BotR_Sphere_FRA_Greece_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is sponsored by §2France§!, with the French Emperor directly sanctioning Greek expansion in the Balkans and Anatolia. They are aligned with the §2French Sphere of Influence§!"
+ # Araucania and Patagonia
+ BotR_Sphere_FRA_Araucania_tt:0 "§2Under the French Eagle§!"
+ BotR_Sphere_FRA_Araucania_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is a product of §2French§! intervention, and although influence has become less direct, Paris still has a large sway over the southern cone. They are aligned with the §2French Sphere of Influence§!"
+ # Ecuador
+ BotR_Sphere_FRA_Ecuador_tt:0 "§2Under the French Eagle§!"
+ BotR_Sphere_FRA_Ecuador_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is a product of §2French§! influence. While the §YFranco-American Treaty of 1881§! limited direct influence in the court of Quito, large §2French§! investors hold sway over the Ecuadorian economy. They are aligned with the §2French Sphere of Influence§!"
+
+ ### GERMAN SPHERE ###
+ # Vanguard of the Revolution / Leader
+ BotR_Sphere_GER_Leader_tt:0 "§RVanguard of the Revolution§!"
+ BotR_Sphere_GER_Leader_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is the leader of the §RGerman Sphere of Influence§!"
+
+ ### BRITISH SPHERE ###
+ # For King and Country / Leader
+ BotR_Sphere_UK_Leader_tt:0 "§tFor King and Country!§!"
+ BotR_Sphere_UK_Leader_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is the leader of the §tBritish Sphere of Influence§!"
+ # Crown Colony
+ BotR_Sphere_UK_Crown_Colony_tt:0 "§tCrown Colony of Great Britain§!"
+ BotR_Sphere_UK_Crown_Colony_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is a colony of §t[ENG.GetNameWithFlag]§!, with the British crown holding overall authority over the colonial administration. They are a core part of the §tBritish Sphere of Influence§!"
+ # Crown Jewel / British Raj
+ BotR_Sphere_UK_Raj_tt:0 "§tJewel of the Crown - the British Raj§!"
+ BotR_Sphere_UK_Raj_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is a colony of §t[ENG.GetNameWithFlag]§!, with the British crown holding overall authority over the colonial administration. They are a core part of the §tBritish Sphere of Influence§!" # Needs flavoured rewrite
+ # Protectorate
+ BotR_Sphere_UK_Protectorate_tt:0 "§tProtectorate under the Lion§!"
+ BotR_Sphere_UK_Protectorate_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is a protecorate of §t[ENG.GetNameWithFlag]§!, with the British crown holding much authority over the local government. They are thoroughly aligned with the §tBritish Sphere of Influence§!"
+ # Dominion
+ BotR_Sphere_UK_Dominion_tt:0 "§tDominion Under the Crown§!"
+ BotR_Sphere_UK_Dominion_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is a self-governing entity within the §tBritish Empire§!, with the nation holding much authority over their own affairs but affirm their alligence to the crown. They are aligned with the §tBritish Sphere of Influence§!"
+ ## Other
+ # Saudi Arabia
+ BotR_Sphere_UK_Saudi_tt:0 "§tUnder the Influence of His Majesty§!"
+ BotR_Sphere_UK_Saudi_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is supported by the §t[ENG.GetNameWithFlag]§! in their conflict with the §2French-backed§! Hejazi Kingdom. They are aligned with the §tBritish Sphere of Influence§!"
+
+ ### RUSSIAN SPHERE ###
+ # The Russian Bear / Leader
+ BotR_Sphere_RUS_Leader_tt:0 "§GThe Russian Bear§!"
+ BotR_Sphere_RUS_Leader_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is the leader of the §GRussian Sphere of Influence§!"
+ # Personal Union (Poland)
+ BotR_Sphere_RUS_Vistulaland_tt:0 "§GRussian Vistulaland§!"
+ BotR_Sphere_RUS_Vistulaland_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is under a personal union with §G[RUS.GetNameWithFlag]§!, with the Tsar of Russia also being the King of Poland - more commonly known as 'Vistulaland' to Russian elites. As such, they are very much planted in the §GRussian Sphere of Influence§!"
+ # Personal Union (Finland)
+ BotR_Sphere_RUS_Finland_Union_tt:0 "§GThe Grand Duchy of Finland§!"
+ BotR_Sphere_RUS_Finland_Union_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is under a personal union with §G[RUS.GetNameWithFlag]§!, with the Tsar of Russia also being the Grand Duke of Finland. As such, they are very much planted in the §GRussian Sphere of Influence§!"
+ # Protectorate of the Northeast Provinces
+ BotR_Sphere_RUS_Northeastern_Provinces_tt:0 "§GProtectorate over Manchuria§!"
+ BotR_Sphere_RUS_Northeastern_Provinces_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is a protectorate of §G[RUS.GetNameWithFlag]§!, steming from deals with Japan in 1905 to confirm Russian domination over Manchuria, and subsequent seizure of the region in 1917 by the §YImperial Russian Army§!. They are a part of the §GRussian Sphere of Influence§!"
+ # Protectorate
+ BotR_Sphere_RUS_Protectorate_tt:0 "§GProtectorate of Russia§!"
+ BotR_Sphere_RUS_Protectorate_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is an unofficial protectorate of §G[RUS.GetNameWithFlag]§!, with the Russian government protecting the nation to secure its own interests. They are aligned with the §GRussian Sphere of Influence§!"
+ ## Other
+ # Yugoslavia (Ally)
+ BotR_Sphere_RUS_Yugoslavia_Ally_tt:0 "§GHand of Russia in the Balkans§!"
+ BotR_Sphere_RUS_Yugoslavia_Ally_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§!, formerly §YSerbia§!, and §G[RUS.GetNameWithFlag]§! are committed allies, with Yugoslavia being the 'favored power' of §GRussia§! in the Balkans. Even the creation of Yugoslavia was from Russian desires. They are aligned with the §GRussian Sphere of Influence§!"
+ # Persia (Influence)
+ BotR_Sphere_RUS_Persia_Influence_tt:0 "§GUnder the Influence of the Russian Bear§!"
+ BotR_Sphere_RUS_Persia_Influence_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! and §G[RUS.GetNameWithFlag]§! have a long history, but in recent years the Russians have had a firm grip on Iran. They are aligned with the §GRussian Sphere of Influence§!"
+ ### UNITED STATES SPHERE ###
+ # USA / Leader
+ BotR_Sphere_USA_Leader_tt:0 "§AShining City upon a Hill§!"
+ BotR_Sphere_USA_Leader_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is the leader of the §AAmerican Sphere of Influence§!"
+ # Military Mandate
+ BotR_Sphere_USA_Mandate_tt:0 "§AAmerican Military Mandate§!"
+ BotR_Sphere_USA_Mandate_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is occupied by §A[USA.GetNameWithFlag]§! under an established military mandate. As such, they are firmly within the §AAmerican Sphere of Influence§!"
+ ### CHINESE EMPIRE SPHERE ###
+ # Beiyang Government / Leader
+ BotR_Sphere_CHI_Leader_tt:0 "§YThe Beiyang Government§!"
+ BotR_Sphere_CHI_Leader_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is the leader of the §YImperial Chinese Sphere of Influence§!"
+ # Warlords
+ BotR_Sphere_CHI_Warlord_State_tt:0 "§YAssociated Warlord§!"
+ BotR_Sphere_CHI_Warlord_State_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is a 'Warlord Clique' of the Beiyang Government. They are very much planted in the §YImperial Chinese Sphere of Influence§!" 
+ ### EMPIRE OF JAPAN SPHERE ###
+ # Japan / Leader
+ BotR_Sphere_JAP_Leader_tt:0 "§JThe Rising Sun§!"
+ BotR_Sphere_JAP_Leader_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is the leader of the §JJapanese Sphere of Influence§!"
+ # Protectorate (against their will)
+ BotR_Sphere_JAP_Protectorate_tt:0 "§JProtectorate of the Rising Sun§!"
+ BotR_Sphere_JAP_Protectorate_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is a protectorate of §J[JAP.GetNameWithFlag]§!, with control over their foreign policy and rights to intervene in their domestic. As such, they are firmly within the §JJapanese Sphere of Influence§!"
+ # Affiliate
+ BotR_Sphere_JAP_Affiliate_tt:0 "§JJapanese Affiliate§!"
+ BotR_Sphere_JAP_Affiliate_tt_delayed:0 "§Y[From.Controller.GetNameWithFlag]§! is an affiliate§ of §J[JAP.GetNameWithFlag]§!, seeking closer ties to the Rising Sun in response to colonial aggression or other worries, of which Japan allows in exchange for loyalty. They are part of, and seek closer integration into the §JJapanese Sphere of Influence§!"

@@ -10,7 +10,7 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		owner = FRA
+		owner = IND
 		add_core_of = KMT
 		add_claim_by = GXC
 

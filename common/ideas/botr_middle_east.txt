@@ -1,0 +1,26 @@
+ideas = {
+	country = {
+		### IRAQ ###
+	    IRQ_anglo_dominance_1 = {
+            picture = hol_caved_to_the_british
+            allowed = { 
+			}
+			available = {
+			}
+			cancel = {
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				production_oil_factor = 0.3
+			}
+			targeted_modifier = {
+				tag = ENG
+				extra_trade_to_target_factor = 0.5
+				trade_cost_for_target_factor = -0.25
+			}
+		}
+	
+	}
+}

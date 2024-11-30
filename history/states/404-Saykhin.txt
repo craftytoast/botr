@@ -7,6 +7,7 @@ state = {
 		victory_points = {
 			7597 1
 		}
+		set_state_flag = TURKEGOV_STATE
 		add_core_of = KAZ
 		buildings = {
 			infrastructure = 1
@@ -17,7 +18,8 @@ state = {
 	}
 
 	provinces = {
-		        4578 4636 4686 7392 7556 7597 7600 7657 7777 10148 10353 10366 10452 10506 10601 12329 12340 12397  
+		4578 4636 4686 7556 7597 7600 7657 7777 10148 10353 10366 
+		10506 10601 12329 12340 12397 4581 4638 4300 7243 7486
 	}
 	manpower = 447020
 	buildings_max_level_factor = 1.000

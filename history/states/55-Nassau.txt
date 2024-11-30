@@ -33,7 +33,9 @@ state={
 	state_category = large_town
 
 	history={
-		owner = BAY
+		owner = WST
+		add_core_of = WST
+		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 3
 		}

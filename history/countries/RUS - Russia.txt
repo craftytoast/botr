@@ -28,17 +28,21 @@ set_popularities = {
 	sc = 1
 	ml = 15
 }
-create_country_leader = {
-	name = "Nicholas II"
-	desc = "tbd_DESC"
-	picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds"
-	expire = "1965.1.1"
-	ideology = ds_type_1
-	traits = {
-		ailing_health
-	}
-}
-
+#create_country_leader = {
+#	name = "Nicholas II"
+#	desc = "tbd_DESC"
+#	picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds"
+#	expire = "1965.1.1"
+#	ideology = ds_type_1
+#	traits = {
+#		ailing_health 
+#	}
+#}
+recruit_character = RUS_nicholas_ii 
+set_country_flag = leader_title_tsar
+set_country_flag = dual_leader_title_prime_minister
+recruit_character = RUS_vasily_shulgin
+set_variable = { RUS.DUAL_LEADER = token:RUS_vasily_shulgin }
 country_event = { id = BotR_Russian_Pre_CW_Main.1 days = 2 }
 #################
 ### DIPLOMACY ###
@@ -49,7 +53,7 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = POL
-	autonomy_state = autonomy_puppet
+	autonomy_state = autonomy_personal_union
 }
 set_autonomy = {
 	target = TAN
@@ -57,18 +61,6 @@ set_autonomy = {
 }
 POL = {
 	set_cosmetic_tag = POL_RUSSIAN
-	set_politics = { ruling_party = ds elections_allowed = no }
-	set_popularities = { ul = 15 ds = 80 cd = 0 ld = 0 sd = 0 sc = 5 ml = 0 }
-	create_country_leader = {
-		name = "Nicholas II"
-		desc = "tbd_DESC"
-		picture = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds"
-		expire = "1965.1.1"
-		ideology = ds_type_1
-		traits = {
-			ailing_health
-		}
-	}
 }
 TAN = {
 	set_cosmetic_tag = TAN_RUSSIAN
@@ -82,3 +74,13 @@ PRS = {
 YUG = {
 	give_military_access = RUS
 }
+# Sphere Stuff
+set_country_flag = SPHERE_RUS_LEADER_FLAG
+POL = { set_country_flag = SPHERE_RUS_VISTULALAND_FLAG } 
+FIN = { set_country_flag = SPHERE_RUS_FINLAND_UNION_FLAG }
+MAN = { set_country_flag = SPHERE_RUS_NORTHEAST_PROVINCES_FLAG }
+PRS = { set_country_flag = SPHERE_RUS_PROTECTORATE_FLAG }
+KUR = { set_country_flag = SPHERE_RUS_PROTECTORATE_FLAG }
+MON = { set_country_flag = SPHERE_RUS_PROTECTORATE_FLAG }
+YUG = { set_country_flag = SPHERE_RUS_YUGOSLAVIA_ALLY_FLAG }
+PER = { set_country_flag = SPHERE_RUS_PERSIA_INFLUENCE_FLAG }

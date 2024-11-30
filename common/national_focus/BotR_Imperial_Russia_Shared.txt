@@ -1,0 +1,42 @@
+#############################
+#### STARTING FOCUS TREE ####
+#############################
+
+#### STARTING BIT ####
+shared_focus = {
+	cancelable = no
+	id = RUS_Focus_Death_Of_The_Tsar
+	icon = GFX_RUS_Focus_Death_Of_The_Tsar
+	x = 14
+	y = 0
+	cost = 1.2
+	available = {
+		always = no
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	cancelable = no
+	id = RUS_Focus_The_Grand_Funeral
+	icon = GFX_RUS_Focus_The_Grand_Funeral
+	x = 14
+	y = 0
+	cost = 1.4
+	available = {
+		always = no
+	}
+	prerequisite = {
+		focus = RUS_Focus_Death_Of_The_Tsar
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		
+	}
+}

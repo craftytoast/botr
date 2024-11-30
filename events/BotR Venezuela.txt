@@ -1,0 +1,88 @@
+﻿###########################
+# Venezuelan Events
+###########################
+
+add_namespace = botr_venezuela
+add_namespace = botr_venezuela_news
+
+# 
+country_event = {
+	id = botr_venezuela.10
+	title = botr_venezuela.10.t
+	desc = botr_venezuela.10.d
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+	
+	option = { # Dang
+		name = botr_venezuela.10.a
+		ai_chance = {
+			factor = 100 
+		} 
+		add_stability = -0.2
+		489 = {
+			set_demilitarized_zone = no
+			remove_dynamic_modifier = {
+				modifier = VEN_rebelling_state
+			}
+		}
+		VER = {
+			# Spawn it
+			transfer_state = 489
+			# Important for them to declare on Caracas before setting controlled provinces
+			declare_war_on = {
+				target = VEN
+				type = civil_war
+			}
+			# now provinces
+			set_province_controller = 5000
+			set_province_controller = 4942
+		}
+		BOC = {
+			# Important for them to declare on Caracas before setting controlled provinces
+			declare_war_on = {
+				target = VEN
+				type = take_core_state
+			}
+			# now provinces / spawn
+			set_province_controller = 10736
+			declare_war_on = {
+				target = VEN
+				type = civil_war
+			}
+		}
+		hidden_effect = {
+			news_event = { id = botr_venezuela_news.1 hours = 10 }
+			# diplomacy things
+			VER = {
+				diplomatic_relation = {
+					country = BCM
+					relation = non_aggression_pact
+					active = yes
+				}
+				add_opinion_modifier = { target = GER modifier = huge_increase } # buddy-buddy / supporter
+				add_opinion_modifier = { target = USA modifier = large_decrease } # capitalist-imperialist scum
+			}
+			BOC = {
+				add_opinion_modifier = { target = GER modifier = large_increase } # supporter
+				add_opinion_modifier = { target = USA modifier = large_decrease } # capitalist-imperialist scum
+			}
+		}
+	}
+}
+### NEWS ###
+# Venezuelan Revolution (News)
+news_event = {
+    id = botr_venezuela_news.1
+    title = botr_venezuela_news.1.t
+    desc = botr_venezuela_news.1.d
+    
+    picture = GFX_news_event_generic_rally
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = botr_venezuela_news.1.a # 
+    }
+
+}

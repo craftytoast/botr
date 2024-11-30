@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = RUS
+		set_state_flag = SIBERIAGOV_STATE
 		buildings = {
 			infrastructure = 1
 		}

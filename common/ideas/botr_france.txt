@@ -12,7 +12,7 @@ ideas = {
 				always = no
 			}
 
-			removal_cost = -1
+			removal_cost = -1 
 
 			picture = GFX_FRA_idea_the_lost_generation
 
@@ -24,7 +24,25 @@ ideas = {
 				army_morale_factor = -0.3
 			}
 		}
-		FRA_imperial_overextension = {
+		#### MASTER OF EUROPE ####
+		FRA_master_of_europe_influential = { 
+			allowed = {
+				original_tag = FRA
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			picture = GFX_FRA_idea_imperial_overextension
+			modifier = {
+				send_volunteer_size = 1
+				trade_opinion_factor = 0.25
+				opinion_gain_monthly_factor = 0.3
+				custom_modifier_tooltip = fra_master_europe_influential_tt
+			}
+		}
+
+		FRA_imperial_overextension = { 
 
 			allowed = {
 				original_tag = FRA
@@ -43,7 +61,7 @@ ideas = {
 				political_power_cost = 0.1
 			}
 		}
-		FRA_conservative_monarchist_dominance = {
+		FRA_the_reactionary_coalition = {
 
 			allowed = {
 				original_tag = FRA
@@ -58,10 +76,11 @@ ideas = {
 			picture = GFX_FRA_idea_conservative_monarchists_dominance
 
 			modifier = {
-				cd_drift = 0.03
-				ds_drift = 0.03
+				cd_drift = 0.04
+				ds_drift = 0.02
+				ul_drift = 0.01
 				drift_defence_factor = 0.5
-				stability_factor = 0.05
+				stability_factor = 0.03
 			}
 		}
 		FRA_eight_decades_of_bonaparte = {

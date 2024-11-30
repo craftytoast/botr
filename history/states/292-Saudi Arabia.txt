@@ -2,27 +2,22 @@
 state={
 	id=292
 	name="STATE_292"
-
 	history={
-		owner = SAU
+		owner = HEJ
 		buildings = {
 			infrastructure = 1
-			arms_factory = 1
 			industrial_complex = 1
 			12702 = {
 				naval_base = 6
-
 			}
 		}
 		victory_points = {
 			12727 5 
 		}
 		add_core_of = SAU
-
 	}
-
 	provinces={
-		1955 5024 5093 7995 8004 8060 10791 10850 12702 12727 12813 12870 
+		1955 5024 5093 7995 8004 8060 10791 10850 12702 12727 12813 12870 5081
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000

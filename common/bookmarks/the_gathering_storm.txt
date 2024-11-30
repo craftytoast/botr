@@ -40,7 +40,7 @@ bookmarks = {
 				FRA_conservative_monarchist_dominance
 			}
 			focuses = {
-				FRA_Focus_Marin_Ministry
+				FRA_Focus_Pernot_Ministry
 			}
 		}		
 		

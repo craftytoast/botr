@@ -9,7 +9,7 @@ state = {
 		victory_points = {
 			1493 1
 		}
-		
+		set_state_flag = TURKEGOV_STATE
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

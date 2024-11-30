@@ -1,0 +1,30 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_GLDFLU_flag_icon"
+		texturefile = "gfx/texticons/GLDFLU_flag.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_portrait_Erwin_von_Zach"
+		texturefile = "gfx/texticons/Erwin_von_Zach.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_FENGTIAN_flag_icon"
+		texturefile = "gfx/texticons/Fengtian_flag.dds"
+		legacy_lazy_load = no
+	} 
+	spriteType = {
+		name = "GFX_portrait_Zhang_Zuolin"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Zhang_Zuolin.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Trench_Warfare_Photo"
+		texturefile = "gfx/texticons/trenchwar1.dds"
+		legacy_lazy_load = no
+	}
+}

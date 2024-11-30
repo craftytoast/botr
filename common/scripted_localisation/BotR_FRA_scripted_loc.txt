@@ -1,0 +1,115 @@
+defined_text = {
+    name = fra_masters_europe_get_britain_relations
+    text = { 
+        trigger = { check_variable = { fra_eng_relations_var = 1 } } 
+        localization_key = BotR_FRA_relations_hostile_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_eng_relations_var = 2 } } 
+        localization_key = BotR_FRA_relations_cold_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_eng_relations_var = 3 } } 
+        localization_key = BotR_FRA_relations_neutral_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_eng_relations_var = 4 } } #
+        localization_key = BotR_FRA_relations_amicable_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_eng_relations_var = 5 } } 
+        localization_key = BotR_FRA_relations_friendly_tt 
+    }
+}
+defined_text = {
+    name = fra_masters_europe_get_russia_relations
+    text = { 
+        trigger = { check_variable = { fra_rus_relations_var = 1 } } 
+        localization_key = BotR_FRA_relations_hostile_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_rus_relations_var = 2 } } 
+        localization_key = BotR_FRA_relations_cold_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_rus_relations_var = 3 } } # 
+        localization_key = BotR_FRA_relations_neutral_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_rus_relations_var = 4 } }
+        localization_key = BotR_FRA_relations_amicable_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_rus_relations_var = 5 } } 
+        localization_key = BotR_FRA_relations_friendly_tt 
+    }
+}
+defined_text = {
+    name = fra_masters_europe_get_german_relations
+    text = { 
+        trigger = { check_variable = { fra_ger_relations_var = 1 } } #
+        localization_key = BotR_FRA_relations_hostile_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_ger_relations_var = 2 } } 
+        localization_key = BotR_FRA_relations_cold_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_ger_relations_var = 3 } }
+        localization_key = BotR_FRA_relations_neutral_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_ger_relations_var = 4 } }
+        localization_key = BotR_FRA_relations_amicable_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_ger_relations_var = 5 } } 
+        localization_key = BotR_FRA_relations_friendly_tt 
+    }
+}
+defined_text = {
+    name = fra_masters_europe_get_austrian_relations
+    text = { 
+        trigger = { check_variable = { fra_aus_relations_var = 1 } } 
+        localization_key = BotR_FRA_relations_hostile_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_aus_relations_var = 2 } } 
+        localization_key = BotR_FRA_relations_cold_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_aus_relations_var = 3 } } # 
+        localization_key = BotR_FRA_relations_neutral_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_aus_relations_var = 4 } }
+        localization_key = BotR_FRA_relations_amicable_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_aus_relations_var = 5 } } 
+        localization_key = BotR_FRA_relations_friendly_tt 
+    }
+}
+defined_text = {
+    name = fra_masters_europe_get_italy_relations
+    text = { 
+        trigger = { check_variable = { fra_ita_relations_var = 1 } } 
+        localization_key = BotR_FRA_relations_hostile_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_ita_relations_var = 2 } } #
+        localization_key = BotR_FRA_relations_cold_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_ita_relations_var = 3 } }
+        localization_key = BotR_FRA_relations_neutral_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_ita_relations_var = 4 } }
+        localization_key = BotR_FRA_relations_amicable_tt 
+    }
+    text = { 
+        trigger = { check_variable = { fra_ita_relations_var = 5 } } 
+        localization_key = BotR_FRA_relations_friendly_tt 
+    }
+}

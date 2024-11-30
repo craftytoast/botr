@@ -2,7 +2,7 @@
 state={
 	id=104
 	name="STATE_104"
-	manpower =1910200
+	manpower =1210200
 	
 	
 	state_category = town
@@ -14,14 +14,11 @@ state={
 	history={
 		owner = ILY
 		victory_points = {
-			11899 5 
-		}
-		victory_points = {
 			6983 3
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 2
 		}
 		add_core_of = ILY
@@ -30,7 +27,7 @@ state={
 	}
 
 	provinces={
-		606 3985 6614 6619 6799 6957 6983 9586 9588 9591 9922 11572 11574 11872 11899 
+		3985 6614 6619 6957 6983 9586 9588 9591 9922 11572 11574 11872  
 	}
 
 	local_supplies=7.0 
@@ -38,15 +35,22 @@ state={
 state={
 	id=913
 	name="STATE_913"
-	manpower =100000
+	manpower =500000
 	
 	
-	state_category = pastoral
+	state_category = town
 
 	history={
 		owner = YUG
+		victory_points = {
+			11899 5 
+		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 1
+			11899 = {
+				bunker = 1
+			}
 		}
 		add_core_of = YUG
 		add_claim_by = ILY
@@ -54,7 +58,8 @@ state={
 	}
 
 	provinces={
-		982 11741
+		982 11741 11899 606 6799 
+		953 11845
 	}
 
 	local_supplies=7.0 

@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_Fengtian_Modifier_Icon"
+		texturefile = "gfx/interface/ideas/fengtian_icon.dds"
+	}
+
+}

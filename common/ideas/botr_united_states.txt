@@ -1,0 +1,60 @@
+ideas = {
+	### NAT: SPIRITS
+	country = {
+		### STARTING NAT SPIRITS ###
+	    USA_long_depression = {
+            picture = great_depression
+            allowed = {
+				tag = USA
+			}
+			available = {
+			}
+			cancel = {
+			} 
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.3
+				industrial_capacity_factory = -0.3
+			}
+		}
+		USA_democrat_progressive_pact_active = {
+            picture = great_depression
+            allowed = {
+				tag = USA
+			}
+			available = {
+			}
+			cancel = {
+			} 
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				custom_modifier_tooltip = usa_d_p_pact_tt
+				political_power_factor = 0.1
+				sd_drift = 0.05
+				ld_drift = 0.05
+			}
+		}
+		USA_roosevelt_corollary = {
+            picture = great_depression
+            allowed = {
+				tag = USA
+			}
+			available = {
+			}
+			cancel = {
+			} 
+			allowed_civil_war = {
+				always = no
+			}
+			modifier = {
+				custom_modifier_tooltip = usa_roosevelt_corollary_tt
+				improve_relations_maintain_cost_factor = 0.5
+			}
+		}
+	}
+}

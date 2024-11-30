@@ -1,47 +1,91 @@
 ideas = {
 	### NAT: SPIRITS
 	country = {
-		AUS_the_heimwehr_threat = {
-
+		### STARTING ###
+		AUS_reconstituted_habsburg_monarchy = {
 			allowed = {
 				original_tag = AUS
 			}
-
 			allowed_civil_war = {
 				always = no
 			}
-
 			removal_cost = -1
-
 			picture = generic_volunteer_expedition_bonus
-
 			modifier = {
-				stability_factor = -0.1
-				war_support_factor = 0.15
-				drift_defence_factor = 0.5
-				ml_drift = -0.1
-				cd_drift = 0.07
-				ul_drift = 0.07
+				custom_modifier_tooltip = aus_habsburg_monarchy_idea_tt
 			}
 		}
-		AUS_power_of_the_reichsrat = {
-
+		AUS_red_vienna = {
 			allowed = {
 				original_tag = AUS
 			}
-
 			allowed_civil_war = {
 				always = no
 			}
-
 			removal_cost = -1
-
 			picture = generic_volunteer_expedition_bonus
-
 			modifier = {
-				stability_factor = 0.1
-				political_power_factor = 0.1
-				ds_drift = -0.05
+				sd_acceptance = 25
+				sd_drift = 0.06
+				production_speed_buildings_factor = 0.07
+				stability_factor = 0.03
+			}
+		}
+		AUS_shaky_center = {
+			allowed = {
+				original_tag = AUS
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			picture = generic_volunteer_expedition_bonus
+			modifier = {
+				cd_drift = -0.02
+				political_power_cost = 0.3
+			}
+		}
+		AUS_rise_far_right = {
+			allowed = {
+				original_tag = AUS
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			picture = generic_volunteer_expedition_bonus
+			modifier = {
+				ul_drift = 0.05
+				stability_factor = -0.05
+			}
+		}
+		AUS_the_heimwehr_threat = {
+			allowed = {
+				original_tag = AUS
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			picture = generic_volunteer_expedition_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+				ml_drift = -0.07
+				custom_modifier_tooltip = aus_heimwehr_idea_tt
+			}
+		}
+		
+		AUS_czech_content = {
+			allowed = {
+				original_tag = AUS
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+			picture = generic_volunteer_expedition_bonus
+			modifier = {
+				custom_modifier_tooltip = aus_cezch_idea_might_worsen_tt
 			}
 		}
 	}

@@ -1,0 +1,47 @@
+﻿l_english:
+ ##### PARTY NAMES #####
+ USA_ul_party:0 "-"
+ USA_ul_party_long:0 "Military Clique"
+ USA_pa_party:0 "-"
+ USA_pa_party_long:0 "Military Clique"
+ USA_au_party:0 "AUP"
+ USA_au_party_long:0 "American Unionist Party"
+ USA_cd_party:0 "RP"
+ USA_cd_party_long:0 "Republican Party"
+ USA_ld_party:0 "DP"
+ USA_ld_party_long:0 "Democratic Party"
+ USA_sd_party:0 "PP"
+ USA_sd_party_long:0 "Progressive Party"
+ USA_sc_party:0 "SPA"
+ USA_sc_party_long:0 "Socialist Party of America"
+ USA_ml_party:0 "CPUSA"
+ USA_ml_party_long:0 "Communist Party of the United States of America"
+
+ ##### DECISIONS #####
+
+ ##### FOCUSES #####
+
+ ##### EVENTS #####
+
+ ##### NEWS EVENTS #####
+
+ ##### IDEAS/D.M's #####
+ USA_long_depression:0 "The Long Depression"
+ USA_long_depression_desc:0 ""
+ USA_democrat_progressive_pact_active:0 "The Democrat-Progressive Pact"
+ USA_democrat_progressive_pact_active_desc:0 ""
+ usa_d_p_pact_tt:0 "The §lDemocrats§! and §sProgressives§! have an informal agreement in Congress, allowing President Smith to pass his agenda §Gwith ease.§!\nShould either party stray §Ytoo far§! towards §cconservatism§!, or if Smith angers the §sProgressives§!, this coalition will §Ycollapse!§!"
+ USA_roosevelt_corollary:0 "Roosevelt Corollary"
+ USA_roosevelt_corollary_desc:0 ""
+ usa_roosevelt_corollary_tt:0 "§YAs they see it, the §!§A[RUS.GetFlag] United States§!§Y holds the right to intervene in Latin American affairs as they wish§!"
+ ##### LEADERS / CHARACTERS #####
+ USA_joseph_robinson:0 "Joseph T. Robinson"
+
+
+ ##### SCRIPTED LOC #####
+
+ 
+ 
+ 
+ 
+

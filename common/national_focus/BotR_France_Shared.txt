@@ -5,8 +5,8 @@
 #### STARTING BIT ####
 shared_focus = {
 	cancelable = no
-	id = FRA_Focus_Marin_Ministry
-	icon = GFX_FRA_Focus_Marin_Ministry
+	id = FRA_Focus_Pernot_Ministry
+	icon = GFX_FRA_Focus_Pernot_Ministry
 	x = 8
 	y = 0
 	offset = {
@@ -43,7 +43,7 @@ shared_focus = {
 		}
 	}
 	prerequisite = {
-		focus = FRA_Focus_Marin_Ministry
+		focus = FRA_Focus_Pernot_Ministry
 	}
 	ai_will_do = {
 		base = 20
@@ -67,7 +67,7 @@ shared_focus = {
 shared_focus = {
 	cancelable = no
 	id = FRA_Focus_Approaching_The_Liberals
-	icon = GFX_FRA_Focus_Promote_Frenchification_Schemes_In_Rhine
+	icon = GFX_FRA_Focus_Approaching_The_Liberals
 	x = 8
 	y = 1
 	cost = 2
@@ -81,7 +81,7 @@ shared_focus = {
 		}
 	}
 	prerequisite = {
-		focus = FRA_Focus_Marin_Ministry
+		focus = FRA_Focus_Pernot_Ministry
 	}
 	ai_will_do = {
 		base = 20
@@ -107,7 +107,7 @@ shared_focus = {
 		}
 	}
 	prerequisite = {
-		focus = FRA_Focus_Marin_Ministry
+		focus = FRA_Focus_Pernot_Ministry
 	}
 	ai_will_do = {
 		base = 20
@@ -160,7 +160,7 @@ shared_focus = {
 shared_focus = {
 	cancelable = no
 	id = FRA_Focus_Calm_Before_The_Storm
-	icon = GFX_FRA_Focus_Promote_Frenchification_Schemes_In_Rhine
+	icon = GFX_FRA_Focus_Calm_Before_The_Storm
 	x = 8
 	y = 3
 	cost = 2

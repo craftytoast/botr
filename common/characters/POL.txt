@@ -1,0 +1,69 @@
+characters={
+	#### STARTING LEADERS ####
+	POL_nicholas_ii={ # Note: Needed to make second Nicky character - is this necessary, dunno
+		name="Nicholas II"
+		portraits={
+			civilian={
+				large="gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds"
+			}
+			army={
+				large="gfx/leaders/RUS/Portrait_RUS_Nicholas_II.dds"
+				#small="GFX_idea_MAN_zhang_haipeng"
+			}
+		}
+		country_leader={
+			ideology=au_type_1
+			expire="1960.1.1.1"
+			traits = {
+				ailing_health
+			}
+		}
+	}
+	POL_roman_dmowski={
+		name="Roman Dmowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/Portrait_POL_Roman_Dmowski.dds"
+			}
+		}
+	} 
+	#### OTHER ####
+	POL_jozef_haller={ # Coups government in August Coup, becomes Chief of State
+		name="Józef Haller"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/Portrait_POL_Jozef_Haller.dds"
+			}
+			army={
+				large="gfx/leaders/POL/Portrait_POL_Jozef_Haller.dds"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	} 
+	POL_leonard_skierski={ # Haller's Second-In-Command and first Cabinet Chief
+		name="Leonard Skierski"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/Portrait_POL_Leonard_Skierski.dds"
+			}
+			army={
+				large="gfx/leaders/POL/Portrait_POL_Leonard_Skierski.dds"
+			}
+		}
+		#corps_commander = { ## Retired - returns after coup
+		#	traits = { }
+		#	skill = 3
+		#	attack_skill = 2
+		#	defense_skill = 3
+		#	planning_skill = 3
+		#	logistics_skill = 3
+		#}
+	} 
+}

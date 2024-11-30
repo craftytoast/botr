@@ -14,9 +14,10 @@ state={
 
 	history={
 		add_core_of = VIN
-		owner = FRA
+		owner = IND
+		add_core_of = IND
 		victory_points = {
-			4075 1 
+			4075 15 
 		}
 		buildings = {
 			infrastructure = 2

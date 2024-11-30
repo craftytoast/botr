@@ -1,22 +1,19 @@
 state={
 	id=678
 	name="STATE_678"
-
 	history={
-		owner = SAU
+		owner = UAE
 		buildings = {
 			infrastructure = 0
-
 		}
-		add_core_of = SAU
-
+		#add_core_of = SAU
 	}
-
 	provinces={
-		4932 5081 8118 12740 
+		8118 12740 2018 2059 5049 12894
 	}
 	manpower=42
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 	local_supplies=0.000
+	impassable = yes
 }

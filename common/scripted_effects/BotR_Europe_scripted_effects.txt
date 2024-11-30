@@ -1,0 +1,54 @@
+#####################################
+##### SCRIPTED EFFECTS - EUROPE #####
+#####################################
+## For longer chains and setting things up mainly
+POL_august_revolution_effects = {
+	custom_effect_tooltip = POL_august_revolution_tt
+	hidden_effect = {
+		POL = {
+			# Changes name and color to 'Provisional Polish Republic'
+			RUS = {
+				end_puppet = POL
+			}
+			drop_cosmetic_tag = yes
+			set_cosmetic_tag = POL_PROVISIONAL_REPUBLIC
+			# Politics and Leaders - replacing the old with the new
+			botr_blanket_clear_leader_title = yes
+			set_country_flag = leader_title_chief_of_state
+			retire_country_leader = yes # Kicks out Pavel yechuksomething
+			set_politics = {
+				ruling_party = ds
+				last_election = "1934.08.01"
+				elections_allowed = no
+			}
+			set_popularities = {
+				ul = 5
+				ds = 28
+				au = 13
+				cd = 5
+				ld = 6
+				sd = 10
+				sc = 27
+				ml = 6
+			}
+			add_country_leader_role = {
+				character = "POL_jozef_haller" # Haller becomes Chief of State
+				country_leader = {
+					ideology = ds_type_1
+					desc = "JOZEF_HALLER_DESC"
+					expire = "1965.1.1.1"
+        			traits = {  }
+				}
+				promote_leader = yes
+			}
+			clear_variable = POL.DUAL_LEADER
+			set_variable = { POL.DUAL_LEADER = token:POL_leonard_skierski }
+			# Party names - WIP
+			set_party_name = {
+				ideology = ds
+				name = POL_ds_front_polska
+				long_name = POL_ds_front_polska_long
+			}
+		}
+	}
+}

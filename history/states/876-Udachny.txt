@@ -4,6 +4,7 @@ state = {
 
 	history = {
 		owner = RUS
+		set_state_flag = SIBERIAGOV_STATE
 		victory_points = {
 			6085 1 
 		}

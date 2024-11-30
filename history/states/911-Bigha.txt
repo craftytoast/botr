@@ -1,0 +1,22 @@
+state={
+	id=911
+	name="STATE_911"
+	manpower = 102900
+	resources={
+		chromium=2 # was: 54
+	}
+	state_category = pastoral
+	history={
+		owner = TUR
+		add_claim_by = GRE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = TUR
+		set_demilitarized_zone = yes
+	}
+	provinces={
+		6864 9887
+	}
+	local_supplies=0.0 
+}

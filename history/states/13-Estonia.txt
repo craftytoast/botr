@@ -9,9 +9,19 @@ state={
 	history={
 		owner = RUS
 		add_core_of = RUS
+		set_state_flag = BALTICGOV_STATE
+		victory_points = {
+			3152 5 
+		}
 		buildings = {
 			infrastructure = 3
 			air_base = 2
+			industrial_complex = 1
+			3152 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
 
 		}
 		add_core_of = EST
@@ -19,11 +29,11 @@ state={
 	}
 
 	provinces={
-		83 308 3074 3174 6381 11291 185 6201 
+		83 3074 6201 496 567 3152 11426  
 	}
 
 	local_supplies=6.0 
-	manpower=423070
+	manpower=623070
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

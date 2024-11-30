@@ -79,86 +79,41 @@ if = {
 
 
 
-set_research_slots = 3
-set_convoys = 50
-set_stability = 0.75
-
-1939.1.1 = {
-
-	add_political_power = 1197
-	add_command_power = 100
-	
-
-	#BUILDINGS
-	
-
-	set_technology = {
-		improved_light_tank = 1 
-		basic_medium_tank = 1 
-		CAS2 = 1
-		heavy_fighter1 = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		improved_infantry_weapons = 1
-		support_weapons = 1
-		support_weapons2 = 1
-		paratroopers = 1
-
-		#doctrines
-		delay = 1
-		elastic_defence = 1
-		armored_spearhead = 1
-		schwerpunk = 1
-		blitzkrieg = 1
-		convoy_interdiction_ti = 1
-		unrestricted_submarine_warfare = 1
-		raider_patrols = 1
-		#air
-		formation_flying = 1		
-		dive_bombing = 1
-		direct_ground_support = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		decimetric_radar = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		construction4 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-		dispersed_industry4 = 1
-
-	}
-}
-
+################
+### POLITICS ###
+################
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
+	ruling_party = cd
+	last_election = "1930.11.9"
 	election_frequency = 48
-	elections_allowed = yes
-
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
-	fascism = 10
-	communism = 60
+	ul = 15
+	ds = 30
+	cd = 45
+	ld = 8
+	sd = 2
+	sc = 0
+	ml = 0
 }
-
-add_ideas = {
+create_country_leader = {
+	name = "Johann Ludwig von Krosigk"
+	desc = "tbd_DESC"
+	picture = "gfx/leaders/PRS/Portrait_PRS_von_Krosigk.dds"
+	expire = "1965.1.1"
+	ideology = cd_type_1
+	#traits = {
+	#	
+	#}
+}
+set_country_flag = leader_title_custom
+set_country_flag = leader_title_reichkanzler_prussia
+set_country_flag = dual_leader_title_custom
+set_country_flag = dual_leader_title_prs_ministerpresident_freikorpskommandant
+recruit_character = PRS_kurt_von_schleicher # Dual Leader and Field Marshal
+PRS_kurt_von_schleicher = {
+	set_character_flag = is_dual_leader
 }
 
 

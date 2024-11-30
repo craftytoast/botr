@@ -11,11 +11,12 @@ state={
 
 		}
 		add_core_of = LIT
+		set_state_flag = BALTICGOV_STATE
 
 	}
 
 	provinces={
-		530 6229 6376 9246 9374 9438 11226 11498 
+		530 6229 6376 9246 9374 9438 11226 11498 11342 
 	}
 	manpower=161450
 	buildings_max_level_factor=1.000

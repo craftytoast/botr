@@ -1,0 +1,12 @@
+characters={
+	# exclusively dual leader stuff
+	ECU_luis_larrea_alba={
+		name="Luis Larrea Alba"
+		portraits={
+			civilian={
+				large="gfx/leaders/ECU/Portrait_ECU_Luis_Alba.dds"
+			}
+		}
+	}
+
+}

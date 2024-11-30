@@ -1,15 +1,11 @@
 
-state=
-{
+state={
 	id=134
 	name="STATE_134"
-	manpower = 667100
-	
+	manpower = 587100
 	state_category = town
-
 	history= {
-		owner = ENG
-		add_core_of = ENG
+		owner = IRE
 		victory_points = {
 			9303 1 #Galway
 		}
@@ -18,10 +14,6 @@ state=
 		}
 		add_core_of = IRE
 	}
-
-	provinces=
-	{
-337 3396 9255 9303 9321 9369 11238 11287 11371 	}
-
+	provinces={ 3396 9255 9303 9321 9369 11238 11287 11371 	}
 	local_supplies=13.0 
 }

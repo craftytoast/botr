@@ -1,22 +1,20 @@
 state={
 	id=904
 	name="STATE_904"
-	manpower = 678400
+	manpower = 437391
 	state_category = pastoral
-
 	history={
-		owner = ENG
+		owner = POR
+		add_core_of = POR
 		buildings = {
 			infrastructure = 1
-
 		}
-		add_core_of = KEN
+		add_core_of = ZIM
+		victory_points = { 10929 1 }
 	}
-
 	provinces={
-		5160 10860 11145 
+		7842 2216 10929
 	}
-
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

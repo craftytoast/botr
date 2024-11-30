@@ -2,7 +2,7 @@
 state={
 	id=571
 	name="STATE_571" # Omsk
-	manpower = 1317157
+	manpower = 917157
 	
 	state_category = town
 	history={
@@ -15,15 +15,11 @@ state={
 			10696 3 
 		}
 		add_core_of = RUS
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-			}
-		}
+		set_state_flag = STEPPEGOV_STATE
 	}
 
 	provinces={
-		1709 1800 1835 4700 7800 10568 10626 10696 12546 12580 12652 
+		1709 1800 7800 10568 10696 12546 4780
 	}
 
 	local_supplies=8.0 

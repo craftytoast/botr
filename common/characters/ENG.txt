@@ -1,0 +1,52 @@
+characters={
+	# Starting Leaders
+	ENG_george_lansbury={ # Labour PM
+		name="George Lansbury"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_George_Lansbury.dds"
+			}
+		}
+		country_leader={
+			ideology=sd_type_1
+			expire="1960.1.1.1"
+		}
+	}
+	ENG_george_v={ # King
+		name="George V"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_George_V.dds"
+			}
+		}
+		country_leader={
+			ideology=ds_type_1
+			expire="1960.1.1.1"
+		}
+	}
+	# Colonial Administrators
+	ENG_donald_cameron={
+		name="Sir Donald Cameron"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Donald_Cameron.dds"
+			}
+		}
+		country_leader={
+			ideology=ds_type_2 # colonial administration
+			expire="1960.1.1.1"
+		}
+	}
+	ENG_edward_grigg={
+		name="Edward Grigg"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_Edward_Grigg.dds"
+			}
+		}
+		country_leader={
+			ideology=ds_type_2 # colonial administration
+			expire="1960.1.1.1"
+		}
+	}
+}

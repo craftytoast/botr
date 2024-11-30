@@ -2,9 +2,8 @@
 state={
 	id=541
 	name="STATE_541"
-	manpower = 254100
+	manpower = 354100
 	state_category = pastoral
-
 	history={
 		owner = SWA
 		buildings = {
@@ -16,14 +15,10 @@ state={
 		}
 		add_core_of = SWA
 		add_core_of = NMB
-
 	}
-
 	provinces={
-		2207 4879 7770 
+		2207 4879 2229 5154 5189 7605 10963 12519 13217 7770 10957 10978 
 	}
-	
 	buildings_max_level_factor=1.000
-	
 	local_supplies=0.000
 }

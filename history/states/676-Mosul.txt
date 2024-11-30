@@ -2,16 +2,12 @@ state={
 	id=676
 	name="STATE_676"
 	manpower = 682741
-	
 	state_category = town
-	
 	resources={
 		oil=8 # was: 10
 	}
-
-
 	history={
-		owner = IRQ
+		owner = TUR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -19,13 +15,11 @@ state={
 		victory_points = {
 			10106 5 
 		}
-		add_core_of = IRQ
+		add_core_of = TUR
 	}
-	
 	provinces={
-		1600 1938 10106 10804 12372 
+		1600 1938 10106 10804 12372 901 10882 1549 1578 1634 1606 6883
 	}
-
 	local_supplies=0.0 
 }
 state={
@@ -41,7 +35,7 @@ state={
 
 
 	history={
-		owner = IRQ
+		owner = TUR
 		buildings = {
 			infrastructure = 2
 		}
@@ -51,7 +45,7 @@ state={
 		victory_points = {
 			6826 1
 		}
-		add_core_of = IRQ
+		add_core_of = TUR
 		add_core_of = KUR
 	}
 	

@@ -1,9 +1,27 @@
 ﻿l_english:
  ##### PARTY NAMES #####
+ FRA_ul_party:0 "Ligues d'Extrême-Droite"
+ FRA_ul_party_long:0 "Ligues d'extrême-droite (Far-Right Leagues)"
+ FRA_ds_party:0 "SI-PB(R)-MN"
+ FRA_ds_party_long:0 "Société Impériale, Parti Bonapartiste, Mouvement Nationaliste (Imperial Society, Bonapartist Party (Right), Nationalist Movement)"
+ FRA_au_party:0 "PB(C)"
+ FRA_au_party_long:0 "Parti Bonapartiste (Bonapartist Party (Center))"
+ FRA_cd_party:0 "BC"
+ FRA_cd_party_long:0 "Bloc Conservateur (Conservative Bloc)"
+ FRA_ld_party:0 "ARD"
+ FRA_ld_party_long:0 "Alliance Républicaine Démocratique (Democratic Republican Alliance)"
+ FRA_sd_party:0 "PR-PRS"
+ FRA_sd_party_long:0 "Parti Radical, Parti Républicain-Socialiste (Radical Party, Republican-Socialist Party)"
+ FRA_sc_party:0 "SFIO-PUP"
+ FRA_sc_party_long:0 "Section Française de l'Internationale Ouvrière, Parti de l'Unité Prolétarienne (French Section of the Workers' International, Proletarian Unity Party)"
+ FRA_ml_party:0 "PCF"
+ FRA_ml_party_long:0 "Parti Communiste Français (Communist Party of France) §R(BANNED)§!" 
+ FRA_ls_party:0 "UAC"
+ FRA_ls_party_long:0 "Union Anarchiste-Communiste (Anarchist-Communist Union) §R(BANNED)§!" 
  
  ##### LEADERS #####
  FRA_napoleon_iv:0 "Louis-Napoléon IV"
- napoleon_iv_desc:0 "§WBorn:\ March 16th, 1856\n--------------\n§!If you were asked to explain the life of Louis-Napoleon IV, not one single person could properly explain all of the intrigues and experiences the aging emperor has been through, not even himself. Born the only son of Napoleon III, from birth he was the heir to the French throne. When he was 16, his father died, and he was proclaimed the Emperor of France. Much of his early reign was characterised by the young emperor, aided by the cabinet and unilateral support from the political bodies, exploiting the nations around him and strengthening the empire. Some may even recall when he brought Europe to the brink of war with the United Kingdom in the Wallonia Crisis, carving the nation of Belgium between themselves and the Dutch. He was not yet done, however, as he personally organised the Paris Conference in 1884 to set the stage for the colonisation of Africa between the colonial powers.\n\nIn 1913, well into his rule, tragedy struck when his firstborn son Jerome was assassinated in the Rhineland. Reeling from the personal devastation the loss had on him, the emperor blamed the Prussians and claimed they were behind the assassination. That was the match that lit the tense powderkeg of Europe and sent the continent spiralling into five years of bloody, hellish combat. The French-led ‘Continental Entente’ battered the storm better than the opposing forces, claiming victory at the end of 1918. With the Treaty of Koln coming into effect with the stroke of a pen, Napoleon IV finally achieved vengeance for his son.\n\nNowadays, the emperor is a spent man. His numbered days are spent at the Tuileries Palace in Paris, away from the public spotlight. It is no secret that the time he has left is finite. His two remaining sons take radically different positions on how to run the empire after their fathers death, providing the perfect storm for chaos to ensue after Napoleon’s death. The question is now, §Ycan the empire survive without him?§!"
+ napoleon_iv_desc:0 "§WBorn:\ March 16th, 1856\n--------------\n§!If you were asked to explain the life of Louis-Napoleon IV, not one single person could properly explain all of the intrigues and experiences the aging emperor has been through, not even himself. Born the only son of Napoleon III, from birth he was the heir to the French throne. When he was 16, his father died, and he was proclaimed the Emperor of France. Much of his early reign was characterised by the young emperor, aided by the cabinet and unilateral support from the political bodies, exploiting the nations around him and strengthening the empire. Some may even recall when he brought Europe to the brink of war with the United Kingdom in the Wallonia Crisis, carving the nation of Belgium between themselves and the Dutch. He was not yet done, however, as he personally organised the Paris Conference in 1884 to set the stage for the colonisation of Africa between the colonial powers.\n\nIn 1913, well into his rule, tragedy struck when his firstborn son Jerome was assassinated in the Rhineland. Reeling from the personal devastation the loss had on him, the emperor blamed the Prussians and claimed they were behind the assassination. That was the match that lit the tense powderkeg of Europe and sent the continent spiralling into five years of bloody, hellish combat. The French-led ‘Continental Entente’ battered the storm better than the opposing forces, claiming victory at the end of 1918. With the Treaty of Koln coming into effect with the stroke of a pen, Napoleon IV finally achieved vengeance for his son.\n\nNowadays, the emperor is a spent man. His numbered days are spent at the Tuileries Palace in Paris, away from the public spotlight. It is no secret that the time he has left is finite. His two remaining sons take radically different positions on how to run the empire after their fathers death, providing the perfect storm for chaos to ensue after Napoleon’s death. The question is now, can the empire survive without him?"
 
  ##### DECISIONS #####
  FRA_foreign_policy:0 "Foreign Policy"
@@ -12,7 +30,7 @@
  FRA_israel_independence_mission:0 "Upcoming Israeli Independence Referendum"
 
  ##### FOCUSES #####
- FRA_Focus_Marin_Ministry:0 "Marin's Ministry"
+ FRA_Focus_Pernot_Ministry:0 "The Pernot Ministry"
  FRA_Focus_Funding_The_RCS:0 "Funding The RCS"
  FRA_Focus_Funding_The_RCS_DESC:0 "The Rhineland Colonial Society (RCS) is a group that helps French settlers in the Rhine, mainly in regards of monthly support payments. With an ever growing amount of French people migrating to the Rhineland, these payments are getting expensive. While they have always had our support, they are in need of more funding, which Louis Marin has been hell bent on providing."
  FRA_Focus_Promote_Frenchification_Schemes_In_Rhine:0 "Promote Frenchification Schemes In The Rhine"
@@ -79,21 +97,47 @@
  BotR_France_Foreign_Policy.2.b:0 "It's High Time We Begining Handing Over Local Authority To The Inhabitants"
 
  ##### IDEAS/D.M's #####
+ # Reworked starters
+ FRA_master_of_europe_influential:0 "Masters of Europe"
+ FRA_master_of_europe_influential_desc:0 "Master of europe im pulling your strings"
+
  FRA_the_lost_generation:0 "The Lost Generation"
- FRA_the_lost_generation_desc:0 "The bitter anti-war mood that has infected the people of France finds its roots in the muddy trenches of the Great European War. When the nations of Europe went to war in 1913, the soldiers were told that it would be a quick venture to Berlin and back, surely only lasting a handful of months. What followed was not that, but over five years of fighting in disease-ridden trenches for measly stretches of land. In the wake of the war, 1.5 million French soldiers lay dead, and an untold amount more injured or maimed. French society deemed these men ‘The Lost Generation’, for even if they came back they were never truly the same. As such, the public is strongly opposed to even the thought of another war."
+ FRA_the_lost_generation_desc:0 ""
  FRA_imperial_overextension:0 "Imperial Overextension"
  FRA_imperial_overextension_desc:0 "When Napoleon IV led the empire on a colonisation spree throughout Africa and Asia, the reason was not driven entirely by the value these areas possess, but the prestige they brought the nation as a whole. Perhaps that’s why, year after year, the empire has to spend more that it generates from these colonies to even sustain them. Every policymaker in the empire, no matter their experience, knows that something has to change soon, lest the empire comes crumbling down not from outside aggressors, but their own failure to maintain these lands."
  FRA_eight_decades_of_bonaparte:0 "Eight Decades Of Bonaparte"
  FRA_eight_decades_of_bonaparte_desc:0 "For over eight decades, since the restoration of the Second Empire, a Bonaparte has been at the helm. No matter who you ask, unless it's a socialist or marxist, they have at least one good thing to say about the emperors. Some will applaud Napoleon III's victory over the Prussians in the early 1870s, while others will commend the current emperor Napoleon IV for his endeavours in spreading French prestige around the globe."
- FRA_conservative_monarchist_dominance:0 "Conservative-Bonapartist Political Dominance"
- FRA_conservative_monarchist_dominance_desc:0 "While in the late 1860s and early 1870s the emperors granted concessions to liberals, which strenghened the democratic establishments in the nation, they never got to fully bask in them. Since 1877, conservative and monarchist parties, hailing all loyalty to the emperor, has gained an uninterupted majority in both chambers of the Parliament in every election. The emperor, if he so wishes, can pass legislation at will, with the eager and loyal backing in Parliament."
+ FRA_the_reactionary_coalition:0 "The Reactionary Coalition - And Its Woes"
+ FRA_the_reactionary_coalition_desc:0 "In the wake of the 1875 legislative elections, France found herself divided, with no clear indication of who should lead in a starkly divided Chamber of Deputies. That was when Bonapartist politician Adolphe Vuitry seized the initiative, proposing an alliance with other conservative, rightist, and monarchist clubs and parties to form the 'Réactionnaires' as they were dubbed. A loose political alliance to steal the election away from the liberals slowly solidified itself, weathering the storm to become a cornerstone of French politics.\n\nIn the years since 1875, successive coalitions of Reactionaries ruled the French government almost uninterupted, if you ignore the brief interludes of liberal tenure that occasionally occured. Their position facilitated the emperor to do pretty much anything he pleased. However, they are not the intrepid monolith they believe - and recent elections have pushed the coalition into a minority government within the chamber of deputies, relying on the benevolent aid of dissenting opposition to pass any legislation. It seems the days of total conservative dominance has been done away in France, ushering in an age of liberalism."
  
  FRA_great_recession:0 "The Great Recession"
  FRA_marshal_law:0 "Marshal Law"
 
  ##### SCRIPTED LOC #####
 
+ ##### DUAL LEADER #####
+ FRA_EMPEROR_TITLE:0 "Emperor of the French"
+ CABINET_CHIEF_TITLE:0 "Cabinet Chief of the Council"
+ FRA_george_pernot:0 "George Pernot"
+ FRA_GEORGE_PERNOT:0 "George Pernot"
+ FRA_VACANT_POSITION:0 "Vacant Position"
+ FRA_PHILIPPE_PETAIN:0 "Philippe Pétain"
+ FRA_PIERRE_ETIENNE_FLANDIN:0 "Pierre-Étienne Flandin"
+ FRA_CAMILLE_CHAUTEMPS:0 "Camille Chautemps"
+
+ ##### TRAITS #####
+ cabinet_chief_pernot_cd:0 "§cConservative§!\nCabinet Chief"
+ MoW_national_defense_au:0 "§aAuthoritarian§!\nMinister of National Defense"
+
  ##### TOOLTIPS #####
+ fra_master_europe_influential_tt:0 "---------------\n§Y[FRA.GetNameWithFlag]§! diplomatic and imperial power is §GInfluential§!\nRelations with §t[ENG.GetFlag] Britain§! are [fra_masters_europe_get_britain_relations]\nRelations with §G[RUS.GetFlag] Russia§! are [fra_masters_europe_get_russia_relations]\nRelations with §R[GER.GetFlag] Germany§! are [fra_masters_europe_get_german_relations]\nRelations with §W[AUS.GetFlag] Austria§! are [fra_masters_europe_get_austrian_relations]\nRelations with §7[ITA.GetFlag] Italy§! are [fra_masters_europe_get_italy_relations]"
+
+ BotR_FRA_relations_hostile_tt:0 "§RHostile§!"
+ BotR_FRA_relations_cold_tt:0 "§RCold§!"
+ BotR_FRA_relations_neutral_tt:0 "§gNeutral§!"
+ BotR_FRA_relations_amicable_tt:0 "§GAmicable§!"
+ BotR_FRA_relations_friendly_tt:0 "§GFriendly§!"
+
  fra_israel_gains_independence_tt:0 "Israel will become a free nation"
  fra_israel_remains_dominion_tt:0 "Israel will remain with us as a dominion"
 
@@ -112,6 +156,9 @@
  #########################
  #### FRENCH COLONIES ####
  #########################
+ # Weistland
+ FWA_weistland_protectorate:0 "Protectorate of Weistland"
+ FWA_weistland_protectorate_desc:0 "\n\n\n\n£GLDFLU_flag_icon\n\n\n\n\n\n\n§WGovernor:§! §HErwin von Zack§!\n\n\n\n\n\n\n\n£portrait_Erwin_von_Zach\n\n\n\n\n\n\n\n\nEstablished in 1903 as the 'Kolonie der Weistland' after the sale of the Spanish Sahara to the Austrian Government, it was seized in 1913 in the opening months of the Great European War. When the war concluded, during the negotiated peace between the Austro-Hungarians and French, Weistland was given as a mandate to the French, with the German bureaucracy retaining autonomy under a protectorate, which in turn was attached to French West Africa in 1920."
  
  
  

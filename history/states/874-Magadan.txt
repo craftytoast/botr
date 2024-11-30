@@ -11,6 +11,7 @@ state = {
 		}
 
 		owner = RUS
+		set_state_flag = FAREASTGOV_STATE
 		buildings = {
 			infrastructure = 1
 		}

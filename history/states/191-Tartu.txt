@@ -6,6 +6,7 @@ state={
 	history={
 		owner = RUS
 		add_core_of = RUS
+		set_state_flag = BALTICGOV_STATE
 		buildings = {
 			infrastructure = 2 #was: 5
 			4640 = {
@@ -18,7 +19,7 @@ state={
 	}
 
 	provinces={
-		592 6178 6408 9221 9485 4640 6099 9079 11057 11127 11443 13127 
+		4640 9079 11057 11127 11443 13127 
 	}
 	manpower=355840
 	buildings_max_level_factor=1.000

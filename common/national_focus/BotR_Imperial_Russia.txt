@@ -1,0 +1,12 @@
+focus_tree = {
+	id = RUS_starting_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = RUS
+		}
+	}
+	initial_show_position = { focus = RUS_Focus_Death_Of_The_Tsar }
+	shared_focus = RUS_Focus_Death_Of_The_Tsar
+}

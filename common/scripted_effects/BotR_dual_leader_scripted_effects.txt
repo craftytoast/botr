@@ -1,0 +1,11 @@
+##########################################
+##### SCRIPTED EFFECTS - DUAL LEADER #####
+##########################################
+## For general things related to dual leaders
+botr_blanket_clear_leader_title = {
+	THIS = {
+		# Add ALL leader country flag checks here
+		clr_country_flag = leader_title_king
+		clr_country_flag = leader_title_namiestnik
+	}
+}

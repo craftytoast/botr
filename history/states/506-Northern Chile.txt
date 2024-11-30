@@ -2,7 +2,7 @@
 state={
 	id=506
 	name="STATE_506" # Antofagasta
-	manpower = 283605
+	manpower = 193605
 	
 	state_category = rural
 
@@ -10,24 +10,17 @@ state={
 		owner = CHL
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 1
-			12994 = {
-				naval_base = 1
-			}
 			5228 = {
 				naval_base = 2
 			}
 		}
 		add_core_of = CHL
-		victory_points = {
-			12994 1
-		}
-
 	}
 
 	provinces={
-		5131 5146 5171 5192 5228 8217 8231 11000 12914 12994 
+		5171 5192 5228 11000 12914 
 	}
 
 	local_supplies=0.0 

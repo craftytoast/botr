@@ -1,0 +1,23 @@
+characters={
+	# Starting Leaders
+	JAP_fushimi={ # Emperor Fushimi - essentially, OTL Emperor Taisho kicks the can all the way back in the late 1800s, allowing this guy to reign after Meiji (no Hirohito)
+		name="Fushimi"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Portrait_JAP_Emperor_Fushimi.dds"
+			}
+		}
+		country_leader={
+			ideology=au_type_1
+			expire="1960.1.1.1"
+		}
+	}
+	JAP_kazushige_ugaki={ # Prime Minister
+		name="Kazushige Ugaki"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Portrait_JAP_Kazushige_Ugaki.dds"
+			}
+		}
+	}
+}

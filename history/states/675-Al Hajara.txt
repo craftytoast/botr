@@ -6,7 +6,8 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = SAU
+		owner = HEJ
+		add_core_of = HEJ
 		buildings = {
 			infrastructure = 1
 		}
@@ -14,7 +15,7 @@ state={
 	}
 	
 	provinces={
-		1631 4951 10744 
+		1631 4951 10744 1544 2057 4440 4974 8101 10815 10901 5027
 	}
 
 	local_supplies=0.0 

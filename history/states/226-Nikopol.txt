@@ -12,6 +12,7 @@ state={
 
 	history={
 		owner = RUS
+		set_state_flag = CONGRESS_UKRAINE_STATE
 		victory_points = {
 			11437 10 
 		}
