@@ -44,6 +44,8 @@
  FRA_Focus_Calm_Before_The_Storm_desc:0 ""
  FRA_Focus_The_Great_Recession:0 "The Great Recession"
  FRA_Focus_The_Great_Recession_desc:0 ""
+ FRA_Focus_Mass_Riots_Concorde:0 "The Concorde Riots"
+ FRA_Focus_Mass_Riots_Concorde_desc:0 ""
  FRA_Focus_The_Chaos_Subsides:0 "The Chaos Subsides"
  FRA_Focus_The_Chaos_Subsides_desc:0 "At last, the near anarchy that surrounded the nation immediately following the economic crash has died down."
  FRA_Focus_The_Road_To_Recovery:0 "Road To Recovery"
@@ -64,13 +66,16 @@
  BotR_France.1.d:0 "On July 5th, 1871, Napoleon III claimed victory over Prussia in the Franco-Prussian War. (TBD)"
  BotR_France.1.a:0 "It is yet to be seen..."
 
- BotR_France.19.t:0 "Stock Prices Fall"
- BotR_France.19.d:0 "WIP"
- BotR_France.19.a:0 "It's Happening"
- BotR_France.20.t:0 "The Great Recession"
- BotR_France.20.d:0 "WIP"
- BotR_France.20.a:0 "Shit."
- BotR_France.21.t:0 "Louis Marin Resigns"
+ BotR_France.10.t:0 "Chatter on the Bourse"
+ BotR_France.10.d:0 "Today, an air of uncertainty hangs over Paris.\n\nBrokers on the Bourse look on in worry. Increased economic pressures, driven by a downwards slide in the global economy, caused several minor French industrial and technical companies to file for bankrupcy this morning. That is hardly the worst of it, as rumor is the Crédit Commercial de France, the nations fifth-largest bank, is trending towards failure. The market has already dipped this morning, and with a run on the banks seemingly imminent, the long-predicted financial crisis may be upon the nation."
+ BotR_France.10.a:0 "It's Happening"
+ BotR_France.11.t:0 "The Bourse Crashes"
+ BotR_France.11.d:0 "It finally happened this morning. Brokers could only watch on in horror as, when the CCF finally declared failure after a long, three-day bank run, the Paris Stock Market slid. And slid some more. Then crashed dramatically.\n\nWith a vast wealth of captial instantly evicerated, the nation fell into a deep financial recession, with companies expected to announce mass layoffs in the coming days. Protestors, from both the left and the right, have already taken to the streets, as the government is yet to respond to the crisis."
+ BotR_France.11.a:0 "Shit."
+ BotR_France.15.t:0 "Riots on the Place de la Concorde"
+ BotR_France.15.d:0 "WIP"
+ BotR_France.15.a:0 "Good grief..."
+ BotR_France.21.t:0 "Georges Pernot Resigns"
  BotR_France.21.d:0 "WIP"
  BotR_France.21.a:0 "Good"
  BotR_France.22.t:0 "The Next Cabinet Chief"
@@ -86,6 +91,11 @@
  BotR_France_Recovery.2.t:0 "Arrest Of Paul Vaillant-Couturier"
  BotR_France_Recovery.2.d:0 "This morning, authorities in Paris arrested Paul Vaillant-Couturier. Vaillant-Couturier has quite the history, being one of only three Communist deputies in the Chamber of Deputies between 1924 and 1932. More recently, he has been a key journalist and propaganda distributor for the Communist Party. After the crash of 1934, not only has Paul had a field day in tearing the government to shreds in a series of articles, but he has also become a key organiser and leader of the Socialist 'Unemployed Battalion' militias. Following the arrest, there have been many critizing the government for the supposed 'unlawful' arrest."
  BotR_France_Recovery.2.a:0 "One Less Communist To Deal With"
+ BotR_France_Recovery.90.t:0 "Bank of Indochina Requests Bailout"
+ BotR_France_Recovery.90.d:0 "WIP"
+ BotR_France_Recovery.90.a:0 "Sure, why not?"
+ BotR_France_Recovery.90.b:0 "We can't help them..."
+ indochina_bank_collapse_tt:0 "The Banque de l'Indochine will collapse, spelling economic disaster in French Indochina"
 
  BotR_France_Foreign_Policy.1.t:0 "Talks With President Weizmann"
  BotR_France_Foreign_Policy.1.d:0 "WIP"
@@ -108,9 +118,11 @@
  FRA_eight_decades_of_bonaparte:0 "Eight Decades Of Bonaparte"
  FRA_eight_decades_of_bonaparte_desc:0 "For over eight decades, since the restoration of the Second Empire, a Bonaparte has been at the helm. No matter who you ask, unless it's a socialist or marxist, they have at least one good thing to say about the emperors. Some will applaud Napoleon III's victory over the Prussians in the early 1870s, while others will commend the current emperor Napoleon IV for his endeavours in spreading French prestige around the globe."
  FRA_the_reactionary_coalition:0 "The Reactionary Coalition - And Its Woes"
- FRA_the_reactionary_coalition_desc:0 "In the wake of the 1875 legislative elections, France found herself divided, with no clear indication of who should lead in a starkly divided Chamber of Deputies. That was when Bonapartist politician Adolphe Vuitry seized the initiative, proposing an alliance with other conservative, rightist, and monarchist clubs and parties to form the 'Réactionnaires' as they were dubbed. A loose political alliance to steal the election away from the liberals slowly solidified itself, weathering the storm to become a cornerstone of French politics.\n\nIn the years since 1875, successive coalitions of Reactionaries ruled the French government almost uninterupted, if you ignore the brief interludes of liberal tenure that occasionally occured. Their position facilitated the emperor to do pretty much anything he pleased. However, they are not the intrepid monolith they believe - and recent elections have pushed the coalition into a minority government within the chamber of deputies, relying on the benevolent aid of dissenting opposition to pass any legislation. It seems the days of total conservative dominance has been done away in France, ushering in an age of liberalism."
+ FRA_the_reactionary_coalition_desc:0 "In the wake of the 1875 legislative elections, France found herself divided, with no clear indication of who should lead in a starkly divided Chamber of Deputies. That was when Bonapartist politician Adolphe Vuitry seized the initiative, proposing an alliance with other conservative, rightist, and monarchist clubs and parties to form the 'Réactionnaires' as they were dubbed. A loose political alliance to steal the election away from the liberals slowly solidified itself, weathering the storm to become a cornerstone of French politics.\n\nIn the years since 1875, successive coalitions of Reactionaries ruled the French government almost uninterupted, if you ignore the brief interludes of liberal tenure that occasionally occured. Their position facilitated the emperor to do pretty much anything he pleased. However, they are not the intrepid monolith they believe - and recent elections have pushed the coalition into a very narrow majority government within the chamber of deputies, relying on the benevolent aid of dissenting opposition to pass any legislation. It seems the days of total conservative dominance has been done away in France, ushering in an age of liberalism."
  
  FRA_great_recession:0 "The Great Recession"
+ IND_colonial_recession:0 "Recession in the Colonies"
+ IND_bank_collapse:0 "Indochina Bank Collapse"
  FRA_marshal_law:0 "Marshal Law"
 
  ##### SCRIPTED LOC #####
@@ -158,7 +170,7 @@
  #########################
  # Weistland
  FWA_weistland_protectorate:0 "Protectorate of Weistland"
- FWA_weistland_protectorate_desc:0 "\n\n\n\n£GLDFLU_flag_icon\n\n\n\n\n\n\n§WGovernor:§! §HErwin von Zack§!\n\n\n\n\n\n\n\n£portrait_Erwin_von_Zach\n\n\n\n\n\n\n\n\nEstablished in 1903 as the 'Kolonie der Weistland' after the sale of the Spanish Sahara to the Austrian Government, it was seized in 1913 in the opening months of the Great European War. When the war concluded, during the negotiated peace between the Austro-Hungarians and French, Weistland was given as a mandate to the French, with the German bureaucracy retaining autonomy under a protectorate, which in turn was attached to French West Africa in 1920."
+ FWA_weistland_protectorate_desc:0 "\n\n\n\n£GLDFLU_flag_icon\n\n\n\n\n\n\n§WGovernor:§! §HErwin von Zack§!\n\n\n\n\n\n\n\n£portrait_Erwin_von_Zach\n\n\n\n\n\n\n\n\nEstablished in 1904 as the 'Kolonie der Weistland' after the sale of the Spanish Sahara to the Austrian Government, it was seized in 1913 in the opening months of the Great European War. When the war concluded, during the negotiated peace between the Austro-Hungarians and French, Weistland was given as a mandate to the French, with the German bureaucracy retaining autonomy under a protectorate, which in turn was attached to French West Africa in 1920."
  
  
  

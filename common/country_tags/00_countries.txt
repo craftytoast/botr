@@ -67,6 +67,9 @@ YAO = "countries/Asian.txt"
 TIB = "countries/Asian.txt"
 TAN = "countries/Asian.txt"
 
+PHI = "countries/Philippines.txt"
+SLU = "countries/Asian.txt"
+
 AAA = "countries/Asian.txt"
 ## Japan
 JAP = "countries/Asian.txt"
@@ -141,7 +144,6 @@ NEP = "countries/Nepal.txt"
 NZL = "countries/New Zealand.txt"
 PAN = "countries/Panama.txt"
 PER = "countries/Persia.txt"
-PHI = "countries/Philippines.txt"
 PRU = "countries/SouthAmerica.txt"
 SIA = "countries/Siam.txt"
 SIK = "countries/Sinkiang.txt"

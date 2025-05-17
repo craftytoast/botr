@@ -5,6 +5,7 @@
 add_namespace = BotR_France
 add_namespace = BotR_France_Recovery
 add_namespace = BotR_France_Foreign_Policy
+add_namespace = BotR_France_News
 
 
 # Starting Event
@@ -30,22 +31,22 @@ country_event = {
 }
 # Foreboding the economic crash
 country_event = {
-	id = BotR_France.19
-	title = BotR_France.19.t
-	desc = BotR_France.19.d
-	picture = GFX_report_event_election_vote
+	id = BotR_France.10
+	title = BotR_France.10.t
+	desc = BotR_France.10.d
+	picture = GFX_report_event_gathering_protest
 	
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	immediate = {
 		hidden_effect = {
-			country_event = { days = 5 id = BotR_France.20 }
+			country_event = { days = 5 id = BotR_France.11 }
 		}
 	}
 	
 	option = { # dang
-		name = BotR_France.19.a
+		name = BotR_France.10.a
 		ai_chance = {
 			factor = 100
 		}
@@ -64,9 +65,9 @@ country_event = {
 }
 # Uh oh the economy shit itself
 country_event = {
-	id = BotR_France.20
-	title = BotR_France.20.t
-	desc = BotR_France.20.d
+	id = BotR_France.11
+	title = BotR_France.11.t
+	desc = BotR_France.11.d
 	picture = GFX_report_event_election_vote
 	
 	is_triggered_only = yes
@@ -76,20 +77,48 @@ country_event = {
 		hidden_effect = {
 			set_global_flag = paris_stock_market_crashed_flag
 			mark_focus_tree_layout_dirty = yes
-			country_event = { days = 3 id = BotR_France.21 }
+			country_event = { days = 4 id = BotR_France.15 }
+			country_event = { days = 29 id = BotR_France_Recovery.90 }
 		}
 	}
 	
 	option = { # sacre bleu
-		name = BotR_France.20.a
+		name = BotR_France.11.a
 		ai_chance = {
 			factor = 100
 		}
+		add_political_power = -50
 		complete_national_focus = FRA_Focus_The_Great_Recession
 		add_ideas = FRA_great_recession
 	}
 }
-# Louis Marin resigns cause everyone thinks hes a fucktard
+country_event = { # Riots on the Concorde
+	id = BotR_France.15
+	title = BotR_France.15.t
+	desc = BotR_France.15.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	
+	option = { # sacre bleu
+		name = BotR_France.15.a
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = -25
+		add_stability = -0.1
+		country_event = { days = 2 id = BotR_France.21 }
+		complete_national_focus = FRA_Focus_Mass_Riots_Concorde
+	}
+}
+# Georges Pernot resigns cause everyone thinks hes a fucktard
 country_event = {
 	id = BotR_France.21
 	title = BotR_France.21.t
@@ -108,7 +137,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		country_event = { days = 1 id = BotR_France.22 }
+		country_event = { days = 2 id = BotR_France.22 }
 		clr_country_flag = dual_leader_fra_louis_marin
 		set_country_flag = dual_leader_fra_vacant_position
 	}
@@ -124,7 +153,7 @@ country_event = {
 	fire_only_once = yes
 	
 	immediate = {
-		
+		country_event = { days = 2 id = BotR_France.30 }
 	}
 	
 	option = { # petain, the 'lion of essen'
@@ -173,14 +202,11 @@ country_event = {
 	title = BotR_France.30.t
 	desc = BotR_France.30.d
 	picture = GFX_report_event_election_vote
-	
 	is_triggered_only = yes
 	fire_only_once = yes
-	
 	immediate = {
 		
 	}
-	
 	option = { # rebuild
 		name = BotR_France.30.a
 		ai_chance = {
@@ -199,7 +225,7 @@ country_event = {
 ## PETAIN EVENTS 1 - 30
 ## FLANDIN EVENTS 31 - 60
 ## CHAUTEMPS EVENTS 61 - 90
-## GENERIC EVENTS 91+
+## GENERAL EVENTS 91+
 country_event = { # Declaring marshal law?
 	id = BotR_France_Recovery.1 # Petain Event
 	title = BotR_France_Recovery.1.t
@@ -254,6 +280,44 @@ country_event = { # Arrest of Paul Vaillant-Couturier (Flavour-ish)
 		add_popularity = {
 			ideology = ml
 			popularity = -0.01
+		}
+	}
+}
+
+country_event = { # Bail Out Bank of Indochina?
+	id = BotR_France_Recovery.90 # General Event
+	title = BotR_France_Recovery.90.t
+	desc = BotR_France_Recovery.90.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		
+	}
+	
+	option = { # sure
+		name = BotR_France.90.a
+		ai_chance = {
+			factor = 50
+		}
+		add_political_power = -20
+		add_timed_idea = {
+			idea = IND_colonial_recession
+			days = 912
+		}
+	}
+	option = { # we cant
+		name = BotR_France.90.b
+		ai_chance = {
+			factor = 35
+		}
+		add_stability = -0.02
+		custom_effect_tooltip = indochina_bank_collapse_tt
+		add_timed_idea = {
+			idea = IND_bank_collapse
+			days = 1095
 		}
 	}
 }
@@ -316,4 +380,15 @@ country_event = {
 		}
 		activate_mission = FRA_levant_devolvement_mission
 	}
+}
+#### NEWS EVENTS ####
+news_event = {
+    id = BotR_France_News.1
+    title = "PARIS BOURSE CRASH: DEPRESSION BEGINS"
+    desc = BotR_France_News.1.d
+    picture = GFX_news_event_generic_rally
+    is_triggered_only = yes
+    option = {
+        name = "My god!"
+    }
 }

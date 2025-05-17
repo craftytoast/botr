@@ -385,6 +385,19 @@
  SAR_ADJ:0 "Malay"
  SAR_ds:0 "Raj of Sarawak"
  SAR_ds_DEF:0 "the State of Sarawak"
+ ### Philippines
+ ## Republic
+ PHI:0 "Republic of the Philippines"
+ PHI_DEF:0 "the Republic of the Philippines"
+ PHI_ADJ:0 "Filipino"
+ ## Sulu
+ SLU:0 "Sulu Sultanate"
+ SLU_DEF:0 "the Sulu Sultanate"
+ SLU_ADJ:0 "Sulu"
+ ## Mindanao
+ MND:0 "Mindanao Confederation"
+ MND_DEF:0 "the Mindanao Confederation"
+ MND_ADJ:0 "Mindanao"
  
  ## Australasia
  AST:0 "Commonwealth Of Australasia"

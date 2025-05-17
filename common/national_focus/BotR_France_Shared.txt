@@ -194,7 +194,7 @@ shared_focus = {
 	id = FRA_Focus_The_Great_Recession
 	icon = GFX_FRA_Focus_The_Great_Recession
 	x = 8
-	y = 4
+	y = 5
 	offset = {
 		x = 6
 		trigger = {
@@ -218,10 +218,36 @@ shared_focus = {
 }
 shared_focus = {
 	cancelable = no
+	id = FRA_Focus_Mass_Riots_Concorde
+	icon = GFX_FRA_Focus_Mass_Riots_Concorde
+	x = 8
+	y = 6
+	cost = 1.5
+	offset = {
+		x = 6
+		trigger = {
+			has_country_flag = FRA_intial_chaos_after_great_recession_ended_flag
+		}
+	}
+	available = {
+		always = no
+	}
+	prerequisite = {
+		focus = FRA_Focus_The_Great_Recession
+	}
+	ai_will_do = {
+		base = 20
+	}
+	completion_reward = {
+		
+	}
+}
+shared_focus = {
+	cancelable = no
 	id = FRA_Focus_The_Road_To_Recovery
 	icon = GFX_FRA_Focus_The_Road_To_Recovery
 	x = 14
-	y = 6
+	y = 7
 	cost = 1.5
 	available = {
 		custom_trigger_tooltip = {
@@ -230,7 +256,7 @@ shared_focus = {
 		}
 	}
 	prerequisite = {
-		focus = FRA_Focus_The_Great_Recession
+		focus = FRA_Focus_Mass_Riots_Concorde
 	}
 	ai_will_do = {
 		base = 20
@@ -262,7 +288,7 @@ shared_focus = {
 	id = FRA_Focus_Petains_Plan
 	icon = GFX_FRA_Focus_Petains_Plan
 	x = 8
-	y = 7
+	y = 8
 	cost = 0.1
 	available = {
 		custom_trigger_tooltip = {
@@ -285,7 +311,7 @@ shared_focus = {
 	id = FRA_Focus_Petain_Declaring_Marshal_Law
 	icon = GFX_FRA_Focus_Petain_Declaring_Marshal_Law
 	x = 7
-	y = 8
+	y = 9
 	cost = 2
 	available = {
 		custom_trigger_tooltip = {
@@ -308,7 +334,7 @@ shared_focus = {
 	id = FRA_Focus_Petain_Bust_The_Socialist_Brigades
 	icon = GFX_FRA_Focus_Petain_Bust_The_Socialist_Brigades
 	x = 9
-	y = 8
+	y = 9
 	cost = 2.7
 	available = {
 		custom_trigger_tooltip = {
@@ -345,7 +371,7 @@ shared_focus = {
 	id = FRA_Focus_Petain_Economics_One_O_One
 	icon = GFX_FRA_Focus_Petain_Economics_One_O_One
 	x = 8
-	y = 9
+	y = 10
 	cost = 2
 	available = {
 		custom_trigger_tooltip = {
